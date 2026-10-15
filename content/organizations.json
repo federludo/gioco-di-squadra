@@ -1,0 +1,763 @@
+[
+  {
+    "id": "federludo",
+    "name": "Federludo APS",
+    "type": "capofila",
+    "city": "Follonica",
+    "province": "GR",
+    "area": "Coordinamento in tutta la Toscana",
+    "website": "https://www.federludo.it/",
+    "email": "info@federludo.it",
+    "sourceUrl": "https://www.federludo.it/",
+    "description": "Federazione Italiana delle Associazioni Ludiche: una rete nazionale che sostiene l'associazionismo, la cultura del gioco e l'impiego di metodologie ludiche in ambito sociale, culturale ed educativo.",
+    "projectRole": "Capofila: coordinamento generale, gestione finanziaria e rendicontazione, standard condivisi, monitoraggio, calendario, comunicazione, gestione dei kit e disseminazione.",
+    "actions": [
+      {
+        "title": "Governance, gestione e monitoraggio",
+        "code": "A1",
+        "window": "M1–M18",
+        "description": "Kick-off, incontri periodici, procedure condivise, raccolta dati e rendicontazione."
+      },
+      {
+        "title": "Kit ludico-educativi circolanti",
+        "code": "A1 · A3",
+        "window": "M1–M18",
+        "description": "Inventario, distribuzione e tracciamento di giochi, materiali e schede d'uso."
+      },
+      {
+        "title": "Presìdi di socialità e evento di rete",
+        "code": "A2 · A3 · A5",
+        "window": "M2–M18",
+        "description": "Incontri di prossimità e coordinamento di un grande evento estivo ludico-sociale."
+      },
+      {
+        "title": "Comunicazione e calendario",
+        "code": "A1 · A5",
+        "window": "M1–M18",
+        "description": "Piano editoriale, portale, news, comunicati e newsletter."
+      },
+      {
+        "title": "Disseminazione di settore",
+        "code": "A5",
+        "window": "Finestre indicative nel 2026 e 2027",
+        "description": "Presenza in manifestazioni coerenti, raccordo con associazioni e sostenitori."
+      }
+    ],
+    "coordinates": [
+      42.9272,
+      10.7629
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "progioco-firenze",
+    "name": "ProGioco Firenze APS",
+    "type": "partner",
+    "city": "Firenze",
+    "province": "FI",
+    "area": "Firenze e città metropolitana, Grassina",
+    "website": "https://firenzegioca.it/progioco/",
+    "email": "info@progiocofirenze.it",
+    "sourceUrl": "https://firenzegioca.it/progioco/2026/01/07/game-night-il-lunedi-e-dedicato-ai-giochi-da-tavolo-a-grassina/",
+    "description": "Promuove la cultura del gioco attraverso la manifestazione FirenzeGioca, attività dimostrative, incontri aperti e occasioni di socializzazione nei luoghi culturali e associativi dell'area fiorentina.",
+    "projectRole": "Contrasto alla povertà educativa e socialità intergenerazionale tramite cicli ludici, eventi di grande partecipazione e collaborazione con spazi di comunità.",
+    "actions": [
+      {
+        "title": "Officina Ludica",
+        "code": "A3",
+        "window": "M4–M9; M11–M14",
+        "description": "Cicli di 10–12 incontri facilitati per famiglie, giovani e adulti, con attenzione a cooperazione e competenze sociali."
+      },
+      {
+        "title": "FirenzeGioca",
+        "code": "A2 · A5",
+        "window": "M2 e M15, finestre indicative",
+        "description": "Evento pubblico di divulgazione, dimostrazione e aggancio ai cicli successivi."
+      },
+      {
+        "title": "World Play Day",
+        "code": "A2 · A5",
+        "window": "M11, indicativo",
+        "description": "Giornata del gioco con iniziative pubbliche e sensibilizzazione."
+      }
+    ],
+    "coordinates": [
+      43.7696,
+      11.2558
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "kraken",
+    "name": "Kraken APS",
+    "type": "partner",
+    "city": "Sesto Fiorentino",
+    "province": "FI",
+    "area": "Sesto Fiorentino, area fiorentina e Mugello",
+    "website": "https://www.krakengdr.it/",
+    "email": "info@krakengdr.it",
+    "sourceUrl": "https://www.krakengdr.it/",
+    "description": "Associazione di promozione sociale con sede a Sesto Fiorentino che divulga il gioco di ruolo e il gioco intelligente come strumento di narrazione condivisa, relazione e inclusione.",
+    "projectRole": "Cicli ricorrenti di gioco di ruolo in biblioteca e centri civici, attività di comunità e momenti pubblici nel Mugello.",
+    "actions": [
+      {
+        "title": "Gioco di Ruolo in Comunità — biblioteca",
+        "code": "A3",
+        "window": "M3–M18",
+        "description": "Sei incontri in biblioteca con facilitazione e confronto sulle competenze relazionali e decisionali."
+      },
+      {
+        "title": "Gioco di Ruolo in Comunità — centri civici",
+        "code": "A3",
+        "window": "M3–M18",
+        "description": "Otto incontri nei centri civici di Sesto Fiorentino."
+      },
+      {
+        "title": "Libera Ludum",
+        "code": "A5",
+        "window": "M9, finestra indicativa",
+        "description": "Evento pubblico con sessioni dimostrative e occasioni di partecipazione."
+      },
+      {
+        "title": "Iniziative nel Mugello",
+        "code": "A2 · A5",
+        "window": "M3; replica M15",
+        "description": "Eventi di introduzione al gioco di ruolo a Barberino del Mugello."
+      }
+    ],
+    "coordinates": [
+      43.8343,
+      11.1947
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "whlive",
+    "name": "WHLive APS",
+    "type": "partner",
+    "city": "Montopoli in Val d'Arno",
+    "province": "PI",
+    "area": "Montopoli in Val d'Arno e Fauglia",
+    "website": "https://whlive.it/",
+    "email": "direttivo@whlive.it",
+    "sourceUrl": "https://whlive.it/",
+    "description": "Associazione di promozione sociale attiva dal 2009; nata attorno al gioco di ruolo dal vivo, oggi sviluppa esperienze ludiche e narrative, percorsi partecipativi e progetti culturali.",
+    "projectRole": "Laboratori di decision-making e simulazione comunitaria; formazione di tutor under 25, eventi immersivi e presenza nelle iniziative locali.",
+    "actions": [
+      {
+        "title": "Scelte di Comunità",
+        "code": "A3",
+        "window": "M2–M8",
+        "description": "Ciclo di laboratori per giovani su partecipazione, competenze trasversali e prevenzione dell'isolamento."
+      },
+      {
+        "title": "Simulazione comunitaria immersiva",
+        "code": "A2 · A3",
+        "window": "M3, indicativo",
+        "description": "Esperienza narrativa su gestione delle risorse, conflitto, negoziazione e responsabilità."
+      },
+      {
+        "title": "Facilitatori di Comunità",
+        "code": "A4",
+        "window": "M2–M7",
+        "description": "Formazione e affiancamento di tutor under 25."
+      },
+      {
+        "title": "Laboratori in eventi locali",
+        "code": "A2 · A5",
+        "window": "M4–M18",
+        "description": "Corner ludici e attività pubbliche per rafforzare la rete."
+      }
+    ],
+    "coordinates": [
+      43.6731,
+      10.7496
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "gamestorm-siena",
+    "name": "GameStorm Siena APS",
+    "type": "partner",
+    "city": "Siena",
+    "province": "SI",
+    "area": "Siena",
+    "website": "https://gamestormsiena.it/",
+    "sourceUrl": "https://gamestormsiena.it/chi-siamo/",
+    "description": "Associazione ludica senese nata da incontri informali nel 2015 e costituita nel 2016, con una ludoteca di centinaia di giochi. Organizza serate di gioco, corsi e il festival gratuito SiGioca.",
+    "projectRole": "Inclusione e integrazione sociale attraverso il gioco, anche come supporto linguistico; attività culturali collegate alla storia e alla comunità senese.",
+    "actions": [
+      {
+        "title": "Serate di gioco e italiano L2/LS",
+        "code": "A3",
+        "window": "M4–M15; da confermare",
+        "description": "Incontri periodici di gioco guidato, supporto linguistico e inclusione."
+      },
+      {
+        "title": "Pietro Leopoldo — Il Gioco delle Riforme",
+        "code": "A2 · A5",
+        "window": "M6 e/o M18, indicativo",
+        "description": "Sessioni pubbliche a carattere storico-educativo in occasione della Festa della Toscana."
+      }
+    ],
+    "coordinates": [
+      43.3188,
+      11.3308
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "ludicamente",
+    "name": "LUDICAmente APS",
+    "type": "partner",
+    "city": "Altopascio",
+    "province": "LU",
+    "area": "Altopascio e comunità locali",
+    "website": "https://www.facebook.com/LUDICAmenteAPS",
+    "email": "info@ludicamenteaps.it",
+    "sourceUrl": "https://www.federludo.it/associazioni/ludicamente-aps/",
+    "description": "Associazione di Altopascio nata nel 2022 per diffondere gioco da tavolo e gioco di ruolo come opportunità di convivialità, socializzazione e responsabilizzazione; promuove incontri e iniziative per famiglie e giovani.",
+    "projectRole": "Presìdi ludici inclusivi, percorsi continuativi, iniziative intergenerazionali in RSA e centri diurni e momenti pubblici di apertura e restituzione.",
+    "actions": [
+      {
+        "title": "Altopascio Gioca — edizione zero",
+        "code": "A2",
+        "window": "M3, periodo indicativo",
+        "description": "Presentazione pubblica e attivazione delle collaborazioni."
+      },
+      {
+        "title": "Percorsi in Scatola",
+        "code": "A3",
+        "window": "M3–M14",
+        "description": "Dodici appuntamenti periodici facilitati per famiglie, giovani e comunità."
+      },
+      {
+        "title": "Il Gioco che Unisce",
+        "code": "A3",
+        "window": "M4–M18",
+        "description": "Incontri mensili in RSA e centri diurni, con gli operatori delle strutture."
+      },
+      {
+        "title": "Memorial Valentina Agostini",
+        "code": "A2 · A5",
+        "window": "M11, indicativo",
+        "description": "Evento di sensibilizzazione sanitaria e attività ludiche."
+      },
+      {
+        "title": "Altopascio Gioca — restituzione",
+        "code": "A5",
+        "window": "M15, indicativo",
+        "description": "Grande evento pubblico e momento di restituzione."
+      },
+      {
+        "title": "Laboratorio stampa e modellazione 3D",
+        "code": "A3 · A5",
+        "window": "M2–M18",
+        "description": "Dotazione per prototipi e materiali didattici ludici."
+      }
+    ],
+    "coordinates": [
+      43.8156,
+      10.6735
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "drago",
+    "name": "Il Drago delle Colline Metallifere APS",
+    "type": "partner",
+    "city": "Massa Marittima",
+    "province": "GR",
+    "area": "Massa Marittima, Gavorrano e Colline Metallifere",
+    "website": "https://www.associazionedrago.eu/",
+    "sourceUrl": "https://www.associazionedrago.eu/",
+    "description": "Rete associativa e territoriale delle Colline Metallifere orientata a filiere locali, cultura, tutela del paesaggio, biodiversità e valorizzazione delle produzioni. Le attività progettuali integrano educazione alimentare e gioco.",
+    "projectRole": "Percorsi di educazione alimentare, analisi critica di prezzi ed etichette, conoscenza delle filiere e promozione di scelte consapevoli.",
+    "actions": [
+      {
+        "title": "Il territorio in tavola",
+        "code": "A3 · A4",
+        "window": "M9–M18, date da definire",
+        "description": "Format di 4–5 ore con incontro con nutrizionista, laboratorio «Dietro al prezzo» e degustazione comparativa guidata."
+      },
+      {
+        "title": "Attivazione di reti territoriali",
+        "code": "A2 · A5",
+        "window": "M9–M18",
+        "description": "Coinvolgimento di produttori, imprese locali, comunità educante e reti della sostenibilità."
+      }
+    ],
+    "coordinates": [
+      43.0501,
+      10.8887
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "bandus",
+    "name": "BANDUS! Attivazioni Ludiche Maremma APS",
+    "type": "partner",
+    "city": "Grosseto",
+    "province": "GR",
+    "area": "Grosseto e Paganico",
+    "website": "https://www.bandus.it/",
+    "sourceUrl": "https://www.bandus.it/bandus",
+    "description": "Attiva a Grosseto dal 2010, promuove giochi da tavolo, giochi di ruolo, attività educative e giochi itineranti attraverso il Ludobus, pensato per coinvolgere pubblici e generazioni differenti.",
+    "projectRole": "Ludoteca di comunità e laboratori di gioco e narrazione nella biblioteca di Paganico; formazione di operatori e volontari.",
+    "actions": [
+      {
+        "title": "Corso per operatori ludici",
+        "code": "A4",
+        "window": "M3–M4",
+        "description": "Formazione in presenza di 16 ore per un massimo di dieci operatori e volontari."
+      },
+      {
+        "title": "Ludoteca in biblioteca",
+        "code": "A3",
+        "window": "M5–M10",
+        "description": "Dieci incontri di due ore in biblioteca, con dotazione ludica permanente."
+      },
+      {
+        "title": "Gioco e Narrazione",
+        "code": "A3",
+        "window": "M5–M10",
+        "description": "Sei laboratori di narrazione e gioco per minori e adolescenti."
+      }
+    ],
+    "coordinates": [
+      42.7603,
+      11.1135
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "misericordia-prata",
+    "name": "Associazione Misericordia di Prata",
+    "type": "partner",
+    "city": "Prata",
+    "province": "GR",
+    "area": "Prata, Massa Marittima e Colline Metallifere",
+    "sourceUrl": null,
+    "description": "Realtà associativa della comunità di Prata, nel territorio di Massa Marittima. Nel progetto collabora alla costruzione di occasioni pubbliche di incontro e a percorsi locali di socialità.",
+    "projectRole": "Attivazione territoriale di Prata, supporto logistico e organizzativo alle attività ludiche e collaborazione con Il Drago delle Colline Metallifere.",
+    "actions": [
+      {
+        "title": "Prata — attivazione territoriale estiva",
+        "code": "A2",
+        "window": "M1–M2, indicativo",
+        "description": "Evento estivo di incontro e aggancio comunitario."
+      },
+      {
+        "title": "Prata — incontro estivo e consolidamento",
+        "code": "A5",
+        "window": "M13–M14, indicativo",
+        "description": "Evento di rete e valorizzazione del ruolo del territorio."
+      },
+      {
+        "title": "Supporto ai cicli nelle Colline Metallifere",
+        "code": "A3",
+        "window": "M9–M18",
+        "description": "Accoglienza, spazi, volontari e supporto alle attività organizzate con Il Drago."
+      }
+    ],
+    "coordinates": [
+      43.0785,
+      10.9709
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "sito o riferimento pubblico da confermare",
+    "image": null
+  },
+  {
+    "id": "grvitalia",
+    "name": "GRVItalia APS",
+    "type": "partner",
+    "city": "Cascina",
+    "province": "PI",
+    "area": "Area fiorentina (Bagno a Ripoli) e pisana (Ponsacco)",
+    "website": "https://grvitalia.net/",
+    "sourceUrl": "https://grvitalia.net/associazione/",
+    "description": "Associazione fondata nel 1998 e specializzata nel gioco di ruolo dal vivo (LARP). Organizza campagne ed eventi immersivi, fra cui l'ambientazione originale Vaniria, come opportunità di narrazione, collaborazione e responsabilità condivisa.",
+    "projectRole": "Esperienze LARP strutturate su negoziazione, cooperazione, conflitto e scelte collettive, con preparazione e debriefing.",
+    "actions": [
+      {
+        "title": "Racconto d'Estate",
+        "code": "A2 · A3",
+        "window": "M1–M3, finestra estiva 2026",
+        "description": "Esperienza LARP con sessioni preparatorie, gioco e debriefing."
+      },
+      {
+        "title": "Racconto d'Autunno",
+        "code": "A2 · A3",
+        "window": "M4–M5, finestra autunnale 2026",
+        "description": "Percorso narrativo in tema di comunità e decisioni condivise."
+      }
+    ],
+    "coordinates": [
+      43.6792,
+      10.5483
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "buon-sollazzo",
+    "name": "Ingegneria del Buon Sollazzo APS",
+    "type": "partner",
+    "city": "Rignano sull'Arno",
+    "province": "FI",
+    "area": "Valdarno, Piandiscò, area fiorentina",
+    "website": "https://www.ingegneriadelsollazzo.it/",
+    "sourceUrl": "https://firenzegioca.it/progioco/associazione/ingegneria-del-buon-sollazzo/",
+    "description": "Associazione che progetta e costruisce giochi artigianali in legno, promuove ludobus e parchi di gioco diffuso. Valorizza gioco intergenerazionale, creatività, recupero dei materiali e sostenibilità.",
+    "projectRole": "Allestimento di uno spazio gioco gratuito, laboratori di riciclo ludico, attività conviviali e coinvolgimento di volontari nel Valdarno.",
+    "actions": [
+      {
+        "title": "Spazio Gioco alla Casa Setteponti",
+        "code": "A3",
+        "window": "M3–M18, secondo programmazione",
+        "description": "Ludoteca e giardino sociale con aperture ricorrenti e giochi permanenti."
+      },
+      {
+        "title": "Riciclingioco",
+        "code": "A2 · A5",
+        "window": "M3–M15, finestre indicative",
+        "description": "Laboratori di recupero di materiali e costruzione di giochi artigianali."
+      },
+      {
+        "title": "Mangia & Gioca",
+        "code": "A3",
+        "window": "M3–M18, incontri previsti mensili",
+        "description": "Serate conviviali e attività di socializzazione attraverso il gioco."
+      }
+    ],
+    "coordinates": [
+      43.7219,
+      11.4524
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "comune-civitella-paganico",
+    "name": "Comune di Civitella Paganico",
+    "type": "sostenitore",
+    "city": "Civitella Paganico",
+    "province": "GR",
+    "category": "Ente pubblico",
+    "website": "https://www.comune.civitellapaganico.gr.it/",
+    "description": "Comune di Civitella Paganico aderisce alla rete di sostegno di Gioco di Squadra. Sostegno alle attività della rete e all'attivazione di iniziative di prossimità nel territorio.",
+    "projectRole": "Sostegno alle attività della rete e all'attivazione di iniziative di prossimità nel territorio.",
+    "actions": [],
+    "coordinates": [
+      42.9945,
+      11.2814
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "arca",
+    "name": "Arca Cooperativa Sociale",
+    "type": "sostenitore",
+    "city": "Firenze",
+    "province": "FI",
+    "category": "Cooperativa sociale",
+    "website": "https://www.arcacoop.org/",
+    "description": "Arca Cooperativa Sociale aderisce alla rete di sostegno di Gioco di Squadra. Raccordo con adolescenti e giovani, accompagnamento e accesso a percorsi strutturati, in particolare in collaborazione con ProGioco Firenze.",
+    "projectRole": "Raccordo con adolescenti e giovani, accompagnamento e accesso a percorsi strutturati, in particolare in collaborazione con ProGioco Firenze.",
+    "actions": [],
+    "coordinates": [
+      43.7696,
+      11.2558
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "comune-altopascio",
+    "name": "Comune di Altopascio",
+    "type": "sostenitore",
+    "city": "Altopascio",
+    "province": "LU",
+    "category": "Ente pubblico",
+    "website": "https://www.comune.altopascio.lu.it/it",
+    "description": "Comune di Altopascio aderisce alla rete di sostegno di Gioco di Squadra. Spazi pubblici, promozione e raccordo locale alle attività di LUDICAmente.",
+    "projectRole": "Spazi pubblici, promozione e raccordo locale alle attività di LUDICAmente.",
+    "actions": [],
+    "coordinates": [
+      43.8156,
+      10.6735
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "arci-putignano",
+    "name": "Associazione Ricreativa ARCI Putignano APS",
+    "type": "sostenitore",
+    "city": "Pisa",
+    "province": "PI",
+    "category": "Associazione",
+    "website": null,
+    "description": "Associazione Ricreativa ARCI Putignano APS aderisce alla rete di sostegno di Gioco di Squadra. Supporto logistico e attivazione delle reti locali nel territorio pisano per le iniziative di WHLive.",
+    "projectRole": "Supporto logistico e attivazione delle reti locali nel territorio pisano per le iniziative di WHLive.",
+    "actions": [],
+    "coordinates": [
+      43.7228,
+      10.4017
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "sito o riferimento pubblico da confermare",
+    "image": null
+  },
+  {
+    "id": "casa-grassina",
+    "name": "APS Casa del Popolo di Grassina ARCI",
+    "type": "sostenitore",
+    "city": "Bagno a Ripoli",
+    "province": "FI",
+    "category": "Circolo culturale",
+    "website": null,
+    "description": "APS Casa del Popolo di Grassina ARCI aderisce alla rete di sostegno di Gioco di Squadra. Accoglienza degli incontri e mobilitazione delle reti territoriali per le attività di ProGioco Firenze.",
+    "projectRole": "Accoglienza degli incontri e mobilitazione delle reti territoriali per le attività di ProGioco Firenze.",
+    "actions": [],
+    "coordinates": [
+      43.7518,
+      11.3208
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "sito o riferimento pubblico da confermare",
+    "image": null
+  },
+  {
+    "id": "ubi-minor",
+    "name": "UBI MINOR APS",
+    "type": "sostenitore",
+    "city": "Firenze",
+    "province": "FI",
+    "category": "Associazione",
+    "website": "https://www.ubiminoraps.it/",
+    "description": "UBI MINOR APS aderisce alla rete di sostegno di Gioco di Squadra. Contributo all'avvicinamento e alla promozione delle attività verso famiglie e minori con bisogni sociali.",
+    "projectRole": "Contributo all'avvicinamento e alla promozione delle attività verso famiglie e minori con bisogni sociali.",
+    "actions": [],
+    "coordinates": [
+      43.7696,
+      11.2558
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "ccibo-maremma",
+    "name": "Ccibo Maremma APS",
+    "type": "sostenitore",
+    "city": "Grosseto",
+    "province": "GR",
+    "category": "Associazione",
+    "website": null,
+    "description": "Ccibo Maremma APS aderisce alla rete di sostegno di Gioco di Squadra. Rete culturale e partecipativa su produzioni, culture alimentari locali e biodiversità per le attività delle Colline Metallifere.",
+    "projectRole": "Rete culturale e partecipativa su produzioni, culture alimentari locali e biodiversità per le attività delle Colline Metallifere.",
+    "actions": [],
+    "coordinates": [
+      42.7603,
+      11.1135
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "sito o riferimento pubblico da confermare",
+    "image": null
+  },
+  {
+    "id": "biodistretto-colline-pia",
+    "name": "Associazione Distretto Biologico Colline della Pia",
+    "type": "sostenitore",
+    "city": "Gavorrano",
+    "province": "GR",
+    "category": "Associazione di territorio",
+    "website": null,
+    "description": "Associazione Distretto Biologico Colline della Pia aderisce alla rete di sostegno di Gioco di Squadra. Raccordo con aziende, agricoltura sostenibile e filiere locali per il modulo «Il territorio in tavola».",
+    "projectRole": "Raccordo con aziende, agricoltura sostenibile e filiere locali per il modulo «Il territorio in tavola».",
+    "actions": [],
+    "coordinates": [
+      42.9247,
+      10.907
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "sito o riferimento pubblico da confermare",
+    "image": null
+  },
+  {
+    "id": "parco-colline-metallifere",
+    "name": "Consorzio Parco Tecnologico e Archeologico delle Colline Metallifere",
+    "type": "sostenitore",
+    "city": "Gavorrano",
+    "province": "GR",
+    "category": "Consorzio territoriale",
+    "website": "https://parcocollinemetallifere.it/",
+    "description": "Consorzio Parco Tecnologico e Archeologico delle Colline Metallifere aderisce alla rete di sostegno di Gioco di Squadra. Spazi e raccordo con iniziative di sostenibilità e valorizzazione del territorio delle Colline Metallifere.",
+    "projectRole": "Spazi e raccordo con iniziative di sostenibilità e valorizzazione del territorio delle Colline Metallifere.",
+    "actions": [],
+    "coordinates": [
+      42.9247,
+      10.907
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "iis-poliziano",
+    "name": "Istituto di Istruzione Superiore A. Poliziano",
+    "type": "sostenitore",
+    "city": "Torrita di Siena",
+    "province": "SI",
+    "category": "Scuola",
+    "website": null,
+    "description": "Istituto di Istruzione Superiore A. Poliziano aderisce alla rete di sostegno di Gioco di Squadra. Connessione con la comunità educante e disseminazione delle metodologie ludico-educative.",
+    "projectRole": "Connessione con la comunità educante e disseminazione delle metodologie ludico-educative.",
+    "actions": [],
+    "coordinates": [
+      43.1657,
+      11.7701
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "sito o riferimento pubblico da confermare",
+    "image": null
+  },
+  {
+    "id": "marino-fa-mercato",
+    "name": "Marino Fa Mercato S.p.A.",
+    "type": "sostenitore",
+    "city": "Subbiano",
+    "province": "AR",
+    "category": "Impresa",
+    "website": "https://www.marinofamercato.com/",
+    "description": "Marino Fa Mercato S.p.A. aderisce alla rete di sostegno di Gioco di Squadra. Sostegno logistico e relazionale ad iniziative territoriali, in raccordo con GRVItalia.",
+    "projectRole": "Sostegno logistico e relazionale ad iniziative territoriali, in raccordo con GRVItalia.",
+    "actions": [],
+    "coordinates": [
+      43.5759,
+      11.873
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "bellezza-collaterale",
+    "name": "La Bellezza Collaterale APS",
+    "type": "sostenitore",
+    "city": "Firenze",
+    "province": "FI",
+    "category": "Associazione",
+    "website": null,
+    "description": "La Bellezza Collaterale APS aderisce alla rete di sostegno di Gioco di Squadra. Co-promozione con la comunità educante di attività rivolte anche a persone con disabilità e bisogni specifici.",
+    "projectRole": "Co-promozione con la comunità educante di attività rivolte anche a persone con disabilità e bisogni specifici.",
+    "actions": [],
+    "coordinates": [
+      43.7696,
+      11.2558
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "sito o riferimento pubblico da confermare",
+    "image": null
+  },
+  {
+    "id": "arci-giochi-circolo",
+    "name": "ARCI Giochi in Circolo APS",
+    "type": "sostenitore",
+    "city": "Calcinaia",
+    "province": "PI",
+    "category": "Associazione ludica",
+    "website": "https://portale.arci.it/dettaglio/circolo/11143/giochincircolo/",
+    "description": "ARCI Giochi in Circolo APS aderisce alla rete di sostegno di Gioco di Squadra. Rete di gioco e socialità nel territorio pisano; ulteriori azioni specifiche da dettagliare.",
+    "projectRole": "Rete di gioco e socialità nel territorio pisano; ulteriori azioni specifiche da dettagliare.",
+    "actions": [],
+    "coordinates": [
+      43.6805,
+      10.6198
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "larp-studio",
+    "name": "Larp Studio s.r.l.",
+    "type": "sostenitore",
+    "city": "Firenze",
+    "province": "FI",
+    "category": "Impresa culturale",
+    "website": null,
+    "description": "Larp Studio s.r.l. aderisce alla rete di sostegno di Gioco di Squadra. Soggetto sostenitore del progetto; contributo operativo specifico da documentare.",
+    "projectRole": "Soggetto sostenitore del progetto; contributo operativo specifico da documentare.",
+    "actions": [],
+    "coordinates": [
+      43.7696,
+      11.2558
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "sito o riferimento pubblico da confermare",
+    "image": null
+  },
+  {
+    "id": "comune-sesto",
+    "name": "Comune di Sesto Fiorentino",
+    "type": "sostenitore",
+    "city": "Sesto Fiorentino",
+    "province": "FI",
+    "category": "Ente pubblico",
+    "website": "https://www.comune.sesto-fiorentino.fi.it/",
+    "description": "Comune di Sesto Fiorentino aderisce alla rete di sostegno di Gioco di Squadra. Sedi e sostegno organizzativo a cicli in biblioteca, centri civici e iniziative di Kraken APS.",
+    "projectRole": "Sedi e sostegno organizzativo a cicli in biblioteca, centri civici e iniziative di Kraken APS.",
+    "actions": [],
+    "coordinates": [
+      43.8343,
+      11.1947
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null
+  },
+  {
+    "id": "comune-massa",
+    "name": "Comune di Massa Marittima",
+    "type": "sostenitore",
+    "city": "Massa Marittima",
+    "province": "GR",
+    "category": "Ente pubblico",
+    "website": null,
+    "description": "Comune di Massa Marittima aderisce alla rete di sostegno di Gioco di Squadra. Spazi, canali istituzionali e raccordo con scuole, servizi e associazioni per le iniziative nelle Colline Metallifere.",
+    "projectRole": "Spazi, canali istituzionali e raccordo con scuole, servizi e associazioni per le iniziative nelle Colline Metallifere.",
+    "actions": [],
+    "coordinates": [
+      43.0501,
+      10.8887
+    ],
+    "coordinatePrecision": "centro comunale indicativo",
+    "siteStatus": "sito o riferimento pubblico da confermare",
+    "image": null
+  }
+]
