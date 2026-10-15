@@ -3,7 +3,7 @@
 var root = document.body.dataset.root || "../";
 var organUrl = root + "content/organizations.json";
 var CACHE;
-function getAll(){return CACHE||(CACHE=fetch(organUrl).then(function(r){if(!r.ok)throw Error("Archivio rete non disponibile");return r.json();}));}
+function getAll(){return CACHE||(CACHE=fetch(organUrl+"?v=editoriale-20261016-1").then(function(r){if(!r.ok)throw Error("Archivio rete non disponibile");return r.json();}));}
 function E(tag,cls,txt){var el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el;}
 function safe(url){return typeof url==="string" && /^https:\/\/[\w.-]+(?:[/:?#]|$)/i.test(url);}
 function url(o){return root+(o.type==="sostenitore"?"sostenitore/":"partner/")+encodeURIComponent(o.id)+"/";}

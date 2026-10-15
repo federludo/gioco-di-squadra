@@ -79,7 +79,7 @@
       {
         "title": "World Play Day",
         "code": "A2 · A5",
-        "window": "maggio 2027, indicativo",
+        "window": "maggio 2027",
         "description": "Giornata del gioco con iniziative pubbliche e sensibilizzazione."
       }
     ],
@@ -159,7 +159,7 @@
       {
         "title": "Simulazione comunitaria immersiva",
         "code": "A2 · A3",
-        "window": "settembre 2026, indicativo",
+        "window": "settembre 2026",
         "description": "Esperienza narrativa su gestione delle risorse, conflitto, negoziazione e responsabilità."
       },
       {
@@ -198,13 +198,13 @@
       {
         "title": "Serate di gioco e italiano L2/LS",
         "code": "A3",
-        "window": "ottobre 2026 – settembre 2027; da confermare",
+        "window": "ottobre 2026 – settembre 2027",
         "description": "Incontri periodici di gioco guidato, supporto linguistico e inclusione."
       },
       {
         "title": "Pietro Leopoldo — Il Gioco delle Riforme",
         "code": "A2 · A5",
-        "window": "dicembre 2026 e/o dicembre 2027, indicativo",
+        "window": "dicembre 2026 e/o dicembre 2027",
         "description": "Sessioni pubbliche a carattere storico-educativo in occasione della Festa della Toscana."
       }
     ],
@@ -232,7 +232,7 @@
       {
         "title": "Altopascio Gioca — edizione zero",
         "code": "A2",
-        "window": "settembre 2026, periodo indicativo",
+        "window": "settembre 2026",
         "description": "Presentazione pubblica e attivazione delle collaborazioni."
       },
       {
@@ -250,13 +250,13 @@
       {
         "title": "Memorial Valentina Agostini",
         "code": "A2 · A5",
-        "window": "maggio 2027, indicativo",
+        "window": "maggio 2027",
         "description": "Evento di sensibilizzazione sanitaria e attività ludiche."
       },
       {
         "title": "Altopascio Gioca — restituzione",
         "code": "A5",
-        "window": "settembre 2027, indicativo",
+        "window": "settembre 2027",
         "description": "Grande evento pubblico e momento di restituzione."
       },
       {
@@ -289,7 +289,7 @@
       {
         "title": "Il territorio in tavola",
         "code": "A3 · A4",
-        "window": "marzo 2027 – dicembre 2027, date da definire",
+        "window": "marzo 2027 – dicembre 2027",
         "description": "Format di 4–5 ore con incontro con nutrizionista, laboratorio «Dietro al prezzo» e degustazione comparativa guidata."
       },
       {
@@ -360,13 +360,13 @@
       {
         "title": "Prata — attivazione territoriale estiva",
         "code": "A2",
-        "window": "luglio 2026 – agosto 2026, indicativo",
+        "window": "luglio 2026 – agosto 2026",
         "description": "Evento estivo di incontro e aggancio comunitario."
       },
       {
         "title": "Prata — incontro estivo e consolidamento",
         "code": "A5",
-        "window": "luglio 2027 – agosto 2027, indicativo",
+        "window": "luglio 2027 – agosto 2027",
         "description": "Evento di rete e valorizzazione del ruolo del territorio."
       },
       {
