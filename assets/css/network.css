@@ -100,3 +100,11 @@
 @media(max-width:990px){.net-support-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.net-map-shell{grid-template-columns:1fr}.net-map-list{border-left:0;border-top:1px solid #cbd4c8;max-height:280px}.net-profile-hero-grid{gap:30px}}
 @media(max-width:710px){.net-summary{grid-template-columns:repeat(3,1fr);padding:25px 2%}.net-stat{padding:0 8px}.net-stat strong{font-size:40px}.net-stat span{font-size:11px}.net-intro,.net-people,.net-leader,.net-supporters,.net-map-section{padding:48px 0}.net-leader-grid,.net-list,.net-profile-hero-grid,.net-profile-layout{grid-template-columns:1fr}.net-support-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.net-support-card{padding:16px;min-height:135px}.net-hline{display:block}.net-profile-symbol{height:135px;flex-direction:row}.net-profile-hero{padding:122px 0 54px}.net-profile-body{padding:52px 0}.net-activity-item{grid-template-columns:66px minmax(0,1fr);gap:12px}.net-activity-code{font-size:14px}.net-map-shell #network-map{height:390px}.net-person{grid-template-columns:56px minmax(0,1fr) 20px}.net-avatar{height:50px;width:50px}.net-person-title{font-size:18px}}
 @media(prefers-reduced-motion:reduce){.net-person *{transition:none!important}}
+
+/* Leaflet containment: keep tiles, markers and overlays inside the map. */
+.net-map-shell{overflow:hidden}
+#network-map{position:relative;isolation:isolate;overflow:hidden;min-width:0;width:100%;max-width:100%}
+#network-map.leaflet-container{height:550px;max-height:550px}
+#network-map .leaflet-pane,#network-map .leaflet-control-container{box-sizing:border-box}
+#network-map .leaflet-tile{max-width:none!important;max-height:none!important}
+@media(max-width:710px){#network-map.leaflet-container{height:390px;max-height:390px}}

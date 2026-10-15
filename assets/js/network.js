@@ -25,8 +25,9 @@ function initMap(all){
  var panel=document.getElementById("network-map"),listing=document.getElementById("network-map-list");if(!panel || !listing)return;
  var tabs=[].slice.call(document.querySelectorAll("[data-network-filter]"));
  var map=null;var marks=[];var filter="all";
- if(window.L){map=L.map(panel,{scrollWheelZoom:false,zoomControl:true});L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors'}).addTo(map);map.setView([43.41,11.08],8);}
- else panel.append(E("div","net-map-fallback","La mappa non è disponibile; puoi consultare tutti i soggetti nell’elenco a fianco."));
+ var probe=document.createElement("span");probe.className="leaflet-pane";probe.style.visibility="hidden";panel.appendChild(probe);var leafletStylesReady=window.getComputedStyle(probe).position==="absolute";probe.remove();
+ if(window.L && leafletStylesReady){map=L.map(panel,{scrollWheelZoom:false,zoomControl:true});L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors'}).addTo(map);map.setView([43.41,11.08],8);}
+ else panel.append(E("div","net-map-fallback","La mappa non è disponibile in questo momento. Puoi consultare tutte le organizzazioni nell’elenco a fianco."));
  function render(){
   if(map)marks.forEach(function(m){map.removeLayer(m)});marks=[];listing.replaceChildren();
   var rows=all.filter(function(o){return filter==="all" || (filter==="partners"?o.type!=="sostenitore":o.type==="sostenitore");});
