@@ -16,12 +16,3 @@
 .gds-funding__text small{font-size:11px;line-height:1.45;color:#65796c}
 .gds-funding__text a{text-decoration:underline;text-decoration-color:#d5993b;text-underline-offset:3px}
 @media(max-width:650px){.footer .gds-funding{align-items:flex-start;flex-direction:column;gap:14px}.gds-funding__logos img{max-height:55px}.gds-funding__logos img:first-child{max-height:53px}}
-
-/* Official Federludo-colour Gioco di Squadra master.
-   Draw only the icon from the source PNG in the small navigation lockup. */
-.brand .mark-official{display:block;flex:none;width:52px;height:52px;border-radius:10px;
- background-color:#fff;
- background-image:url("../images/branding/logo-gds-federludo-ufficiale.png");
- background-size:190% auto;background-position:center top;background-repeat:no-repeat;
- box-shadow:0 2px 10px rgba(0,36,30,.12)}
-@media(max-width:720px){.brand .mark-official{width:43px;height:43px;border-radius:8px}}
