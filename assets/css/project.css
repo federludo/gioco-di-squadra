@@ -77,3 +77,24 @@
 @media(max-width:980px){.project-page .article-shell{grid-template-columns:180px minmax(0,1fr);gap:35px}.project-page .goal-grid{grid-template-columns:1fr}.project-page .goal{min-height:unset}.project-page .goal h3{margin:20px 0 7px}.project-page .fieldnotes{grid-template-columns:1fr}}
 @media(max-width:700px){.project-page .project-hero{padding:138px 0 65px;min-height:610px}.project-page .project-hero::before{background:linear-gradient(90deg,rgba(0,40,35,.91),rgba(0,38,33,.55)),url('https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=1100&q=78') center/cover}.project-page .project-title{font-size:clamp(57px,13vw,93px)}.project-page .project-meta{gap:8px 18px}.project-page .project-meta span{border-right:0!important;padding:0!important}.project-page .project-intro{padding:52px 0 34px}.project-page .project-intro-grid{grid-template-columns:1fr;gap:20px}.project-page .intro-aside{font-size:14px}.project-page .stat-grid{grid-template-columns:repeat(2,1fr);row-gap:20px}.project-page .stat{padding:10px 15px}.project-page .stat:first-child{padding-left:15px}.project-page .stat:nth-child(2){border-right:0}.project-page .article-shell{display:block;padding:55px 5% 70px}.project-page .article-nav{position:static;margin-bottom:55px;padding:24px;background:#edf0e9;border-top:3px solid var(--article-gold)}.project-page .article-nav a{font-size:14px}.project-page .article-section{margin-bottom:65px}.project-page .article-section p{font-size:16px}.project-page .action{grid-template-columns:60px minmax(0,1fr);gap:13px}.project-page .action-id{font-size:28px}.project-page .expected{grid-template-columns:1fr 1fr}.project-page .expected div{padding:18px}.project-page .project-cta-inner{grid-template-columns:1fr;gap:25px}.project-page .project-cta{padding:48px 0}}
 @media print{.project-page .project-hero{min-height:0!important;padding:75px 0;background:#003d37!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}.project-page .article-nav{display:none}.project-page .article-shell{display:block}.project-page .article-section{break-inside:avoid}.project-page .project-cta{break-inside:avoid}}
+
+/* Editorial diagrams interleaved with the existing article, not a redesign. */
+.project-page .project-visual{margin:12px 0 70px;padding:27px 25px 26px;background:#edf1e8;border:1px solid #d0ddd3}
+.project-page .project-visual figcaption{display:flex;align-items:baseline;gap:15px;flex-wrap:wrap;margin:0 0 22px}
+.project-page .project-visual figcaption strong{font-size:25px;font-weight:500;letter-spacing:-.045em;color:#003d37}
+.project-page .project-flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}
+.project-page .project-flow>div{position:relative;background:white;padding:22px 16px;min-height:158px;border-top:3px solid #df9d35}
+.project-page .project-flow>div:not(:last-child):after{content:"→";position:absolute;right:-16px;top:43%;color:#003d37;background:#edf1e8;border-radius:50%;width:24px;height:24px;text-align:center;line-height:24px;z-index:1;font-size:20px}
+.project-page .project-flow span{display:block;font-size:11px;color:#b17a24;font-weight:700;letter-spacing:.11em;margin-bottom:15px}
+.project-page .project-flow strong{font-size:17px;font-weight:600;display:block;margin-bottom:8px;color:#0c4037}
+.project-page .project-flow small{font-size:12px;color:#5c7265;line-height:1.5}
+.project-page .project-visual--actions{background:#003d37;color:#fff;border-color:#003d37}
+.project-page .project-visual--actions figcaption strong{color:#fff}
+.project-page .project-visual--actions .section-index{color:#f4b953}
+.project-page .project-action-wheel{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.project-page .project-action-wheel>div{border:1px solid rgba(255,255,255,.35);min-height:126px;padding:20px 12px;background:rgba(255,255,255,.045)}
+.project-page .project-action-wheel b{display:block;font-size:28px;color:#f0b253;font-weight:500;margin-bottom:14px}
+.project-page .project-action-wheel span{font-size:13px;line-height:1.35}
+.project-page .project-visual--actions>p{margin:22px 0 0;font-size:13px;color:#c6e1d3}
+@media(max-width:850px){.project-page .project-flow{grid-template-columns:repeat(2,1fr)}.project-page .project-flow>div:nth-child(2):after{display:none}.project-page .project-action-wheel{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:550px){.project-page .project-flow{grid-template-columns:1fr}.project-page .project-flow>div:after{display:none!important}.project-page .project-action-wheel{grid-template-columns:1fr 1fr}.project-page .project-visual{padding:22px 18px}}

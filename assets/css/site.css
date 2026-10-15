@@ -4,3 +4,15 @@
 .site-head .nav{position:relative}
 @media(min-width:1051px){.site-head .menu{gap:clamp(12px,2vw,30px)}}
 @media(max-width:1050px){.site-head .mobile-button{display:block}.site-head .menu{display:none;position:absolute;top:100%;left:0;right:0;background:var(--deep);z-index:40;flex-direction:column;align-items:stretch;padding:16px 22px 23px;gap:5px;box-shadow:0 14px 28px #002d292c}.site-head.light .menu{background:var(--paper)}.site-head .menu.open{display:flex}.site-head .menu a{display:block;padding:12px 0}}
+
+/* Compact institutional acknowledgement in the global footer. */
+.footer .gds-funding{border-top:1px solid #d4dbd3;margin-top:22px;padding-top:22px;padding-bottom:4px;display:flex;align-items:center;gap:22px;max-width:1300px}
+.gds-funding__logos{display:flex;align-items:center;gap:17px;flex:0 0 auto}
+.gds-funding__logos img{display:block;object-fit:contain;max-height:70px;width:auto;max-width:145px}
+.gds-funding__logos img:first-child{max-height:65px}
+.gds-funding__text{max-width:850px;font-size:12px;line-height:1.5;color:#425b52}
+.gds-funding__text strong{font-size:13px;color:#173a33;display:block;margin-bottom:5px}
+.gds-funding__text p{margin:0 0 5px}
+.gds-funding__text small{font-size:11px;line-height:1.45;color:#65796c}
+.gds-funding__text a{text-decoration:underline;text-decoration-color:#d5993b;text-underline-offset:3px}
+@media(max-width:650px){.footer .gds-funding{align-items:flex-start;flex-direction:column;gap:14px}.gds-funding__logos img{max-height:55px}.gds-funding__logos img:first-child{max-height:53px}}

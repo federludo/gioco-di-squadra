@@ -8,6 +8,16 @@
     "email": "giocodisquadra@federludo.it",
     "general_email": "info@federludo.it"
   },
-  "funding": "Progetto finanziato dalla Regione Toscana",
+  "funding": {
+    "source": "Regione Toscana - Avviso sociale 2026, con risorse del Ministero del Lavoro e delle Politiche Sociali",
+    "decree": "Decreto dirigenziale n. 22267 del 01/10/2026",
+    "awarded_eur": 80220,
+    "total_cost_eur": 114600,
+    "cofinancing_eur": 34380,
+    "logos": [
+      "assets/images/institutions/regione-toscana.webp",
+      "assets/images/institutions/ministero-lavoro.webp"
+    ]
+  },
   "supporters_count": 16
 }

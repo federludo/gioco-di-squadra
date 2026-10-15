@@ -116,3 +116,13 @@
 .gds-home .gds-news-grid.is-single{grid-template-columns:1fr}
 .gds-home .gds-news-grid.is-single .gds-story:first-child{grid-column:auto}
 @media(max-width:750px){.gds-home .gds-news-grid.is-single .gds-story:first-child{display:flex}}
+
+/* Small, prominent live-news link; original hero layout is preserved. */
+.gds-home .gds-news-pulse{display:inline-flex;align-items:center;justify-content:center;gap:10px;margin:0 auto 20px;color:#fff;border:1px solid rgba(255,255,255,.42);border-radius:60px;padding:10px 15px;background:rgba(0,42,35,.66);backdrop-filter:blur(8px);font-size:12px;line-height:1.2;box-shadow:0 0 0 0 rgba(234,161,53,.32);animation:gds-news-glow 3.1s ease-in-out infinite}
+.gds-home .gds-news-pulse:hover{background:rgba(0,55,49,.9);border-color:#e9a135}
+.gds-home .gds-news-pulse__dot{height:9px;width:9px;border-radius:50%;background:#e9a135;box-shadow:0 0 0 0 rgba(233,161,53,.7);animation:gds-news-dot 2s ease-out infinite}
+.gds-home .gds-news-pulse__divider{height:12px;width:1px;background:rgba(255,255,255,.35)}
+.gds-home .gds-news-pulse strong{font-weight:600}
+@keyframes gds-news-glow{0%,100%{box-shadow:0 0 0 0 rgba(234,161,53,.08)}50%{box-shadow:0 0 0 5px rgba(234,161,53,.16)}}
+@keyframes gds-news-dot{0%{box-shadow:0 0 0 0 rgba(233,161,53,.62)}75%{box-shadow:0 0 0 9px rgba(233,161,53,0)}100%{box-shadow:0 0 0 0 rgba(233,161,53,0)}}
+@media(prefers-reduced-motion:reduce){.gds-home .gds-news-pulse,.gds-home .gds-news-pulse__dot{animation:none}}

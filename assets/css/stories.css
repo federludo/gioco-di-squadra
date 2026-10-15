@@ -34,3 +34,12 @@
 .gds-stories .stories-article-more{border-top:1px solid #becdc2;padding-top:30px;margin-top:75px;display:flex;gap:25px;justify-content:space-between;flex-wrap:wrap}
 .gds-stories .stories-article-more a{font-size:14px;text-decoration:none;border-bottom:1px solid #e6a439;padding-bottom:5px}
 @media(max-width:700px){.gds-stories .stories-hero{padding:126px 0 65px}.gds-stories .stories-grid{grid-template-columns:1fr}.gds-stories .stories-archive,.gds-stories .stories-article{padding:55px 0 75px}.gds-stories .stories-article-photo{height:250px}.gds-stories .stories-content p{font-size:16px}}
+
+/* Official funding announcement metrics and source note. */
+.gds-stories .stories-results{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:36px 0 0}
+.gds-stories .stories-results>div{background:#e5ece4;border-top:3px solid #d89b34;padding:20px 14px;min-height:116px}
+.gds-stories .stories-results strong{display:block;font-weight:500;font-size:clamp(24px,2.8vw,38px);letter-spacing:-.055em;color:#003b35;line-height:1.12;margin-bottom:11px}
+.gds-stories .stories-results strong small{font-size:.57em}
+.gds-stories .stories-results span{font-size:12px;line-height:1.4;color:#476457}
+.gds-stories .stories-content .stories-source{border-top:1px solid #b3c7ba;padding-top:18px;color:#61766d;font-size:12px}
+@media(max-width:780px){.gds-stories .stories-results{grid-template-columns:repeat(2,1fr)}}
