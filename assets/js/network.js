@@ -2,7 +2,6 @@
 "use strict";
 var root = document.body.dataset.root || "../";
 var organUrl = root + "content/organizations.json";
-var logoFallback = root + "assets/images/branding/logo-federludo-placeholder.svg";
 var CACHE;
 function getAll(){return CACHE||(CACHE=fetch(organUrl).then(function(r){if(!r.ok)throw Error("Archivio rete non disponibile");return r.json();}));}
 function E(tag,cls,txt){var el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el;}
@@ -52,7 +51,7 @@ function setupProfile(all){
  var hero=E("header","net-profile-hero"),wrap=E("div","net-wrap"),grid=E("div","net-profile-hero-grid"),text=E("div");
  text.append(E("span","eyebrow",o.type==="capofila"?"Capofila":o.type==="partner"?"Partner di progetto":"Sostenitore della rete"),E("h1","",o.name),E("p","",o.description));
  var meta=E("div","net-profile-meta");meta.append(E("span","",o.city+" · "+o.province),E("span","",o.type==="sostenitore"?"Sostenitore":o.type==="capofila"?"Coordinamento regionale":"Partner territoriale"));text.append(meta);
- var logo=E("div","net-profile-symbol");logo.append(avatar(o),E("small","",o.image?"Identità visiva":"Monogramma provvisorio · logo ufficiale da integrare"));
+ var logo=E("div","net-profile-symbol");logo.append(avatar(o));
  grid.append(text,logo);wrap.append(crumbs,grid);hero.append(wrap);target.append(hero);
  var section=E("section","net-profile-body"),content=E("div","net-wrap net-profile-layout"),body=E("div","net-prose"),side=E("aside","net-factbox");
  var who=E("section");who.append(E("span","eyebrow","La realtà"),E("h2","","Chi è"),E("p","",o.description));body.append(who);
