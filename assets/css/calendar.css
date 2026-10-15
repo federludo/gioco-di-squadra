@@ -70,3 +70,17 @@
 @media(max-width:1040px){.gds-calendar .gcal-controls{grid-template-columns:repeat(2,1fr)}.gds-calendar .gcal-list-layout{gap:20px}.gds-calendar .gcal-map-layout{grid-template-columns:1fr}.gds-calendar #calendar-map,.gds-calendar #calendar-map.leaflet-container{height:440px}.gds-calendar .gcal-map-directory{max-height:none}}
 @media(max-width:760px){.gds-calendar .gcal-intro{grid-template-columns:1fr;gap:5px}.gds-calendar .gcal-section{padding:55px 0 75px}.gds-calendar .gcal-list-layout{grid-template-columns:1fr}.gds-calendar .gcal-sidebar{position:static}.gds-calendar .gcal-month-events{grid-template-columns:1fr}.gds-calendar .gcal-map-head{display:block}.gds-calendar .gcal-event{grid-template-columns:76px 1fr;gap:12px}.gds-calendar .gcal-event-period strong{font-size:14px}.gds-calendar .gcal-controls{gap:14px}.gds-calendar .gcal-tabs button{padding:12px 15px}}
 @media(max-width:450px){.gds-calendar .gcal-controls{grid-template-columns:1fr}.gds-calendar .gcal-event h3{font-size:21px}.gds-calendar .gcal-event{grid-template-columns:66px 1fr}.gds-calendar .gcal-month-head h2{font-size:35px}.gds-calendar .gcal-event-actions{gap:13px}}
+
+/* Linked programme activity profile, keeping public schedule dates intentionally approximate. */
+.gcal-activity-profile{padding-bottom:35px}
+.gcal-activity-profile .large-title{max-width:1050px}
+.gcal-activity-lead{font-size:clamp(20px,2.6vw,30px)!important;line-height:1.55!important;max-width:900px;margin:26px 0 40px}
+.gcal-activity-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin-bottom:33px}
+.gcal-activity-fields>div{background:#e9eee5;padding:23px 20px;border-top:2px solid #dfa341}
+.gcal-activity-fields small{display:block;font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:#a46e22;margin-bottom:9px}
+.gcal-activity-fields strong{display:block;font-size:19px;font-weight:500;line-height:1.45;color:#083e34}
+.gcal-activity-description{font-size:16px!important;line-height:1.7!important}
+.gcal-activity-caution{border-left:3px solid #dfa341;background:#e9e9dc;padding:22px;font-size:14px!important;line-height:1.65!important;max-width:970px}
+.gcal-activity-links{display:flex;gap:25px;margin-top:30px;flex-wrap:wrap}
+.gcal-activity-links a{font-size:14px}
+@media(max-width:680px){.gcal-activity-fields{grid-template-columns:1fr}.gcal-activity-profile .large-title{font-size:clamp(48px,9vw,65px)}}
