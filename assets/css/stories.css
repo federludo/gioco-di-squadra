@@ -1,0 +1,36 @@
+
+/* Stories archive and article typography */
+.gds-stories{color:#073c36;background:#f6f3eb}
+.gds-stories .stories-shell{max-width:1270px;margin:auto;padding:0 6%}
+.gds-stories .stories-hero{padding:150px 0 88px;color:#fff;background:linear-gradient(95deg,#002d29ed,#004a40ad),url('https://images.unsplash.com/photo-1563941402622-4e7a488bcc57?auto=format&fit=crop&w=1800&q=80') center/cover}
+.gds-stories .stories-label{font-size:11px;letter-spacing:.2em;color:#f4be69;font-weight:700;text-transform:uppercase}
+.gds-stories .stories-hero h1{font-size:clamp(60px,8vw,118px);line-height:.94;font-weight:400;letter-spacing:-.075em;margin:24px 0}
+.gds-stories .stories-hero p{font-size:clamp(18px,2.5vw,28px);line-height:1.45;max-width:690px;font-weight:350}
+.gds-stories .stories-archive{padding:82px 0 110px}
+.gds-stories .stories-archive h2{font-size:clamp(36px,4.4vw,62px);font-weight:400;letter-spacing:-.06em;margin:0 0 35px}
+.gds-stories .stories-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.gds-stories .stories-card{display:block;text-decoration:none;background:white;color:#073c36;transition:transform .25s;overflow:hidden}
+.gds-stories .stories-card:hover{transform:translateY(-5px)}
+.gds-stories .stories-card-photo{height:245px;background-color:#064136;background-image:var(--story-photo);background-position:center;background-size:cover}
+.gds-stories .stories-card-inner{padding:30px 32px 38px}
+.gds-stories .stories-card small{font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:#a36c19;font-weight:700}
+.gds-stories .stories-card h3{font-size:clamp(28px,3.3vw,44px);line-height:1.12;font-weight:500;letter-spacing:-.05em;margin:16px 0}
+.gds-stories .stories-card p{font-size:15px;line-height:1.74;color:#466057}
+.gds-stories .stories-card-link{display:inline-block;border-bottom:1px solid #d89937;padding-bottom:6px;margin-top:12px;font-size:14px}
+.gds-stories .stories-article{padding:76px 0 112px}
+.gds-stories .stories-breadcrumb{font-size:12px;margin-bottom:35px;color:#64766a;display:flex;gap:12px;align-items:center}
+.gds-stories .stories-breadcrumb a{color:inherit}
+.gds-stories .stories-article-head{max-width:970px}
+.gds-stories .stories-article h1{font-size:clamp(48px,7vw,100px);font-weight:400;letter-spacing:-.065em;line-height:1.04;margin:14px 0 27px}
+.gds-stories .stories-article-lead{font-size:clamp(21px,2.6vw,31px);line-height:1.4;font-weight:350;color:#31564a;max-width:940px}
+.gds-stories .stories-article-status{font-size:12px;color:#a36716;letter-spacing:.08em;font-weight:700;text-transform:uppercase}
+.gds-stories .stories-article-photo{width:100%;height:410px;object-fit:cover;display:block;margin:45px 0 16px}
+.gds-stories .stories-caption{font-size:12px;color:#76887c}
+.gds-stories .stories-content{max-width:790px;padding-top:50px}
+.gds-stories .stories-content p{font-size:18px;line-height:1.85;color:#39584c;margin:0 0 27px}
+.gds-stories .stories-content h2{font-size:36px;letter-spacing:-.05em;font-weight:400;margin:48px 0 22px}
+.gds-stories .stories-content .stories-callout{padding:29px;background:#e4ebe2;border-left:3px solid #e6a439;font-size:17px;line-height:1.65;margin:42px 0}
+.gds-stories .stories-content a{border-bottom:1px solid #e6a439;padding-bottom:3px}
+.gds-stories .stories-article-more{border-top:1px solid #becdc2;padding-top:30px;margin-top:75px;display:flex;gap:25px;justify-content:space-between;flex-wrap:wrap}
+.gds-stories .stories-article-more a{font-size:14px;text-decoration:none;border-bottom:1px solid #e6a439;padding-bottom:5px}
+@media(max-width:700px){.gds-stories .stories-hero{padding:126px 0 65px}.gds-stories .stories-grid{grid-template-columns:1fr}.gds-stories .stories-archive,.gds-stories .stories-article{padding:55px 0 75px}.gds-stories .stories-article-photo{height:250px}.gds-stories .stories-content p{font-size:16px}}

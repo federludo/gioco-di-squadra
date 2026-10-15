@@ -1,0 +1,108 @@
+
+/* Homepage / Gioco di Squadra. All selectors scoped to .gds-home. */
+.gds-home{--gds-night:#002e2b;--gds-forest:#00443d;--gds-teal:#00564b;--gds-amber:#edac45;--gds-paper:#f6f3eb;--gds-ink:#083c35;--gds-soft:#e9eee6;color:var(--gds-ink);overflow:clip}
+.gds-home *{box-sizing:border-box}
+.gds-home a:focus-visible,.gds-home button:focus-visible{outline:3px solid #f4b754;outline-offset:4px}
+.gds-home .gds-shell{max-width:1380px;margin:0 auto;padding:0 6%}
+.gds-home .gds-eyebrow{display:block;font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:700}
+.gds-home .gds-eyebrow.gold{color:var(--gds-amber)}
+.gds-home .gds-text-link{display:inline-flex;gap:18px;align-items:center;max-width:max-content;font-size:14px;text-decoration:none;border-bottom:1px solid var(--gds-amber);padding-bottom:8px}
+.gds-home .gds-text-link span{transition:transform .25s}
+.gds-home .gds-text-link:hover span{transform:translate(5px,-3px)}
+.gds-home .gds-button{display:inline-flex;align-items:center;justify-content:center;gap:15px;border-radius:40px;background:var(--gds-amber);color:var(--gds-night);font-weight:700;padding:16px 25px;text-decoration:none;font-size:14px;transition:transform .25s,background .25s}
+.gds-home .gds-button:hover{transform:translateY(-3px);background:#f5c067}
+.gds-home .gds-hero{min-height:min(880px,100svh);min-height:max(680px,100svh);display:flex;position:relative;isolation:isolate;align-items:center;color:#fff;background:var(--gds-night);overflow:hidden}
+.gds-home .gds-hero-image{position:absolute;inset:0;z-index:-3;background-image:url('https://images.unsplash.com/photo-1676385816437-51db716d18b2?auto=format&fit=crop&w=2200&q=85');background-size:cover;background-position:center 53%;transform:scale(1.055) translateY(var(--gds-photo-shift,0px));will-change:transform}
+.gds-home .gds-hero:before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,rgba(0,32,29,.86),rgba(0,41,35,.59) 56%,rgba(1,26,25,.66)),linear-gradient(0deg,rgba(0,28,25,.84),transparent 48%)}
+.gds-home .gds-hero:after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.16;background-image:radial-gradient(#fff 0.5px,transparent 0.5px);background-size:7px 7px}
+.gds-home .gds-hero .gds-shell{width:100%}
+.gds-home .gds-hero-inner{width:100%;max-width:1030px;padding:115px 0 105px;position:relative}
+.gds-home .gds-hero-intro{display:flex;align-items:center;gap:12px;color:#d8e4dc;margin-bottom:33px;letter-spacing:.18em;text-transform:uppercase;font-size:11px}
+.gds-home .gds-hero-intro:before{content:"";width:30px;height:1px;background:var(--gds-amber)}
+.gds-home .gds-hero h1{font-size:clamp(74px,12.9vw,182px);font-weight:400;line-height:.78;letter-spacing:-.084em;margin:0 0 36px;color:#fff}
+.gds-home .gds-hero h1 em{font-style:normal;color:#e5f1e9}
+.gds-home .gds-hero-tagline{font-size:clamp(20px,2.9vw,34px);font-weight:300;line-height:1.36;letter-spacing:-.025em;margin:0 0 16px;color:#fff}
+.gds-home .gds-hero-desc{font-size:clamp(15px,1.5vw,18px);color:#dbe6df;font-weight:350;max-width:530px;line-height:1.62;margin:0 0 29px}
+.gds-home .gds-hero-cta{display:flex;flex-wrap:wrap;align-items:center;gap:25px}
+.gds-home .gds-hero-bottom{position:absolute;left:0;right:0;bottom:23px;pointer-events:none;color:#e1ebe3}
+.gds-home .gds-hero-bottom .gds-shell{display:flex;justify-content:space-between;gap:15px;align-items:center;font-size:10px;letter-spacing:.2em;text-transform:uppercase}
+.gds-home .gds-hero-scroll{display:flex;align-items:center;gap:10px}
+.gds-home .gds-scroll-line{height:35px;width:1px;background:var(--gds-amber);display:block;transform-origin:top;animation:gds-scroll 2.2s ease-in-out infinite}
+@keyframes gds-scroll{0%,100%{transform:scaleY(.55)}50%{transform:scaleY(1)}}
+.gds-home .gds-intro{background:var(--gds-paper);padding:125px 0 112px}
+.gds-home .gds-intro-grid{display:grid;grid-template-columns:minmax(0,1.14fr) minmax(0,.86fr);gap:8%;align-items:start}
+.gds-home .gds-display{font-size:clamp(55px,7vw,105px);line-height:.93;font-weight:400;letter-spacing:-.073em;margin:22px 0 0}
+.gds-home .gds-intro-copy{padding-top:80px}
+.gds-home .gds-intro-copy p{font-size:clamp(17px,1.75vw,21px);line-height:1.64;font-weight:400;margin:0 0 22px;color:#254b43}
+.gds-home .gds-intro-rule{display:block;width:75px;height:2px;background:var(--gds-amber);margin:0 0 31px}
+.gds-home .gds-meta-strip{margin-top:78px;padding-top:22px;border-top:1px solid #bdcbc1;display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#4f655c}
+.gds-home .gds-meta-strip b{color:#a46a14;font-weight:600}
+.gds-home .gds-meta-strip i{font-style:normal;margin:0 9px}
+.gds-home .gds-craft{background:#073a35;color:#fff;padding:102px 0 106px;overflow:hidden}
+.gds-home .gds-craft-head{display:grid;grid-template-columns:1.1fr .9fr;gap:8%;align-items:end;margin-bottom:42px}
+.gds-home .gds-craft h2,.gds-home .gds-events h2,.gds-home .gds-network h2,.gds-home .gds-news h2{font-size:clamp(44px,5.7vw,78px);letter-spacing:-.065em;line-height:1.02;font-weight:400;margin:17px 0}
+.gds-home .gds-craft-head p{max-width:480px;color:#c9e1d6;font-size:17px;line-height:1.69;margin:0 0 15px}
+.gds-home .gds-craft-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.gds-home .gds-craft-card{min-height:440px;padding:27px 27px 32px;position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;color:#fff;text-decoration:none;border:1px solid #5b7d71;transition:transform .4s,border-color .3s}
+.gds-home .gds-craft-card:hover{transform:translateY(-7px);border-color:var(--gds-amber)}
+.gds-home .gds-craft-card:before{content:"";position:absolute;z-index:-2;inset:0;background:var(--craft-photo) center/cover;filter:saturate(.75);transition:transform .7s}
+.gds-home .gds-craft-card:hover:before{transform:scale(1.06)}
+.gds-home .gds-craft-card:after{content:"";position:absolute;z-index:-1;inset:0;background:linear-gradient(180deg,rgba(1,28,25,.7),rgba(1,34,29,.18) 40%,rgba(1,25,24,.95))}
+.gds-home .gds-craft-card .number{font-size:13px;font-weight:700;letter-spacing:.12em;color:#ffc777}
+.gds-home .gds-craft-card .art{margin:auto;align-self:center;width:92px;height:92px;border:1px solid #ffffffb3;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:300;font-size:50px;opacity:.9;transition:transform .5s}
+.gds-home .gds-craft-card:hover .art{transform:rotate(14deg) scale(1.1)}
+.gds-home .gds-craft-card h3{font-size:clamp(27px,2.8vw,41px);font-weight:400;letter-spacing:-.05em;line-height:1.04;margin:0 0 12px}
+.gds-home .gds-craft-card p{font-size:14px;color:#e0e7dd;line-height:1.65;margin:0 0 20px}
+.gds-home .gds-craft-card .arrow{font-size:23px;align-self:flex-end}
+.gds-home .gds-events{background:#f1f1e9;padding:112px 0}
+.gds-home .gds-events-grid{display:grid;grid-template-columns:.73fr 1.27fr;gap:9%;align-items:start}
+.gds-home .gds-events-intro{position:sticky;top:35px}
+.gds-home .gds-events-intro p{font-size:17px;line-height:1.65;max-width:370px;color:#486258}
+.gds-home .gds-event-row{display:grid;grid-template-columns:70px minmax(0,1fr) 32px;align-items:start;gap:19px;padding:24px 0;border-bottom:1px solid #b9cbc0;text-decoration:none;color:var(--gds-ink)}
+.gds-home .gds-event-row:first-child{border-top:1px solid #b9cbc0}
+.gds-home .gds-event-code{font-weight:700;color:#b0751b;font-size:14px;padding-top:4px}
+.gds-home .gds-event-row h3{font-size:clamp(21px,2.4vw,31px);letter-spacing:-.04em;font-weight:500;line-height:1.2;margin:0 0 11px}
+.gds-home .gds-event-row p{font-size:13px;margin:0 0 8px;color:#587067}
+.gds-home .gds-event-row small{font-size:11px;color:#ad731f;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.gds-home .gds-event-row .arrow{font-size:23px;transition:transform .2s}
+.gds-home .gds-event-row:hover .arrow{transform:translate(5px,-4px)}
+.gds-home .gds-events-all{margin-top:25px}
+.gds-home .gds-network{background:var(--gds-paper);padding:100px 0 108px;position:relative;overflow:hidden}
+.gds-home .gds-network:before{content:"";position:absolute;right:-145px;top:-180px;width:540px;height:540px;border:1px solid #d3dcd2;border-radius:50%;box-shadow:0 0 0 80px #ffffff22,0 0 0 180px #fff3;pointer-events:none}
+.gds-home .gds-network-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:9%;position:relative}
+.gds-home .gds-network-copy p{max-width:540px;line-height:1.7;font-size:17px;color:#446056}
+.gds-home .gds-network-figures{display:grid;grid-template-columns:repeat(2,1fr);gap:32px 15px;align-self:center}
+.gds-home .gds-network-stat b{display:block;font-size:clamp(62px,7vw,105px);letter-spacing:-.08em;font-weight:400;line-height:1}
+.gds-home .gds-network-stat span{display:block;margin-top:3px;font-size:13px;color:#506b60}
+.gds-home .gds-network-figures .wide{grid-column:span 2;border-top:1px solid #b5c6b9;padding-top:22px;font-size:15px;line-height:1.5;color:#506b60}
+.gds-home .gds-network-figures .wide a{text-decoration:none;border-bottom:1px solid var(--gds-amber)}
+.gds-home .gds-news{background:#e8ece4;padding:103px 0 111px}
+.gds-home .gds-news-header{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:30px}
+.gds-home .gds-news-header h2{margin-bottom:0}
+.gds-home .gds-news-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.gds-home .gds-news-grid .gds-story:first-child{grid-column:span 2;display:grid;grid-template-columns:1.05fr .95fr}
+.gds-home .gds-story{min-height:365px;background:#fcfaf5;display:flex;flex-direction:column;color:var(--gds-ink);text-decoration:none;overflow:hidden;transition:transform .3s}
+.gds-home .gds-story:hover{transform:translateY(-5px)}
+.gds-home .gds-story-image{height:170px;background:#153e39 var(--story-photo) center/cover;display:block;position:relative}
+.gds-home .gds-story:first-child .gds-story-image{min-height:365px;height:100%}
+.gds-home .gds-story-image:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#002d2970,transparent 80%)}
+.gds-home .gds-story-info{padding:31px;display:flex;flex-direction:column;flex:1}
+.gds-home .gds-story-label{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#a7701c;font-weight:700}
+.gds-home .gds-story h3{font-size:clamp(23px,2.8vw,39px);font-weight:500;letter-spacing:-.049em;line-height:1.12;margin:21px 0}
+.gds-home .gds-story p{font-size:14px;line-height:1.7;color:#4c665b;margin:0 0 22px}
+.gds-home .gds-story-action{margin-top:auto;font-size:13px;border-bottom:1px solid var(--gds-amber);align-self:start;padding-bottom:6px}
+.gds-home .gds-news-empty{font-size:15px;color:#51685f}
+.gds-home .gds-end{background:#002f2a;color:white;padding:70px 0}
+.gds-home .gds-end-inner{display:flex;gap:32px;align-items:center;justify-content:space-between}
+.gds-home .gds-end h2{font-size:clamp(38px,5vw,60px);font-weight:400;letter-spacing:-.055em;line-height:1.1;margin:12px 0}
+.gds-home .gds-end p{color:#d5e4dc;max-width:550px;font-size:16px;line-height:1.5}
+.gds-home .gds-end-links{display:flex;gap:25px;align-items:center;flex-wrap:wrap}
+.gds-home .gds-end .gds-text-link{color:#fff}
+.gds-home .gds-credit{font-size:11px;color:#7c8d82;line-height:1.55;padding-top:18px}
+.gds-home .gds-credit a{text-decoration:underline;text-underline-offset:3px}
+.home-motion .gds-home [data-reveal]{opacity:0;transform:translateY(34px);transition:opacity .78s ease,transform .78s cubic-bezier(.2,.65,.2,1)}
+.home-motion .gds-home [data-reveal].is-visible{opacity:1;transform:translateY(0)}
+@media(max-width:1050px){.gds-home .gds-craft-card{min-height:400px;padding:23px}.gds-home .gds-news-grid{grid-template-columns:repeat(2,1fr)}.gds-home .gds-news-grid .gds-story:first-child{grid-column:span 2}}
+@media(max-width:750px){.gds-home .gds-shell{padding:0 6%}.gds-home .gds-hero{min-height:740px;min-height:100svh}.gds-home .gds-hero-inner{padding:145px 0 125px}.gds-home .gds-hero h1{font-size:clamp(72px,17vw,125px);letter-spacing:-.083em}.gds-home .gds-hero-image{background-position:52% center}.gds-home .gds-hero:before{background:linear-gradient(90deg,rgba(0,32,29,.82),rgba(0,31,27,.66)),linear-gradient(0deg,rgba(0,27,24,.86),transparent 60%)}.gds-home .gds-hero-bottom .gds-shell{font-size:8px}.gds-home .gds-intro,.gds-home .gds-craft,.gds-home .gds-events,.gds-home .gds-network,.gds-home .gds-news{padding:70px 0}.gds-home .gds-intro-grid,.gds-home .gds-craft-head,.gds-home .gds-events-grid,.gds-home .gds-network-grid{grid-template-columns:1fr;gap:20px}.gds-home .gds-intro-copy{padding-top:10px}.gds-home .gds-meta-strip{margin-top:40px}.gds-home .gds-craft-grid{grid-template-columns:1fr}.gds-home .gds-craft-card{min-height:300px}.gds-home .gds-craft-card .art{width:68px;height:68px;font-size:38px}.gds-home .gds-craft-head p{max-width:600px}.gds-home .gds-events-intro{position:static}.gds-home .gds-network-figures{margin-top:25px}.gds-home .gds-news-grid{grid-template-columns:1fr}.gds-home .gds-news-grid .gds-story:first-child{grid-column:auto;display:flex}.gds-home .gds-story:first-child .gds-story-image{height:210px;min-height:210px}.gds-home .gds-news-header{display:block}.gds-home .gds-news-header .gds-text-link{margin-top:20px}.gds-home .gds-end-inner{align-items:start;flex-direction:column}.gds-home .gds-story{min-height:0}}
+@media(max-width:440px){.gds-home .gds-event-row{grid-template-columns:52px 1fr 19px;gap:10px}.gds-home .gds-story-info{padding:26px}.gds-home .gds-hero-cta{align-items:start;flex-direction:column;gap:24px}}
+@media(prefers-reduced-motion:reduce){.gds-home *, .gds-home *:before,.gds-home *:after{animation:none!important;transition:none!important;transform:none!important}.home-motion .gds-home [data-reveal]{opacity:1!important}}
