@@ -6,7 +6,7 @@ La fonte di verità è `content/organizations.json`: 11 soggetti di progetto (Fe
 - Il **piano operativo** descrive impegni e finestre programmatiche, NON eventi già svolti; le date confermate appartengono al calendario `content/events.json`.
 - I punti sulla mappa rappresentano **centri comunali indicativi**, non sedi legali né luoghi degli eventi; comuni coincidenti vengono aggregati in un marcatore unico.
 - Associazioni senza fonte ufficiale verificata mantengono la proprietà `website: null`.
-- `image: null` produce un monogramma esplicitamente provvisorio: non spacciare una iniziale per logo ufficiale.
+- `image: null` produce un monogramma identificativo: non considerarlo un logo ufficiale dell'associazione.
 - La sede legale nel formulario, il punto mappa, e la sede concreta degli incontri possono essere tre posti distinti; non approssimare automaticamente uno come l'altro.
 - I documenti originali contengono dati bancari/personali e **non vanno caricati nel repo pubblico**.
 - Alcune fonti online possono presentare recapiti differenti rispetto alla modulistica; meglio usare l'email di contatto pubblico presente sul sito del soggetto e chiedere conferma se necessario.
