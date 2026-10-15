@@ -56,7 +56,7 @@ function setupProfile(all){
  var section=E("section","net-profile-body"),content=E("div","net-wrap net-profile-layout"),body=E("div","net-prose"),side=E("aside","net-factbox");
  var who=E("section");who.append(E("span","eyebrow","La realtà"),E("h2","","Chi è"),E("p","",o.description));body.append(who);
  var role=E("section");role.append(E("span","eyebrow","Gioco di Squadra"),E("h2","","Il contributo al progetto"),E("p","",o.projectRole));body.append(role);
- if(o.actions && o.actions.length){var acts=E("section","net-activities");acts.append(E("span","eyebrow","Piano operativo"),E("h2","","Azioni e attività previste"),E("p","net-activities-intro","Le finestre temporali derivano dal piano tecnico di progetto e non equivalgono a date di eventi già confermate."));o.actions.forEach(function(a){var entry=E("article","net-activity-item"),left=E("div","net-activity-code",a.code),right=E("div");right.append(E("h3","",a.title),E("p","",a.description),E("span","net-activity-period","Periodo previsto: "+a.window));entry.append(left,right);acts.append(entry);});body.append(acts);}
+ if(o.actions && o.actions.length){var acts=E("section","net-activities");acts.append(E("span","eyebrow","Il programma"),E("h2","","Azioni e attività previste"),E("p","net-activities-intro","Programmazione in fase di aggiornamento."));o.actions.forEach(function(a){var entry=E("article","net-activity-item"),left=E("div","net-activity-code",a.code),right=E("div");right.append(E("h3","",a.title),E("p","",a.description),E("span","net-activity-period","Periodo previsto: "+a.window));entry.append(left,right);acts.append(entry);});body.append(acts);}
  side.append(E("h3","","In breve"));var dl=E("dl");
  function fact(k,v,external){if(!v)return;dl.append(E("dt","",k));var d=E("dd");if(external&&safe(v)){var a=E("a","",new URL(v).hostname.replace(/^www\./,""));a.href=v;a.target="_blank";a.rel="noopener noreferrer";d.append(a);}else d.textContent=v;dl.append(d);}
  fact("Ruolo",o.type==="capofila"?"Capofila":o.type==="partner"?"Partner":"Sostenitore");
@@ -70,17 +70,17 @@ function setupProfile(all){
      var related=events.filter(function(e){return e.organizerId===o.id});
      if(!related.length)return;
      var sec=E("section","net-activities");
-     sec.append(E("span","eyebrow","Collegamenti al calendario"),E("h2","","Appuntamenti associati"),E("p","net-activities-intro","Le schede seguenti sono in programmazione; date e sedi sono da confermare se non espressamente indicate."));
+     sec.append(E("span","eyebrow","Collegamenti al calendario"),E("h2","","Appuntamenti associati"),E("p","net-activities-intro","Programmazione in fase di aggiornamento."));
      related.forEach(function(ev){
        var row=E("article","net-activity-item");
-       row.append(E("div","net-activity-code",ev.date?ev.date:"DATA DA CONFERMARE"));
+       row.append(E("div","net-activity-code",ev.periodLabel||"In aggiornamento"));
        var detail=E("div");detail.append(E("h3","",ev.name),E("p","",ev.territory+" · "+ev.category));
        var a=E("a","net-link","Apri la scheda dell’attività ↗");a.href=root+"evento/?id="+encodeURIComponent(ev.id);detail.append(a);row.append(detail);sec.append(row);
      });body.append(sec);
    }).catch(function(err){console.warn("Calendario temporaneamente non disponibile",err)});
  }
 side.append(dl);content.append(body,side);section.append(content);target.append(section);
- var bottom=E("section","net-related"),bw=E("div","net-wrap"),bh=E("h2","",o.type==="sostenitore"?"Una rete che cresce insieme":"Scopri quando e dove si gioca");bw.append(bh,E("p","",o.type==="sostenitore"?"Esplora gli altri soggetti della rete e le attività territoriali.":"Gli appuntamenti confermati saranno collegati al calendario di Gioco di Squadra."));
+ var bottom=E("section","net-related"),bw=E("div","net-wrap"),bh=E("h2","",o.type==="sostenitore"?"Una rete che cresce insieme":"Scopri quando e dove si gioca");bw.append(bh,E("p","",o.type==="sostenitore"?"Esplora gli altri soggetti della rete e le attività territoriali.":"Esplora il calendario delle attività di Gioco di Squadra."));
  var ca=E("a","","Consulta il calendario ↗");ca.href=root+"calendario/"+(o.type==="sostenitore"?"":"?partner="+encodeURIComponent(o.id));bw.append(ca,E("span","", "  ·  "));var pa=E("a","","Torna alla rete ↗");pa.href=root+"partenariato/";bw.append(pa);bottom.append(bw);target.append(bottom);
 }
 getAll().then(function(all){if(!Array.isArray(all))throw Error("Formato archivio");if(document.getElementById("network-partners"))initDirectory(all);setupProfile(all);}).catch(function(e){console.error(e);showError("network-partners","Non è stato possibile caricare la rete. Riprova più tardi.");showError("network-profile","Dati temporaneamente non disponibili.");});

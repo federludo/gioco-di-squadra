@@ -34,8 +34,8 @@
     "startMonth": "2026-10",
     "endMonth": "2027-12",
     "periodLabel": "ottobre 2026 – dicembre 2027",
-    "cadence": "Incontri ricorrenti; calendario locale progressivo",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Incontri ricorrenti nei territori della rete",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "federludo"
@@ -75,8 +75,8 @@
     "startMonth": "2026-10",
     "endMonth": "2027-11",
     "periodLabel": "ottobre 2026 – novembre 2026; maggio 2027; ottobre 2027 – novembre 2027",
-    "cadence": "Finestre indicative, evento e sede specifici da confermare",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Presenza alle manifestazioni di settore",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "federludo"
@@ -86,7 +86,7 @@
   {
     "id": "federludo-estate-2027",
     "name": "Grande evento ludico-sociale di rete",
-    "territory": "Area di progetto, sede da definire",
+    "territory": "Territori della rete toscana",
     "organizerId": "federludo",
     "category": "Eventi pubblici",
     "description": "Evento estivo condiviso con sessioni di gioco, momenti informativi, facilitatori e sostenitori.",
@@ -104,8 +104,8 @@
     "startMonth": "2027-08",
     "endMonth": "2027-08",
     "periodLabel": "agosto 2027",
-    "cadence": "Evento estivo indicativo",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Evento estivo · programmazione in fase di aggiornamento",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "federludo"
@@ -146,8 +146,8 @@
     "startMonth": "2026-10",
     "endMonth": "2027-08",
     "periodLabel": "ottobre 2026 – marzo 2027; maggio 2027 – agosto 2027",
-    "cadence": "Cicli settimanali, periodi indicativi",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Cicli settimanali di incontri",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "progioco-firenze"
@@ -175,8 +175,8 @@
     "startMonth": "2027-09",
     "endMonth": "2027-09",
     "periodLabel": "settembre 2027",
-    "cadence": "Evento 2027; collaborazione con Ingegneria del Buon Sollazzo",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Evento 2027 · con Ingegneria del Buon Sollazzo",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "progioco-firenze",
@@ -205,8 +205,8 @@
     "startMonth": "2027-05",
     "endMonth": "2027-05",
     "periodLabel": "maggio 2027",
-    "cadence": "Fine maggio 2027, giornata e sede da confermare",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Fine maggio 2027 · programmazione in fase di aggiornamento",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "progioco-firenze"
@@ -248,8 +248,8 @@
     "startMonth": "2026-10",
     "endMonth": "2027-12",
     "periodLabel": "ottobre 2026 – dicembre 2027",
-    "cadence": "Ciclo continuativo; giornate da concordare",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Ciclo continuativo di incontri",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "kraken"
@@ -291,8 +291,8 @@
     "startMonth": "2026-10",
     "endMonth": "2027-12",
     "periodLabel": "ottobre 2026 – dicembre 2027",
-    "cadence": "Ciclo continuativo; giornate da concordare",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Ciclo continuativo di incontri",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "kraken"
@@ -320,8 +320,8 @@
     "startMonth": "2027-03",
     "endMonth": "2027-03",
     "periodLabel": "marzo 2027",
-    "cadence": "Periodo indicativo; giorni da definire",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Evento di due giornate · programmazione in fase di aggiornamento",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "kraken"
@@ -349,8 +349,8 @@
     "startMonth": "2027-09",
     "endMonth": "2027-09",
     "periodLabel": "settembre 2027",
-    "cadence": "Solo replica prevista per settembre 2027",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Replica territoriale prevista a settembre 2027",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "kraken"
@@ -388,8 +388,8 @@
     "startMonth": "2026-10",
     "endMonth": "2027-08",
     "periodLabel": "ottobre 2026 – agosto 2027",
-    "cadence": "Una domenica al mese nel ciclo previsto; giorni effettivi non definiti",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Incontri domenicali a cadenza mensile",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "ludicamente"
@@ -431,8 +431,8 @@
     "startMonth": "2026-10",
     "endMonth": "2027-12",
     "periodLabel": "ottobre 2026 – dicembre 2027",
-    "cadence": "Incontri mensili, accesso e date da concordare con le strutture",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Incontri mensili nelle strutture coinvolte",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "ludicamente"
@@ -460,8 +460,8 @@
     "startMonth": "2027-05",
     "endMonth": "2027-05",
     "periodLabel": "maggio 2027",
-    "cadence": "Data e sede da definire",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Programmazione in fase di aggiornamento",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "ludicamente"
@@ -489,8 +489,8 @@
     "startMonth": "2027-09",
     "endMonth": "2027-09",
     "periodLabel": "settembre 2027",
-    "cadence": "Periodo indicativo",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Settembre 2027 · programmazione in fase di aggiornamento",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "ludicamente"
@@ -532,8 +532,8 @@
     "startMonth": "2026-10",
     "endMonth": "2027-12",
     "periodLabel": "ottobre 2026 – dicembre 2027",
-    "cadence": "Attività continuativa di laboratorio; sessioni da programmare",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Attività continuativa di laboratorio",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "ludicamente"
@@ -561,8 +561,8 @@
     "startMonth": "2026-10",
     "endMonth": "2026-10",
     "periodLabel": "ottobre 2026",
-    "cadence": "Parte della finestra originaria ancora pertinente a ottobre",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Formazione degli operatori tra settembre e ottobre 2026",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "bandus"
@@ -596,7 +596,7 @@
     "endMonth": "2027-04",
     "periodLabel": "novembre 2026 – aprile 2027",
     "cadence": "Ciclo di 10 incontri da 2 ore",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "bandus"
@@ -630,7 +630,7 @@
     "endMonth": "2027-04",
     "periodLabel": "novembre 2026 – aprile 2027",
     "cadence": "Ciclo di 6 laboratori da 2 ore",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "bandus"
@@ -659,8 +659,8 @@
     "startMonth": "2026-10",
     "endMonth": "2026-11",
     "periodLabel": "ottobre 2026 – novembre 2026",
-    "cadence": "Finestra autunnale indicativa",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Autunno 2026 · programmazione in fase di aggiornamento",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "grvitalia"
@@ -692,8 +692,8 @@
     "startMonth": "2026-10",
     "endMonth": "2027-02",
     "periodLabel": "ottobre 2026 – febbraio 2027",
-    "cadence": "Ciclo continuativo per giovani; mese di partenza aggiornato a ottobre",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Ciclo continuativo rivolto ai giovani",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "whlive"
@@ -724,8 +724,8 @@
     "startMonth": "2026-10",
     "endMonth": "2027-01",
     "periodLabel": "ottobre 2026 – gennaio 2027",
-    "cadence": "Percorso formativo; incontri da definire",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Percorso di formazione e affiancamento",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "whlive"
@@ -767,8 +767,8 @@
     "startMonth": "2026-10",
     "endMonth": "2027-12",
     "periodLabel": "ottobre 2026 – dicembre 2027",
-    "cadence": "Iniziative periodiche; date locali da confermare",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Iniziative periodiche nei territori",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "whlive"
@@ -807,8 +807,8 @@
     "startMonth": "2026-10",
     "endMonth": "2027-09",
     "periodLabel": "ottobre 2026 – settembre 2027",
-    "cadence": "Serate mensili/bimestrali; calendari puntuali da concordare",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Serate mensili o bimestrali",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "gamestorm-siena"
@@ -841,8 +841,8 @@
     "startMonth": "2026-12",
     "endMonth": "2027-12",
     "periodLabel": "dicembre 2026; dicembre 2027",
-    "cadence": "Finestre dicembre 2026 e/o dicembre 2027, da confermare",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Edizioni previste a dicembre 2026 e/o dicembre 2027",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "gamestorm-siena"
@@ -879,8 +879,8 @@
     "startMonth": "2027-03",
     "endMonth": "2027-12",
     "periodLabel": "marzo 2027 – dicembre 2027",
-    "cadence": "Ciclo replicabile; date secondo disponibilità di spazi e professionisti",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Ciclo replicabile negli spazi del territorio",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "drago"
@@ -917,8 +917,8 @@
     "startMonth": "2027-03",
     "endMonth": "2027-12",
     "periodLabel": "marzo 2027 – dicembre 2027",
-    "cadence": "Attivazione collaborazioni e incontri territoriali",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Incontri e collaborazioni territoriali",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "drago"
@@ -947,8 +947,8 @@
     "startMonth": "2027-07",
     "endMonth": "2027-08",
     "periodLabel": "luglio 2027 – agosto 2027",
-    "cadence": "Finestra estiva indicativa",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Estate 2027 · programmazione in fase di aggiornamento",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "misericordia-prata"
@@ -985,8 +985,8 @@
     "startMonth": "2027-03",
     "endMonth": "2027-12",
     "periodLabel": "marzo 2027 – dicembre 2027",
-    "cadence": "Attività di supporto collegate ai cicli di gioco",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Supporto ai cicli territoriali di gioco",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "misericordia-prata",
@@ -1029,8 +1029,8 @@
     "startMonth": "2026-10",
     "endMonth": "2027-12",
     "periodLabel": "ottobre 2026 – dicembre 2027",
-    "cadence": "Aperture settimanali; date da definire",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Aperture settimanali",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "buon-sollazzo"
@@ -1058,8 +1058,8 @@
     "startMonth": "2027-09",
     "endMonth": "2027-09",
     "periodLabel": "settembre 2027",
-    "cadence": "Soltanto l’edizione 2027; quella prevista entro settembre 2026 non è inclusa",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Edizione 2027 · programmazione in fase di aggiornamento",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "buon-sollazzo"
@@ -1101,8 +1101,8 @@
     "startMonth": "2026-10",
     "endMonth": "2027-12",
     "periodLabel": "ottobre 2026 – dicembre 2027",
-    "cadence": "Incontri mensili; date da definire",
-    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "cadence": "Incontri mensili",
+    "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "buon-sollazzo"
