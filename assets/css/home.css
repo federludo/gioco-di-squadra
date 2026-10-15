@@ -111,3 +111,8 @@
 .gds-home .gds-hero-inner{margin-inline:auto;text-align:center}
 .gds-home .gds-hero-intro,.gds-home .gds-hero-cta{justify-content:center}
 .gds-home .gds-hero-desc{margin-left:auto;margin-right:auto}
+
+/* With a single story, the featured article must occupy the entire width. */
+.gds-home .gds-news-grid.is-single{grid-template-columns:1fr}
+.gds-home .gds-news-grid.is-single .gds-story:first-child{grid-column:auto}
+@media(max-width:750px){.gds-home .gds-news-grid.is-single .gds-story:first-child{display:flex}}
