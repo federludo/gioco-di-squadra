@@ -1,0 +1,62 @@
+[
+  {
+    "name": "ProGioco Firenze APS",
+    "place": "Firenze",
+    "id": "partner-1",
+    "verified": false
+  },
+  {
+    "name": "WHLive APS",
+    "place": "Montopoli Val d’Arno e Fauglia",
+    "id": "partner-2",
+    "verified": false
+  },
+  {
+    "name": "Kraken APS",
+    "place": "Sesto Fiorentino e Mugello",
+    "id": "partner-3",
+    "verified": false
+  },
+  {
+    "name": "Gamestorm Siena APS",
+    "place": "Siena",
+    "id": "partner-4",
+    "verified": false
+  },
+  {
+    "name": "LUDICAmente APS",
+    "place": "Altopascio",
+    "id": "partner-5",
+    "verified": false
+  },
+  {
+    "name": "Il Drago delle Colline Metallifere APS",
+    "place": "Massa Marittima e Gavorrano",
+    "id": "partner-6",
+    "verified": false
+  },
+  {
+    "name": "BANDUS! APS",
+    "place": "Civitella Paganico",
+    "id": "partner-7",
+    "verified": false
+  },
+  {
+    "name": "Misericordia di Prata",
+    "place": "Prata",
+    "id": "partner-8",
+    "verified": false
+  },
+  {
+    "name": "GRV Italia APS",
+    "place": "Bagno a Ripoli e Ponsacco",
+    "id": "partner-9",
+    "verified": false
+  },
+  {
+    "name": "Ingegneria del Buon Sollazzo APS",
+    "place": "Valdarno e Firenze",
+    "id": "partner-10",
+    "verified": false
+  }
+]
