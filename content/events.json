@@ -1,32 +1,1112 @@
 [
   {
+    "id": "federludo-presidi",
+    "name": "Presìdi di socialità e incontri di rete",
+    "territory": "Coordinamento regionale / territori dei partner",
+    "organizerId": "federludo",
+    "category": "Giochi e socialità",
+    "description": "Incontri aperti di socializzazione, gioco guidato, facilitazione e attivazione comunitaria.",
+    "action": "A2 · A3 · A5",
+    "sourceWindow": "M2–M18",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2027-12"
+      }
+    ],
+    "months": [
+      "2026-10",
+      "2026-11",
+      "2026-12",
+      "2027-01",
+      "2027-02",
+      "2027-03",
+      "2027-04",
+      "2027-05",
+      "2027-06",
+      "2027-07",
+      "2027-08",
+      "2027-09",
+      "2027-10",
+      "2027-11",
+      "2027-12"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "cadence": "Incontri ricorrenti; calendario locale progressivo",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "federludo"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "federludo-disseminazione",
+    "name": "Incontri e corner nelle manifestazioni di settore",
+    "territory": "Territori e manifestazioni di settore (es. Lucca Comics & Games, FirenzeGioca)",
+    "organizerId": "federludo",
+    "category": "Eventi pubblici",
+    "description": "Partecipazione coordinata e corner informativi per divulgazione, contatti e ingaggio territoriale.",
+    "action": "A5",
+    "sourceWindow": "M4–M5; M11; M16–M17",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2026-11"
+      },
+      {
+        "start": "2027-05",
+        "end": "2027-05"
+      },
+      {
+        "start": "2027-10",
+        "end": "2027-11"
+      }
+    ],
+    "months": [
+      "2026-10",
+      "2026-11",
+      "2027-05",
+      "2027-10",
+      "2027-11"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2027-11",
+    "periodLabel": "ottobre 2026 – novembre 2026; maggio 2027; ottobre 2027 – novembre 2027",
+    "cadence": "Finestre indicative, evento e sede specifici da confermare",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "federludo"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "federludo-estate-2027",
+    "name": "Grande evento ludico-sociale di rete",
+    "territory": "Area di progetto, sede da definire",
+    "organizerId": "federludo",
+    "category": "Eventi pubblici",
+    "description": "Evento estivo condiviso con sessioni di gioco, momenti informativi, facilitatori e sostenitori.",
+    "action": "A2 · A5",
+    "sourceWindow": "M14 (estate 2027)",
+    "windows": [
+      {
+        "start": "2027-08",
+        "end": "2027-08"
+      }
+    ],
+    "months": [
+      "2027-08"
+    ],
+    "startMonth": "2027-08",
+    "endMonth": "2027-08",
+    "periodLabel": "agosto 2027",
+    "cadence": "Evento estivo indicativo",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "federludo"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "officina-ludica",
+    "name": "Officina Ludica",
+    "territory": "Firenze e area metropolitana; spazi di comunità",
+    "organizerId": "progioco-firenze",
+    "category": "Giochi da tavolo",
+    "description": "Cicli di 10–12 incontri facilitati su cooperazione, regole, competenze sociali e scelte consapevoli.",
+    "action": "A3",
+    "sourceWindow": "M4–M9 e M11–M14",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2027-03"
+      },
+      {
+        "start": "2027-05",
+        "end": "2027-08"
+      }
+    ],
+    "months": [
+      "2026-10",
+      "2026-11",
+      "2026-12",
+      "2027-01",
+      "2027-02",
+      "2027-03",
+      "2027-05",
+      "2027-06",
+      "2027-07",
+      "2027-08"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2027-08",
+    "periodLabel": "ottobre 2026 – marzo 2027; maggio 2027 – agosto 2027",
+    "cadence": "Cicli settimanali, periodi indicativi",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "progioco-firenze"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "firenze-gioca",
+    "name": "FirenzeGioca",
+    "territory": "Firenze",
+    "organizerId": "progioco-firenze",
+    "category": "Eventi pubblici",
+    "description": "Evento pubblico di divulgazione ludica con dimostratori esperti, ospiti, spazi aperti e promozione dei cicli territoriali.",
+    "action": "A2 · A5",
+    "sourceWindow": "M2 e M15",
+    "windows": [
+      {
+        "start": "2027-09",
+        "end": "2027-09"
+      }
+    ],
+    "months": [
+      "2027-09"
+    ],
+    "startMonth": "2027-09",
+    "endMonth": "2027-09",
+    "periodLabel": "settembre 2027",
+    "cadence": "Evento 2027; collaborazione con Ingegneria del Buon Sollazzo",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "progioco-firenze",
+      "buon-sollazzo"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "world-play-day",
+    "name": "World Play Day – Giornata Mondiale del Gioco",
+    "territory": "Firenze",
+    "organizerId": "progioco-firenze",
+    "category": "Eventi pubblici",
+    "description": "Attività ludiche aperte e sensibilizzazione in occasione della Giornata Mondiale del Gioco.",
+    "action": "A2 · A5",
+    "sourceWindow": "M11 (29/30 maggio 2027, indicativo)",
+    "windows": [
+      {
+        "start": "2027-05",
+        "end": "2027-05"
+      }
+    ],
+    "months": [
+      "2027-05"
+    ],
+    "startMonth": "2027-05",
+    "endMonth": "2027-05",
+    "periodLabel": "maggio 2027",
+    "cadence": "Fine maggio 2027, giornata e sede da confermare",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "progioco-firenze"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "kraken-biblioteca",
+    "name": "Gioco di Ruolo in Comunità – Biblioteca",
+    "territory": "Sesto Fiorentino, Biblioteca comunale",
+    "organizerId": "kraken",
+    "category": "Giochi di ruolo",
+    "description": "Sei incontri di gioco di ruolo con facilitazione e debriefing per competenze relazionali e decisionali.",
+    "action": "A3",
+    "sourceWindow": "M3–M18",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2027-12"
+      }
+    ],
+    "months": [
+      "2026-10",
+      "2026-11",
+      "2026-12",
+      "2027-01",
+      "2027-02",
+      "2027-03",
+      "2027-04",
+      "2027-05",
+      "2027-06",
+      "2027-07",
+      "2027-08",
+      "2027-09",
+      "2027-10",
+      "2027-11",
+      "2027-12"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "cadence": "Ciclo continuativo; giornate da concordare",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "kraken"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "kraken-centri-civici",
+    "name": "Gioco di Ruolo in Comunità – Centri Civici",
+    "territory": "Sesto Fiorentino, centri civici comunali",
+    "organizerId": "kraken",
+    "category": "Giochi di ruolo",
+    "description": "Otto incontri guidati di gioco di ruolo nei centri civici, con riflessione condivisa.",
+    "action": "A3",
+    "sourceWindow": "M3–M18",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2027-12"
+      }
+    ],
+    "months": [
+      "2026-10",
+      "2026-11",
+      "2026-12",
+      "2027-01",
+      "2027-02",
+      "2027-03",
+      "2027-04",
+      "2027-05",
+      "2027-06",
+      "2027-07",
+      "2027-08",
+      "2027-09",
+      "2027-10",
+      "2027-11",
+      "2027-12"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "cadence": "Ciclo continuativo; giornate da concordare",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "kraken"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "libera-ludum",
+    "name": "Libera Ludum",
+    "territory": "Sesto Fiorentino, Biblioteca Ernesto Ragionieri",
+    "organizerId": "kraken",
+    "category": "Eventi pubblici",
+    "description": "Evento pubblico gratuito di due giornate con sessioni dimostrative di gioco di ruolo e gioco da tavolo.",
+    "action": "A5",
+    "sourceWindow": "M9 (marzo 2027)",
+    "windows": [
+      {
+        "start": "2027-03",
+        "end": "2027-03"
+      }
+    ],
+    "months": [
+      "2027-03"
+    ],
+    "startMonth": "2027-03",
+    "endMonth": "2027-03",
+    "periodLabel": "marzo 2027",
+    "cadence": "Periodo indicativo; giorni da definire",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "kraken"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "mugello-replica",
+    "name": "Gioco di ruolo in Mugello – replica territoriale",
+    "territory": "Barberino del Mugello",
+    "organizerId": "kraken",
+    "category": "Eventi pubblici",
+    "description": "Evento locale di avvicinamento al gioco di ruolo e alla facilitazione.",
+    "action": "A2 · A5",
+    "sourceWindow": "M3; replica M15",
+    "windows": [
+      {
+        "start": "2027-09",
+        "end": "2027-09"
+      }
+    ],
+    "months": [
+      "2027-09"
+    ],
+    "startMonth": "2027-09",
+    "endMonth": "2027-09",
+    "periodLabel": "settembre 2027",
+    "cadence": "Solo replica prevista per settembre 2027",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "kraken"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
     "id": "percorsi-in-scatola",
     "name": "Percorsi in Scatola",
-    "territory": "Altopascio",
-    "organizer": "LUDICAmente APS",
-    "category": "Giochi da tavolo",
-    "date": null,
+    "territory": "Altopascio, Centro Giovani e spazi civici",
     "organizerId": "ludicamente",
-    "programStatus": "date da confermare"
+    "category": "Giochi da tavolo",
+    "description": "Dodici appuntamenti con giochi facilitati e confronto su inclusione, diritti e partecipazione.",
+    "action": "A3",
+    "sourceWindow": "M3–M14",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2027-08"
+      }
+    ],
+    "months": [
+      "2026-10",
+      "2026-11",
+      "2026-12",
+      "2027-01",
+      "2027-02",
+      "2027-03",
+      "2027-04",
+      "2027-05",
+      "2027-06",
+      "2027-07",
+      "2027-08"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2027-08",
+    "periodLabel": "ottobre 2026 – agosto 2027",
+    "cadence": "Una domenica al mese nel ciclo previsto; giorni effettivi non definiti",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "ludicamente"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "gioco-che-unisce",
+    "name": "Il Gioco che Unisce – RSA e centri diurni",
+    "territory": "Altopascio, RSA e centri diurni",
+    "organizerId": "ludicamente",
+    "category": "Giochi e socialità",
+    "description": "Incontri intergenerazionali mensili per socialità e stimolazione cognitiva insieme agli operatori delle strutture.",
+    "action": "A3",
+    "sourceWindow": "M4–M18",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2027-12"
+      }
+    ],
+    "months": [
+      "2026-10",
+      "2026-11",
+      "2026-12",
+      "2027-01",
+      "2027-02",
+      "2027-03",
+      "2027-04",
+      "2027-05",
+      "2027-06",
+      "2027-07",
+      "2027-08",
+      "2027-09",
+      "2027-10",
+      "2027-11",
+      "2027-12"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "cadence": "Incontri mensili, accesso e date da concordare con le strutture",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "ludicamente"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "memorial-valentina",
+    "name": "Memorial Valentina Agostini",
+    "territory": "Altopascio",
+    "organizerId": "ludicamente",
+    "category": "Eventi pubblici",
+    "description": "Evento di sensibilizzazione sanitaria e prevenzione con attività ludiche e contenuti informativi.",
+    "action": "A2 · A5",
+    "sourceWindow": "M11 (maggio 2027)",
+    "windows": [
+      {
+        "start": "2027-05",
+        "end": "2027-05"
+      }
+    ],
+    "months": [
+      "2027-05"
+    ],
+    "startMonth": "2027-05",
+    "endMonth": "2027-05",
+    "periodLabel": "maggio 2027",
+    "cadence": "Data e sede da definire",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "ludicamente"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "altopascio-gioca-2027",
+    "name": "Altopascio Gioca – evento finale",
+    "territory": "Altopascio, spazi pubblici",
+    "organizerId": "ludicamente",
+    "category": "Eventi pubblici",
+    "description": "Grande evento di restituzione con ludoteca a cielo aperto, informazione e coinvolgimento della comunità.",
+    "action": "A5",
+    "sourceWindow": "M15 (settembre 2027)",
+    "windows": [
+      {
+        "start": "2027-09",
+        "end": "2027-09"
+      }
+    ],
+    "months": [
+      "2027-09"
+    ],
+    "startMonth": "2027-09",
+    "endMonth": "2027-09",
+    "periodLabel": "settembre 2027",
+    "cadence": "Periodo indicativo",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "ludicamente"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "laboratorio-3d",
+    "name": "Laboratorio di stampa e modellazione 3D",
+    "territory": "Altopascio",
+    "organizerId": "ludicamente",
+    "category": "Laboratori",
+    "description": "Laboratorio per prototipazione e produzione di materiali ludici e didattici.",
+    "action": "A3 · A5",
+    "sourceWindow": "M2–M18",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2027-12"
+      }
+    ],
+    "months": [
+      "2026-10",
+      "2026-11",
+      "2026-12",
+      "2027-01",
+      "2027-02",
+      "2027-03",
+      "2027-04",
+      "2027-05",
+      "2027-06",
+      "2027-07",
+      "2027-08",
+      "2027-09",
+      "2027-10",
+      "2027-11",
+      "2027-12"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "cadence": "Attività continuativa di laboratorio; sessioni da programmare",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "ludicamente"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "bandus-formazione",
+    "name": "Corso di formazione per operatori ludici (16 ore)",
+    "territory": "Civitella Paganico, biblioteca comunale",
+    "organizerId": "bandus",
+    "category": "Formazione",
+    "description": "Otto incontri formativi di due ore per operatori e volontari su ludoteca, inclusione e socialità.",
+    "action": "A4",
+    "sourceWindow": "M3–M4 (settembre–ottobre 2026)",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2026-10"
+      }
+    ],
+    "months": [
+      "2026-10"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2026-10",
+    "periodLabel": "ottobre 2026",
+    "cadence": "Parte della finestra originaria ancora pertinente a ottobre",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "bandus"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "bandus-ludoteca",
+    "name": "Ludoteca in biblioteca",
+    "territory": "Civitella Paganico, biblioteca comunale",
+    "organizerId": "bandus",
+    "category": "Giochi da tavolo",
+    "description": "Dieci incontri strutturati per minori e giovani con giochi in dotazione alla biblioteca.",
+    "action": "A3",
+    "sourceWindow": "M5–M10",
+    "windows": [
+      {
+        "start": "2026-11",
+        "end": "2027-04"
+      }
+    ],
+    "months": [
+      "2026-11",
+      "2026-12",
+      "2027-01",
+      "2027-02",
+      "2027-03",
+      "2027-04"
+    ],
+    "startMonth": "2026-11",
+    "endMonth": "2027-04",
+    "periodLabel": "novembre 2026 – aprile 2027",
+    "cadence": "Ciclo di 10 incontri da 2 ore",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "bandus"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "bandus-narrazione",
+    "name": "Laboratori Gioco e Narrazione",
+    "territory": "Civitella Paganico, biblioteca comunale",
+    "organizerId": "bandus",
+    "category": "Giochi di ruolo",
+    "description": "Sei laboratori di due ore su narrazione, storytelling e partecipazione.",
+    "action": "A3",
+    "sourceWindow": "M5–M10",
+    "windows": [
+      {
+        "start": "2026-11",
+        "end": "2027-04"
+      }
+    ],
+    "months": [
+      "2026-11",
+      "2026-12",
+      "2027-01",
+      "2027-02",
+      "2027-03",
+      "2027-04"
+    ],
+    "startMonth": "2026-11",
+    "endMonth": "2027-04",
+    "periodLabel": "novembre 2026 – aprile 2027",
+    "cadence": "Ciclo di 6 laboratori da 2 ore",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "bandus"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "racconto-autunno",
+    "name": "Racconto d’Autunno – gioco di ruolo dal vivo",
+    "territory": "Area fiorentina e pisana (Bagno a Ripoli / Ponsacco)",
+    "organizerId": "grvitalia",
+    "category": "Gioco di ruolo dal vivo",
+    "description": "Percorso di gioco di ruolo dal vivo con preparazione, esperienza narrativa e debriefing su comunità e scelte.",
+    "action": "A2 · A3",
+    "sourceWindow": "M4–M5 (autunno 2026)",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2026-11"
+      }
+    ],
+    "months": [
+      "2026-10",
+      "2026-11"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2026-11",
+    "periodLabel": "ottobre 2026 – novembre 2026",
+    "cadence": "Finestra autunnale indicativa",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "grvitalia"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
   },
   {
     "id": "scelte-di-comunita",
     "name": "Scelte di Comunità",
-    "territory": "Montopoli Val d’Arno e Fauglia",
-    "organizer": "WHLive APS",
-    "category": "Gioco di ruolo dal vivo",
-    "date": null,
+    "territory": "Montopoli in Val d’Arno e territorio pisano",
     "organizerId": "whlive",
-    "programStatus": "date da confermare"
+    "category": "Laboratori",
+    "description": "Percorso laboratoriale ludico-esperienziale su decisioni condivise, competenze trasversali e associazionismo.",
+    "action": "A3",
+    "sourceWindow": "M2–M8",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2027-02"
+      }
+    ],
+    "months": [
+      "2026-10",
+      "2026-11",
+      "2026-12",
+      "2027-01",
+      "2027-02"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2027-02",
+    "periodLabel": "ottobre 2026 – febbraio 2027",
+    "cadence": "Ciclo continuativo per giovani; mese di partenza aggiornato a ottobre",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "whlive"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "facilitatori-comunita",
+    "name": "Facilitatori di Comunità",
+    "territory": "Montopoli in Val d’Arno e territorio pisano",
+    "organizerId": "whlive",
+    "category": "Formazione",
+    "description": "Formazione e affiancamento sul campo di tutor under 25 e facilitatori.",
+    "action": "A4",
+    "sourceWindow": "M2–M7",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2027-01"
+      }
+    ],
+    "months": [
+      "2026-10",
+      "2026-11",
+      "2026-12",
+      "2027-01"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2027-01",
+    "periodLabel": "ottobre 2026 – gennaio 2027",
+    "cadence": "Percorso formativo; incontri da definire",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "whlive"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "whlive-eventi-locali",
+    "name": "Laboratori e presenza agli eventi territoriali",
+    "territory": "Provincia di Pisa",
+    "organizerId": "whlive",
+    "category": "Eventi pubblici",
+    "description": "Corner pubblici e laboratori di gioco per coinvolgere le comunità e promuovere i percorsi.",
+    "action": "A2 · A5",
+    "sourceWindow": "M4–M18",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2027-12"
+      }
+    ],
+    "months": [
+      "2026-10",
+      "2026-11",
+      "2026-12",
+      "2027-01",
+      "2027-02",
+      "2027-03",
+      "2027-04",
+      "2027-05",
+      "2027-06",
+      "2027-07",
+      "2027-08",
+      "2027-09",
+      "2027-10",
+      "2027-11",
+      "2027-12"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "cadence": "Iniziative periodiche; date locali da confermare",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "whlive"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "siena-serate",
+    "name": "Serate di gioco per integrazione e italiano L2/LS",
+    "territory": "Siena, spazi culturali e sede associativa",
+    "organizerId": "gamestorm-siena",
+    "category": "Giochi da tavolo",
+    "description": "Serate mensili o bimestrali di 4–5 ore con giochi per supporto linguistico e integrazione.",
+    "action": "A3",
+    "sourceWindow": "M4–M15",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2027-09"
+      }
+    ],
+    "months": [
+      "2026-10",
+      "2026-11",
+      "2026-12",
+      "2027-01",
+      "2027-02",
+      "2027-03",
+      "2027-04",
+      "2027-05",
+      "2027-06",
+      "2027-07",
+      "2027-08",
+      "2027-09"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2027-09",
+    "periodLabel": "ottobre 2026 – settembre 2027",
+    "cadence": "Serate mensili/bimestrali; calendari puntuali da concordare",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "gamestorm-siena"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "gioco-riforme",
+    "name": "Pietro Leopoldo – Il Gioco delle Riforme",
+    "territory": "Siena",
+    "organizerId": "gamestorm-siena",
+    "category": "Eventi pubblici",
+    "description": "Sessione pubblica del gioco storico-educativo in occasione della Festa della Toscana.",
+    "action": "A2 · A5",
+    "sourceWindow": "M6 e/o M18",
+    "windows": [
+      {
+        "start": "2026-12",
+        "end": "2026-12"
+      },
+      {
+        "start": "2027-12",
+        "end": "2027-12"
+      }
+    ],
+    "months": [
+      "2026-12",
+      "2027-12"
+    ],
+    "startMonth": "2026-12",
+    "endMonth": "2027-12",
+    "periodLabel": "dicembre 2026; dicembre 2027",
+    "cadence": "Finestre dicembre 2026 e/o dicembre 2027, da confermare",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "gamestorm-siena"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
   },
   {
     "id": "territorio-in-tavola",
     "name": "Il territorio in tavola",
     "territory": "Massa Marittima e Gavorrano",
-    "organizer": "Il Drago delle Colline Metallifere APS",
-    "category": "Gioco e alimentazione",
-    "date": null,
     "organizerId": "drago",
-    "programStatus": "date da confermare"
+    "category": "Gioco e alimentazione",
+    "description": "Format modulare di 4–5 ore su alimentazione consapevole, etichette, filiere e degustazione comparativa.",
+    "action": "A3 · A4",
+    "sourceWindow": "M9–M18",
+    "windows": [
+      {
+        "start": "2027-03",
+        "end": "2027-12"
+      }
+    ],
+    "months": [
+      "2027-03",
+      "2027-04",
+      "2027-05",
+      "2027-06",
+      "2027-07",
+      "2027-08",
+      "2027-09",
+      "2027-10",
+      "2027-11",
+      "2027-12"
+    ],
+    "startMonth": "2027-03",
+    "endMonth": "2027-12",
+    "periodLabel": "marzo 2027 – dicembre 2027",
+    "cadence": "Ciclo replicabile; date secondo disponibilità di spazi e professionisti",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "drago"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "reti-filiere",
+    "name": "Attivazione delle reti locali: filiere e sostenibilità",
+    "territory": "Colline Metallifere",
+    "organizerId": "drago",
+    "category": "Laboratori",
+    "description": "Incontri con produttori e reti locali per biodiversità, filiere sostenibili e consumo consapevole.",
+    "action": "A2 · A5",
+    "sourceWindow": "M9–M18",
+    "windows": [
+      {
+        "start": "2027-03",
+        "end": "2027-12"
+      }
+    ],
+    "months": [
+      "2027-03",
+      "2027-04",
+      "2027-05",
+      "2027-06",
+      "2027-07",
+      "2027-08",
+      "2027-09",
+      "2027-10",
+      "2027-11",
+      "2027-12"
+    ],
+    "startMonth": "2027-03",
+    "endMonth": "2027-12",
+    "periodLabel": "marzo 2027 – dicembre 2027",
+    "cadence": "Attivazione collaborazioni e incontri territoriali",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "drago"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "prata-estate-2027",
+    "name": "Prata – incontro estivo e consolidamento",
+    "territory": "Prata, Massa Marittima",
+    "organizerId": "misericordia-prata",
+    "category": "Eventi pubblici",
+    "description": "Incontro estivo di richiamo associativo per consolidare la rete e la comunità locale.",
+    "action": "A5",
+    "sourceWindow": "M13–M14 (estate 2027)",
+    "windows": [
+      {
+        "start": "2027-07",
+        "end": "2027-08"
+      }
+    ],
+    "months": [
+      "2027-07",
+      "2027-08"
+    ],
+    "startMonth": "2027-07",
+    "endMonth": "2027-08",
+    "periodLabel": "luglio 2027 – agosto 2027",
+    "cadence": "Finestra estiva indicativa",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "misericordia-prata"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "prata-supporto",
+    "name": "Prata – supporto ai cicli territoriali",
+    "territory": "Prata e Colline Metallifere",
+    "organizerId": "misericordia-prata",
+    "category": "Giochi e socialità",
+    "description": "Accoglienza, volontariato e supporto logistico ai cicli replicabili nelle Colline Metallifere.",
+    "action": "A3",
+    "sourceWindow": "M9–M18",
+    "windows": [
+      {
+        "start": "2027-03",
+        "end": "2027-12"
+      }
+    ],
+    "months": [
+      "2027-03",
+      "2027-04",
+      "2027-05",
+      "2027-06",
+      "2027-07",
+      "2027-08",
+      "2027-09",
+      "2027-10",
+      "2027-11",
+      "2027-12"
+    ],
+    "startMonth": "2027-03",
+    "endMonth": "2027-12",
+    "periodLabel": "marzo 2027 – dicembre 2027",
+    "cadence": "Attività di supporto collegate ai cicli di gioco",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "misericordia-prata",
+      "drago"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "spazio-gioco-setteponti",
+    "name": "Spazio Gioco – Casa Setteponti",
+    "territory": "Piandiscò, Casa Setteponti",
+    "organizerId": "buon-sollazzo",
+    "category": "Giochi e socialità",
+    "description": "Spazio di gioco libero e strutturato con ludoteca di comunità e circa 80 giochi artigianali.",
+    "action": "A3",
+    "sourceWindow": "M3–M18",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2027-12"
+      }
+    ],
+    "months": [
+      "2026-10",
+      "2026-11",
+      "2026-12",
+      "2027-01",
+      "2027-02",
+      "2027-03",
+      "2027-04",
+      "2027-05",
+      "2027-06",
+      "2027-07",
+      "2027-08",
+      "2027-09",
+      "2027-10",
+      "2027-11",
+      "2027-12"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "cadence": "Aperture settimanali; date da definire",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "buon-sollazzo"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "riciclingioco",
+    "name": "Riciclingioco – Festa del riciclo ludico creativo",
+    "territory": "Valdarno",
+    "organizerId": "buon-sollazzo",
+    "category": "Laboratori",
+    "description": "Laboratori di riciclo e falegnameria ludica per il recupero creativo di giochi e materiali.",
+    "action": "A2 · A5",
+    "sourceWindow": "M3 e M15 (fine estate 2026 e 2027)",
+    "windows": [
+      {
+        "start": "2027-09",
+        "end": "2027-09"
+      }
+    ],
+    "months": [
+      "2027-09"
+    ],
+    "startMonth": "2027-09",
+    "endMonth": "2027-09",
+    "periodLabel": "settembre 2027",
+    "cadence": "Soltanto l’edizione 2027; quella prevista entro settembre 2026 non è inclusa",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "buon-sollazzo"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+  },
+  {
+    "id": "mangia-e-gioca",
+    "name": "Mangia & Gioca",
+    "territory": "Valdarno",
+    "organizerId": "buon-sollazzo",
+    "category": "Giochi e socialità",
+    "description": "Incontri conviviali mensili per bambini, adulti e anziani con giochi di relazione e condivisione.",
+    "action": "A3",
+    "sourceWindow": "M3–M18",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2027-12"
+      }
+    ],
+    "months": [
+      "2026-10",
+      "2026-11",
+      "2026-12",
+      "2027-01",
+      "2027-02",
+      "2027-03",
+      "2027-04",
+      "2027-05",
+      "2027-06",
+      "2027-07",
+      "2027-08",
+      "2027-09",
+      "2027-10",
+      "2027-11",
+      "2027-12"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "cadence": "Incontri mensili; date da definire",
+    "programStatus": "Programmazione indicativa: date e sedi puntuali da confermare",
+    "date": null,
+    "partnerIds": [
+      "buon-sollazzo"
+    ],
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
   }
 ]
