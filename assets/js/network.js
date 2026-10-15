@@ -64,7 +64,22 @@ function setupProfile(all){
  fact("Territorio operativo",o.area);
  fact("Sito o presenza pubblica",o.website,true);
  if(o.email && /^[\w.+-]+@[\w.-]+\.[a-z]{2,}$/i.test(o.email)){dl.append(E("dt","","Email pubblica"));var dd=E("dd"),mail=E("a","",o.email);mail.href="mailto:"+o.email;dd.append(mail);dl.append(dd);}
- fact("Fonte consultabile",o.sourceUrl,true);side.append(dl);content.append(body,side);section.append(content);target.append(section);
+ fact("Fonte consultabile",o.sourceUrl,true);
+ if(o.type!=="sostenitore"){
+   fetch(root+"content/events.json").then(function(r){return r.ok?r.json():[]}).then(function(events){
+     var related=events.filter(function(e){return e.organizerId===o.id});
+     if(!related.length)return;
+     var sec=E("section","net-activities");
+     sec.append(E("span","eyebrow","Collegamenti al calendario"),E("h2","","Appuntamenti associati"),E("p","net-activities-intro","Le schede seguenti sono in programmazione; date e sedi sono da confermare se non espressamente indicate."));
+     related.forEach(function(ev){
+       var row=E("article","net-activity-item");
+       row.append(E("div","net-activity-code",ev.date?ev.date:"DATA DA CONFERMARE"));
+       var detail=E("div");detail.append(E("h3","",ev.name),E("p","",ev.territory+" · "+ev.category));
+       var a=E("a","net-link","Apri la scheda dell’attività ↗");a.href=root+"evento/?id="+encodeURIComponent(ev.id);detail.append(a);row.append(detail);sec.append(row);
+     });body.append(sec);
+   }).catch(function(err){console.warn("Calendario temporaneamente non disponibile",err)});
+ }
+side.append(dl);content.append(body,side);section.append(content);target.append(section);
  var bottom=E("section","net-related"),bw=E("div","net-wrap"),bh=E("h2","",o.type==="sostenitore"?"Una rete che cresce insieme":"Scopri quando e dove si gioca");bw.append(bh,E("p","",o.type==="sostenitore"?"Esplora gli altri soggetti della rete e le attività territoriali.":"Gli appuntamenti confermati saranno collegati al calendario di Gioco di Squadra."));
  var ca=E("a","","Consulta il calendario ↗");ca.href=root+"calendario/"+(o.type==="sostenitore"?"":"?partner="+encodeURIComponent(o.id));bw.append(ca,E("span","", "  ·  "));var pa=E("a","","Torna alla rete ↗");pa.href=root+"partenariato/";bw.append(pa);bottom.append(bw);target.append(bottom);
 }
