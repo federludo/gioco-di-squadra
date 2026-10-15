@@ -43,7 +43,17 @@ const bounds=[];for(const [id,items] of groups){const o=orgById(id);if(!Array.is
 requestAnimationFrame(()=>{map.invalidateSize();if(bounds.length>1)map.fitBounds(bounds,{padding:[25,25],maxZoom:10});else if(bounds.length===1)map.setView(bounds[0],10);});
 }
 function render(){if(view==="month"&&$("period").value)selected=$("period").value;territoryFilter=$("territory").value;categoryFilter=$("category").value;monthFilter=$("period").value;organizationFilter=$("organizer").value;const list=getSummary();renderList(list);selectMonth(selected);if(view==="map")mapRender(list);}
-function changeView(v){view=v;document.querySelectorAll("[data-view]").forEach(b=>{const active=b.dataset.view===v;b.classList.toggle("selected",active);b.setAttribute("aria-selected",String(active));});document.querySelectorAll("[data-panel]").forEach(p=>{p.hidden=p.dataset.panel!==v});if(v==="map")mapRender(filtered());if(v==="month")selectMonth(monthFilter||selected);}
+function changeView(v){
+ if(!["list","month","map"].includes(v))return;
+ view=v;
+ const tabs=document.querySelector(".gcal-tabs");
+ document.querySelectorAll("[data-view]").forEach(b=>{const active=b.dataset.view===v;b.classList.toggle("selected",active);b.setAttribute("aria-selected",String(active));});
+ document.querySelectorAll("[data-panel]").forEach(p=>{p.hidden=p.dataset.panel!==v;});
+ if(v==="month")selectMonth(monthFilter||selected);
+ if(v==="map")mapRender(filtered());
+ // Avoid leaving the reader far down a former long list after switching tabs.
+ if(tabs){const rect=tabs.getBoundingClientRect();if(rect.top<0||rect.top>window.innerHeight*.7){tabs.scrollIntoView({block:"start",behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"instant":"smooth"});}}
+}
 async function start(){try{const [evRes,orgRes]=await Promise.all([fetch(root+"content/events.json?v=20261016-1"),fetch(root+"content/organizations.json?v=20261016-1")]);if(!evRes.ok||!orgRes.ok)throw Error("HTTP error");[events,organizations]=await Promise.all([evRes.json(),orgRes.json()]);if(!Array.isArray(events)||!Array.isArray(organizations))throw Error("Invalid data");
 events=events.filter(e=>getMonths(e)>0);
 opt($("territory"),events.map(x=>x.territory));opt($("category"),events.map(x=>x.category));

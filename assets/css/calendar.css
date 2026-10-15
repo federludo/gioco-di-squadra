@@ -84,3 +84,8 @@
 .gcal-activity-links{display:flex;gap:25px;margin-top:30px;flex-wrap:wrap}
 .gcal-activity-links a{font-size:14px}
 @media(max-width:680px){.gcal-activity-fields{grid-template-columns:1fr}.gcal-activity-profile .large-title{font-size:clamp(48px,9vw,65px)}}
+
+/* A selected tab is the sole visible panel. Grid layouts must never override HTML hidden. */
+.gds-calendar [data-panel][hidden]{display:none!important}
+.gds-calendar .gcal-partner-filter[hidden]{display:none!important}
+.gds-calendar .gcal-tabs{scroll-margin-top:16px}
