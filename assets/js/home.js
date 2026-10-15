@@ -7,10 +7,10 @@ var eventsTarget=document.getElementById("home-programme");
 if(eventsTarget)fetch("content/events.json").then(function(r){if(!r.ok)throw Error("Eventi non disponibili");return r.json();}).then(function(items){
  eventsTarget.replaceChildren();
  if(!items.length){eventsTarget.append(el("p","","La programmazione è in aggiornamento."));return;}
- items.slice(0,3).forEach(function(item,i){
+ items.filter(function(x){return x.months&&x.months.length;}).sort(function(a,b){return a.startMonth.localeCompare(b.startMonth)||a.name.localeCompare(b.name,"it");}).slice(0,3).forEach(function(item,i){
  var a=el("a","gds-event-row");a.href="evento/?id="+encodeURIComponent(item.id);
  var index=el("span","gds-event-code",String(i+1).padStart(2,"0"));
- var x=el("span");x.append(el("h3","",item.name),el("p","",item.territory+" · "+item.category),el("small","",item.date?new Date(item.date+"T12:00:00").toLocaleDateString("it-IT",{day:"2-digit",month:"long",year:"numeric"}):"Date in aggiornamento"));
+ var x=el("span");x.append(el("h3","",item.name),el("p","",item.territory+" · "+item.category),el("small","",item.periodLabel||"Programmazione in aggiornamento"));
  a.append(index,x,el("span","arrow","↗"));eventsTarget.append(a);
  });
 }).catch(function(){eventsTarget.append(el("p","","La programmazione è in aggiornamento. Consulta il calendario."));});

@@ -1,0 +1,72 @@
+
+/* Calendar 2026-27 / separated styles to protect global site. */
+.gds-calendar{--cal-green:#003b35;--cal-ochre:#df9d35;--cal-paper:#f6f3eb;--cal-ink:#163e37}
+.gds-calendar .gcal-section{padding:76px 0 105px}
+.gds-calendar .gcal-intro{display:grid;grid-template-columns:1fr 1fr;align-items:end;gap:8%;margin:0 0 26px}
+.gds-calendar .gcal-intro h2,.gds-calendar .gcal-map-head h2{font-size:clamp(44px,5.1vw,72px);font-weight:400;letter-spacing:-.06em;line-height:1.05;margin:13px 0}
+.gds-calendar .gcal-intro>p{font-size:17px;line-height:1.7;margin:0 0 7px;max-width:550px;color:#4d675c}
+.gds-calendar .gcal-stats{display:flex;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid #b6c8b9;padding:17px 0 24px;flex-wrap:wrap;color:#375d51}
+.gds-calendar .gcal-stats strong{font-size:14px}.gds-calendar .gcal-stats span{font-size:12px;text-transform:uppercase;letter-spacing:.1em}
+.gds-calendar .gcal-controls{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-bottom:27px}
+.gds-calendar .gcal-controls select{border-radius:0;min-width:0;font-size:13px;padding:12px 0 10px;cursor:pointer}
+.gds-calendar .gcal-tabs{margin-bottom:20px;gap:13px}
+.gds-calendar .gcal-tabs button{padding:13px 24px;font-size:14px}
+.gds-calendar .gcal-tabs button:focus-visible,.gds-calendar button:focus-visible,.gds-calendar a:focus-visible{outline:3px solid #e9a135;outline-offset:4px}
+.gds-calendar .gcal-disclaimer{background:#eee9dc;padding:16px 19px;color:#60553e;font-size:13px;line-height:1.6;margin:0 0 24px;display:flex;gap:12px}
+.gds-calendar .gcal-disclaimer span{font-weight:700;font-size:18px;color:#b07318}
+.gds-calendar .gcal-partner-filter{padding:13px 20px;background:#e4eee7;font-size:14px}
+.gds-calendar .gcal-partner-filter a{text-decoration:underline;text-decoration-color:var(--cal-ochre)}
+.gds-calendar .gcal-list-layout{display:grid;grid-template-columns:minmax(0,1.9fr) minmax(250px,.8fr);gap:40px;align-items:start}
+.gds-calendar .gcal-sidebar{position:sticky;top:24px;background:#e5ebe3;padding:28px 23px}
+.gds-calendar .gcal-sidebar h2{font-size:32px;line-height:1.12;letter-spacing:-.05em;font-weight:450;margin:18px 0}
+.gds-calendar .gcal-sidebar p{font-size:14px;line-height:1.7;margin:0 0 20px;color:#425c51}
+.gds-calendar .gcal-sidebar a{font-size:14px}
+.gds-calendar .gcal-event{border-bottom:1px solid #b8c6ba;padding:24px 0;display:grid;grid-template-columns:108px minmax(0,1fr);gap:21px}
+.gds-calendar .gcal-event:first-child{border-top:1px solid #b8c6ba}
+.gds-calendar .gcal-event-period{border-right:1px solid #b8c6ba;padding:5px 13px 0 0}
+.gds-calendar .gcal-event-period strong{display:block;font-size:17px;letter-spacing:-.045em;color:#a46b15}
+.gds-calendar .gcal-event-period small{font-size:11px;color:#526c60;display:block;margin-top:9px}
+.gds-calendar .gcal-event h3{font-size:clamp(22px,2.7vw,33px);font-weight:500;letter-spacing:-.048em;line-height:1.14;margin:0 0 11px}
+.gds-calendar .gcal-event h3 a:hover,.gds-calendar .gcal-map-group a:hover{text-decoration:underline;text-decoration-color:#dd9d34;text-underline-offset:4px}
+.gds-calendar .gcal-event .gcal-meta{display:flex;flex-direction:column;gap:6px}
+.gds-calendar .gcal-meta span{font-size:13px;color:#536a5f}
+.gds-calendar .gcal-event p{font-size:14px;line-height:1.65;color:#37584e;margin:13px 0}
+.gds-calendar .gcal-event-actions{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-top:17px}
+.gds-calendar .gcal-event-actions a{font-size:13px;padding-bottom:5px;border-bottom:1px solid #df9d35}
+.gds-calendar .gcal-zero{padding:40px 0;font-size:16px;color:#526e62}
+.gds-calendar .gcal-month-head{display:flex;align-items:end;justify-content:space-between;gap:20px}
+.gds-calendar .gcal-month-head h2{font-size:clamp(38px,4.8vw,66px);font-weight:400;letter-spacing:-.06em;margin:12px 0 20px;text-transform:capitalize}
+.gds-calendar .gcal-month-arrows{display:flex;gap:8px;margin-bottom:19px}
+.gds-calendar .gcal-month-arrows button{height:41px;width:41px;background:#fff;border:1px solid #c9d4cb;color:var(--cal-green);font-size:22px}
+.gds-calendar .gcal-month-arrows button:disabled{opacity:.4;cursor:not-allowed}
+.gds-calendar .gcal-month-nav{display:flex;gap:8px;overflow-x:auto;padding:0 0 13px;margin:0 0 24px;scrollbar-width:thin}
+.gds-calendar .gcal-month-nav button{min-width:93px;padding:12px 13px;flex:none;border:1px solid #cbd7cb;background:#ecf0e7;color:#31554a;font-size:12px}
+.gds-calendar .gcal-month-nav button[aria-current="date"]{background:#004138;color:#fff;border-color:#004138}
+.gds-calendar .gcal-month-nav button span{display:block;margin-top:3px;font-weight:700;font-size:11px}
+.gds-calendar .gcal-month-events{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.gds-calendar .gcal-month-card{background:#fff;border-top:3px solid #df9d35;padding:24px}
+.gds-calendar .gcal-month-card .eyebrow{font-size:10px}
+.gds-calendar .gcal-month-card h3{font-size:24px;font-weight:500;letter-spacing:-.045em;margin:12px 0 9px}
+.gds-calendar .gcal-month-card p{font-size:13px;line-height:1.6;margin:7px 0;color:#537064}
+.gds-calendar .gcal-month-card a{display:inline-block;font-size:12px;border-bottom:1px solid #e4a348;margin-top:9px;padding-bottom:4px}
+.gds-calendar .gcal-month-footnote{color:#5b6c61;font-size:12px;line-height:1.55;margin-top:22px}
+.gds-calendar .gcal-map-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin:12px 0 25px}
+.gds-calendar .gcal-map-head p{max-width:445px;color:#4d685e;font-size:15px;line-height:1.65}
+.gds-calendar .gcal-map-layout{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(255px,1fr);gap:16px;align-items:stretch}
+.gds-calendar #calendar-map{height:590px;width:100%;max-width:100%;min-width:0;background:#dfe6d8;overflow:hidden;position:relative;isolation:isolate;z-index:0}
+.gds-calendar #calendar-map.leaflet-container{height:590px}
+.gds-calendar #calendar-map .leaflet-tile{max-width:none!important;max-height:none!important}
+.gds-calendar .gcal-map-directory{background:#e8ece5;overflow:auto;max-height:590px;padding:9px 18px 15px}
+.gds-calendar .gcal-map-group{padding:19px 0;border-bottom:1px solid #b4c7b8}
+.gds-calendar .gcal-map-group strong{display:block;font-size:20px;font-weight:500;margin-bottom:9px;letter-spacing:-.035em}
+.gds-calendar .gcal-map-group p{font-size:12px;line-height:1.5;margin:0 0 7px;color:#526e60}
+.gds-calendar .gcal-map-group a{font-size:12px;display:block;margin-top:8px}
+.gds-calendar .gcal-map-credit{font-size:11px;color:#6a786b;line-height:1.55}
+.gds-calendar .gcal-marker{border:none;background:transparent}
+.gds-calendar .gcal-marker span{width:29px;height:29px;display:grid;place-items:center;color:#fff;background:#006155;border:3px solid white;border-radius:50%;box-shadow:0 2px 8px #0005;font-size:11px;font-weight:700}
+.gds-calendar .leaflet-popup-content a{color:#076254;text-decoration:underline}
+.gds-calendar .gcal-map-fallback{padding:30px;background:#e8ece5;line-height:1.6;color:#475e52}
+.gds-calendar .gcal-map-layout .leaflet-container{font-family:inherit}
+@media(max-width:1040px){.gds-calendar .gcal-controls{grid-template-columns:repeat(2,1fr)}.gds-calendar .gcal-list-layout{gap:20px}.gds-calendar .gcal-map-layout{grid-template-columns:1fr}.gds-calendar #calendar-map,.gds-calendar #calendar-map.leaflet-container{height:440px}.gds-calendar .gcal-map-directory{max-height:none}}
+@media(max-width:760px){.gds-calendar .gcal-intro{grid-template-columns:1fr;gap:5px}.gds-calendar .gcal-section{padding:55px 0 75px}.gds-calendar .gcal-list-layout{grid-template-columns:1fr}.gds-calendar .gcal-sidebar{position:static}.gds-calendar .gcal-month-events{grid-template-columns:1fr}.gds-calendar .gcal-map-head{display:block}.gds-calendar .gcal-event{grid-template-columns:76px 1fr;gap:12px}.gds-calendar .gcal-event-period strong{font-size:14px}.gds-calendar .gcal-controls{gap:14px}.gds-calendar .gcal-tabs button{padding:12px 15px}}
+@media(max-width:450px){.gds-calendar .gcal-controls{grid-template-columns:1fr}.gds-calendar .gcal-event h3{font-size:21px}.gds-calendar .gcal-event{grid-template-columns:66px 1fr}.gds-calendar .gcal-month-head h2{font-size:35px}.gds-calendar .gcal-event-actions{gap:13px}}
