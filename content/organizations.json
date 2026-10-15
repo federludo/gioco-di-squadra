@@ -473,7 +473,8 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": null,
+    "sourceUrl": "https://www.comune.civitellapaganico.gr.it/"
   },
   {
     "id": "arca",
@@ -483,7 +484,7 @@
     "province": "FI",
     "category": "Cooperativa sociale",
     "website": "https://www.arcacoop.org/",
-    "description": "Arca Cooperativa Sociale aderisce alla rete di sostegno di Gioco di Squadra. Raccordo con adolescenti e giovani, accompagnamento e accesso a percorsi strutturati, in particolare in collaborazione con ProGioco Firenze.",
+    "description": "Arca Cooperativa Sociale opera dal 1983 nell'ambito dei servizi educativi, sociali e socio-assistenziali rivolti a minori, famiglie, persone anziane e altri gruppi in condizione di fragilità. In Gioco di Squadra sostiene il raccordo con adolescenti e giovani.",
     "projectRole": "Raccordo con adolescenti e giovani, accompagnamento e accesso a percorsi strutturati, in particolare in collaborazione con ProGioco Firenze.",
     "actions": [],
     "coordinates": [
@@ -492,7 +493,8 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": null,
+    "sourceUrl": "https://www.arcacoop.org/"
   },
   {
     "id": "comune-altopascio",
@@ -511,7 +513,8 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": null,
+    "sourceUrl": "https://www.comune.altopascio.lu.it/it"
   },
   {
     "id": "arci-putignano",
@@ -539,8 +542,8 @@
     "city": "Bagno a Ripoli",
     "province": "FI",
     "category": "Circolo culturale",
-    "website": null,
-    "description": "APS Casa del Popolo di Grassina ARCI aderisce alla rete di sostegno di Gioco di Squadra. Accoglienza degli incontri e mobilitazione delle reti territoriali per le attività di ProGioco Firenze.",
+    "website": "https://www.casadelpopolo.fi.it/",
+    "description": "La Casa del Popolo di Grassina è un'associazione di promozione sociale affiliata ARCI, luogo di aggregazione culturale, ricreativa e sociale a Bagno a Ripoli. Accoglie incontri e promuove le attività della rete fiorentina.",
     "projectRole": "Accoglienza degli incontri e mobilitazione delle reti territoriali per le attività di ProGioco Firenze.",
     "actions": [],
     "coordinates": [
@@ -548,8 +551,9 @@
       11.3208
     ],
     "coordinatePrecision": "centro comunale indicativo",
-    "siteStatus": "sito o riferimento pubblico da confermare",
-    "image": null
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null,
+    "sourceUrl": "https://www.casadelpopolo.fi.it/?page_id=2"
   },
   {
     "id": "ubi-minor",
@@ -559,7 +563,7 @@
     "province": "FI",
     "category": "Associazione",
     "website": "https://www.ubiminoraps.it/",
-    "description": "UBI MINOR APS aderisce alla rete di sostegno di Gioco di Squadra. Contributo all'avvicinamento e alla promozione delle attività verso famiglie e minori con bisogni sociali.",
+    "description": "UBI MINOR APS è un coordinamento impegnato nella tutela dei diritti dei minori e nella promozione di percorsi di sostegno familiare e dell'affido. Nel progetto contribuisce al collegamento con famiglie e comunità educante.",
     "projectRole": "Contributo all'avvicinamento e alla promozione delle attività verso famiglie e minori con bisogni sociali.",
     "actions": [],
     "coordinates": [
@@ -568,7 +572,8 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": null,
+    "sourceUrl": "https://www.ubiminoraps.it/chi-siamo/"
   },
   {
     "id": "ccibo-maremma",
@@ -625,7 +630,8 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": null,
+    "sourceUrl": "https://parcocollinemetallifere.it/"
   },
   {
     "id": "iis-poliziano",
@@ -654,7 +660,7 @@
     "province": "AR",
     "category": "Impresa",
     "website": "https://www.marinofamercato.com/",
-    "description": "Marino Fa Mercato S.p.A. aderisce alla rete di sostegno di Gioco di Squadra. Sostegno logistico e relazionale ad iniziative territoriali, in raccordo con GRVItalia.",
+    "description": "Marino Fa Mercato S.p.A. è un'impresa nata a Subbiano che opera nella distribuzione di articoli per la casa, arredamento e bricolage. Contribuisce come sostenitore alle iniziative territoriali previste.",
     "projectRole": "Sostegno logistico e relazionale ad iniziative territoriali, in raccordo con GRVItalia.",
     "actions": [],
     "coordinates": [
@@ -663,7 +669,8 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": null,
+    "sourceUrl": "https://www.marinofamercato.com/it/azienda/"
   },
   {
     "id": "bellezza-collaterale",
@@ -692,7 +699,7 @@
     "province": "PI",
     "category": "Associazione ludica",
     "website": "https://portale.arci.it/dettaglio/circolo/11143/giochincircolo/",
-    "description": "ARCI Giochi in Circolo APS aderisce alla rete di sostegno di Gioco di Squadra. Rete di gioco e socialità nel territorio pisano; ulteriori azioni specifiche da dettagliare.",
+    "description": "ARCI Giochi in Circolo APS opera a Fornacette, nel comune di Calcinaia, promuovendo giochi da tavolo, carte, scacchi e attività culturali. Sostiene la rete locale di promozione del gioco.",
     "projectRole": "Rete di gioco e socialità nel territorio pisano; ulteriori azioni specifiche da dettagliare.",
     "actions": [],
     "coordinates": [
@@ -701,7 +708,8 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": null,
+    "sourceUrl": "https://portale.arci.it/dettaglio/circolo/11143/giochincircolo/"
   },
   {
     "id": "larp-studio",
@@ -739,7 +747,8 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": null,
+    "sourceUrl": "https://www.comune.sesto-fiorentino.fi.it/"
   },
   {
     "id": "comune-massa",
@@ -748,8 +757,8 @@
     "city": "Massa Marittima",
     "province": "GR",
     "category": "Ente pubblico",
-    "website": null,
-    "description": "Comune di Massa Marittima aderisce alla rete di sostegno di Gioco di Squadra. Spazi, canali istituzionali e raccordo con scuole, servizi e associazioni per le iniziative nelle Colline Metallifere.",
+    "website": "https://www.comune.massamarittima.gr.it/home",
+    "description": "Il Comune di Massa Marittima partecipa alla rete sostenendo le iniziative sociali e culturali nel territorio delle Colline Metallifere, con spazi, canali istituzionali e raccordo con la comunità educante.",
     "projectRole": "Spazi, canali istituzionali e raccordo con scuole, servizi e associazioni per le iniziative nelle Colline Metallifere.",
     "actions": [],
     "coordinates": [
@@ -757,7 +766,8 @@
       10.8887
     ],
     "coordinatePrecision": "centro comunale indicativo",
-    "siteStatus": "sito o riferimento pubblico da confermare",
-    "image": null
+    "siteStatus": "riferimento pubblico individuato",
+    "image": null,
+    "sourceUrl": "https://www.comune.massamarittima.gr.it/home"
   }
 ]
