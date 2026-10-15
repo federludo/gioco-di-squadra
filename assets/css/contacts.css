@@ -1,0 +1,25 @@
+
+.gds-contact{color:#123b36;background:#f6f3eb}
+.gds-contact .gds-contact-hero{background:radial-gradient(circle at 91% 16%,#11706477,transparent 45%),linear-gradient(125deg,#002d29,#075147);color:#fff;padding:106px 0 112px}
+.gds-contact .gds-contact-hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:9%;align-items:end}
+.gds-contact .gds-contact-hero h1{font-size:clamp(62px,9vw,128px);letter-spacing:-.075em;line-height:.91;font-weight:400;margin:27px 0 0}
+.gds-contact .gds-contact-hero p{font-size:clamp(18px,2vw,24px);line-height:1.55;color:#e0ece7;font-weight:300;max-width:440px;margin:0}
+.gds-contact .gds-contact-area{padding:90px 0 102px}
+.gds-contact .gds-contact-area h2,.gds-contact .gds-contact-more h2{font-size:clamp(40px,5vw,70px);line-height:1.05;letter-spacing:-.06em;font-weight:400;margin:16px 0 38px}
+.gds-contact .gds-contact-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:18px}
+.gds-contact .gds-contact-card{padding:37px 35px;min-height:340px;display:flex;flex-direction:column;align-items:start;border-top:3px solid #e9a135}
+.gds-contact .gds-contact-card.is-primary{background:#003b35;color:#fff}
+.gds-contact .gds-contact-card.is-secondary{background:#e6ece4}
+.gds-contact .gds-contact-number{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#e9a135;font-weight:700}
+.gds-contact .gds-contact-card h3{font-weight:500;font-size:clamp(27px,3vw,40px);letter-spacing:-.05em;margin:25px 0 14px}
+.gds-contact .gds-contact-card p{font-size:16px;line-height:1.7;max-width:430px;margin:0 0 22px}
+.gds-contact .gds-contact-email{margin:auto 0 25px;text-decoration:none;font-size:clamp(17px,2.1vw,25px);font-weight:600;overflow-wrap:anywhere;letter-spacing:-.028em}
+.gds-contact .gds-contact-action{font-size:14px;padding-bottom:8px;text-decoration:none;border-bottom:1px solid #e9a135}
+.gds-contact .gds-contact-more{background:#eaf0e7;padding:75px 0}
+.gds-contact .gds-contact-more-grid{display:grid;grid-template-columns:1fr 1fr;gap:8%}
+.gds-contact .gds-contact-more p{font-size:17px;line-height:1.7;margin:0 0 30px}
+.gds-contact .gds-contact-more nav{display:flex;gap:25px;flex-wrap:wrap}
+.gds-contact .gds-contact-more nav a{font-size:14px;text-decoration:none;border-bottom:1px solid #e9a135;padding-bottom:8px}
+.gds-contact a:focus-visible{outline:3px solid #e9a135;outline-offset:4px}
+@media(max-width:810px){.gds-contact .gds-contact-hero{padding:72px 0 83px}.gds-contact .gds-contact-hero-grid,.gds-contact .gds-contact-grid,.gds-contact .gds-contact-more-grid{grid-template-columns:1fr}.gds-contact .gds-contact-area{padding:60px 0 75px}.gds-contact .gds-contact-hero-grid{gap:33px}.gds-contact .gds-contact-card{min-height:315px}}
+@media(max-width:470px){.gds-contact .gds-contact-card{padding:30px 24px}}
