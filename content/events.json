@@ -1,0 +1,26 @@
+[
+  {
+    "id": "percorsi-in-scatola",
+    "name": "Percorsi in Scatola",
+    "territory": "Altopascio",
+    "organizer": "LUDICAmente APS",
+    "category": "Giochi da tavolo",
+    "date": null
+  },
+  {
+    "id": "scelte-di-comunita",
+    "name": "Scelte di Comunità",
+    "territory": "Montopoli Val d’Arno e Fauglia",
+    "organizer": "WHLive APS",
+    "category": "Gioco dal vivo",
+    "date": null
+  },
+  {
+    "id": "territorio-in-tavola",
+    "name": "Il territorio in tavola",
+    "territory": "Massa Marittima e Gavorrano",
+    "organizer": "Il Drago delle Colline Metallifere APS",
+    "category": "Gioco e alimentazione",
+    "date": null
+  }
+]
