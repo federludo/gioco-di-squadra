@@ -14,7 +14,7 @@ La fonte di verità è `content/organizations.json`: 11 soggetti di progetto (Fe
 ## Come aggiungere un logo
 1. Ottenere il file e l'autorizzazione all'uso dal soggetto oppure reperirlo da una fonte ufficiale che ne permetta il riutilizzo.
 2. Salvare SVG o PNG in `assets/images/partners/<id>.svg` oppure `assets/images/supporters/<id>.png`.
-3. Nel record inserire l'URL assoluto ufficiale oppure aggiornare il componente in modo che supporti il percorso locale dell'immagine.
+3. Nel record `image` inserire il percorso locale a partire da `assets/images/` (es. `assets/images/partners/kraken.svg`) oppure un URL HTTPS affidabile.
 4. Non caricare fotografie non autorizzate o stemmi ufficiali in bassa risoluzione provenienti da portali terzi.
 
 ## Struttura programma-calendario
