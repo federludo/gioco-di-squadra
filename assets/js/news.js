@@ -18,5 +18,5 @@ fetch(root+"content/news.json").then(function(r){if(!r.ok)throw Error("Notizie n
  }
  if(home){home.replaceChildren();home.classList.toggle("is-single",items.length===1);items.slice(0,3).forEach(function(n){home.append(card(n,"home"));});if(!items.length)home.append(el("p","gds-news-empty","Le storie del progetto arriveranno presto."));}
  if(archive){archive.replaceChildren();items.forEach(function(n){archive.append(card(n,"archive"));});if(!items.length)archive.append(el("p","","Le notizie saranno disponibili prossimamente."));}
-}).catch(function(err){console.error(err);if(home)home.append(el("p","gds-news-empty","Le notizie sono temporaneamente non disponibili."));if(archive)archive.append(el("p","","Le notizie sono temporaneamente non disponibili."));});
+}).catch(function(err){console.error(err);if(home){home.replaceChildren(el("p","gds-news-empty","Le notizie sono temporaneamente non disponibili."));}if(archive){archive.replaceChildren(el("p","","Le notizie sono temporaneamente non disponibili."));}});
 })();
