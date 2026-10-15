@@ -1,0 +1,93 @@
+
+/* Gioco di Squadra – educational methodology hub and detailed, evidence-informed guides */
+.gds-methods{--m-deep:#003b35;--m-light:#eff1e9;--m-gold:#e2a046;--m-text:#143b34;--m-line:#bdcdc0;color:var(--m-text)}
+.gds-methods a:focus-visible{outline:3px solid var(--m-gold);outline-offset:5px}
+.gds-methods h2,.gds-methods h3{letter-spacing:-.052em;line-height:1.12}
+.gds-methods .methods-intro{padding:88px 0 56px}
+.gds-methods .methods-intro-grid{display:grid;grid-template-columns:1fr .85fr;gap:9%;align-items:start}
+.gds-methods .methods-intro h2{font-size:clamp(46px,6.3vw,84px);font-weight:400;margin:12px 0 25px}
+.gds-methods .methods-intro p{font-size:19px;line-height:1.72;margin:0 0 20px;color:#3b5d51}
+.gds-methods .methods-intro-aside{margin-top:18px;border-left:3px solid var(--m-gold);padding-left:26px}
+.gds-methods .methods-intro-aside strong{font-weight:600;font-size:20px}
+.gds-methods .methods-intro-aside p{font-size:16px;margin:12px 0 0}
+.gds-methods .methods-hub-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:5px 0 35px}
+.gds-methods .method-card{background:#fff;border-top:4px solid var(--m-gold);padding:31px 28px;display:flex;flex-direction:column;gap:17px;min-height:465px;box-shadow:0 8px 30px rgba(2,32,24,.04);transition:transform .18s ease,box-shadow .18s}
+.gds-methods .method-card:hover{transform:translateY(-5px);box-shadow:0 16px 35px rgba(2,32,24,.09)}
+.gds-methods .method-card .method-card-top{display:flex;align-items:start;justify-content:space-between;gap:15px}
+.gds-methods .method-card-index{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#a67421;font-weight:700}
+.gds-methods .method-card svg{height:77px;width:77px;color:#005447}
+.gds-methods .method-card h3{font-size:clamp(30px,3vw,43px);font-weight:500;margin:6px 0}
+.gds-methods .method-card p{font-size:16px;line-height:1.64;color:#496258;margin:0}
+.gds-methods .method-tags{display:flex;gap:8px;flex-wrap:wrap}
+.gds-methods .method-tags span{border:1px solid #cbd9cd;background:#f4f6f0;padding:7px 9px;font-size:11px}
+.gds-methods .method-card-link{border-bottom:1px solid var(--m-gold);margin-top:auto;padding:15px 0 5px;font-size:14px;font-weight:700;display:flex;justify-content:space-between}
+.gds-methods .methods-common{background:#003d37;color:#fff;padding:72px 0 86px;margin-top:15px}
+.gds-methods .methods-common h2{font-size:clamp(38px,4.5vw,62px);font-weight:400;margin:14px 0 28px}
+.gds-methods .methods-process{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px}
+.gds-methods .methods-process div{border-top:2px solid #e3aa57;background:#ffffff12;padding:23px 20px;min-height:180px}
+.gds-methods .methods-process span{font-size:13px;color:#f2b965}
+.gds-methods .methods-process strong{display:block;font-size:21px;margin:24px 0 9px}
+.gds-methods .methods-process p{color:#d7e7df;font-size:14px;line-height:1.63;margin:0}
+.gds-methods .methods-hub-outro{padding:72px 0}
+.gds-methods .methods-hub-outro .wrap{display:flex;justify-content:space-between;align-items:center;gap:28px}
+.gds-methods .methods-hub-outro h2{font-size:clamp(37px,5vw,63px);font-weight:400;margin:0 0 14px}
+.gds-methods .methods-hub-outro p{font-size:17px;line-height:1.7;max-width:800px}
+.gds-methods .methods-button{background:#e9a135;color:#002d29;padding:16px 22px;border-radius:40px;font-size:14px;font-weight:700;white-space:nowrap}
+.gds-methods .method-hero{background:#003c36;color:#fff;padding:75px 0 73px}
+.gds-methods .method-hero .wrap{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(180px,.5fr);gap:50px;align-items:center}
+.gds-methods .method-hero .breadcrumbs{display:flex;gap:11px;align-items:center;margin:0 0 30px;color:#cfddd3;font-size:13px;flex-wrap:wrap}
+.gds-methods .method-hero .breadcrumbs a{text-decoration:underline;text-decoration-color:#b79451;text-underline-offset:4px}
+.gds-methods .method-hero h1{font-size:clamp(50px,7.4vw,105px);font-weight:400;letter-spacing:-.07em;line-height:.99;margin:12px 0 24px}
+.gds-methods .method-hero-lead{font-size:clamp(19px,2.1vw,26px);font-weight:300;line-height:1.45;color:#d6e5db;margin:0;max-width:900px}
+.gds-methods .method-hero svg{width:100%;height:auto;max-width:230px;color:#e7b361;justify-self:center}
+.gds-methods .method-reading{padding:70px 0 90px}
+.gds-methods .method-reading-layout{display:grid;grid-template-columns:210px minmax(0,1fr);gap:clamp(35px,6vw,105px);align-items:start}
+.gds-methods .method-toc{position:sticky;top:24px;border-top:2px solid var(--m-deep);padding-top:19px}
+.gds-methods .method-toc strong{font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+.gds-methods .method-toc a{display:block;font-size:13px;color:#50675e;padding:11px 0;border-bottom:1px solid #d2ddd4}
+.gds-methods .method-toc a:hover{color:#b37d2e}
+.gds-methods .method-article{min-width:0;max-width:960px}
+.gds-methods .method-article section{scroll-margin-top:38px;margin:0 0 70px}
+.gds-methods .method-article section + section{border-top:1px solid #d1dcd2;padding-top:53px}
+.gds-methods .method-article h2{font-size:clamp(35px,4.2vw,60px);font-weight:400;margin:10px 0 24px}
+.gds-methods .method-article h3{font-size:clamp(23px,2.4vw,31px);font-weight:600;margin:33px 0 15px}
+.gds-methods .method-article p{font-size:17px;line-height:1.82;margin:0 0 23px;color:#3e5c50}
+.gds-methods .method-article ul{padding-left:22px;font-size:16px;line-height:1.75;color:#3e5c50}
+.gds-methods .method-article li{margin:0 0 12px}
+.gds-methods .method-kicker{font-size:11px;text-transform:uppercase;letter-spacing:.17em;font-weight:700;color:#b27a25}
+.gds-methods .method-lead-quote{border-left:3px solid var(--m-gold);padding:5px 0 6px 27px;font-size:clamp(23px,2.9vw,32px)!important;color:#003c36!important;line-height:1.43!important;letter-spacing:-.028em;margin:32px 0 42px!important}
+.gds-methods .method-evidence{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin:27px 0}
+.gds-methods .method-evidence article{background:#eaf0e8;border-top:3px solid var(--m-gold);padding:25px}
+.gds-methods .method-evidence strong{display:block;font-size:32px;font-weight:500;line-height:1.1;color:#003b35;letter-spacing:-.05em;margin-bottom:12px}
+.gds-methods .method-evidence span{font-size:14px;line-height:1.6;color:#405e52}
+.gds-methods .method-flow{background:#003c36;color:white;padding:33px 28px;margin:34px 0 36px}
+.gds-methods .method-flow figcaption{font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#ecc17c;margin-bottom:24px}
+.gds-methods .method-flow-inner{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}
+.gds-methods .method-flow-step{background:#ffffff12;border:1px solid #ffffff2b;padding:17px 15px;min-height:142px}
+.gds-methods .method-flow-step b{font-size:11px;color:#f0bc72;letter-spacing:.12em}
+.gds-methods .method-flow-step strong{display:block;font-size:18px;font-weight:500;margin:16px 0 8px}
+.gds-methods .method-flow-step span{font-size:12px;line-height:1.55;color:#d1e5da}
+.gds-methods .method-applications{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin:24px 0}
+.gds-methods .method-application{background:white;border:1px solid #d3dfd4;padding:24px}
+.gds-methods .method-application strong{display:block;font-size:20px;margin-bottom:10px;color:#0a4339}
+.gds-methods .method-application p{font-size:14px;line-height:1.65;margin:0}
+.gds-methods .method-practical{background:#e8ede4;padding:30px;margin-top:22px}
+.gds-methods .method-practical ol{margin:20px 0 0;padding-left:22px;font-size:16px;color:#325446;line-height:1.75}
+.gds-methods .method-practical li{margin-bottom:13px}
+.gds-methods .method-caution{background:#fff8e9;border-left:3px solid #d89b3b;padding:25px 28px;margin:25px 0}
+.gds-methods .method-caution strong{font-size:18px}
+.gds-methods .method-caution p{font-size:15px;line-height:1.67;margin:9px 0 0}
+.gds-methods .method-biblio{list-style:none;margin:23px 0 0;padding:0!important}
+.gds-methods .method-biblio li{border-top:1px solid #c9d7cb;padding:19px 0;margin:0;font-size:15px;line-height:1.65}
+.gds-methods .method-biblio b{font-weight:600}
+.gds-methods .method-biblio a{color:#986313;text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+.gds-methods .method-biblio .method-source-type{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:#6c8377;display:block;margin-bottom:6px}
+.gds-methods .method-related{background:#e7ece4;padding:65px 0}
+.gds-methods .method-related h2{font-size:clamp(36px,4.8vw,62px);font-weight:400;margin:10px 0 25px}
+.gds-methods .method-related-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.gds-methods .method-related a{display:flex;align-items:center;justify-content:space-between;background:#fff;padding:24px 26px;font-size:21px;letter-spacing:-.035em}
+.gds-methods .method-related a:hover{background:#f7e7c5}
+@media(max-width:1100px){.gds-methods .methods-hub-grid{grid-template-columns:1fr 1fr}.gds-methods .methods-hub-grid .method-card:last-child{grid-column:1/-1;min-height:300px}.gds-methods .method-reading-layout{grid-template-columns:170px minmax(0,1fr);gap:35px}}
+@media(max-width:760px){.gds-methods .methods-intro-grid,.gds-methods .method-reading-layout{grid-template-columns:1fr}.gds-methods .methods-intro{padding:57px 0 35px}.gds-methods .methods-hub-grid,.gds-methods .methods-process,.gds-methods .method-applications,.gds-methods .method-related-grid{grid-template-columns:1fr}.gds-methods .methods-hub-grid .method-card:last-child{grid-column:auto}.gds-methods .method-card{min-height:330px}.gds-methods .methods-common{padding:55px 0}.gds-methods .methods-process div{min-height:120px}.gds-methods .methods-hub-outro .wrap{display:block}.gds-methods .methods-button{display:inline-block;margin-top:18px}.gds-methods .method-hero{padding:44px 0 53px}.gds-methods .method-hero .wrap{grid-template-columns:1fr}.gds-methods .method-hero svg{max-width:130px;justify-self:start}.gds-methods .method-hero .breadcrumbs{margin-bottom:19px}.gds-methods .method-reading{padding:45px 0}.gds-methods .method-toc{position:static;display:flex;gap:12px;flex-wrap:wrap;align-items:center}.gds-methods .method-toc a{display:inline-block;padding:7px 4px}.gds-methods .method-article section{margin-bottom:49px}.gds-methods .method-flow-inner{grid-template-columns:1fr 1fr}.gds-methods .method-article p{font-size:16px}.gds-methods .method-related{padding:45px 0}}
+@media(max-width:460px){.gds-methods .method-evidence,.gds-methods .method-flow-inner{grid-template-columns:1fr}.gds-methods .method-hero h1{font-size:50px}.gds-methods .method-application{padding:18px}}
+@media(prefers-reduced-motion:reduce){.gds-methods .method-card{transition:none}}
