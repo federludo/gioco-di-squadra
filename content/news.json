@@ -2,14 +2,14 @@
   {
     "id": "progetto-finanziato",
     "slug": "progetto-finanziato",
-    "title": "Al via Gioco di Squadra: finanziato il progetto di Federludo per il sociale in Toscana",
+    "title": "Gioco di Squadra prende il via: finanziato il progetto di rete",
     "category": "Il progetto",
     "status": "published",
     "label": "Il progetto · 16 ottobre 2026",
     "date": "2026-10-16",
-    "excerpt": "Con 73 punti, a soli tre dal miglior risultato in graduatoria, Gioco di Squadra ottiene 80.220 euro dalla Regione Toscana. Da ottobre 2026 parte il percorso condiviso con le associazioni del territorio.",
-    "image": "assets/images/news/gioco-di-squadra-finanziamento-cover.svg",
-    "imageAlt": "Illustrazione stilizzata di dadi e pedine su un tavolo",
+    "excerpt": "Un progetto condiviso da Federludo e dieci associazioni toscane: 73 punti in graduatoria e 80.220 euro di contributo per promuovere inclusione e partecipazione attraverso il gioco.",
+    "image": "https://images.unsplash.com/photo-1563941402622-4e7a488bcc57?auto=format&fit=crop&w=1700&q=82",
+    "imageAlt": "Fotografia di materiali da gioco su un tavolo",
     "url": "notizie/progetto-finanziato/",
     "featured": true
   }

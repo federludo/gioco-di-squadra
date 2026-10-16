@@ -71,3 +71,18 @@
 .gds-stories .stories-article h1{font-size:clamp(47px,6vw,86px)}
 @media(max-width:760px){.gds-stories .stories-grid{grid-template-columns:1fr;gap:19px}.gds-stories .stories-card{min-height:0}.gds-stories .stories-card-inner{padding:23px 22px 28px}.gds-stories .stories-card h3{font-size:clamp(28px,6vw,39px)}}
 @media(prefers-reduced-motion:reduce){.gds-stories .stories-card{transition:none}}
+
+/* Coerenza tra articolo, homepage e archivio: fotografia sempre in un elemento img. */
+.gds-stories .stories-card img.stories-card-photo{display:block;flex:none;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center;background:#e7e3d9}
+.gds-stories .stories-article h1{font-size:clamp(42px,5vw,69px);line-height:1.08;letter-spacing:-.055em;max-width:1050px;text-wrap:balance}
+.gds-stories .stories-article-head{max-width:1080px}
+.gds-stories .stories-partner-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:28px 0 34px}
+.gds-stories .stories-partner{position:relative;display:flex;flex-direction:column;gap:9px;min-width:0;border:1px solid #ced9ce;border-top:3px solid #dca047;padding:22px 42px 22px 22px;background:#fff;color:#053e35;text-decoration:none;transition:border-color .18s,transform .18s}
+.gds-stories .stories-partner:hover{border-color:#ba964e;transform:translateY(-2px)}
+.gds-stories .stories-partner:focus-visible{outline:3px solid #dca047;outline-offset:3px}
+.gds-stories .stories-partner strong{font-size:18px;line-height:1.25;font-weight:600}
+.gds-stories .stories-partner span:not(.stories-partner-arrow){font-size:14px;line-height:1.5;color:#50685d}
+.gds-stories .stories-partner-arrow{position:absolute;top:20px;right:19px;font-size:20px;color:#a06b20}
+.gds-stories .stories-content a.stories-partner-directory{text-decoration:underline;text-decoration-color:#dca047;text-underline-offset:5px}
+@media(max-width:680px){.gds-stories .stories-partner-grid{grid-template-columns:1fr}.gds-stories .stories-article h1{font-size:clamp(39px,8vw,52px)}}
+@media(prefers-reduced-motion:reduce){.gds-stories .stories-partner{transition:none}}
