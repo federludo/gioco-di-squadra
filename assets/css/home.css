@@ -192,3 +192,18 @@
 @media(prefers-reduced-motion:reduce){
   .gds-home .gds-partner-slide .gds-partner-mark img{transition:none}
 }
+
+
+/* Homepage section 04: network facts and continuous partners ribbon form a single editorial block. */
+.gds-home .gds-network.gds-partners-showcase{background:var(--gds-paper);border-top:0;padding:100px 0 96px}
+.gds-home .gds-network.gds-partners-showcase .gds-network-grid{margin-bottom:56px}
+.gds-home .gds-network.gds-partners-showcase .gds-network-copy h2{font-size:clamp(43px,5vw,73px);max-width:730px}
+.gds-home .gds-network.gds-partners-showcase .gds-partners-heading{position:relative;border-top:1px solid #c7d6ca;padding-top:24px;margin-bottom:24px}
+.gds-home .gds-network.gds-partners-showcase .gds-partners-lead{font-size:18px;font-weight:650;letter-spacing:-.02em;line-height:1.35;color:var(--gds-ink);margin:0}
+.gds-home .gds-network.gds-partners-showcase .gds-partners-track{position:relative}
+@media(max-width:750px){
+ .gds-home .gds-network.gds-partners-showcase{padding:70px 0 75px}
+ .gds-home .gds-network.gds-partners-showcase .gds-network-grid{margin-bottom:42px}
+ .gds-home .gds-network.gds-partners-showcase .gds-network-copy h2{font-size:clamp(39px,9vw,58px)}
+ .gds-home .gds-network.gds-partners-showcase .gds-partners-heading{gap:15px}
+}
