@@ -10,7 +10,21 @@ fetch(root+"content/news.json?v=archivio-news-20261016-v2").then(function(r){if(
  items=items.filter(function(n){return n.status==="published"}).sort(function(a,b){return Number(!!b.featured)-Number(!!a.featured)});
  function card(n,context){
    var a=el("a",context==="home"?"gds-story":"stories-card");a.href=root+n.url;
-   var img=el("span",context==="home"?"gds-story-image":"stories-card-photo");var picture=typeof n.image==="string"?n.image:"";var safePhoto=/^https:\/\/images\.unsplash\.com\//.test(picture)||/^assets\/images\/news\/[a-zA-Z0-9._-]+\.svg$/.test(picture);if(safePhoto){img.style.setProperty("--story-photo",'url("'+(picture.startsWith("assets/")?root+picture:picture)+'")');}img.setAttribute("role","img");img.setAttribute("aria-label",n.imageAlt||"Immagine della notizia");
+   var picture=typeof n.image==="string"?n.image:"";
+   var safePhoto=/^https:\/\/images\.unsplash\.com\//.test(picture)||/^assets\/images\/news\/[a-zA-Z0-9._-]+\.svg$/.test(picture);
+   var imageUrl=safePhoto?(picture.startsWith("assets/")?root+picture:picture):"";
+   var img;
+   if(context==="home"){
+     img=el("img","gds-story-image");
+     img.src=imageUrl||root+"assets/images/news/gioco-di-squadra-finanziamento-cover.svg";
+     img.alt=n.imageAlt||"Immagine della notizia";
+     img.loading="lazy";img.decoding="async";img.width=1200;img.height=675;
+     img.addEventListener("error",function(){if(img.dataset.fallback)return;img.dataset.fallback="true";img.src="https://images.unsplash.com/photo-1563941402622-4e7a488bcc57?auto=format&fit=crop&w=1200&q=82";});
+   } else {
+     img=el("span","stories-card-photo");
+     if(imageUrl)img.style.setProperty("--story-photo",'url("'+imageUrl+'")');
+     img.setAttribute("role","img");img.setAttribute("aria-label",n.imageAlt||"Immagine della notizia");
+   }
    var text=el("span",context==="home"?"gds-story-info":"stories-card-inner");
    var status=n.category;var when=n.date?new Date(n.date+"T12:00:00").toLocaleDateString("it-IT",{day:"numeric",month:"long",year:"numeric"}):"";
    text.append(el("span",context==="home"?"gds-story-label":"stories-card-meta",status+(when?" · "+when:"")),el("h3","",n.title),el("p","",n.excerpt),el("span",context==="home"?"gds-story-action":"stories-card-link","Leggi la notizia ↗"));
