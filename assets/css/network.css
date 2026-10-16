@@ -167,3 +167,28 @@ body[data-organization-id="federludo"] .net-profile-symbol .net-avatar{display:f
 @media(prefers-reduced-motion:reduce){
  #network-map .net-map-logo{transition:none}
 }
+
+/* Plain-HTML content for partner and supporter profiles, visible before JavaScript
+   and indexable even by crawlers that do not execute client scripts. */
+.net-profile-static{background:#003d37;color:#fff;padding:130px 0 90px}
+.net-profile-static__crumb{font-size:13px;margin-bottom:28px;color:#cfe0d5}
+.net-profile-static__crumb a{color:inherit;text-decoration:underline;text-underline-offset:4px}
+.net-profile-static__grid{display:grid;grid-template-columns:minmax(0,1fr) 180px;gap:50px;align-items:center}
+.net-profile-static h1{font-size:clamp(38px,5.6vw,70px);font-weight:450;letter-spacing:-.055em;line-height:1.07;margin:14px 0 22px}
+.net-profile-static p{max-width:810px;color:#dcebe0;font-size:16px;line-height:1.7}
+.net-profile-static h2{font-size:24px;letter-spacing:-.025em;font-weight:500;margin-top:36px}
+.net-profile-static__logo{width:180px;height:180px;object-fit:contain;background:#fff;padding:10px;border-radius:6px}
+.net-profile-static__back{display:inline-block;margin-top:24px;color:#fff;text-decoration:underline;text-underline-offset:4px}
+.net-directory-index{margin-top:32px;border:1px solid #cbd4c8;background:#fff;padding:18px 22px}
+.net-directory-index summary{font-size:16px;font-weight:600;color:#123b36;cursor:pointer}
+.net-directory-index__grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;padding:14px 0}
+.net-directory-index__grid h3{font-size:16px;color:#123b36;margin:10px 0}
+.net-directory-index__grid ul{list-style:none;padding:0;margin:0}
+.net-directory-index__grid li{padding:5px 0}
+.net-directory-index__grid a{color:#18574b;font-size:13px;text-decoration:underline;text-decoration-color:#adc7b6;text-underline-offset:3px}
+@media(max-width:710px){
+ .net-profile-static{padding:118px 0 54px}
+ .net-profile-static__grid{grid-template-columns:1fr;gap:25px}
+ .net-profile-static__logo{width:142px;height:142px;grid-row:1}
+ .net-directory-index__grid{grid-template-columns:1fr;gap:10px}
+}
