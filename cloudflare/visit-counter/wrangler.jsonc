@@ -1,0 +1,20 @@
+{
+  "name": "giocodisquadra-visit-counter",
+  "main": "./index.js",
+  "compatibility_date": "2026-10-16",
+  "workers_dev": true,
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "VISIT_COUNTER",
+        "class_name": "VisitCounter"
+      }
+    ]
+  },
+  "exports": {
+    "VisitCounter": {
+      "type": "durable-object",
+      "storage": "sqlite"
+    }
+  }
+}
