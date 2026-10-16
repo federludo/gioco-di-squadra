@@ -2,7 +2,7 @@
 
 ## Pagine e file
 - Home: `index.html`, `assets/css/home.css`, `assets/js/home.js`
-- Archivio «Storie e notizie»: `notizie/index.html`
+- Archivio «Storie e news»: `notizie/index.html`
 - Prima notizia: `notizie/progetto-finanziato/index.html`
 - Dati notizie: `content/news.json` — unico archivio letto sia dalla home sia dall'archivio
 - Componenti news: `assets/js/news.js`, `assets/css/stories.css`
@@ -12,9 +12,9 @@
 2. Creare `notizie/<slug>/index.html` sulla base della prima pagina editoriale.
 3. Inserire un record con `id`, `slug`, `title`, `category`, `status`, `date`, `excerpt`, `image`, `imageAlt`, `url` in `content/news.json`.
 4. Impostare `status: "published"` soltanto quando il testo è approvato, `status: "draft"` per anteprime chiaramente identificate.
-5. La nuova notizia appare automaticamente in «Storie» e (fino a 3 notizie) nella homepage. Il campo `featured` favorisce la notizia in testa.
+5. La nuova notizia appare automaticamente in «Storie e news» e (fino a 3 notizie) nella homepage. Il campo `featured` favorisce la notizia in testa.
 
-La **notizia sul finanziamento** è un segnaposto pubblicamente leggibile marcato «Bozza / anteprima», senza importo, atto formale o data di pubblicazione inventati. Prima del lancio aggiornare questi dettagli o rimuovere il contrassegno di bozza solo dopo approvazione.
+La **notizia sul finanziamento** è pubblicata con titolo e dati verificati. La copertina editoriale in `assets/images/news/gioco-di-squadra-finanziamento-cover.svg` è temporanea e può essere sostituita tramite `content/news.json`, senza modificare la griglia dell'archivio.
 
 ## Programmazione
 - La sezione appuntamenti legge `content/events.json`; tutte le schede con `date: null` mostrano «Date in aggiornamento».
