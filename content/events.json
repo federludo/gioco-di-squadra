@@ -11,7 +11,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-12"
+        "end": "2027-11"
       }
     ],
     "months": [
@@ -28,19 +28,27 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11",
-      "2027-12"
+      "2027-11"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-12",
-    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "endMonth": "2027-11",
+    "periodLabel": "ottobre 2026 – novembre 2027",
     "cadence": "Incontri ricorrenti nei territori della rete",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "federludo"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
+    "scheduleBeforeRemodulation": {
+      "windows": [
+        {
+          "start": "2026-10",
+          "end": "2027-12"
+        }
+      ],
+      "periodLabel": "ottobre 2026 – dicembre 2027"
+    }
   },
   {
     "id": "federludo-disseminazione",
@@ -225,7 +233,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-12"
+        "end": "2027-11"
       }
     ],
     "months": [
@@ -242,19 +250,27 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11",
-      "2027-12"
+      "2027-11"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-12",
-    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "endMonth": "2027-11",
+    "periodLabel": "ottobre 2026 – novembre 2027",
     "cadence": "Ciclo continuativo di incontri",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "kraken"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
+    "scheduleBeforeRemodulation": {
+      "windows": [
+        {
+          "start": "2026-10",
+          "end": "2027-12"
+        }
+      ],
+      "periodLabel": "ottobre 2026 – dicembre 2027"
+    }
   },
   {
     "id": "kraken-centri-civici",
@@ -268,7 +284,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-12"
+        "end": "2027-11"
       }
     ],
     "months": [
@@ -285,19 +301,27 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11",
-      "2027-12"
+      "2027-11"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-12",
-    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "endMonth": "2027-11",
+    "periodLabel": "ottobre 2026 – novembre 2027",
     "cadence": "Ciclo continuativo di incontri",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "kraken"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
+    "scheduleBeforeRemodulation": {
+      "windows": [
+        {
+          "start": "2026-10",
+          "end": "2027-12"
+        }
+      ],
+      "periodLabel": "ottobre 2026 – dicembre 2027"
+    }
   },
   {
     "id": "libera-ludum",
@@ -408,7 +432,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-12"
+        "end": "2027-11"
       }
     ],
     "months": [
@@ -425,19 +449,27 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11",
-      "2027-12"
+      "2027-11"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-12",
-    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "endMonth": "2027-11",
+    "periodLabel": "ottobre 2026 – novembre 2027",
     "cadence": "Incontri mensili nelle strutture coinvolte",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "ludicamente"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
+    "scheduleBeforeRemodulation": {
+      "windows": [
+        {
+          "start": "2026-10",
+          "end": "2027-12"
+        }
+      ],
+      "periodLabel": "ottobre 2026 – dicembre 2027"
+    }
   },
   {
     "id": "memorial-valentina",
@@ -509,7 +541,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-12"
+        "end": "2027-11"
       }
     ],
     "months": [
@@ -526,19 +558,27 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11",
-      "2027-12"
+      "2027-11"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-12",
-    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "endMonth": "2027-11",
+    "periodLabel": "ottobre 2026 – novembre 2027",
     "cadence": "Attività continuativa di laboratorio",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "ludicamente"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
+    "scheduleBeforeRemodulation": {
+      "windows": [
+        {
+          "start": "2026-10",
+          "end": "2027-12"
+        }
+      ],
+      "periodLabel": "ottobre 2026 – dicembre 2027"
+    }
   },
   {
     "id": "bandus-formazione",
@@ -744,7 +784,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-12"
+        "end": "2027-11"
       }
     ],
     "months": [
@@ -761,19 +801,27 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11",
-      "2027-12"
+      "2027-11"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-12",
-    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "endMonth": "2027-11",
+    "periodLabel": "ottobre 2026 – novembre 2027",
     "cadence": "Iniziative periodiche nei territori",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "whlive"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
+    "scheduleBeforeRemodulation": {
+      "windows": [
+        {
+          "start": "2026-10",
+          "end": "2027-12"
+        }
+      ],
+      "periodLabel": "ottobre 2026 – dicembre 2027"
+    }
   },
   {
     "id": "siena-serate",
@@ -828,26 +876,34 @@
       {
         "start": "2026-12",
         "end": "2026-12"
-      },
-      {
-        "start": "2027-12",
-        "end": "2027-12"
       }
     ],
     "months": [
-      "2026-12",
-      "2027-12"
+      "2026-12"
     ],
     "startMonth": "2026-12",
-    "endMonth": "2027-12",
-    "periodLabel": "dicembre 2026; dicembre 2027",
+    "endMonth": "2026-12",
+    "periodLabel": "dicembre 2026",
     "cadence": "Edizioni previste a dicembre 2026 e/o dicembre 2027",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "gamestorm-siena"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
+    "scheduleBeforeRemodulation": {
+      "windows": [
+        {
+          "start": "2026-12",
+          "end": "2026-12"
+        },
+        {
+          "start": "2027-12",
+          "end": "2027-12"
+        }
+      ],
+      "periodLabel": "dicembre 2026; dicembre 2027"
+    }
   },
   {
     "id": "territorio-in-tavola",
@@ -861,7 +917,7 @@
     "windows": [
       {
         "start": "2027-03",
-        "end": "2027-12"
+        "end": "2027-11"
       }
     ],
     "months": [
@@ -873,19 +929,27 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11",
-      "2027-12"
+      "2027-11"
     ],
     "startMonth": "2027-03",
-    "endMonth": "2027-12",
-    "periodLabel": "marzo 2027 – dicembre 2027",
+    "endMonth": "2027-11",
+    "periodLabel": "marzo 2027 – novembre 2027",
     "cadence": "Ciclo replicabile negli spazi del territorio",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "drago"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
+    "scheduleBeforeRemodulation": {
+      "windows": [
+        {
+          "start": "2027-03",
+          "end": "2027-12"
+        }
+      ],
+      "periodLabel": "marzo 2027 – dicembre 2027"
+    }
   },
   {
     "id": "reti-filiere",
@@ -899,7 +963,7 @@
     "windows": [
       {
         "start": "2027-03",
-        "end": "2027-12"
+        "end": "2027-11"
       }
     ],
     "months": [
@@ -911,19 +975,27 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11",
-      "2027-12"
+      "2027-11"
     ],
     "startMonth": "2027-03",
-    "endMonth": "2027-12",
-    "periodLabel": "marzo 2027 – dicembre 2027",
+    "endMonth": "2027-11",
+    "periodLabel": "marzo 2027 – novembre 2027",
     "cadence": "Incontri e collaborazioni territoriali",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "drago"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
+    "scheduleBeforeRemodulation": {
+      "windows": [
+        {
+          "start": "2027-03",
+          "end": "2027-12"
+        }
+      ],
+      "periodLabel": "marzo 2027 – dicembre 2027"
+    }
   },
   {
     "id": "prata-estate-2027",
@@ -967,7 +1039,7 @@
     "windows": [
       {
         "start": "2027-03",
-        "end": "2027-12"
+        "end": "2027-11"
       }
     ],
     "months": [
@@ -979,12 +1051,11 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11",
-      "2027-12"
+      "2027-11"
     ],
     "startMonth": "2027-03",
-    "endMonth": "2027-12",
-    "periodLabel": "marzo 2027 – dicembre 2027",
+    "endMonth": "2027-11",
+    "periodLabel": "marzo 2027 – novembre 2027",
     "cadence": "Supporto ai cicli territoriali di gioco",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
@@ -992,7 +1063,16 @@
       "misericordia-prata",
       "drago"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
+    "scheduleBeforeRemodulation": {
+      "windows": [
+        {
+          "start": "2027-03",
+          "end": "2027-12"
+        }
+      ],
+      "periodLabel": "marzo 2027 – dicembre 2027"
+    }
   },
   {
     "id": "spazio-gioco-setteponti",
@@ -1006,7 +1086,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-12"
+        "end": "2027-11"
       }
     ],
     "months": [
@@ -1023,19 +1103,27 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11",
-      "2027-12"
+      "2027-11"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-12",
-    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "endMonth": "2027-11",
+    "periodLabel": "ottobre 2026 – novembre 2027",
     "cadence": "Aperture settimanali",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "buon-sollazzo"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
+    "scheduleBeforeRemodulation": {
+      "windows": [
+        {
+          "start": "2026-10",
+          "end": "2027-12"
+        }
+      ],
+      "periodLabel": "ottobre 2026 – dicembre 2027"
+    }
   },
   {
     "id": "riciclingioco",
@@ -1078,7 +1166,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-12"
+        "end": "2027-11"
       }
     ],
     "months": [
@@ -1095,18 +1183,26 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11",
-      "2027-12"
+      "2027-11"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-12",
-    "periodLabel": "ottobre 2026 – dicembre 2027",
+    "endMonth": "2027-11",
+    "periodLabel": "ottobre 2026 – novembre 2027",
     "cadence": "Incontri mensili",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
     "partnerIds": [
       "buon-sollazzo"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
+    "scheduleBeforeRemodulation": {
+      "windows": [
+        {
+          "start": "2026-10",
+          "end": "2027-12"
+        }
+      ],
+      "periodLabel": "ottobre 2026 – dicembre 2027"
+    }
   }
 ]

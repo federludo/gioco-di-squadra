@@ -5,7 +5,7 @@ const root=document.body.dataset.root||"../";
 const $=id=>document.getElementById(id);
 const anchor=(id)=>root+"evento/?id="+encodeURIComponent(id);
 const orgUrl=id=>root+"partner/"+encodeURIComponent(id)+"/";
-const monthKeys=Array.from({length:15},(_,i)=>{const d=new Date(2026,9+i,1);return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")});
+const monthKeys=Array.from({length:14},(_,i)=>{const d=new Date(2026,9+i,1);return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")});
 const shortMonth=k=>new Date(Number(k.slice(0,4)),Number(k.slice(5))-1,1).toLocaleDateString("it-IT",{month:"short",year:"numeric"});
 const longMonth=k=>new Date(Number(k.slice(0,4)),Number(k.slice(5))-1,1).toLocaleDateString("it-IT",{month:"long",year:"numeric"});
 const E=(tag,cls,content)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(content!=null)el.textContent=content;return el};
@@ -54,7 +54,7 @@ function changeView(v){
  // Avoid leaving the reader far down a former long list after switching tabs.
  if(tabs){const rect=tabs.getBoundingClientRect();if(rect.top<0||rect.top>window.innerHeight*.7){tabs.scrollIntoView({block:"start",behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"instant":"smooth"});}}
 }
-async function start(){try{const [evRes,orgRes]=await Promise.all([fetch(root+"content/events.json?v=editoriale-20261016-1"),fetch(root+"content/organizations.json?v=editoriale-20261016-1")]);if(!evRes.ok||!orgRes.ok)throw Error("HTTP error");[events,organizations]=await Promise.all([evRes.json(),orgRes.json()]);if(!Array.isArray(events)||!Array.isArray(organizations))throw Error("Invalid data");
+async function start(){try{const [evRes,orgRes]=await Promise.all([fetch(root+"content/events.json?v=durata-14-mesi-20261016"),fetch(root+"content/organizations.json?v=durata-14-mesi-20261016")]);if(!evRes.ok||!orgRes.ok)throw Error("HTTP error");[events,organizations]=await Promise.all([evRes.json(),orgRes.json()]);if(!Array.isArray(events)||!Array.isArray(organizations))throw Error("Invalid data");
 events=events.filter(e=>getMonths(e)>0);
 opt($("territory"),events.map(x=>x.territory));opt($("category"),events.map(x=>x.category));
 const requestedCategory=new URLSearchParams(location.search).get("categoria")||"";

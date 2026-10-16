@@ -19,5 +19,12 @@
       "assets/images/institutions/ministero-lavoro.webp"
     ]
   },
-  "supporters_count": 16
+  "supporters_count": 16,
+  "project": {
+    "duration_months": 14,
+    "start_month": "2026-10",
+    "end_month": "2027-11",
+    "start_label": "ottobre 2026",
+    "end_label": "novembre 2027"
+  }
 }

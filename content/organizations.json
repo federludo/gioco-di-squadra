@@ -15,31 +15,31 @@
       {
         "title": "Governance, gestione e monitoraggio",
         "code": "A1",
-        "window": "luglio 2026 – dicembre 2027",
+        "window": "ottobre 2026 – novembre 2027",
         "description": "Kick-off, incontri periodici, procedure condivise, raccolta dati e rendicontazione."
       },
       {
         "title": "Kit ludico-educativi circolanti",
         "code": "A1 · A3",
-        "window": "luglio 2026 – dicembre 2027",
+        "window": "ottobre 2026 – novembre 2027",
         "description": "Inventario, distribuzione e tracciamento di giochi, materiali e schede d'uso."
       },
       {
         "title": "Presìdi di socialità e evento di rete",
         "code": "A2 · A3 · A5",
-        "window": "agosto 2026 – dicembre 2027",
+        "window": "ottobre 2026 – novembre 2027",
         "description": "Incontri di prossimità e coordinamento di un grande evento estivo ludico-sociale."
       },
       {
         "title": "Comunicazione e calendario",
         "code": "A1 · A5",
-        "window": "luglio 2026 – dicembre 2027",
+        "window": "ottobre 2026 – novembre 2027",
         "description": "Piano editoriale, portale, news, comunicati e newsletter."
       },
       {
         "title": "Disseminazione di settore",
         "code": "A5",
-        "window": "Finestre indicative nel 2026 e 2027",
+        "window": "ottobre–novembre 2026; maggio 2027; ottobre–novembre 2027",
         "description": "Presenza in manifestazioni coerenti, raccordo con associazioni e sostenitori."
       }
     ],
@@ -73,7 +73,7 @@
       {
         "title": "FirenzeGioca",
         "code": "A2 · A5",
-        "window": "agosto 2026 e settembre 2027, finestre indicative",
+        "window": "settembre 2027",
         "description": "Evento pubblico di divulgazione, dimostrazione e aggancio ai cicli successivi."
       },
       {
@@ -107,13 +107,13 @@
       {
         "title": "Gioco di Ruolo in Comunità — biblioteca",
         "code": "A3",
-        "window": "settembre 2026 – dicembre 2027",
+        "window": "ottobre 2026 – novembre 2027",
         "description": "Sei incontri in biblioteca con facilitazione e confronto sulle competenze relazionali e decisionali."
       },
       {
         "title": "Gioco di Ruolo in Comunità — centri civici",
         "code": "A3",
-        "window": "settembre 2026 – dicembre 2027",
+        "window": "ottobre 2026 – novembre 2027",
         "description": "Otto incontri nei centri civici di Sesto Fiorentino."
       },
       {
@@ -125,7 +125,7 @@
       {
         "title": "Iniziative nel Mugello",
         "code": "A2 · A5",
-        "window": "settembre 2026; replica settembre 2027",
+        "window": "settembre 2027",
         "description": "Eventi di introduzione al gioco di ruolo a Barberino del Mugello."
       }
     ],
@@ -153,25 +153,19 @@
       {
         "title": "Scelte di Comunità",
         "code": "A3",
-        "window": "agosto 2026 – febbraio 2027",
+        "window": "ottobre 2026 – febbraio 2027",
         "description": "Ciclo di laboratori per giovani su partecipazione, competenze trasversali e prevenzione dell'isolamento."
-      },
-      {
-        "title": "Simulazione comunitaria immersiva",
-        "code": "A2 · A3",
-        "window": "settembre 2026",
-        "description": "Esperienza narrativa su gestione delle risorse, conflitto, negoziazione e responsabilità."
       },
       {
         "title": "Facilitatori di Comunità",
         "code": "A4",
-        "window": "agosto 2026 – gennaio 2027",
+        "window": "ottobre 2026 – gennaio 2027",
         "description": "Formazione e affiancamento di tutor under 25."
       },
       {
         "title": "Laboratori in eventi locali",
         "code": "A2 · A5",
-        "window": "ottobre 2026 – dicembre 2027",
+        "window": "ottobre 2026 – novembre 2027",
         "description": "Corner ludici e attività pubbliche per rafforzare la rete."
       }
     ],
@@ -204,7 +198,7 @@
       {
         "title": "Pietro Leopoldo — Il Gioco delle Riforme",
         "code": "A2 · A5",
-        "window": "dicembre 2026 e/o dicembre 2027",
+        "window": "dicembre 2026",
         "description": "Sessioni pubbliche a carattere storico-educativo in occasione della Festa della Toscana."
       }
     ],
@@ -230,21 +224,15 @@
     "projectRole": "Presìdi ludici inclusivi, percorsi continuativi, iniziative intergenerazionali in RSA e centri diurni e momenti pubblici di apertura e restituzione.",
     "actions": [
       {
-        "title": "Altopascio Gioca — edizione zero",
-        "code": "A2",
-        "window": "settembre 2026",
-        "description": "Presentazione pubblica e attivazione delle collaborazioni."
-      },
-      {
         "title": "Percorsi in Scatola",
         "code": "A3",
-        "window": "settembre 2026 – agosto 2027",
+        "window": "ottobre 2026 – agosto 2027",
         "description": "Dodici appuntamenti periodici facilitati per famiglie, giovani e comunità."
       },
       {
         "title": "Il Gioco che Unisce",
         "code": "A3",
-        "window": "ottobre 2026 – dicembre 2027",
+        "window": "ottobre 2026 – novembre 2027",
         "description": "Incontri mensili in RSA e centri diurni, con gli operatori delle strutture."
       },
       {
@@ -262,7 +250,7 @@
       {
         "title": "Laboratorio stampa e modellazione 3D",
         "code": "A3 · A5",
-        "window": "agosto 2026 – dicembre 2027",
+        "window": "ottobre 2026 – novembre 2027",
         "description": "Dotazione per prototipi e materiali didattici ludici."
       }
     ],
@@ -289,13 +277,13 @@
       {
         "title": "Il territorio in tavola",
         "code": "A3 · A4",
-        "window": "marzo 2027 – dicembre 2027",
+        "window": "marzo 2027 – novembre 2027",
         "description": "Format di 4–5 ore con incontro con nutrizionista, laboratorio «Dietro al prezzo» e degustazione comparativa guidata."
       },
       {
         "title": "Attivazione di reti territoriali",
         "code": "A2 · A5",
-        "window": "marzo 2027 – dicembre 2027",
+        "window": "marzo 2027 – novembre 2027",
         "description": "Coinvolgimento di produttori, imprese locali, comunità educante e reti della sostenibilità."
       }
     ],
@@ -322,7 +310,7 @@
       {
         "title": "Corso per operatori ludici",
         "code": "A4",
-        "window": "settembre 2026 – ottobre 2026",
+        "window": "ottobre 2026",
         "description": "Formazione in presenza di 16 ore per un massimo di dieci operatori e volontari."
       },
       {
@@ -358,12 +346,6 @@
     "projectRole": "Attivazione territoriale di Prata, supporto logistico e organizzativo alle attività ludiche e collaborazione con Il Drago delle Colline Metallifere.",
     "actions": [
       {
-        "title": "Prata — attivazione territoriale estiva",
-        "code": "A2",
-        "window": "luglio 2026 – agosto 2026",
-        "description": "Evento estivo di incontro e aggancio comunitario."
-      },
-      {
         "title": "Prata — incontro estivo e consolidamento",
         "code": "A5",
         "window": "luglio 2027 – agosto 2027",
@@ -372,7 +354,7 @@
       {
         "title": "Supporto ai cicli nelle Colline Metallifere",
         "code": "A3",
-        "window": "marzo 2027 – dicembre 2027",
+        "window": "marzo 2027 – novembre 2027",
         "description": "Accoglienza, spazi, volontari e supporto alle attività organizzate con Il Drago."
       }
     ],
@@ -397,15 +379,9 @@
     "projectRole": "Esperienze LARP strutturate su negoziazione, cooperazione, conflitto e scelte collettive, con preparazione e debriefing.",
     "actions": [
       {
-        "title": "Racconto d'Estate",
-        "code": "A2 · A3",
-        "window": "luglio 2026 – settembre 2026, finestra estiva 2026",
-        "description": "Esperienza LARP con sessioni preparatorie, gioco e debriefing."
-      },
-      {
         "title": "Racconto d'Autunno",
         "code": "A2 · A3",
-        "window": "ottobre 2026 – novembre 2026, finestra autunnale 2026",
+        "window": "ottobre 2026 – novembre 2026",
         "description": "Percorso narrativo in tema di comunità e decisioni condivise."
       }
     ],
@@ -432,19 +408,19 @@
       {
         "title": "Spazio Gioco alla Casa Setteponti",
         "code": "A3",
-        "window": "settembre 2026 – dicembre 2027, secondo programmazione",
+        "window": "ottobre 2026 – novembre 2027",
         "description": "Ludoteca e giardino sociale con aperture ricorrenti e giochi permanenti."
       },
       {
         "title": "Riciclingioco",
         "code": "A2 · A5",
-        "window": "settembre 2026 – settembre 2027, finestre indicative",
+        "window": "settembre 2027",
         "description": "Laboratori di recupero di materiali e costruzione di giochi artigianali."
       },
       {
         "title": "Mangia & Gioca",
         "code": "A3",
-        "window": "settembre 2026 – dicembre 2027, incontri previsti mensili",
+        "window": "ottobre 2026 – novembre 2027",
         "description": "Serate conviviali e attività di socializzazione attraverso il gioco."
       }
     ],
