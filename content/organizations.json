@@ -49,7 +49,7 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": "assets/images/branding/logo-gds-federludo-ufficiale.png"
+    "image": "assets/images/partners/11-federludo.png"
   },
   {
     "id": "progioco-firenze",
@@ -89,7 +89,7 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": "assets/images/partners/07-progioco-firenze-aps.png"
   },
   {
     "id": "kraken",
@@ -135,7 +135,7 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": "assets/images/partners/04-kraken-aps.png"
   },
   {
     "id": "whlive",
@@ -175,7 +175,7 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": "assets/images/partners/10-whlive-aps.png"
   },
   {
     "id": "gamestorm-siena",
@@ -208,7 +208,7 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": "assets/images/partners/02-gamestorm-siena-aps.png"
   },
   {
     "id": "ludicamente",
@@ -260,7 +260,7 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": "assets/images/partners/03-ludicamente-aps.png"
   },
   {
     "id": "drago",
@@ -293,7 +293,7 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": "assets/images/partners/09-il-drago-delle-colline-metallifere-aps.png"
   },
   {
     "id": "bandus",
@@ -332,7 +332,7 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": "assets/images/partners/05-bandus-aps.png"
   },
   {
     "id": "misericordia-prata",
@@ -364,7 +364,7 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "sito o riferimento pubblico da confermare",
-    "image": null
+    "image": "assets/images/partners/01-misericordia-di-prata.png"
   },
   {
     "id": "grvitalia",
@@ -391,7 +391,7 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": "assets/images/partners/08-grv-italia-aps.png"
   },
   {
     "id": "buon-sollazzo",
@@ -430,7 +430,7 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null
+    "image": "assets/images/partners/06-ingegneria-del-buon-sollazzo-aps.png"
   },
   {
     "id": "comune-civitella-paganico",
