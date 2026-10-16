@@ -26,9 +26,10 @@ const links=el('div','gcal-activity-links');if(organizer){const a=el('a','under'
 /* Global Cloudflare visit counter: one visit per browser session across
    every page; display the total only in the upper part of the homepage. */
 (function(){
- const hero=document.querySelector('.gds-home .gds-hero');
+ const headerNav=document.querySelector('.site-head .nav');
+ const isHome=!!document.querySelector('.gds-home .gds-hero');
  let badge=null, count=null;
- if(hero&&!hero.querySelector('.gds-access-counter')){
+ if(isHome&&headerNav&&!headerNav.querySelector('.gds-access-counter')){
   badge=document.createElement('div');
   badge.className='gds-access-counter';
   badge.title='Sessioni del browser conteggiate dall’attivazione, non visitatori unici.';
@@ -44,9 +45,9 @@ const links=el('div','gcal-activity-links');if(organizer){const a=el('a','under'
   value.append(count,dot);
   const label=document.createElement('span');
   label.className='gds-access-counter__label';
-  label.textContent='visite al sito';
+  label.textContent='visite';
   badge.append(value,label);
-  hero.append(badge);
+  headerNav.append(badge);
  }
  const storageKey='giocodisquadra-visit-counted-v1';
  let alreadyCounted=false;
