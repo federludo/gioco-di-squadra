@@ -1,0 +1,28 @@
+name: Integrita del sito
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: site-integrity-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  check-site:
+    name: check-site
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Scarica repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Verifica pagine, link, JSON, sitemap e loghi
+        run: python3 scripts/check-site.py
+      - name: Verifica sintassi JavaScript
+        run: |
+          for file in assets/js/*.js; do
+            node --check "$file"
+          done
