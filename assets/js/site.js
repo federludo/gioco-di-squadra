@@ -22,3 +22,30 @@ const links=el('div','gcal-activity-links');if(organizer){const a=el('a','under'
  panel.innerHTML='<div class="gds-funding__logos"><img src="'+base+'assets/images/institutions/regione-toscana.webp" alt="Regione Toscana" width="110" height="184" loading="lazy"><img src="'+base+'assets/images/institutions/ministero-lavoro.webp" alt="Ministero del Lavoro e delle Politiche Sociali" width="205" height="170" loading="lazy"></div><div class="gds-funding__text"><strong>Gioco di Squadra · Progetto finanziato</strong><p>Contributo concesso dalla Regione Toscana nell’ambito dell’Avviso pubblico sociale 2026, finanziato con risorse del Ministero del Lavoro e delle Politiche Sociali, ai sensi dell’art. 72 del D.lgs. 117/2017 e del D.M. 124/2025.</p><small>Decreto dirigenziale Regione Toscana n. 22267 del 01/10/2026 · <a href="'+base+'notizie/progetto-finanziato/">Dettagli sul finanziamento ↗</a></small></div>';
  foot.appendChild(panel);
 })();
+
+/* Public, non-essential page-view counter. One SVG request counts one page view.
+   Not unique visitors or sessions; if the provider fails, only the badge disappears.
+   No analytics cookies, scripts, or visitor identifiers are added here. */
+(function(){
+ const foot=document.querySelector('footer.footer');
+ if(!foot || foot.querySelector('.gds-access-counter'))return;
+ const badge=document.createElement('div');
+ badge.className='gds-access-counter';
+ badge.title='Visualizzazioni cumulative delle pagine del sito dal momento dell’attivazione; non sono visitatori unici.';
+ const image=document.createElement('img');
+ image.src='https://hits.sh/giocodisquadra.net.svg?view=total&style=flat-square&label=visualizzazioni&color=145b4b&labelColor=e7eee7';
+ image.alt='Contatore delle visualizzazioni complessive del sito';
+ image.loading='eager';
+ image.decoding='async';
+ image.referrerPolicy='no-referrer';
+ image.width=174;
+ image.height=20;
+ image.addEventListener('error',function(){badge.remove();},{once:true});
+ badge.append(image);
+ const funding=foot.querySelector('.gds-funding');
+ if(funding)funding.append(badge);
+ else {
+  const inner=foot.querySelector('.footer-inner');
+  if(inner)inner.append(badge);
+ }
+})();
