@@ -139,3 +139,29 @@
 
 /* Leggibilità del titolo della notizia anche nella card in homepage. */
 .gds-home .gds-story:first-child h3{font-size:clamp(23px,2.15vw,32px);line-height:1.2}
+
+
+/* Partner logo carousel – square, uncropped official partner marks. */
+.gds-home .gds-partners-showcase{background:#f9faf5;padding:92px 0 94px;border-top:1px solid #d9e1d8}
+.gds-home .gds-partners-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:26px}
+.gds-home .gds-partners-heading h2{font-size:clamp(42px,5.8vw,76px);letter-spacing:-.064em;line-height:1.02;font-weight:400;margin:13px 0 16px}
+.gds-home .gds-partners-heading p{font-size:16px;line-height:1.65;color:#436156;max-width:680px;margin:0}
+.gds-home .gds-partners-controls{display:flex;align-items:center;gap:8px;flex:none;padding-bottom:5px}
+.gds-home .gds-partners-controls button{cursor:pointer;border:1px solid #bbcabe;background:transparent;color:var(--gds-ink);display:flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:50%;font-size:22px;transition:background .18s,border-color .18s}
+.gds-home .gds-partners-controls button:hover{background:#e8eee6;border-color:#5e8d7f}
+.gds-home .gds-partners-controls .gds-partners-pause{width:auto;border-radius:26px;padding:0 17px;font-size:12px;font-weight:650}
+.gds-home .gds-partners-controls .gds-partners-pause[hidden]{display:none}
+.gds-home .gds-partners-track{--gds-partner-gap:16px;display:flex;gap:var(--gds-partner-gap);overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:2px;scroll-behavior:smooth;scrollbar-width:thin;scrollbar-color:#b5c9bb transparent;padding:6px 2px 18px;touch-action:pan-x pan-y}
+.gds-home .gds-partner-slide{display:flex;flex-direction:column;align-items:stretch;flex:0 0 calc((100% - 3 * var(--gds-partner-gap))/4);min-width:0;scroll-snap-align:start;scroll-snap-stop:normal;color:var(--gds-ink);text-decoration:none;background:#fff;border:1px solid #dae4d9;border-radius:7px;overflow:hidden;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.gds-home .gds-partner-slide:hover{transform:translateY(-4px);border-color:#a5bfae;box-shadow:0 14px 28px #063d3214}
+.gds-home .gds-partner-mark{display:flex;align-items:center;justify-content:center;aspect-ratio:1/1;width:100%;padding:14px;background:#fff}
+.gds-home .gds-partner-mark img{display:block;max-width:100%;max-height:100%;width:100%;height:100%;object-fit:contain;object-position:center}
+.gds-home .gds-partner-name{display:block;border-top:1px solid #ecf0ea;padding:14px 15px 4px;min-height:66px;font-size:15px;font-weight:650;line-height:1.35}
+.gds-home .gds-partner-role{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:4px 15px 15px;font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:#9a6922}
+.gds-home .gds-partner-role span{font-size:19px}
+.gds-home .gds-partners-foot{border-top:1px solid #ccdbce;margin-top:14px;padding-top:23px;display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap}
+.gds-home .gds-partners-foot>span{font-size:12px;color:#547265}
+@media(max-width:1040px){.gds-home .gds-partner-slide{flex-basis:calc((100% - 2 * var(--gds-partner-gap))/3)}}
+@media(max-width:750px){.gds-home .gds-partners-showcase{padding:63px 0 73px}.gds-home .gds-partners-heading{align-items:start;flex-direction:column}.gds-home .gds-partners-controls{align-self:flex-end}.gds-home .gds-partner-slide{flex-basis:calc((100% - var(--gds-partner-gap))/2)}.gds-home .gds-partner-name{font-size:13px;min-height:66px}}
+@media(max-width:450px){.gds-home .gds-partner-slide{flex-basis:78%}.gds-home .gds-partners-controls button{height:42px;width:42px}.gds-home .gds-partners-controls .gds-partners-pause{width:auto}.gds-home .gds-partners-heading h2{font-size:45px}}
+@media(prefers-reduced-motion:reduce){.gds-home .gds-partners-track{scroll-behavior:auto}.gds-home .gds-partner-slide,.gds-home .gds-partners-controls button{transition:none}}
