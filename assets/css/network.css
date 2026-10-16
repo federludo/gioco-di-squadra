@@ -133,3 +133,37 @@ body[data-organization-id="federludo"] .net-profile-symbol .net-avatar{display:f
 .net-profile-symbol{min-height:220px;justify-content:center}
 .net-profile-symbol .net-avatar,body[data-organization-id="federludo"] .net-profile-symbol .net-avatar{width:180px;height:180px}
 }
+
+
+/* Official partner/capofila logo markers: original artwork, no cropping.
+   The pointed badge anchors on the municipality's indicative coordinate. */
+#network-map .net-map-logo-icon{background:transparent;border:0}
+#network-map .net-map-logo{
+ box-sizing:border-box;display:flex;align-items:center;justify-content:center;
+ width:56px;height:56px;padding:5px;background:#fff;
+ border:3px solid #145b4b;border-radius:15px;
+ box-shadow:0 3px 12px rgba(7,50,42,.36);
+ position:relative;overflow:visible;transition:transform .17s ease,box-shadow .17s ease;
+}
+#network-map .net-map-logo::after{
+ content:"";position:absolute;bottom:-8px;left:19px;
+ width:12px;height:12px;background:#fff;border-right:2px solid #145b4b;
+ border-bottom:2px solid #145b4b;transform:rotate(45deg);
+}
+#network-map .net-map-logo img{
+ display:block;width:100%;height:100%;max-width:100%;max-height:100%;
+ object-fit:contain;object-position:center;border-radius:3px;
+}
+#network-map .net-map-logo--leader{border-color:#c38421;box-shadow:0 3px 12px rgba(76,45,6,.34)}
+#network-map .net-map-logo--leader::after{border-color:#c38421}
+#network-map .net-map-logo--fallback{font-weight:800;font-size:13px;color:#145b4b}
+#network-map .net-map-logo-icon:hover .net-map-logo,
+#network-map .net-map-logo-icon:focus-visible .net-map-logo{
+ transform:scale(1.14);box-shadow:0 5px 20px rgba(7,50,42,.43);
+}
+#network-map .net-map-logo-icon:focus-visible{outline:3px solid #c38421;outline-offset:3px}
+#network-map .net-map-support-icon{background:transparent;border:0}
+.net-map-popup-place{display:block;font-size:12px;color:#60756a;margin:5px 0 7px}
+@media(prefers-reduced-motion:reduce){
+ #network-map .net-map-logo{transition:none}
+}
