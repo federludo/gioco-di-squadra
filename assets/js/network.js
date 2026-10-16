@@ -23,23 +23,86 @@ function initDirectory(all){
 function initMap(all){
  var panel=document.getElementById("network-map"),listing=document.getElementById("network-map-list");if(!panel || !listing)return;
  var tabs=[].slice.call(document.querySelectorAll("[data-network-filter]"));
- var map=null;var marks=[];var filter="all";
- var probe=document.createElement("span");probe.className="leaflet-pane";probe.style.visibility="hidden";panel.appendChild(probe);var leafletStylesReady=window.getComputedStyle(probe).position==="absolute";probe.remove();
- if(window.L && leafletStylesReady){map=L.map(panel,{scrollWheelZoom:false,zoomControl:true});L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors'}).addTo(map);map.setView([43.41,11.08],8);}
- else panel.append(E("div","net-map-fallback","La mappa non è disponibile in questo momento. Puoi consultare tutte le organizzazioni nell’elenco a fianco."));
- function render(){
-  if(map)marks.forEach(function(m){map.removeLayer(m)});marks=[];listing.replaceChildren();
-  var rows=all.filter(function(o){return filter==="all" || (filter==="partners"?o.type!=="sostenitore":o.type==="sostenitore");});
-  var groups={};rows.forEach(function(o){var key=o.city; if(!groups[key])groups[key]={city:key,coordinates:o.coordinates,members:[]};groups[key].members.push(o);});
-  Object.values(groups).sort(function(a,b){return a.city.localeCompare(b.city,"it")}).forEach(function(g){
-   var title=E("strong","",g.city+" · "+g.members.length+" soggett"+(g.members.length===1?"o":"i"));listing.append(title);
-   g.members.forEach(function(o){var a=link(o,"","net-location");var dot=E("span","net-dot"+(o.type==="sostenitore"?" supporter":""));a.append(dot,document.createTextNode(o.name),E("small","",o.type==="capofila"?"Capofila":o.type==="partner"?"Partner":"Sostenitore"));listing.append(a);});
-   if(map && Array.isArray(g.coordinates)){var hasP=g.members.some(function(m){return m.type!=="sostenitore"}),hasS=g.members.some(function(m){return m.type==="sostenitore"});var tone=hasP&&hasS?"mixed":hasP?"partner":"supporter";var icon=L.divIcon({className:"",html:'<div class="net-map-icon '+tone+'">'+g.members.length+'</div>',iconSize:[32,32],iconAnchor:[16,16]});var marker=L.marker(g.coordinates,{icon:icon}).addTo(map);var popup=E("div","net-popup-links");popup.append(E("strong","",g.city));g.members.forEach(function(o){popup.append(link(o,o.name+" ↗"));});marker.bindPopup(popup);marks.push(marker);}
-  });
-  if(map){var located=rows.filter(function(o){return Array.isArray(o.coordinates)});if(located.length){var ll=located.map(function(o){return o.coordinates});map.fitBounds(L.latLngBounds(ll).pad(.20),{maxZoom:9});}map.invalidateSize();}
+ var map=null,marks=[],filter="all";
+ var probe=document.createElement("span");probe.className="leaflet-pane";probe.style.visibility="hidden";panel.appendChild(probe);
+ var leafletStylesReady=window.getComputedStyle(probe).position==="absolute";probe.remove();
+ if(window.L && leafletStylesReady){
+  map=L.map(panel,{scrollWheelZoom:false,zoomControl:true});
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors'}).addTo(map);
+  map.setView([43.41,11.08],8);
+ }else panel.append(E("div","net-map-fallback","La mappa non è disponibile in questo momento. Puoi consultare tutte le organizzazioni nell’elenco a fianco."));
+
+ function partnerIcon(o,index,total){
+  var holder=E("span","net-map-logo"+(o.type==="capofila"?" net-map-logo--leader":""));
+  var img=E("img");
+  if(o.image && (o.image.startsWith("assets/images/")||o.image.startsWith("https://"))){
+   img.src=o.image.startsWith("assets/images/")?root+o.image:o.image;
+   img.alt="";img.loading="lazy";img.decoding="async";
+   img.onerror=function(){holder.classList.add("net-map-logo--fallback");holder.replaceChildren(document.createTextNode(initials(o)));};
+   holder.append(img);
+  }else{
+   holder.classList.add("net-map-logo--fallback");
+   holder.textContent=initials(o);
+  }
+  // Keep individual logos available even if further partners share a municipality.
+  var offset=(index-(total-1)/2)*42;
+  return L.divIcon({className:"net-map-logo-icon",html:holder,
+   iconSize:[56,65],iconAnchor:[28-offset,64],popupAnchor:[offset,-54]});
  }
- tabs.forEach(function(btn){btn.addEventListener("click",function(){filter=btn.dataset.networkFilter;tabs.forEach(function(b){b.classList.toggle("active",b===btn);b.setAttribute("aria-pressed",String(b===btn))});render();})});render();
+ function supporterIcon(count,alongsidePartner){
+  // Orange numbered markers retain the existing supporter convention.
+  var badge=E("div","net-map-icon supporter",String(count));
+  return L.divIcon({className:"net-map-support-icon",html:badge,
+   iconSize:[32,32],iconAnchor:[alongsidePartner?-23:16,16],
+   popupAnchor:[0,-14]});
+ }
+ function validCoordinates(o){return Array.isArray(o.coordinates)&&o.coordinates.length===2&&o.coordinates.every(function(n){return typeof n==="number"&&isFinite(n)});}
+ function render(){
+  if(map)marks.forEach(function(m){map.removeLayer(m);});marks=[];listing.replaceChildren();
+  var rows=all.filter(function(o){return filter==="all"||(filter==="partners"?o.type!=="sostenitore":o.type==="sostenitore");});
+  var groups={};
+  rows.forEach(function(o){var key=o.city;if(!groups[key])groups[key]={city:key,coordinates:o.coordinates,members:[]};groups[key].members.push(o);});
+  Object.values(groups).sort(function(a,b){return a.city.localeCompare(b.city,"it");}).forEach(function(g){
+   var heading=E("strong","",g.city+" · "+g.members.length+" soggett"+(g.members.length===1?"o":"i"));listing.append(heading);
+   g.members.forEach(function(o){
+    var a=link(o,"","net-location"),dot=E("span","net-dot"+(o.type==="sostenitore"?" supporter":""));
+    a.append(dot,document.createTextNode(o.name),E("small","",o.type==="capofila"?"Capofila":o.type==="partner"?"Partner":"Sostenitore"));listing.append(a);
+   });
+   if(!map)return;
+   var partners=g.members.filter(function(o){return o.type!=="sostenitore"&&validCoordinates(o);});
+   var supporters=g.members.filter(function(o){return o.type==="sostenitore"&&validCoordinates(o);});
+   // Supporters remain grouped by town, with their count in the orange marker.
+   if(supporters.length){
+    var supporterPopup=E("div","net-popup-links");supporterPopup.append(E("strong","",g.city+" · Sostenitori"));
+    supporters.forEach(function(o){supporterPopup.append(link(o,o.name+" ↗"));});
+    var sMarker=L.marker(supporters[0].coordinates,{icon:supporterIcon(supporters.length,partners.length>0),
+      title:g.city+": "+supporters.length+" sostenitori"}).addTo(map);
+    sMarker.bindPopup(supporterPopup);marks.push(sMarker);
+   }
+   // One original association logo per partner/capofila, using the image path in organizations.json.
+   partners.forEach(function(o,i){
+    var partnerPopup=E("div","net-popup-links");
+    partnerPopup.append(E("strong","",o.name),E("small","net-map-popup-place",o.city+" · "+(o.type==="capofila"?"Capofila":"Partner")));
+    partnerPopup.append(link(o,"Apri la scheda ↗"));
+    var marker=L.marker(o.coordinates,{icon:partnerIcon(o,i,partners.length),title:o.name,
+      zIndexOffset:1000}).addTo(map);
+    marker.bindPopup(partnerPopup);marks.push(marker);
+   });
+  });
+  if(map){
+   var located=rows.filter(validCoordinates);
+   if(located.length)map.fitBounds(L.latLngBounds(located.map(function(o){return o.coordinates;})).pad(.20),{maxZoom:9});
+   map.invalidateSize();
+  }
+ }
+ tabs.forEach(function(btn){btn.addEventListener("click",function(){
+  filter=btn.dataset.networkFilter;
+  tabs.forEach(function(b){b.classList.toggle("active",b===btn);b.setAttribute("aria-pressed",String(b===btn));});
+  render();
+ });});
+ render();
 }
+
 function setupProfile(all){
  var target=document.getElementById("network-profile");if(!target)return;
  var id=document.body.dataset.organizationId || new URLSearchParams(location.search).get("id");
