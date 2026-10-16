@@ -54,3 +54,20 @@
   .gds-stories .stories-results>div{padding:18px 12px}
   .gds-stories .stories-results strong{font-size:clamp(23px,6vw,34px)}
 }
+
+/* Editorial archive: responsive two-column cards with genuine 16:9 cover art.
+   The image surface used to be an inline span, so its declared height was not visible. */
+.gds-stories .stories-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px;align-items:stretch}
+.gds-stories .stories-card{display:flex;flex-direction:column;min-width:0;min-height:490px;border-radius:7px;border:1px solid #dee5dc;box-shadow:0 12px 38px rgba(0,44,37,.065);transition:transform .24s ease,box-shadow .24s ease}
+.gds-stories .stories-card:focus-visible{outline:3px solid #e9a135;outline-offset:5px}
+.gds-stories .stories-card:hover{transform:translateY(-5px);box-shadow:0 19px 42px rgba(0,44,37,.12)}
+.gds-stories .stories-card-photo{display:block;flex:none;position:relative;width:100%;height:auto;aspect-ratio:16/9;background-image:var(--story-photo);background-color:#07544b;background-position:center;background-size:cover}
+.gds-stories .stories-card-photo::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(to top,rgba(0,30,25,.18),transparent 45%)}
+.gds-stories .stories-card-inner{display:flex;flex:1;min-width:0;flex-direction:column;align-items:flex-start;padding:25px 30px 30px}
+.gds-stories .stories-card-meta{font-size:11px;line-height:1.5;letter-spacing:.085em;text-transform:uppercase;font-weight:700;color:#9b6b22}
+.gds-stories .stories-card h3{font-size:clamp(26px,2.6vw,37px);line-height:1.15;font-weight:500;letter-spacing:-.045em;margin:16px 0 14px}
+.gds-stories .stories-card p{font-size:15px;line-height:1.62;color:#50685c;margin:0 0 22px}
+.gds-stories .stories-card-link{margin-top:auto;font-size:13px;border-bottom:1px solid #d89937;padding:7px 0 5px}
+.gds-stories .stories-article h1{font-size:clamp(47px,6vw,86px)}
+@media(max-width:760px){.gds-stories .stories-grid{grid-template-columns:1fr;gap:19px}.gds-stories .stories-card{min-height:0}.gds-stories .stories-card-inner{padding:23px 22px 28px}.gds-stories .stories-card h3{font-size:clamp(28px,6vw,39px)}}
+@media(prefers-reduced-motion:reduce){.gds-stories .stories-card{transition:none}}

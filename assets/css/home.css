@@ -126,3 +126,6 @@
 @keyframes gds-news-glow{0%,100%{box-shadow:0 0 0 0 rgba(234,161,53,.08)}50%{box-shadow:0 0 0 5px rgba(234,161,53,.16)}}
 @keyframes gds-news-dot{0%{box-shadow:0 0 0 0 rgba(233,161,53,.62)}75%{box-shadow:0 0 0 9px rgba(233,161,53,0)}100%{box-shadow:0 0 0 0 rgba(233,161,53,0)}}
 @media(prefers-reduced-motion:reduce){.gds-home .gds-news-pulse,.gds-home .gds-news-pulse__dot{animation:none}}
+
+/* Typography for the updated editorial headline */
+.gds-home .gds-news-grid .gds-story:first-child h3{font-size:clamp(25px,2.65vw,37px)}
