@@ -22,8 +22,8 @@ Pagina pubblica: `/progetto/` (HTML statico in `progetto/index.html`). Il CSS de
 
 ## Rimodulazione temporale (ottobre 2026)
 
-- Durata aggiornata del progetto: **14 mesi**, con inizio attività in **ottobre 2026** e fine del periodo progettuale in **novembre 2027**.
-- Le attività e i cicli previsti prima di ottobre 2026 oppure oltre novembre 2027 non compaiono nella programmazione pubblica del progetto rimodulato.
+- Durata aggiornata del progetto: **15 mesi**, con inizio attività in **ottobre 2026** e fine del periodo progettuale in **31 dicembre 2027**.
+- Le attività e i cicli previsti prima di ottobre 2026 oppure oltre dicembre 2027 non compaiono nella programmazione pubblica del progetto rimodulato.
 - Nel dataset `content/events.json`, `scheduleBeforeRemodulation` mantiene le finestre precedenti per tracciabilità editoriale. Non pubblicare le vecchie finestre sulle schede eventi.
 - Le date giornaliere non vengono automaticamente confermate o riprogrammate.
 

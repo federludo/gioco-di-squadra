@@ -21,10 +21,11 @@
   },
   "supporters_count": 16,
   "project": {
-    "duration_months": 14,
+    "duration_months": 15,
     "start_month": "2026-10",
-    "end_month": "2027-11",
+    "end_month": "2027-12",
+    "end_date": "2027-12-31",
     "start_label": "ottobre 2026",
-    "end_label": "novembre 2027"
+    "end_label": "31 dicembre 2027"
   }
 }

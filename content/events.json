@@ -11,7 +11,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-11"
+        "end": "2027-12"
       }
     ],
     "months": [
@@ -28,11 +28,12 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11"
+      "2027-11",
+      "2027-12"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-11",
-    "periodLabel": "ottobre 2026 – novembre 2027",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
     "cadence": "Incontri ricorrenti nei territori della rete",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
@@ -233,7 +234,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-11"
+        "end": "2027-12"
       }
     ],
     "months": [
@@ -250,11 +251,12 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11"
+      "2027-11",
+      "2027-12"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-11",
-    "periodLabel": "ottobre 2026 – novembre 2027",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
     "cadence": "Ciclo continuativo di incontri",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
@@ -284,7 +286,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-11"
+        "end": "2027-12"
       }
     ],
     "months": [
@@ -301,11 +303,12 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11"
+      "2027-11",
+      "2027-12"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-11",
-    "periodLabel": "ottobre 2026 – novembre 2027",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
     "cadence": "Ciclo continuativo di incontri",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
@@ -432,7 +435,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-11"
+        "end": "2027-12"
       }
     ],
     "months": [
@@ -449,11 +452,12 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11"
+      "2027-11",
+      "2027-12"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-11",
-    "periodLabel": "ottobre 2026 – novembre 2027",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
     "cadence": "Incontri mensili nelle strutture coinvolte",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
@@ -541,7 +545,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-11"
+        "end": "2027-12"
       }
     ],
     "months": [
@@ -558,11 +562,12 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11"
+      "2027-11",
+      "2027-12"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-11",
-    "periodLabel": "ottobre 2026 – novembre 2027",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
     "cadence": "Attività continuativa di laboratorio",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
@@ -784,7 +789,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-11"
+        "end": "2027-12"
       }
     ],
     "months": [
@@ -801,11 +806,12 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11"
+      "2027-11",
+      "2027-12"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-11",
-    "periodLabel": "ottobre 2026 – novembre 2027",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
     "cadence": "Iniziative periodiche nei territori",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
@@ -876,14 +882,19 @@
       {
         "start": "2026-12",
         "end": "2026-12"
+      },
+      {
+        "start": "2027-12",
+        "end": "2027-12"
       }
     ],
     "months": [
-      "2026-12"
+      "2026-12",
+      "2027-12"
     ],
     "startMonth": "2026-12",
-    "endMonth": "2026-12",
-    "periodLabel": "dicembre 2026",
+    "endMonth": "2027-12",
+    "periodLabel": "dicembre 2026; dicembre 2027",
     "cadence": "Edizioni previste a dicembre 2026 e/o dicembre 2027",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
@@ -917,7 +928,7 @@
     "windows": [
       {
         "start": "2027-03",
-        "end": "2027-11"
+        "end": "2027-12"
       }
     ],
     "months": [
@@ -929,11 +940,12 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11"
+      "2027-11",
+      "2027-12"
     ],
     "startMonth": "2027-03",
-    "endMonth": "2027-11",
-    "periodLabel": "marzo 2027 – novembre 2027",
+    "endMonth": "2027-12",
+    "periodLabel": "marzo 2027 – dicembre 2027",
     "cadence": "Ciclo replicabile negli spazi del territorio",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
@@ -963,7 +975,7 @@
     "windows": [
       {
         "start": "2027-03",
-        "end": "2027-11"
+        "end": "2027-12"
       }
     ],
     "months": [
@@ -975,11 +987,12 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11"
+      "2027-11",
+      "2027-12"
     ],
     "startMonth": "2027-03",
-    "endMonth": "2027-11",
-    "periodLabel": "marzo 2027 – novembre 2027",
+    "endMonth": "2027-12",
+    "periodLabel": "marzo 2027 – dicembre 2027",
     "cadence": "Incontri e collaborazioni territoriali",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
@@ -1039,7 +1052,7 @@
     "windows": [
       {
         "start": "2027-03",
-        "end": "2027-11"
+        "end": "2027-12"
       }
     ],
     "months": [
@@ -1051,11 +1064,12 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11"
+      "2027-11",
+      "2027-12"
     ],
     "startMonth": "2027-03",
-    "endMonth": "2027-11",
-    "periodLabel": "marzo 2027 – novembre 2027",
+    "endMonth": "2027-12",
+    "periodLabel": "marzo 2027 – dicembre 2027",
     "cadence": "Supporto ai cicli territoriali di gioco",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
@@ -1086,7 +1100,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-11"
+        "end": "2027-12"
       }
     ],
     "months": [
@@ -1103,11 +1117,12 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11"
+      "2027-11",
+      "2027-12"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-11",
-    "periodLabel": "ottobre 2026 – novembre 2027",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
     "cadence": "Aperture settimanali",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
@@ -1166,7 +1181,7 @@
     "windows": [
       {
         "start": "2026-10",
-        "end": "2027-11"
+        "end": "2027-12"
       }
     ],
     "months": [
@@ -1183,11 +1198,12 @@
       "2027-08",
       "2027-09",
       "2027-10",
-      "2027-11"
+      "2027-11",
+      "2027-12"
     ],
     "startMonth": "2026-10",
-    "endMonth": "2027-11",
-    "periodLabel": "ottobre 2026 – novembre 2027",
+    "endMonth": "2027-12",
+    "periodLabel": "ottobre 2026 – dicembre 2027",
     "cadence": "Incontri mensili",
     "programStatus": "Programmazione in fase di aggiornamento.",
     "date": null,
