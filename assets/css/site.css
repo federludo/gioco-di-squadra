@@ -44,3 +44,56 @@
  .gds-access-counter__value{justify-content:flex-start}
 }
 @media(prefers-reduced-motion:reduce){.gds-access-counter__dot{animation:none}}
+
+/* Attività e Partenariato: same non-overlay header as Calendario and Contatti.
+   Explicitly scoped to these two landing pages so editorial photographic
+   headers of Progetto and Storie e news remain unchanged. */
+body[data-standard-header="true"] .site-head{
+  position:relative;
+  inset:auto;
+  z-index:20;
+  background:var(--paper);
+  color:var(--ink);
+  border-bottom:1px solid #ddd;
+}
+body[data-standard-header="true"] .site-head .menu a{color:inherit}
+body[data-standard-header="true"] main>.hero.hero-short{margin-top:0}
+@media(max-width:760px){
+  body[data-standard-header="true"] .site-head .nav{
+    min-height:72px;
+    gap:12px;
+  }
+  body[data-standard-header="true"] .site-head .brand{
+    min-width:0;
+    gap:10px;
+  }
+  body[data-standard-header="true"] .site-head .brand strong{
+    font-size:clamp(15px,4.7vw,18px);
+    letter-spacing:-.035em;
+  }
+  body[data-standard-header="true"] .site-head .brand small{
+    font-size:9px;
+    line-height:1.25;
+  }
+  body[data-standard-header="true"] .site-head .mark{
+    width:43px;
+    height:43px;
+  }
+  body[data-standard-header="true"] .site-head .mobile-button{
+    flex:0 0 auto;
+  }
+  body[data-standard-header="true"] main>.hero.hero-short h1{
+    font-size:clamp(43px,12vw,62px);
+    line-height:1.01;
+    overflow-wrap:break-word;
+  }
+  body[data-standard-header="true"] main>.hero.hero-short p{
+    font-size:clamp(17px,4.8vw,21px);
+    line-height:1.45;
+  }
+}
+@media(max-width:360px){
+  body[data-standard-header="true"] main>.hero.hero-short h1{
+    font-size:clamp(40px,11.7vw,46px);
+  }
+}
