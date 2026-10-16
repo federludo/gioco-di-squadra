@@ -241,3 +241,48 @@
     width:100%;
   }
 }
+
+
+/* Global visit total, visible above the fold on the homepage only.
+   Counts sessions across every site page via site.js; this is display only. */
+.gds-home .gds-hero>.gds-access-counter{
+ position:absolute;top:100px;right:clamp(22px,5.2vw,96px);
+ z-index:3;display:inline-flex;align-items:center;gap:10px;
+ padding:10px 15px;border-radius:22px;
+ background:rgba(0,38,34,.74);
+ border:1px solid rgba(225,244,232,.23);
+ backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px);
+ box-shadow:0 4px 16px rgba(0,15,13,.13);
+ color:#f6faf6;pointer-events:none;
+ white-space:nowrap;
+}
+.gds-home .gds-hero>.gds-access-counter[hidden]{display:none}
+.gds-home .gds-access-counter__value{
+ display:inline-flex;align-items:center;gap:8px;
+ font-size:18px;font-weight:700;line-height:1;
+ font-variant-numeric:tabular-nums;
+}
+.gds-home .gds-access-counter__count{font-weight:700}
+.gds-home .gds-access-counter__dot{
+ display:inline-block;width:7px;height:7px;border-radius:50%;
+ background:#6cc994;box-shadow:0 0 9px rgba(108,201,148,.45);
+ animation:gdsVisitPulse 2.2s ease-in-out infinite;
+}
+.gds-home .gds-access-counter__label{
+ font-size:10px;letter-spacing:.09em;text-transform:uppercase;
+ font-weight:600;color:#dcebe1;
+}
+@keyframes gdsVisitPulse{
+ 0%,100%{opacity:.45;transform:scale(.85)}
+ 50%{opacity:1;transform:scale(1)}
+}
+@media(max-width:750px){
+ .gds-home .gds-hero>.gds-access-counter{
+  top:85px;right:6%;padding:9px 12px;gap:8px;border-radius:18px;
+ }
+ .gds-home .gds-access-counter__value{font-size:16px}
+ .gds-home .gds-access-counter__label{font-size:9px}
+}
+@media(prefers-reduced-motion:reduce){
+ .gds-home .gds-access-counter__dot{animation:none}
+}
