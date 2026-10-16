@@ -17,34 +17,6 @@
 .gds-funding__text a{text-decoration:underline;text-decoration-color:#d5993b;text-underline-offset:3px}
 @media(max-width:650px){.footer .gds-funding{align-items:flex-start;flex-direction:column;gap:14px}.gds-funding__logos img{max-height:55px}.gds-funding__logos img:first-child{max-height:53px}}
 
-/* Session-based global visit counter, aligned with BiodiversityLab.net. */
-.footer .gds-access-counter{
- display:flex;flex-direction:column;align-items:flex-end;justify-content:center;
- flex:0 0 auto;margin-left:auto;padding:7px 2px;
- color:#16483c;min-width:110px;gap:4px;
-}
-.footer .gds-access-counter[hidden]{display:none}
-.gds-access-counter__value{
- display:flex;align-items:center;justify-content:flex-end;gap:9px;
- font-size:25px;font-weight:700;line-height:1;font-variant-numeric:tabular-nums;
-}
-.gds-access-counter__count{font-weight:700}
-.gds-access-counter__dot{
- display:inline-block;width:7px;height:7px;border-radius:50%;
- background:#49a874;box-shadow:0 0 9px rgba(61,156,106,.45);
- animation:gdsVisitPulse 2.2s ease-in-out infinite;
-}
-.gds-access-counter__label{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#596d61}
-@keyframes gdsVisitPulse{
- 0%,100%{opacity:.45;transform:scale(.85)}
- 50%{opacity:1;transform:scale(1)}
-}
-@media(max-width:650px){
- .footer .gds-access-counter{align-items:flex-start;margin-left:0}
- .gds-access-counter__value{justify-content:flex-start}
-}
-@media(prefers-reduced-motion:reduce){.gds-access-counter__dot{animation:none}}
-
 /* Attività e Partenariato: same non-overlay header as Calendario and Contatti.
    Explicitly scoped to these two landing pages so editorial photographic
    headers of Progetto and Storie e news remain unchanged. */
