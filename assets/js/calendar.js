@@ -57,6 +57,8 @@ function changeView(v){
 async function start(){try{const [evRes,orgRes]=await Promise.all([fetch(root+"content/events.json?v=editoriale-20261016-1"),fetch(root+"content/organizations.json?v=editoriale-20261016-1")]);if(!evRes.ok||!orgRes.ok)throw Error("HTTP error");[events,organizations]=await Promise.all([evRes.json(),orgRes.json()]);if(!Array.isArray(events)||!Array.isArray(organizations))throw Error("Invalid data");
 events=events.filter(e=>getMonths(e)>0);
 opt($("territory"),events.map(x=>x.territory));opt($("category"),events.map(x=>x.category));
+const requestedCategory=new URLSearchParams(location.search).get("categoria")||"";
+if(requestedCategory&&[...$("category").options].some(option=>option.value===requestedCategory))$("category").value=requestedCategory;
 for(const k of monthKeys){const o=E("option","",longMonth(k));o.value=k;$("period").append(o)}
 organizations.filter(o=>events.some(x=>x.partnerIds?.includes(o.id))).sort((a,b)=>a.name.localeCompare(b.name,"it")).forEach(o=>{const option=E("option","",o.name);option.value=o.id;$("organizer").append(option)});
 const partnerLabel=organizations.find(o=>o.id===activePartner)?.name;if(activePartner){if(partnerLabel){const note=$("calendar-partner-notice");note.hidden=false;note.append("Attività collegate a "+partnerLabel+". ");const a=E("a","","Mostra tutta la programmazione ↗");a.href="./";note.append(a);}else activePartner="";}
