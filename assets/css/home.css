@@ -165,3 +165,30 @@
 @media(max-width:750px){.gds-home .gds-partners-showcase{padding:63px 0 73px}.gds-home .gds-partners-heading{align-items:start;flex-direction:column}.gds-home .gds-partners-controls{align-self:flex-end}.gds-home .gds-partner-slide{flex-basis:calc((100% - var(--gds-partner-gap))/2)}.gds-home .gds-partner-name{font-size:13px;min-height:66px}}
 @media(max-width:450px){.gds-home .gds-partner-slide{flex-basis:78%}.gds-home .gds-partners-controls button{height:42px;width:42px}.gds-home .gds-partners-controls .gds-partners-pause{width:auto}.gds-home .gds-partners-heading h2{font-size:45px}}
 @media(prefers-reduced-motion:reduce){.gds-home .gds-partners-track{scroll-behavior:auto}.gds-home .gds-partner-slide,.gds-home .gds-partners-controls button{transition:none}}
+
+
+/* Continuous, seamless partner ribbon. Snap and smooth scroll previously caused visible pauses. */
+.gds-home .gds-partners-track{
+  scroll-snap-type:none;
+  scroll-behavior:auto;
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+  padding:10px 2px 20px;
+  overscroll-behavior-x:contain;
+}
+.gds-home .gds-partners-track::-webkit-scrollbar{display:none}
+.gds-home .gds-partner-slide{
+  scroll-snap-align:none;
+  scroll-snap-stop:normal;
+}
+.gds-home .gds-partner-slide .gds-partner-mark img{
+  transition:transform .35s ease;
+  transform-origin:center;
+}
+.gds-home .gds-partner-slide:hover .gds-partner-mark img,
+.gds-home .gds-partner-slide:focus-visible .gds-partner-mark img{
+  transform:scale(1.075);
+}
+@media(prefers-reduced-motion:reduce){
+  .gds-home .gds-partner-slide .gds-partner-mark img{transition:none}
+}
