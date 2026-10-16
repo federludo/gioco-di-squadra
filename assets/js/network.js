@@ -108,7 +108,8 @@ function setupProfile(all){
  var id=document.body.dataset.organizationId || new URLSearchParams(location.search).get("id");
  var o=all.find(function(item){return item.id===id});
  if(!o){target.append(E("div","net-wrap","Scheda non trovata. Torna al partenariato."));return;}
- document.title=o.name+" | Gioco di Squadra";
+ target.replaceChildren(); // Static HTML summary remains available when JavaScript is unavailable.
+ document.title=o.name+" | "+(o.type==="capofila"?"Capofila":o.type==="partner"?"Partner":"Sostenitore")+" di Gioco di Squadra";
  var crumbs=E("nav","net-crumb");crumbs.setAttribute("aria-label","Percorso");
  var h=E("a","","Home");h.href=root;var n=E("a","","Il partenariato");n.href=root+"partenariato/";crumbs.append(h,E("span","","/"),n,E("span","","/"),E("span","",o.name));
  var hero=E("header","net-profile-hero"),wrap=E("div","net-wrap"),grid=E("div","net-profile-hero-grid"),text=E("div");
