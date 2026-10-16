@@ -35,21 +35,22 @@
 
   var reduced=window.matchMedia("(prefers-reduced-motion: reduce)");
   var paused=false, hovered=false, focused=false, visible=!window.IntersectionObserver;
-  var cycle=0, lastFrame=0, holdUntil=0;
+  var cycle=0, lastFrame=0, holdUntil=0, position=0;
   var speed=27; // pixels per second, with no pauses or jumps between logos
 
   function normalize(){
     if(!cycle)return;
-    while(track.scrollLeft>=cycle*2)track.scrollLeft-=cycle;
-    while(track.scrollLeft<cycle)track.scrollLeft+=cycle;
+    while(position>=cycle*2)position-=cycle;
+    while(position<cycle)position+=cycle;
+    track.scrollLeft=position;
   }
   function measure(reset){
     var oldCycle=cycle;
-    var progress=oldCycle?(track.scrollLeft-oldCycle)/oldCycle:0;
+    var progress=oldCycle?(position-oldCycle)/oldCycle:0;
     cycle=originals[0].offsetLeft-firstCopy.offsetLeft;
     if(!(cycle>0))cycle=originals.reduce(function(sum,node){return sum+node.getBoundingClientRect().width+16},0);
     if(reset)progress=0;
-    track.scrollLeft=cycle*(1+progress);
+    position=cycle*(1+progress);
     normalize();
   }
   function updatePause(){
@@ -94,8 +95,11 @@
     lastFrame=time;
     if(cycle && visible && !paused && !hovered && !focused && !reduced.matches &&
        !document.hidden && time>holdUntil){
-      track.scrollLeft+=speed*dt/1000;
+      position+=speed*dt/1000;
       normalize();
+    }else{
+      // Keep the virtual position aligned with touch/arrow/manual scrolling.
+      position=track.scrollLeft;
     }
     window.requestAnimationFrame(frame);
   }
