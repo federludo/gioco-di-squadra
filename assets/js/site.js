@@ -23,35 +23,31 @@ const links=el('div','gcal-activity-links');if(organizer){const a=el('a','under'
  foot.appendChild(panel);
 })();
 
-/* Global visit counter backed by Cloudflare Worker + Durable Object.
-   Counts one browser session (sessionStorage), like BiodiversityLab.net.
-   Hidden until the same-origin /api/visits service is available. */
+/* Global Cloudflare visit counter: one visit per browser session across
+   every page; display the total only in the upper part of the homepage. */
 (function(){
- const foot=document.querySelector('footer.footer');
- if(!foot || foot.querySelector('.gds-access-counter'))return;
-
- const counter=document.createElement('div');
- counter.className='gds-access-counter';
- counter.title='Sessioni del browser conteggiate dall’attivazione del contatore, non persone uniche.';
- counter.hidden=true;
- const count=document.createElement('strong');
- count.className='gds-access-counter__count';
- count.textContent='—';
- const pulse=document.createElement('i');
- pulse.className='gds-access-counter__dot';
- pulse.setAttribute('aria-hidden','true');
- const value=document.createElement('span');
- value.className='gds-access-counter__value';
- value.append(count,pulse);
- const label=document.createElement('span');
- label.className='gds-access-counter__label';
- label.textContent='visite al sito';
- counter.append(value,label);
-
- const funding=foot.querySelector('.gds-funding');
- if(funding)funding.append(counter);
- else {const inner=foot.querySelector('.footer-inner');if(inner)inner.append(counter);}
-
+ const hero=document.querySelector('.gds-home .gds-hero');
+ let badge=null, count=null;
+ if(hero&&!hero.querySelector('.gds-access-counter')){
+  badge=document.createElement('div');
+  badge.className='gds-access-counter';
+  badge.title='Sessioni del browser conteggiate dall’attivazione, non visitatori unici.';
+  badge.hidden=true;
+  const value=document.createElement('span');
+  value.className='gds-access-counter__value';
+  count=document.createElement('strong');
+  count.className='gds-access-counter__count';
+  count.textContent='—';
+  const dot=document.createElement('i');
+  dot.className='gds-access-counter__dot';
+  dot.setAttribute('aria-hidden','true');
+  value.append(count,dot);
+  const label=document.createElement('span');
+  label.className='gds-access-counter__label';
+  label.textContent='visite al sito';
+  badge.append(value,label);
+  hero.append(badge);
+ }
  const storageKey='giocodisquadra-visit-counted-v1';
  let alreadyCounted=false;
  try{alreadyCounted=sessionStorage.getItem(storageKey)==='1';}catch(_){}
@@ -63,11 +59,13 @@ const links=el('div','gcal-activity-links');if(organizer){const a=el('a','under'
   if(!response.ok)throw Error('Contatore non disponibile');
   return response.json();
  }).then(function(data){
-  if(!data || !Number.isSafeInteger(data.count) || data.count<0)return;
+  if(!data||!Number.isSafeInteger(data.count)||data.count<0)return;
   if(!alreadyCounted){try{sessionStorage.setItem(storageKey,'1');}catch(_){}}
-  count.textContent=new Intl.NumberFormat('it-IT').format(data.count);
-  counter.hidden=false;
+  if(badge && count){
+   count.textContent=new Intl.NumberFormat('it-IT').format(data.count);
+   badge.hidden=false;
+  }
  }).catch(function(){
-  // The counter is optional: all site pages and interactions still work.
+  // Failure of the counter never interferes with site navigation.
  });
 })();
