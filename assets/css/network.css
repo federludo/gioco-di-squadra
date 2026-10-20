@@ -204,3 +204,13 @@ body[data-organization-id="federludo"] .net-profile-symbol .net-avatar{display:f
 .net-profile-static__focus{margin:20px 0;padding:14px 18px;border-left:3px solid #d79538;background:rgba(241,246,237,.13)}
 .net-profile-static__focus a{color:#fff;text-decoration:underline;text-decoration-color:#d79538;text-underline-offset:4px}
 @media(max-width:650px){.net-focus-card{padding:20px 21px}}
+
+/* Short editorial crosslink above the partner statistics. */
+.net-collaboration-note{
+ padding:19px 24px;margin:0 0 32px;
+ border-left:3px solid #d89b3f;background:#eef1e8;
+ color:#31564b;font-size:14px;line-height:1.7;
+}
+.net-collaboration-note strong{color:#153e34}
+.net-collaboration-note a{text-decoration:underline;text-decoration-color:#bd893b;text-underline-offset:3px}
+.net-collaboration-note a:hover{color:#9f661d}
