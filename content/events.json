@@ -962,6 +962,10 @@
         }
       ],
       "periodLabel": "marzo 2027 – dicembre 2027"
+    },
+    "focusPage": {
+      "href": "attivita/marketing-alimentare/",
+      "label": "Approfondisci il percorso e le associazioni"
     }
   },
   {
@@ -1010,6 +1014,10 @@
         }
       ],
       "periodLabel": "marzo 2027 – dicembre 2027"
+    },
+    "focusPage": {
+      "href": "attivita/marketing-alimentare/",
+      "label": "Approfondisci il percorso e le associazioni"
     }
   },
   {
@@ -1041,7 +1049,11 @@
       "misericordia-prata",
       "drago"
     ],
-    "source": "Piano operativo delle attività territoriali (ottobre 2026); proposta di aggiornamento Il Drago APS e Misericordia di Prata, ottobre 2026"
+    "source": "Piano operativo delle attività territoriali (ottobre 2026); proposta di aggiornamento Il Drago APS e Misericordia di Prata, ottobre 2026",
+    "focusPage": {
+      "href": "attivita/marketing-alimentare/",
+      "label": "Approfondisci il percorso e le associazioni"
+    }
   },
   {
     "id": "prata-supporto",
@@ -1089,6 +1101,10 @@
         }
       ],
       "periodLabel": "marzo 2027 – dicembre 2027"
+    },
+    "focusPage": {
+      "href": "attivita/marketing-alimentare/",
+      "label": "Approfondisci il percorso e le associazioni"
     }
   },
   {
