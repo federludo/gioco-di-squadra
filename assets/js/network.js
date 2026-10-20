@@ -3,7 +3,7 @@
 var root = document.body.dataset.root || "../";
 var organUrl = root + "content/organizations.json";
 var CACHE;
-function getAll(){return CACHE||(CACHE=fetch(organUrl+"?v=partner-loghi-20261016-v1").then(function(r){if(!r.ok)throw Error("Archivio rete non disponibile");return r.json();}));}
+function getAll(){return CACHE||(CACHE=fetch(organUrl+"?v=drago-prata-20261020-v1").then(function(r){if(!r.ok)throw Error("Archivio rete non disponibile");return r.json();}));}
 function E(tag,cls,txt){var el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el;}
 function safe(url){return typeof url==="string" && /^https:\/\/[\w.-]+(?:[/:?#]|$)/i.test(url);}
 function url(o){return root+(o.type==="sostenitore"?"sostenitore/":"partner/")+encodeURIComponent(o.id)+"/";}
@@ -120,6 +120,25 @@ function setupProfile(all){
  var section=E("section","net-profile-body"),content=E("div","net-wrap net-profile-layout"),body=E("div","net-prose"),side=E("aside","net-factbox");
  var who=E("section");who.append(E("span","eyebrow","La realtà"),E("h2","","Chi è"),E("p","",o.description));body.append(who);
  var role=E("section");role.append(E("span","eyebrow","Gioco di Squadra"),E("h2","","Il contributo al progetto"),E("p","",o.projectRole));body.append(role);
+ if(o.focusPage && o.focusPage.href && o.focusPage.href.startsWith("attivita/")){
+   var focus=E("section","net-focus-card");
+   focus.append(E("span","eyebrow","Un percorso condiviso"),
+     E("h2","","Gioco, consumi e comunità"),
+     E("p","","Il progetto collega la lettura critica dei meccanismi ludici del marketing alimentare alla partecipazione della comunità. Il format è ancora in definizione."));
+   var explore=E("a","net-link",o.focusPage.label||"Approfondisci il percorso ↗");
+   explore.href=root+o.focusPage.href;
+   focus.append(explore);
+   if(o.collaborationId){
+     var colleague=all.find(function(other){return other.id===o.collaborationId;});
+     if(colleague){
+       var collaboration=E("p","net-focus-card__collaboration","In collaborazione con ");
+       var together=E("a","",colleague.name);together.href=url(colleague);
+       collaboration.append(together);focus.append(collaboration);
+     }
+   }
+   body.append(focus);
+ }
+
  if(o.actions && o.actions.length){var acts=E("section","net-activities");acts.append(E("span","eyebrow","Il programma"),E("h2","","Azioni e attività previste"),E("p","net-activities-intro","Programmazione in fase di aggiornamento."));o.actions.forEach(function(a){var entry=E("article","net-activity-item"),left=E("div","net-activity-code",a.code),right=E("div");right.append(E("h3","",a.title),E("p","",a.description),E("span","net-activity-period","Periodo previsto: "+a.window));entry.append(left,right);acts.append(entry);});body.append(acts);}
  side.append(E("h3","","In breve"));var dl=E("dl");
  function fact(k,v,external){if(!v)return;dl.append(E("dt","",k));var d=E("dd");if(external&&safe(v)){var a=E("a","",new URL(v).hostname.replace(/^www\./,""));a.href=v;a.target="_blank";a.rel="noopener noreferrer";d.append(a);}else d.textContent=v;dl.append(d);}
