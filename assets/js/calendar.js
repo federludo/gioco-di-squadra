@@ -54,7 +54,7 @@ function changeView(v){
  // Avoid leaving the reader far down a former long list after switching tabs.
  if(tabs){const rect=tabs.getBoundingClientRect();if(rect.top<0||rect.top>window.innerHeight*.7){tabs.scrollIntoView({block:"start",behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"instant":"smooth"});}}
 }
-async function start(){try{const [evRes,orgRes]=await Promise.all([fetch(root+"content/events.json?v=drago-prata-20261020-v1"),fetch(root+"content/organizations.json?v=drago-prata-20261020-v1")]);if(!evRes.ok||!orgRes.ok)throw Error("HTTP error");[events,organizations]=await Promise.all([evRes.json(),orgRes.json()]);if(!Array.isArray(events)||!Array.isArray(organizations))throw Error("Invalid data");
+async function start(){try{const [evRes,orgRes]=await Promise.all([fetch(root+"content/events.json?v=drago-prata-20261020-v2"),fetch(root+"content/organizations.json?v=drago-prata-20261020-v2")]);if(!evRes.ok||!orgRes.ok)throw Error("HTTP error");[events,organizations]=await Promise.all([evRes.json(),orgRes.json()]);if(!Array.isArray(events)||!Array.isArray(organizations))throw Error("Invalid data");
 events=events.filter(e=>getMonths(e)>0);
 opt($("territory"),events.map(x=>x.territory));opt($("category"),events.map(x=>x.category));
 const requestedCategory=new URLSearchParams(location.search).get("categoria")||"";
