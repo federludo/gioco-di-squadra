@@ -918,11 +918,11 @@
   },
   {
     "id": "territorio-in-tavola",
-    "name": "Il territorio in tavola",
-    "territory": "Massa Marittima e Gavorrano",
+    "name": "Il gioco nascosto nel marketing alimentare",
+    "territory": "Colline Metallifere: Massa Marittima, Gavorrano e Prata",
     "organizerId": "drago",
     "category": "Gioco e alimentazione",
-    "description": "Format modulare di 4–5 ore su alimentazione consapevole, etichette, filiere e degustazione comparativa.",
+    "description": "Percorso in definizione: osservazione guidata di confezioni e pubblicità per riconoscere personaggi, premi, raccolte punti e altre strategie ludiche che orientano i consumi. Confronto critico, discussione, etichette e filiere locali in collaborazione con la Misericordia di Prata.",
     "action": "A3 · A4",
     "sourceWindow": "M9–M18",
     "windows": [
@@ -946,13 +946,14 @@
     "startMonth": "2027-03",
     "endMonth": "2027-12",
     "periodLabel": "marzo 2027 – dicembre 2027",
-    "cadence": "Ciclo replicabile negli spazi del territorio",
-    "programStatus": "Programmazione in fase di aggiornamento.",
+    "cadence": "Laboratori partecipativi · format e date da concordare",
+    "programStatus": "Aggiornamento proposto dai partner; programma, format e date da definire con Federludo.",
     "date": null,
     "partnerIds": [
-      "drago"
+      "drago",
+      "misericordia-prata"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
+    "source": "Piano operativo delle attività territoriali (ottobre 2026); proposta di aggiornamento Il Drago APS e Misericordia di Prata, ottobre 2026",
     "scheduleBeforeRemodulation": {
       "windows": [
         {
@@ -965,11 +966,11 @@
   },
   {
     "id": "reti-filiere",
-    "name": "Attivazione delle reti locali: filiere e sostenibilità",
+    "name": "Reti territoriali, gioco e comunità",
     "territory": "Colline Metallifere",
     "organizerId": "drago",
     "category": "Laboratori",
-    "description": "Incontri con produttori e reti locali per biodiversità, filiere sostenibili e consumo consapevole.",
+    "description": "Coinvolgimento di associazioni, produttori e comunità delle Colline Metallifere; valorizzazione di filiere, biodiversità alimentare e possibile recupero di giochi e tradizioni locali. Programma in definizione.",
     "action": "A2 · A5",
     "sourceWindow": "M9–M18",
     "windows": [
@@ -993,13 +994,14 @@
     "startMonth": "2027-03",
     "endMonth": "2027-12",
     "periodLabel": "marzo 2027 – dicembre 2027",
-    "cadence": "Incontri e collaborazioni territoriali",
-    "programStatus": "Programmazione in fase di aggiornamento.",
+    "cadence": "Collaborazioni territoriali · modalità da definire",
+    "programStatus": "Aggiornamento proposto dai partner; programma, format e date da definire con Federludo.",
     "date": null,
     "partnerIds": [
-      "drago"
+      "drago",
+      "misericordia-prata"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
+    "source": "Piano operativo delle attività territoriali (ottobre 2026); proposta di aggiornamento Il Drago APS e Misericordia di Prata, ottobre 2026",
     "scheduleBeforeRemodulation": {
       "windows": [
         {
@@ -1016,8 +1018,8 @@
     "territory": "Prata, Massa Marittima",
     "organizerId": "misericordia-prata",
     "category": "Eventi pubblici",
-    "description": "Incontro estivo di richiamo associativo per consolidare la rete e la comunità locale.",
-    "action": "A5",
+    "description": "Ipotesi di incontro comunitario e intergenerazionale a Prata con valorizzazione delle tradizioni ludiche e alimentari della storia rurale; attività da definire insieme alle comunità locali.",
+    "action": "A2 · A5",
     "sourceWindow": "M13–M14 (estate 2027)",
     "windows": [
       {
@@ -1032,22 +1034,23 @@
     "startMonth": "2027-07",
     "endMonth": "2027-08",
     "periodLabel": "luglio 2027 – agosto 2027",
-    "cadence": "Estate 2027 · programmazione in fase di aggiornamento",
-    "programStatus": "Programmazione in fase di aggiornamento.",
+    "cadence": "Ipotesi di evento estivo · data non confermata",
+    "programStatus": "Aggiornamento proposto dai partner; programma, format e date da definire con Federludo.",
     "date": null,
     "partnerIds": [
-      "misericordia-prata"
+      "misericordia-prata",
+      "drago"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+    "source": "Piano operativo delle attività territoriali (ottobre 2026); proposta di aggiornamento Il Drago APS e Misericordia di Prata, ottobre 2026"
   },
   {
     "id": "prata-supporto",
-    "name": "Prata – supporto ai cicli territoriali",
+    "name": "Prata: incontrarsi, partecipare, scegliere",
     "territory": "Prata e Colline Metallifere",
     "organizerId": "misericordia-prata",
-    "category": "Giochi e socialità",
-    "description": "Accoglienza, volontariato e supporto logistico ai cicli replicabili nelle Colline Metallifere.",
-    "action": "A3",
+    "category": "Gioco e alimentazione",
+    "description": "Proposta di laboratori partecipativi a Prata su marketing alimentare, meccanismi ludici di ricompensa e scelte consapevoli, con coinvolgimento delle generazioni e delle comunità locali in collaborazione con Il Drago APS.",
+    "action": "A2 · A3",
     "sourceWindow": "M9–M18",
     "windows": [
       {
@@ -1070,14 +1073,14 @@
     "startMonth": "2027-03",
     "endMonth": "2027-12",
     "periodLabel": "marzo 2027 – dicembre 2027",
-    "cadence": "Supporto ai cicli territoriali di gioco",
-    "programStatus": "Programmazione in fase di aggiornamento.",
+    "cadence": "Incontri partecipativi · format e date da definire",
+    "programStatus": "Aggiornamento proposto dai partner; programma, format e date da definire con Federludo.",
     "date": null,
     "partnerIds": [
       "misericordia-prata",
       "drago"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
+    "source": "Piano operativo delle attività territoriali (ottobre 2026); proposta di aggiornamento Il Drago APS e Misericordia di Prata, ottobre 2026",
     "scheduleBeforeRemodulation": {
       "windows": [
         {
