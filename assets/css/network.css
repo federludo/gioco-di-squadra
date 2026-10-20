@@ -192,3 +192,15 @@ body[data-organization-id="federludo"] .net-profile-symbol .net-avatar{display:f
  .net-profile-static__logo{width:142px;height:142px;grid-row:1}
  .net-directory-index__grid{grid-template-columns:1fr;gap:10px}
 }
+
+/* Crosslinked programme focus in the editorial partner profiles. */
+.net-focus-card{background:#edf1e8;border-left:4px solid #d79538;padding:24px 27px;margin:10px 0 34px}
+.net-focus-card .eyebrow{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:#98651d}
+.net-focus-card h2{font-size:clamp(24px,3vw,35px);font-weight:500;letter-spacing:-.045em;line-height:1.15;margin:10px 0 14px}
+.net-focus-card p{font-size:15px;line-height:1.65}
+.net-focus-card .net-link{font-size:14px;font-weight:650}
+.net-focus-card__collaboration{margin-top:19px}
+.net-focus-card__collaboration a{text-decoration:underline;text-decoration-color:#d79538;text-underline-offset:3px}
+.net-profile-static__focus{margin:20px 0;padding:14px 18px;border-left:3px solid #d79538;background:rgba(241,246,237,.13)}
+.net-profile-static__focus a{color:#fff;text-decoration:underline;text-decoration-color:#d79538;text-underline-offset:4px}
+@media(max-width:650px){.net-focus-card{padding:20px 21px}}
