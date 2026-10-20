@@ -271,20 +271,20 @@
     "area": "Massa Marittima, Gavorrano e Colline Metallifere",
     "website": "https://www.associazionedrago.eu/",
     "sourceUrl": "https://www.associazionedrago.eu/",
-    "description": "Rete associativa e territoriale delle Colline Metallifere orientata a filiere locali, cultura, tutela del paesaggio, biodiversità e valorizzazione delle produzioni. Le attività progettuali integrano educazione alimentare e gioco.",
-    "projectRole": "Percorsi di educazione alimentare, analisi critica di prezzi ed etichette, conoscenza delle filiere e promozione di scelte consapevoli.",
+    "description": "Associazione delle Colline Metallifere che valorizza il patrimonio culturale dell’alimentazione, dell’agricoltura e dei paesaggi rurali. Promuove produzioni locali, biodiversità agroalimentare e saperi del territorio attraverso iniziative culturali, educative e collaborazioni tra associazioni, produttori e comunità.",
+    "projectRole": "Propone un percorso partecipativo per riconoscere i meccanismi ludici e di ricompensa del marketing alimentare — personaggi, premi, concorsi e raccolte punti — e riflettere sulla loro influenza sulle scelte di consumo, soprattutto dei più giovani. Etichette, confronto tra prodotti, aspetti nutrizionali e filiere locali saranno approfondimenti complementari, in collaborazione con la Misericordia di Prata.",
     "actions": [
       {
-        "title": "Il territorio in tavola",
+        "title": "Il gioco nascosto nel marketing alimentare",
         "code": "A3 · A4",
-        "window": "marzo 2027 – dicembre 2027",
-        "description": "Format di 4–5 ore con incontro con nutrizionista, laboratorio «Dietro al prezzo» e degustazione comparativa guidata."
+        "window": "marzo 2027 – dicembre 2027 (periodo indicativo)",
+        "description": "Proposta di laboratorio partecipativo su confezioni e messaggi pubblicitari: riconoscimento di meccanismi ludici, premi, personaggi e strategie persuasive, con confronto fra prodotti, approfondimenti nutrizionali e filiere locali. Format e date da definire con Federludo e Misericordia di Prata."
       },
       {
-        "title": "Attivazione di reti territoriali",
+        "title": "Reti territoriali, gioco e comunità",
         "code": "A2 · A5",
-        "window": "marzo 2027 – dicembre 2027",
-        "description": "Coinvolgimento di produttori, imprese locali, comunità educante e reti della sostenibilità."
+        "window": "marzo 2027 – dicembre 2027 (periodo indicativo)",
+        "description": "Coinvolgimento di associazioni, produttori e comunità locali; valorizzazione delle produzioni e delle tradizioni ludiche e alimentari delle Colline Metallifere. Modalità operative in definizione."
       }
     ],
     "coordinates": [
@@ -293,7 +293,12 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": "assets/images/partners/09-il-drago-delle-colline-metallifere-aps.png"
+    "image": "assets/images/partners/09-il-drago-delle-colline-metallifere-aps.png",
+    "focusPage": {
+      "href": "attivita/marketing-alimentare/",
+      "label": "Scopri il percorso sul gioco nel marketing alimentare"
+    },
+    "collaborationId": "misericordia-prata"
   },
   {
     "id": "bandus",
@@ -342,20 +347,20 @@
     "province": "GR",
     "area": "Prata, Massa Marittima e Colline Metallifere",
     "sourceUrl": null,
-    "description": "Realtà associativa della comunità di Prata, nel territorio di Massa Marittima. Nel progetto collabora alla costruzione di occasioni pubbliche di incontro e a percorsi locali di socialità.",
-    "projectRole": "Attivazione territoriale di Prata, supporto logistico e organizzativo alle attività ludiche e collaborazione con Il Drago delle Colline Metallifere.",
+    "description": "Associazione di solidarietà e volontariato radicata nella comunità di Prata, nelle Colline Metallifere. Contribuisce alla socialità locale e alla valorizzazione della memoria e delle tradizioni del territorio, anche ludiche e alimentari, creando occasioni di scambio tra generazioni e persone di provenienze diverse.",
+    "projectRole": "In collaborazione con Il Drago APS, propone incontri partecipativi sulle strategie ludiche del marketing alimentare e sul consumo consapevole. La Misericordia favorirà soprattutto il coinvolgimento della popolazione di Prata, il dialogo intergenerazionale e interculturale e la riscoperta delle tradizioni ludiche e alimentari della comunità, come risposta alla riduzione delle occasioni di aggregazione nei piccoli centri.",
     "actions": [
       {
-        "title": "Prata — incontro estivo e consolidamento",
-        "code": "A5",
-        "window": "luglio 2027 – agosto 2027",
-        "description": "Evento di rete e valorizzazione del ruolo del territorio."
+        "title": "Prata: incontrarsi, partecipare, scegliere",
+        "code": "A2 · A3",
+        "window": "marzo 2027 – dicembre 2027 (periodo indicativo)",
+        "description": "Con Il Drago APS, proposta di incontri e laboratori su premi e strategie persuasive del marketing alimentare, scelte consapevoli e prodotti locali. La Misericordia curerà soprattutto l’accoglienza e il coinvolgimento della comunità. Format e date da definire."
       },
       {
-        "title": "Supporto ai cicli nelle Colline Metallifere",
-        "code": "A3",
-        "window": "marzo 2027 – dicembre 2027",
-        "description": "Accoglienza, spazi, volontari e supporto alle attività organizzate con Il Drago."
+        "title": "Giochi, tradizioni e comunità",
+        "code": "A2 · A5",
+        "window": "luglio 2027 – agosto 2027 (periodo indicativo)",
+        "description": "Ipotesi di attività per recuperare giochi e tradizioni alimentari legati alla storia rurale di Prata e favorire il dialogo tra generazioni e comunità di provenienze diverse. Programma da concordare."
       }
     ],
     "coordinates": [
@@ -364,7 +369,12 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "sito o riferimento pubblico da confermare",
-    "image": "assets/images/partners/01-misericordia-di-prata.png"
+    "image": "assets/images/partners/01-misericordia-di-prata.png",
+    "focusPage": {
+      "href": "attivita/marketing-alimentare/",
+      "label": "Scopri il percorso sul gioco nel marketing alimentare"
+    },
+    "collaborationId": "drago"
   },
   {
     "id": "grvitalia",
