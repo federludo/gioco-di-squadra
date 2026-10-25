@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="tit des">
+<title id="tit">Mettere in comune idee e attività</title><desc id="des">Illustrazione di un tavolo di lavoro con schede, pedine colorate e una matita, in stile editoriale verde e ocra.</desc>
+<defs><linearGradient id="bg" x2="1" y2=".9"><stop stop-color="#eaece2"/><stop offset="1" stop-color="#d9e2d7"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#10483c" flood-opacity=".12"/></filter></defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<path d="M0 0H1600V900H0Z" fill="none" stroke="#d4dccc" stroke-width="40"/>
+<g filter="url(#s)" transform="rotate(-9 460 440)"><rect x="170" y="105" width="690" height="680" rx="24" fill="#f9f7ef"/>
+<g stroke="#d2d9cb" stroke-width="3"><path d="M220 245H800M220 361H800M220 477H800M220 593H800M220 709H800"/></g>
+<g fill="#0e4a40" font-family="DejaVu Sans,Arial,sans-serif"><text x="222" y="210" font-size="34" font-weight="700" letter-spacing="3">METTIAMO IN COMUNE</text><text x="221" y="295" font-size="22">persone</text><text x="221" y="413" font-size="22">idee</text><text x="221" y="530" font-size="22">strumenti</text><text x="221" y="647" font-size="22">attività</text></g>
+<g fill="none" stroke="#e4a343" stroke-width="10" stroke-linecap="round"><path d="m676 286 26 29 65-63"/><path d="m676 406 26 29 65-63"/><path d="m676 522 26 29 65-63"/></g></g>
+<g filter="url(#s)" transform="translate(931 107) rotate(8 230 280)"><rect x="0" y="0" width="480" height="618" rx="25" fill="#0b5147"/>
+<g stroke="#7cb9a2" stroke-width="4" fill="none" opacity=".65"><path d="M70 124Q215 46 386 166"/><path d="M70 315Q218 438 390 284"/><path d="M66 481Q197 415 384 532"/></g>
+<g transform="translate(80 180)"><circle cx="45" cy="22" r="28" fill="#e5a13d"/><path d="M20 53Q45 39 70 53L90 134H0Z" fill="#e5a13d"/></g>
+<g transform="translate(278 225)"><circle cx="45" cy="22" r="28" fill="#e6e7d7"/><path d="M20 53Q45 39 70 53L90 134H0Z" fill="#e6e7d7"/></g>
+<g transform="translate(174 390)"><circle cx="45" cy="22" r="28" fill="#84bfab"/><path d="M20 53Q45 39 70 53L90 134H0Z" fill="#84bfab"/></g></g>
+<path d="M1068 85L1330 41" stroke="#a66844" stroke-width="21" stroke-linecap="round"/><path d="M1330 41L1369 34 1340 62Z" fill="#38473b"/>
+<g font-family="DejaVu Sans,Arial,sans-serif"><text x="110" y="857" fill="#225649" font-size="25" letter-spacing="3">UNA RETE · UN PROGRAMMA · TANTE COMUNITÀ</text></g>
+</svg>
