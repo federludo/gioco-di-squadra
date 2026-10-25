@@ -1,5 +1,19 @@
 [
   {
+    "id": "kick-off-31-ottobre-2026",
+    "slug": "kick-off-31-ottobre-2026",
+    "title": "Il 31 ottobre ci incontriamo: al via il kick-off meeting di Gioco di Squadra",
+    "category": "Il progetto",
+    "status": "published",
+    "label": "Il progetto · 26 ottobre 2026",
+    "date": "2026-10-26",
+    "excerpt": "Sabato 31 ottobre, a Pieve di Compito (Capannori), le associazioni di Gioco di Squadra si riuniscono per avviare le attività: programma della mattinata e buffet offerto da Federludo.",
+    "image": "assets/images/news/kickoff-31-ottobre-cover.svg",
+    "imageAlt": "Illustrazione Si comincia: pedine da gioco, 31 ottobre 2026 e il kick-off meeting",
+    "url": "notizie/kick-off-31-ottobre-2026/",
+    "featured": true
+  },
+  {
     "id": "progetto-finanziato",
     "slug": "progetto-finanziato",
     "title": "Gioco di Squadra prende il via: finanziato il progetto di rete",
@@ -11,6 +25,6 @@
     "image": "https://images.unsplash.com/photo-1563941402622-4e7a488bcc57?auto=format&fit=crop&w=1700&q=82",
     "imageAlt": "Fotografia di materiali da gioco su un tavolo",
     "url": "notizie/progetto-finanziato/",
-    "featured": true
+    "featured": false
   }
 ]
