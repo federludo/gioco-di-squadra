@@ -5,9 +5,9 @@ function el(tag,cl,tx){var x=document.createElement(tag);if(cl)x.className=cl;if
 var root=document.body.dataset.root||"";
 var home=document.getElementById("home-news-grid"),archive=document.getElementById("stories-archive-list");
 if(!home&&!archive)return;
-fetch(root+"content/news.json?v=20261016-coerenza-foto-rete-v1").then(function(r){if(!r.ok)throw Error("Notizie non disponibili");return r.json();}).then(function(items){
+fetch(root+"content/news.json?v=kickoff-20261026-v1").then(function(r){if(!r.ok)throw Error("Notizie non disponibili");return r.json();}).then(function(items){
  if(!Array.isArray(items))throw Error("Archivio notizie non valido");
- items=items.filter(function(n){return n.status==="published"}).sort(function(a,b){return Number(!!b.featured)-Number(!!a.featured)});
+ items=items.filter(function(n){return n.status==="published"}).sort(function(a,b){return Number(!!b.featured)-Number(!!a.featured)||String(b.date||"").localeCompare(String(a.date||""))});
  function card(n,context){
    var a=el("a",context==="home"?"gds-story":"stories-card");a.href=root+n.url;
    var picture=typeof n.image==="string"?n.image:"";
