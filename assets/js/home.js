@@ -4,7 +4,7 @@
 var reduce=window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 function el(t,c,txt){var n=document.createElement(t);if(c)n.className=c;if(txt!=null)n.textContent=txt;return n;}
 var eventsTarget=document.getElementById("home-programme");
-if(eventsTarget)fetch("content/events.json").then(function(r){if(!r.ok)throw Error("Eventi non disponibili");return r.json();}).then(function(items){
+if(eventsTarget)fetch("content/events.json?v=kickoff-20261026-v1").then(function(r){if(!r.ok)throw Error("Eventi non disponibili");return r.json();}).then(function(items){
  eventsTarget.replaceChildren();
  if(!items.length){eventsTarget.append(el("p","","La programmazione è in aggiornamento."));return;}
  items.filter(function(x){return x.months&&x.months.length;}).sort(function(a,b){return a.startMonth.localeCompare(b.startMonth)||a.name.localeCompare(b.name,"it");}).slice(0,3).forEach(function(item,i){
