@@ -3,7 +3,7 @@
 var root = document.body.dataset.root || "../";
 var organUrl = root + "content/organizations.json";
 var CACHE;
-function getAll(){return CACHE||(CACHE=fetch(organUrl+"?v=drago-prata-20261020-v1").then(function(r){if(!r.ok)throw Error("Archivio rete non disponibile");return r.json();}));}
+function getAll(){return CACHE||(CACHE=fetch(organUrl+"?v=schede-20261026-v1").then(function(r){if(!r.ok)throw Error("Archivio rete non disponibile");return r.json();}));}
 function E(tag,cls,txt){var el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el;}
 function safe(url){return typeof url==="string" && /^https:\/\/[\w.-]+(?:[/:?#]|$)/i.test(url);}
 function url(o){return root+(o.type==="sostenitore"?"sostenitore/":"partner/")+encodeURIComponent(o.id)+"/";}
@@ -143,7 +143,7 @@ function setupProfile(all){
  side.append(E("h3","","In breve"));var dl=E("dl");
  function fact(k,v,external){if(!v)return;dl.append(E("dt","",k));var d=E("dd");if(external&&safe(v)){var a=E("a","",new URL(v).hostname.replace(/^www\./,""));a.href=v;a.target="_blank";a.rel="noopener noreferrer";d.append(a);}else d.textContent=v;dl.append(d);}
  fact("Ruolo",o.type==="capofila"?"Capofila":o.type==="partner"?"Partner":"Sostenitore");
- fact("Comune di riferimento",o.city+" ("+o.province+")");
+ fact("Comune di riferimento",(o.municipality||o.city)+" ("+o.province+")");
  fact("Territorio operativo",o.area);
  fact("Sito o presenza pubblica",o.website,true);
  if(o.email && /^[\w.+-]+@[\w.-]+\.[a-z]{2,}$/i.test(o.email)){dl.append(E("dt","","Email pubblica"));var dd=E("dd"),mail=E("a","",o.email);mail.href="mailto:"+o.email;dd.append(mail);dl.append(dd);}
