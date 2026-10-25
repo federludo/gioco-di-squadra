@@ -272,19 +272,19 @@
     "website": "https://www.associazionedrago.eu/",
     "sourceUrl": "https://www.associazionedrago.eu/",
     "description": "Associazione delle Colline Metallifere che valorizza il patrimonio culturale dell’alimentazione, dell’agricoltura e dei paesaggi rurali. Promuove produzioni locali, biodiversità agroalimentare e saperi del territorio attraverso iniziative culturali, educative e collaborazioni tra associazioni, produttori e comunità.",
-    "projectRole": "Propone un percorso partecipativo per riconoscere i meccanismi ludici e di ricompensa del marketing alimentare — personaggi, premi, concorsi e raccolte punti — e riflettere sulla loro influenza sulle scelte di consumo, soprattutto dei più giovani. Etichette, confronto tra prodotti, aspetti nutrizionali e filiere locali saranno approfondimenti complementari, in collaborazione con la Misericordia di Prata.",
+    "projectRole": "Propone un percorso partecipativo per riconoscere i meccanismi ludici e di ricompensa utilizzati nel marketing alimentare — personaggi, premi, concorsi e raccolte punti — e riflettere sulla loro influenza sulle scelte di consumo, soprattutto dei più giovani. Il gioco viene così osservato anche come strumento di persuasione commerciale, oltre che di educazione e socialità.\n\nLettura delle etichette, confronti tra prodotti, approfondimenti nutrizionali e conoscenza delle filiere locali completano il percorso, in collaborazione con la Misericordia di Prata.",
     "actions": [
       {
         "title": "Il gioco nascosto nel marketing alimentare",
-        "code": "A3 · A4",
+        "code": "A3",
         "window": "marzo 2027 – dicembre 2027 (periodo indicativo)",
-        "description": "Proposta di laboratorio partecipativo su confezioni e messaggi pubblicitari: riconoscimento di meccanismi ludici, premi, personaggi e strategie persuasive, con confronto fra prodotti, approfondimenti nutrizionali e filiere locali. Format e date da definire con Federludo e Misericordia di Prata."
+        "description": "Laboratori partecipativi dedicati all'analisi di confezioni e messaggi pubblicitari, per riconoscere meccanismi ludici, premi, personaggi e strategie persuasive. Il percorso prevede approfondimenti con professionisti della nutrizione, confronti tra prodotti, lettura delle etichette e valorizzazione delle filiere agroalimentari locali. Format e date in fase di definizione con Federludo e Misericordia di Prata."
       },
       {
         "title": "Reti territoriali, gioco e comunità",
         "code": "A2 · A5",
         "window": "marzo 2027 – dicembre 2027 (periodo indicativo)",
-        "description": "Coinvolgimento di associazioni, produttori e comunità locali; valorizzazione delle produzioni e delle tradizioni ludiche e alimentari delle Colline Metallifere. Modalità operative in definizione."
+        "description": "Coinvolgimento di associazioni, produttori e comunità locali per favorire la partecipazione, valorizzare le produzioni agroalimentari e rafforzare le relazioni territoriali. Il percorso potrà comprendere anche iniziative dedicate alla riscoperta delle tradizioni ludiche e alimentari locali. Modalità operative in fase di definizione."
       }
     ],
     "coordinates": [
@@ -343,12 +343,12 @@
     "id": "misericordia-prata",
     "name": "Associazione Misericordia di Prata",
     "type": "partner",
-    "city": "Prata",
+    "city": "Massa Marittima",
     "province": "GR",
-    "area": "Prata, Massa Marittima e Colline Metallifere",
+    "area": "Prata (frazione di Massa Marittima) e Colline Metallifere",
     "sourceUrl": null,
     "description": "Associazione di solidarietà e volontariato radicata nella comunità di Prata, nelle Colline Metallifere. Contribuisce alla socialità locale e alla valorizzazione della memoria e delle tradizioni del territorio, anche ludiche e alimentari, creando occasioni di scambio tra generazioni e persone di provenienze diverse.",
-    "projectRole": "In collaborazione con Il Drago APS, propone incontri partecipativi sulle strategie ludiche del marketing alimentare e sul consumo consapevole. La Misericordia favorirà soprattutto il coinvolgimento della popolazione di Prata, il dialogo intergenerazionale e interculturale e la riscoperta delle tradizioni ludiche e alimentari della comunità, come risposta alla riduzione delle occasioni di aggregazione nei piccoli centri.",
+    "projectRole": "In collaborazione con Il Drago APS, propone incontri partecipativi sulle strategie ludiche del marketing alimentare e sul consumo consapevole. La Misericordia favorirà soprattutto il coinvolgimento della popolazione di Prata, il dialogo intergenerazionale e interculturale e la valorizzazione delle tradizioni ludiche e alimentari locali, contribuendo a rafforzare le occasioni di incontro e le relazioni sociali nel territorio.",
     "actions": [
       {
         "title": "Prata: incontrarsi, partecipare, scegliere",
