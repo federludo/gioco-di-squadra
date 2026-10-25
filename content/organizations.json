@@ -343,7 +343,7 @@
     "id": "misericordia-prata",
     "name": "Associazione Misericordia di Prata",
     "type": "partner",
-    "city": "Massa Marittima",
+    "city": "Prata",
     "province": "GR",
     "area": "Prata (frazione di Massa Marittima) e Colline Metallifere",
     "sourceUrl": null,
@@ -374,7 +374,8 @@
       "href": "attivita/marketing-alimentare/",
       "label": "Scopri il percorso sul gioco nel marketing alimentare"
     },
-    "collaborationId": "drago"
+    "collaborationId": "drago",
+    "municipality": "Massa Marittima"
   },
   {
     "id": "grvitalia",
