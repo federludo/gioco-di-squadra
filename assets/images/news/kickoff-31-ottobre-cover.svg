@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Si comincia: 31 ottobre 2026</title>
+<desc id="desc">Illustrazione editoriale in verde petrolio e ocra per il kick-off di Gioco di Squadra: pedine e schede disposte su un tavolo.</desc>
+<defs>
+<linearGradient id="ground" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#073b36"/><stop offset=".57" stop-color="#0c5548"/><stop offset="1" stop-color="#07372f"/></linearGradient>
+<linearGradient id="paper" x1="0" x2="1" y1="0" y2=".4"><stop stop-color="#f5f2e9"/><stop offset="1" stop-color="#e5e3d3"/></linearGradient>
+<pattern id="dots" width="29" height="29" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#ddded0" opacity=".14"/></pattern>
+<filter id="shadow"><feDropShadow dx="0" dy="19" stdDeviation="23" flood-color="#001813" flood-opacity=".27"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#ground)"/><rect width="1600" height="900" fill="url(#dots)"/>
+<path d="M-50 650C212 545 248 840 483 743s435-74 579 21 377 123 605 13" fill="none" stroke="#a4cfb3" opacity=".13" stroke-width="4"/>
+<path d="M-28 597C227 477 309 769 509 684s415-88 590-19 319 135 570 14" fill="none" stroke="#a4cfb3" opacity=".11" stroke-width="2"/>
+<g filter="url(#shadow)" transform="translate(991 110) rotate(11 260 320)">
+<rect x="0" y="0" width="495" height="647" rx="26" fill="url(#paper)"/>
+<rect x="31" y="31" width="432" height="584" rx="10" fill="none" stroke="#b5bbad" stroke-width="2" stroke-dasharray="4 14"/>
+<g stroke="#8bbaa8" stroke-width="3" fill="none" opacity=".7"><path d="M63 140Q220 60 429 173"/><path d="M68 247Q239 346 430 245"/><path d="M79 464Q221 388 427 501"/></g>
+<g transform="translate(105 127)"><circle cx="35" cy="22" r="24" fill="#e8aa44"/><path d="M14 54Q35 32 58 54L76 112H-4Z" fill="#e8aa44"/></g>
+<g transform="translate(306 217)"><circle cx="35" cy="22" r="24" fill="#007f79"/><path d="M14 54Q35 32 58 54L76 112H-4Z" fill="#007f79"/></g>
+<g transform="translate(159 388)"><circle cx="35" cy="22" r="24" fill="#be6746"/><path d="M14 54Q35 32 58 54L76 112H-4Z" fill="#be6746"/></g>
+<circle cx="351" cy="500" r="43" fill="#fff" stroke="#d0d4c9" stroke-width="3"/><circle cx="340" cy="490" r="7" fill="#0a4a3c"/><circle cx="362" cy="507" r="7" fill="#0a4a3c"/>
+</g>
+<path d="M889 122L953 79" stroke="#e5a642" stroke-width="10" stroke-linecap="round"/><path d="M931 198L981 187" stroke="#e5a642" stroke-width="10" stroke-linecap="round"/><path d="M860 67L885 30" stroke="#e5a642" stroke-width="10" stroke-linecap="round"/>
+<g font-family="DejaVu Sans,Arial,sans-serif" fill="#f7f5ea">
+<text x="114" y="143" font-weight="700" font-size="24" letter-spacing="4" fill="#edb258">GIOCO DI SQUADRA · 2026—2027</text>
+<text x="100" y="360" font-weight="500" font-size="112" letter-spacing="-7">SI COMINCIA.</text>
+<rect x="111" y="404" width="545" height="5" rx="3" fill="#e6a541"/>
+<text x="114" y="488" font-weight="500" font-size="58" letter-spacing="-2">31 OTTOBRE 2026</text>
+<text x="114" y="553" font-size="29" fill="#cbded4" letter-spacing="1">KICK-OFF MEETING</text>
+<text x="114" y="604" font-size="26" fill="#cbded4">Pieve di Compito · Capannori (LU)</text>
+<text x="114" y="810" font-size="21" fill="#b6d0c5" letter-spacing="1.4">INSIEME, DALLE IDEE ALLE ATTIVITÀ</text>
+</g>
+</svg>
