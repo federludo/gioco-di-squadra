@@ -1,5 +1,38 @@
 [
   {
+    "id": "kickoff-gioco-di-squadra-2026",
+    "name": "Kick-off meeting di Gioco di Squadra",
+    "territory": "Pieve di Compito, Capannori (LU)",
+    "organizerId": "federludo",
+    "category": "Incontri di progetto",
+    "description": "Sabato 31 ottobre 2026: accoglienza 9:00–9:30, sessione operativa dei partner 9:30–12:30 presso l’Agriturismo Alle Camelie (via delle Piave 186, Capannori). Governance, budget, calendario, sito e comunicazione; a seguire buffet offerto da Federludo. Incontro su convocazione.",
+    "action": "A1",
+    "sourceWindow": "31 ottobre 2026, confermato",
+    "windows": [
+      {
+        "start": "2026-10",
+        "end": "2026-10"
+      }
+    ],
+    "months": [
+      "2026-10"
+    ],
+    "startMonth": "2026-10",
+    "endMonth": "2026-10",
+    "periodLabel": "Sabato 31 ottobre 2026 · 9:00–12:30",
+    "cadence": "31 ottobre 2026 · accoglienza 9:00 · lavori 9:30–12:30 · buffet a seguire",
+    "programStatus": "Incontro confermato. Sessione operativa riservata alle organizzazioni partner convocate; sostenitori invitati separatamente.",
+    "date": "2026-10-31",
+    "partnerIds": [
+      "federludo"
+    ],
+    "source": "Convocazione ufficiale Federludo APS, 21 ottobre 2026, Allegato A (ordine del giorno).",
+    "focusPage": {
+      "href": "notizie/kick-off-31-ottobre-2026/",
+      "label": "Leggi programma e informazioni sul kick-off"
+    }
+  },
+  {
     "id": "federludo-presidi",
     "name": "Presìdi di socialità e incontri di rete",
     "territory": "Coordinamento regionale / territori dei partner",
