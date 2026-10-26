@@ -126,3 +126,39 @@
  .gds-stories .stories-kickoff .kickoff-agenda>div{padding:20px}
  .gds-stories .stories-kickoff .kickoff-facts>div{padding:19px}
 }
+
+/* Kick-off article: don't crop the cover containing type on small screens.
+   Also keep the board-game illustration fully visible at every viewport. */
+.gds-stories .stories-kickoff img.stories-article-photo,
+.gds-stories .stories-kickoff .kickoff-team-figure img{
+ width:100%;
+ max-width:100%;
+ height:auto;
+ max-height:none;
+ aspect-ratio:auto;
+ object-fit:contain;
+ object-position:center;
+ display:block;
+}
+.gds-stories .stories-kickoff .kickoff-team-figure{
+ max-width:900px;
+ margin:34px auto 42px;
+ padding:0;
+}
+.gds-stories .stories-kickoff .kickoff-team-figure img{
+ width:100%;
+ border-radius:5px;
+ background:#e9e5d8;
+}
+.gds-stories .stories-kickoff .kickoff-team-figure figcaption{
+ margin-top:10px;
+ font-size:12px;
+ color:#60786c;
+ line-height:1.5;
+ text-align:left;
+}
+@media(max-width:700px){
+ .gds-stories .stories-kickoff img.stories-article-photo{height:auto;object-fit:contain}
+ .gds-stories .stories-kickoff .kickoff-team-figure{margin:27px auto 32px}
+ .gds-stories .stories-kickoff .kickoff-team-figure figcaption{font-size:11px}
+}
