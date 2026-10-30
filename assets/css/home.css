@@ -319,3 +319,59 @@
 @media(prefers-reduced-motion:reduce){
  .site-head .nav>.gds-access-counter .gds-access-counter__dot{animation:none}
 }
+
+
+/* Home · Storie e news: two balanced, equally-sized cards.
+   The kick-off artwork contains text, so it must never be cropped. */
+.gds-home .gds-news-grid:not(.is-single){
+ display:grid;
+ grid-template-columns:repeat(2,minmax(0,1fr));
+ gap:22px;
+ align-items:stretch;
+}
+.gds-home .gds-news-grid .gds-story,
+.gds-home .gds-news-grid .gds-story:first-child{
+ display:flex;
+ flex-direction:column;
+ grid-column:auto;
+ grid-template-columns:none;
+ min-width:0;
+ min-height:0;
+ height:100%;
+}
+.gds-home .gds-news-grid .gds-story img.gds-story-image,
+.gds-home .gds-news-grid .gds-story:first-child img.gds-story-image{
+ display:block;
+ width:100%;
+ height:auto;
+ min-height:0;
+ max-height:none;
+ aspect-ratio:16/9;
+ flex:0 0 auto;
+ align-self:auto;
+ object-fit:cover;
+ object-position:center;
+ background:#0b4940;
+}
+.gds-home .gds-news-grid .gds-story:first-child img.gds-story-image{
+ object-fit:contain;
+}
+.gds-home .gds-news-grid .gds-story-info{
+ flex:1 1 auto;
+ padding:27px 29px 29px;
+}
+.gds-home .gds-news-grid .gds-story h3,
+.gds-home .gds-news-grid .gds-story:first-child h3{
+ font-size:clamp(24px,2.25vw,33px);
+ line-height:1.17;
+ margin:15px 0 15px;
+}
+@media(max-width:750px){
+ .gds-home .gds-news-grid:not(.is-single){
+  grid-template-columns:minmax(0,1fr);
+  gap:20px;
+ }
+ .gds-home .gds-news-grid .gds-story-info{padding:23px 24px 27px}
+ .gds-home .gds-news-grid .gds-story h3,
+ .gds-home .gds-news-grid .gds-story:first-child h3{font-size:clamp(25px,6vw,34px)}
+}
