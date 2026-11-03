@@ -24,21 +24,21 @@
       "name": "Giovanni Bacaro",
       "role": "Project Coordinator",
       "organizationId": "federludo",
-      "photo": null
+      "photo": "assets/images/team/giovanni-bacaro.webp"
     },
     {
       "id": "manager",
       "name": "Mirella Vicini",
       "role": "Project Manager",
       "organizationId": "federludo",
-      "photo": null
+      "photo": "assets/images/team/mirella-vicini.webp"
     },
     {
       "id": "finance",
-      "name": null,
+      "name": "Samuele Desideri",
       "role": "Financial Manager · Tesoriere",
       "organizationId": "federludo",
-      "photo": null
+      "photo": "assets/images/team/samuele-desideri.webp"
     }
   ],
   "representatives": [
