@@ -257,54 +257,43 @@
   },
   {
     "id": "kraken-biblioteca",
-    "name": "Gioco di Ruolo in Comunità – Biblioteca",
-    "territory": "Sesto Fiorentino, Biblioteca comunale",
+    "name": "Biblioteca Ludica – 21 novembre 2026",
+    "territory": "Biblioteca Ernesto Ragionieri · Sesto Fiorentino (FI)",
     "organizerId": "kraken",
     "category": "Giochi di ruolo",
-    "description": "Sei incontri di gioco di ruolo con facilitazione e debriefing per competenze relazionali e decisionali.",
+    "description": "Ciclo Biblioteca Ludica: sessione mensile di gioco di ruolo con conduzione facilitata in biblioteca. Attività K1 – GdR in Comunità (A3).",
     "action": "A3",
-    "sourceWindow": "M3–M18",
+    "sourceWindow": "K1 – calendario operativo Kraken (A3)",
     "windows": [
       {
-        "start": "2026-10",
-        "end": "2027-12"
+        "start": "2026-11",
+        "end": "2026-11"
       }
     ],
     "months": [
-      "2026-10",
-      "2026-11",
-      "2026-12",
-      "2027-01",
-      "2027-02",
-      "2027-03",
-      "2027-04",
-      "2027-05",
-      "2027-06",
-      "2027-07",
-      "2027-08",
-      "2027-09",
-      "2027-10",
-      "2027-11",
-      "2027-12"
+      "2026-11"
     ],
-    "startMonth": "2026-10",
-    "endMonth": "2027-12",
-    "periodLabel": "ottobre 2026 – dicembre 2027",
-    "cadence": "Ciclo continuativo di incontri",
-    "programStatus": "Programmazione in fase di aggiornamento.",
-    "date": null,
+    "startMonth": "2026-11",
+    "endMonth": "2026-11",
+    "periodLabel": "21 novembre 2026 · orario da definire",
+    "cadence": "Sessione di gioco di ruolo con facilitazione, nell'ambito del ciclo Biblioteca Ludica. Orario da definire.",
+    "programStatus": "Data trasmessa da Kraken APS; orario e conferma organizzativa da verificare.",
+    "scheduleStatus": "Orario da definire",
+    "date": "2026-11-21",
     "partnerIds": [
       "kraken"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026",
-    "scheduleBeforeRemodulation": {
+    "source": "Calendario_Attivita_Kraken.xlsx, calendario operativo trasmesso da Kraken APS, novembre 2026",
+    "scheduleBeforeUpdate": {
+      "description": "Sei incontri di gioco di ruolo con facilitazione e debriefing per competenze relazionali e decisionali.",
       "windows": [
         {
           "start": "2026-10",
           "end": "2027-12"
         }
       ],
-      "periodLabel": "ottobre 2026 – dicembre 2027"
+      "periodLabel": "ottobre 2026 – dicembre 2027",
+      "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
     }
   },
   {
@@ -343,7 +332,7 @@
     "endMonth": "2027-12",
     "periodLabel": "ottobre 2026 – dicembre 2027",
     "cadence": "Ciclo continuativo di incontri",
-    "programStatus": "Programmazione in fase di aggiornamento.",
+    "programStatus": "Otto incontri guidati previsti dal piano originario, senza date specifiche. Le serate di gioco libero trasmesse successivamente da Kraken sono riportate in una voce distinta.",
     "date": null,
     "partnerIds": [
       "kraken"
@@ -357,17 +346,18 @@
         }
       ],
       "periodLabel": "ottobre 2026 – dicembre 2027"
-    }
+    },
+    "scheduleStatus": "Programmazione originaria da dettagliare"
   },
   {
     "id": "libera-ludum",
-    "name": "Libera Ludum",
-    "territory": "Sesto Fiorentino, Biblioteca Ernesto Ragionieri",
+    "name": "Libera Ludum 2027",
+    "territory": "Biblioteca Ernesto Ragionieri · Sesto Fiorentino (FI)",
     "organizerId": "kraken",
     "category": "Eventi pubblici",
-    "description": "Evento pubblico gratuito di due giornate con sessioni dimostrative di gioco di ruolo e gioco da tavolo.",
+    "description": "Manifestazione pubblica di due giornate presso la Biblioteca Ernesto Ragionieri: sessioni dimostrative di gioco di ruolo, punto informativo del progetto e raccolta di contatti per le attività future. K3 – Libera Ludum (A5).",
     "action": "A5",
-    "sourceWindow": "M9 (marzo 2027)",
+    "sourceWindow": "K3 – Libera Ludum (A5), calendario operativo Kraken",
     "windows": [
       {
         "start": "2027-03",
@@ -379,24 +369,26 @@
     ],
     "startMonth": "2027-03",
     "endMonth": "2027-03",
-    "periodLabel": "marzo 2027",
-    "cadence": "Evento di due giornate · programmazione in fase di aggiornamento",
-    "programStatus": "Programmazione in fase di aggiornamento.",
-    "date": null,
+    "periodLabel": "13–14 marzo 2027 · orari da definire",
+    "cadence": "Due giornate, sabato 13 e domenica 14 marzo 2027; orari e programma dettagliato da definire.",
+    "programStatus": "Date indicate nel calendario Kraken APS; conferma organizzativa, orari e programma da verificare.",
+    "date": "2027-03-13",
     "partnerIds": [
       "kraken"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+    "source": "Calendario_Attivita_Kraken.xlsx, calendario operativo trasmesso da Kraken APS, novembre 2026",
+    "scheduleStatus": "Programma in definizione",
+    "endDate": "2027-03-14"
   },
   {
     "id": "mugello-replica",
-    "name": "Gioco di ruolo in Mugello – replica territoriale",
-    "territory": "Barberino del Mugello",
+    "name": "Iniziativa ludica nel Mugello (titolo provvisorio: Mugello Comics)",
+    "territory": "Barberino del Mugello (FI) · sede da definire",
     "organizerId": "kraken",
     "category": "Eventi pubblici",
-    "description": "Evento locale di avvicinamento al gioco di ruolo e alla facilitazione.",
+    "description": "Ipotesi di partecipazione a una manifestazione nel Mugello con tavoli di gioco di ruolo facilitato e un punto informativo di Gioco di Squadra. Nel prospetto di Kraken compare il titolo provvisorio «Mugello Comics». K4 – Iniziativa Mugello, replica (A2/A5).",
     "action": "A2 · A5",
-    "sourceWindow": "M3; replica M15",
+    "sourceWindow": "K4 – Iniziativa Mugello, replica (A2/A5), calendario operativo Kraken",
     "windows": [
       {
         "start": "2027-09",
@@ -408,14 +400,17 @@
     ],
     "startMonth": "2027-09",
     "endMonth": "2027-09",
-    "periodLabel": "settembre 2027",
-    "cadence": "Replica territoriale prevista a settembre 2027",
-    "programStatus": "Programmazione in fase di aggiornamento.",
+    "periodLabel": "settembre 2027 · ipotesi 25–26 settembre",
+    "cadence": "Possibile evento su due giornate, 25–26 settembre 2027; nome, sede e date non confermati.",
+    "programStatus": "Titolo e date sono espressamente indicati da Kraken come ancora da definire. Il 25–26 settembre è soltanto un'ipotesi; non considerare l'evento confermato.",
     "date": null,
     "partnerIds": [
       "kraken"
     ],
-    "source": "Allegato tecnico al Modulo E – Piano operativo delle attività territoriali, ottobre 2026"
+    "source": "Calendario_Attivita_Kraken.xlsx, calendario operativo trasmesso da Kraken APS, novembre 2026",
+    "scheduleStatus": "Evento e date da confermare",
+    "proposedDate": "2027-09-25",
+    "proposedEndDate": "2027-09-26"
   },
   {
     "id": "percorsi-in-scatola",
@@ -1272,5 +1267,239 @@
       ],
       "periodLabel": "ottobre 2026 – dicembre 2027"
     }
+  },
+  {
+    "id": "kraken-biblioteca-2026-12-12",
+    "name": "Biblioteca Ludica – 12 dicembre 2026",
+    "territory": "Biblioteca Ernesto Ragionieri · Sesto Fiorentino (FI)",
+    "organizerId": "kraken",
+    "category": "Giochi di ruolo",
+    "description": "Ciclo Biblioteca Ludica: sessione mensile di gioco di ruolo con conduzione facilitata in biblioteca. Attività K1 – GdR in Comunità (A3).",
+    "action": "A3",
+    "sourceWindow": "K1 – calendario operativo Kraken (A3)",
+    "windows": [
+      {
+        "start": "2026-12",
+        "end": "2026-12"
+      }
+    ],
+    "months": [
+      "2026-12"
+    ],
+    "startMonth": "2026-12",
+    "endMonth": "2026-12",
+    "periodLabel": "12 dicembre 2026 · orario da definire",
+    "cadence": "Sessione di gioco di ruolo con facilitazione, nell'ambito del ciclo Biblioteca Ludica. Orario da definire.",
+    "programStatus": "Data trasmessa da Kraken APS; orario e conferma organizzativa da verificare.",
+    "scheduleStatus": "Orario da definire",
+    "date": "2026-12-12",
+    "partnerIds": [
+      "kraken"
+    ],
+    "source": "Calendario_Attivita_Kraken.xlsx, calendario operativo trasmesso da Kraken APS, novembre 2026"
+  },
+  {
+    "id": "kraken-biblioteca-2027-01-16",
+    "name": "Biblioteca Ludica – 16 gennaio 2027",
+    "territory": "Biblioteca Ernesto Ragionieri · Sesto Fiorentino (FI)",
+    "organizerId": "kraken",
+    "category": "Giochi di ruolo",
+    "description": "Ciclo Biblioteca Ludica: sessione mensile di gioco di ruolo con conduzione facilitata in biblioteca. Attività K1 – GdR in Comunità (A3).",
+    "action": "A3",
+    "sourceWindow": "K1 – calendario operativo Kraken (A3)",
+    "windows": [
+      {
+        "start": "2027-01",
+        "end": "2027-01"
+      }
+    ],
+    "months": [
+      "2027-01"
+    ],
+    "startMonth": "2027-01",
+    "endMonth": "2027-01",
+    "periodLabel": "16 gennaio 2027 · orario da definire",
+    "cadence": "Sessione di gioco di ruolo con facilitazione, nell'ambito del ciclo Biblioteca Ludica. Orario da definire.",
+    "programStatus": "Data trasmessa da Kraken APS; orario e conferma organizzativa da verificare.",
+    "scheduleStatus": "Orario da definire",
+    "date": "2027-01-16",
+    "partnerIds": [
+      "kraken"
+    ],
+    "source": "Calendario_Attivita_Kraken.xlsx, calendario operativo trasmesso da Kraken APS, novembre 2026"
+  },
+  {
+    "id": "kraken-biblioteca-2027-02-20",
+    "name": "Biblioteca Ludica – 20 febbraio 2027",
+    "territory": "Biblioteca Ernesto Ragionieri · Sesto Fiorentino (FI)",
+    "organizerId": "kraken",
+    "category": "Giochi di ruolo",
+    "description": "Ciclo Biblioteca Ludica: sessione mensile di gioco di ruolo con conduzione facilitata in biblioteca. Attività K1 – GdR in Comunità (A3).",
+    "action": "A3",
+    "sourceWindow": "K1 – calendario operativo Kraken (A3)",
+    "windows": [
+      {
+        "start": "2027-02",
+        "end": "2027-02"
+      }
+    ],
+    "months": [
+      "2027-02"
+    ],
+    "startMonth": "2027-02",
+    "endMonth": "2027-02",
+    "periodLabel": "20 febbraio 2027 · orario da definire",
+    "cadence": "Sessione di gioco di ruolo con facilitazione, nell'ambito del ciclo Biblioteca Ludica. Orario da definire.",
+    "programStatus": "Data trasmessa da Kraken APS; orario e conferma organizzativa da verificare.",
+    "scheduleStatus": "Orario da definire",
+    "date": "2027-02-20",
+    "partnerIds": [
+      "kraken"
+    ],
+    "source": "Calendario_Attivita_Kraken.xlsx, calendario operativo trasmesso da Kraken APS, novembre 2026"
+  },
+  {
+    "id": "kraken-biblioteca-2027-04-10",
+    "name": "Biblioteca Ludica – 10 aprile 2027",
+    "territory": "Biblioteca Ernesto Ragionieri · Sesto Fiorentino (FI)",
+    "organizerId": "kraken",
+    "category": "Giochi di ruolo",
+    "description": "Ciclo Biblioteca Ludica: sessione mensile di gioco di ruolo con conduzione facilitata in biblioteca. Attività K1 – GdR in Comunità (A3).",
+    "action": "A3",
+    "sourceWindow": "K1 – calendario operativo Kraken (A3)",
+    "windows": [
+      {
+        "start": "2027-04",
+        "end": "2027-04"
+      }
+    ],
+    "months": [
+      "2027-04"
+    ],
+    "startMonth": "2027-04",
+    "endMonth": "2027-04",
+    "periodLabel": "10 aprile 2027 · orario da definire",
+    "cadence": "Sessione di gioco di ruolo con facilitazione, nell'ambito del ciclo Biblioteca Ludica. Orario da definire.",
+    "programStatus": "Data trasmessa da Kraken APS; orario e conferma organizzativa da verificare.",
+    "scheduleStatus": "Orario da definire",
+    "date": "2027-04-10",
+    "partnerIds": [
+      "kraken"
+    ],
+    "source": "Calendario_Attivita_Kraken.xlsx, calendario operativo trasmesso da Kraken APS, novembre 2026"
+  },
+  {
+    "id": "kraken-biblioteca-2027-05-15",
+    "name": "Biblioteca Ludica – 15 maggio 2027",
+    "territory": "Biblioteca Ernesto Ragionieri · Sesto Fiorentino (FI)",
+    "organizerId": "kraken",
+    "category": "Giochi di ruolo",
+    "description": "Ciclo Biblioteca Ludica: sessione mensile di gioco di ruolo con conduzione facilitata in biblioteca. Attività K1 – GdR in Comunità (A3).",
+    "action": "A3",
+    "sourceWindow": "K1 – calendario operativo Kraken (A3)",
+    "windows": [
+      {
+        "start": "2027-05",
+        "end": "2027-05"
+      }
+    ],
+    "months": [
+      "2027-05"
+    ],
+    "startMonth": "2027-05",
+    "endMonth": "2027-05",
+    "periodLabel": "15 maggio 2027 · orario da definire",
+    "cadence": "Sessione di gioco di ruolo con facilitazione, nell'ambito del ciclo Biblioteca Ludica. Orario da definire.",
+    "programStatus": "Data trasmessa da Kraken APS; orario e conferma organizzativa da verificare.",
+    "scheduleStatus": "Orario da definire",
+    "date": "2027-05-15",
+    "partnerIds": [
+      "kraken"
+    ],
+    "source": "Calendario_Attivita_Kraken.xlsx, calendario operativo trasmesso da Kraken APS, novembre 2026"
+  },
+  {
+    "id": "kraken-biblioteca-2027-06-12",
+    "name": "Biblioteca Ludica – 12 giugno 2027",
+    "territory": "Biblioteca Ernesto Ragionieri · Sesto Fiorentino (FI)",
+    "organizerId": "kraken",
+    "category": "Giochi di ruolo",
+    "description": "Ciclo Biblioteca Ludica: sessione mensile di gioco di ruolo con conduzione facilitata in biblioteca. Attività K1 – GdR in Comunità (A3). Prevista nell'ambito della Notte Bianca di Sesto Fiorentino, compatibilmente con il calendario della biblioteca.",
+    "action": "A3",
+    "sourceWindow": "K1 – calendario operativo Kraken (A3)",
+    "windows": [
+      {
+        "start": "2027-06",
+        "end": "2027-06"
+      }
+    ],
+    "months": [
+      "2027-06"
+    ],
+    "startMonth": "2027-06",
+    "endMonth": "2027-06",
+    "periodLabel": "giugno 2027 · 12 giugno indicativo",
+    "cadence": "Incontro nel ciclo Biblioteca Ludica; data indicativa del 12 giugno, nell'ambito della Notte Bianca di Sesto Fiorentino.",
+    "programStatus": "Data non confermata: Kraken indica il 12 giugno come ipotesi, subordinata alla disponibilità della Biblioteca; dettagli della Notte Bianca da verificare.",
+    "scheduleStatus": "Data indicativa",
+    "date": null,
+    "proposedDate": "2027-06-12",
+    "partnerIds": [
+      "kraken"
+    ],
+    "source": "Calendario_Attivita_Kraken.xlsx, calendario operativo trasmesso da Kraken APS, novembre 2026"
+  },
+  {
+    "id": "kraken-formazione-game-master-2026-12-05",
+    "name": "Laboratorio Creativo per Game Master",
+    "territory": "Centro Civico 2 · Sesto Fiorentino (FI)",
+    "organizerId": "kraken",
+    "category": "Formazione",
+    "description": "Laboratorio di formazione rivolto a game master e volontari, nell'ambito dell'attività A4 – Formazione facilitatori e volontari.",
+    "action": "A4",
+    "sourceWindow": "A4 – calendario operativo Kraken",
+    "windows": [
+      {
+        "start": "2026-12",
+        "end": "2026-12"
+      }
+    ],
+    "months": [
+      "2026-12"
+    ],
+    "startMonth": "2026-12",
+    "endMonth": "2026-12",
+    "periodLabel": "5 dicembre 2026 · orario da definire",
+    "cadence": "Sabato 5 dicembre 2026, Centro Civico 2; orario, modalità di partecipazione e programma da precisare.",
+    "programStatus": "Data comunicata da Kraken APS; orario e dettagli di iscrizione da definire.",
+    "scheduleStatus": "Dettagli da definire",
+    "date": "2026-12-05",
+    "partnerIds": [
+      "kraken"
+    ],
+    "source": "Calendario_Attivita_Kraken.xlsx, calendario operativo trasmesso da Kraken APS, novembre 2026"
+  },
+  {
+    "id": "kraken-serate-gioco-libero-centro-civico-2",
+    "name": "Serate di gioco libero – Centro Civico 2",
+    "territory": "Centro Civico 2 · Sesto Fiorentino (FI)",
+    "organizerId": "kraken",
+    "category": "Giochi di ruolo",
+    "description": "Presidio continuativo di socialità con serate di gioco di ruolo libero al Centro Civico 2. Kraken indica una cadenza settimanale nei giorni di giovedì e domenica. Attività K2 – GdR in Comunità, ciclo ai Centri Civici (A3).",
+    "action": "A3",
+    "sourceWindow": "K2 – Serate di gioco libero (A3), calendario operativo Kraken",
+    "windows": [],
+    "months": [],
+    "startMonth": null,
+    "endMonth": null,
+    "periodLabel": "Tutti i giovedì e le domeniche · periodo da definire",
+    "cadence": "Giovedì e domenica; senza date di inizio e fine né orari comunicati. Dettagli da concordare con il partner.",
+    "programStatus": "Sono stati comunicati soltanto i giorni ricorrenti. Avvio, termine, orari, eventuali sospensioni e modalità di accesso restano da confermare.",
+    "scheduleStatus": "Calendario da definire",
+    "date": null,
+    "partnerIds": [
+      "kraken"
+    ],
+    "source": "Calendario_Attivita_Kraken.xlsx, calendario operativo trasmesso da Kraken APS, novembre 2026"
   }
 ]
