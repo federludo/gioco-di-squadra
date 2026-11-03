@@ -24,21 +24,21 @@
       "name": "Giovanni Bacaro",
       "role": "Project Coordinator",
       "organizationId": "federludo",
-      "photo": "assets/images/team/giovanni-bacaro.webp"
+      "photo": "assets/images/management/giovanni-bacaro.jpg"
     },
     {
       "id": "manager",
       "name": "Mirella Vicini",
       "role": "Project Manager",
-      "organizationId": "federludo",
-      "photo": "assets/images/team/mirella-vicini.webp"
+      "organizationId": "progioco-firenze",
+      "photo": "assets/images/management/mirella-vicini.jpg"
     },
     {
       "id": "finance",
       "name": "Samuele Desideri",
       "role": "Financial Manager · Tesoriere",
-      "organizationId": "federludo",
-      "photo": "assets/images/team/samuele-desideri.webp"
+      "organizationId": "whlive",
+      "photo": "assets/images/management/samuele-desideri.png"
     }
   ],
   "representatives": [
