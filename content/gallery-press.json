@@ -554,6 +554,24 @@
       "description": "Presentazione PDF del 1° novembre 2026.",
       "format": "PDF",
       "url": "assets/documents/gallery-press/presentazione-gioco-di-squadra-lucca-2026-11-01.pdf"
+    },
+    {
+      "title": "Foto stampa · presentazione e relatori",
+      "description": "Fotografia messa a disposizione per documentare la presentazione alla stampa di Lucca, 1° novembre 2026.",
+      "format": "WEBP",
+      "url": "assets/images/gallery/press-kit/giovanni-bacaro-e-samuele-desideri.webp"
+    },
+    {
+      "title": "Foto stampa · gruppo alla presentazione",
+      "description": "Fotografia dei partecipanti alla presentazione del progetto, 1° novembre 2026.",
+      "format": "WEBP",
+      "url": "assets/images/gallery/press-kit/federludo-presentazione.webp"
+    },
+    {
+      "title": "Foto stampa · gruppo, inquadratura verticale",
+      "description": "Seconda versione per impaginazioni e comunicazione istituzionale.",
+      "format": "WEBP",
+      "url": "assets/images/gallery/press-kit/federludo-presentazione-orizzontale.webp"
     }
   ],
   "strategy": {
