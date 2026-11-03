@@ -1,0 +1,156 @@
+{
+  "draft": true,
+  "version": "2026-11-03",
+  "sourceNote": "Proposta di assetto organizzativo per confronto tra Federludo APS e le dieci associazioni partner. Da validare prima della pubblicazione definitiva.",
+  "structure": {
+    "steering": {
+      "name": "Steering Committee",
+      "cadence": "trimestrale",
+      "chair": "Project Coordinator",
+      "secretariat": "Project Manager",
+      "purpose": "Indirizzo, controllo dei progressi e valutazione delle criticità"
+    },
+    "operations": {
+      "name": "Comitato Tecnico-Operativo",
+      "cadence": "incontri collegiali semestrali, raccordo continuativo",
+      "lead": "Project Coordinator",
+      "workingLead": "Project Manager",
+      "purpose": "Coordinamento e attuazione delle attività territoriali"
+    }
+  },
+  "central": [
+    {
+      "id": "coordinator",
+      "name": "Giovanni Bacaro",
+      "role": "Project Coordinator",
+      "organizationId": "federludo",
+      "photo": null
+    },
+    {
+      "id": "manager",
+      "name": "Mirella Vicini",
+      "role": "Project Manager",
+      "organizationId": "federludo",
+      "photo": null
+    },
+    {
+      "id": "finance",
+      "name": null,
+      "role": "Financial Manager · Tesoriere",
+      "organizationId": "federludo",
+      "photo": null
+    }
+  ],
+  "representatives": [
+    {
+      "organizationId": "progioco-firenze",
+      "steering": {
+        "name": null,
+        "photo": null
+      },
+      "operations": {
+        "name": null,
+        "photo": null
+      }
+    },
+    {
+      "organizationId": "kraken",
+      "steering": {
+        "name": null,
+        "photo": null
+      },
+      "operations": {
+        "name": null,
+        "photo": null
+      }
+    },
+    {
+      "organizationId": "whlive",
+      "steering": {
+        "name": null,
+        "photo": null
+      },
+      "operations": {
+        "name": null,
+        "photo": null
+      }
+    },
+    {
+      "organizationId": "gamestorm-siena",
+      "steering": {
+        "name": null,
+        "photo": null
+      },
+      "operations": {
+        "name": null,
+        "photo": null
+      }
+    },
+    {
+      "organizationId": "ludicamente",
+      "steering": {
+        "name": null,
+        "photo": null
+      },
+      "operations": {
+        "name": null,
+        "photo": null
+      }
+    },
+    {
+      "organizationId": "drago",
+      "steering": {
+        "name": null,
+        "photo": null
+      },
+      "operations": {
+        "name": null,
+        "photo": null
+      }
+    },
+    {
+      "organizationId": "bandus",
+      "steering": {
+        "name": null,
+        "photo": null
+      },
+      "operations": {
+        "name": null,
+        "photo": null
+      }
+    },
+    {
+      "organizationId": "misericordia-prata",
+      "steering": {
+        "name": null,
+        "photo": null
+      },
+      "operations": {
+        "name": null,
+        "photo": null
+      }
+    },
+    {
+      "organizationId": "grvitalia",
+      "steering": {
+        "name": null,
+        "photo": null
+      },
+      "operations": {
+        "name": null,
+        "photo": null
+      }
+    },
+    {
+      "organizationId": "buon-sollazzo",
+      "steering": {
+        "name": null,
+        "photo": null
+      },
+      "operations": {
+        "name": null,
+        "photo": null
+      }
+    }
+  ]
+}
