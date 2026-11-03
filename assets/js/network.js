@@ -3,7 +3,7 @@
 var root = document.body.dataset.root || "../";
 var organUrl = root + "content/organizations.json";
 var CACHE;
-function getAll(){return CACHE||(CACHE=fetch(organUrl+"?v=kraken-logo-20261103-v1").then(function(r){if(!r.ok)throw Error("Archivio rete non disponibile");return r.json();}));}
+function getAll(){return CACHE||(CACHE=fetch(organUrl+"?v=supporter-logos-20261103-v1").then(function(r){if(!r.ok)throw Error("Archivio rete non disponibile");return r.json();}));}
 function E(tag,cls,txt){var el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el;}
 function safe(url){return typeof url==="string" && /^https:\/\/[\w.-]+(?:[/:?#]|$)/i.test(url);}
 function url(o){return root+(o.type==="sostenitore"?"sostenitore/":"partner/")+encodeURIComponent(o.id)+"/";}
@@ -11,7 +11,19 @@ function initials(o){return o.name.replace(/\b(APS|S\.?R\.?L\.?|S\.?P\.?A\.?|di|
 function avatar(o,cl){var b=E("span","net-avatar"+(cl?" "+cl:""));if(o.image && (o.image.startsWith("https://") || o.image.startsWith("assets/images/"))){var img=E("img");img.src=o.image.startsWith("assets/images/")?root+o.image:o.image;img.alt=cl==="directory"?"":"Logo "+o.name;img.loading="lazy";img.decoding="async";img.width=400;img.height=400;img.onerror=function(){b.replaceChildren(document.createTextNode(initials(o)));};b.append(img);}else{b.textContent=initials(o);}return b;}
 function link(o,txt,cls){var a=E("a",cls||"",txt);a.href=url(o);return a;}
 function memberCard(o){var a=E("a","net-person");a.href=url(o);a.append(avatar(o,"directory"));var v=E("span");v.append(E("span","net-person-title",o.name),E("span","net-person-place",o.city+" ("+o.province+") · "+o.area));v.append(E("span","net-person-brief",o.projectRole));a.append(v,E("span","net-person-arrow","↗"));return a;}
-function supporterCard(o){var a=link(o,"","net-support-card");a.append(E("strong","",o.name),E("small","",o.city+" ("+o.province+") · "+o.category),E("span","","Scheda del sostenitore ↗"));return a;}
+function supporterCard(o){
+ var a=link(o,"","net-support-card"),heading=E("span","net-support-card-identity");
+ if(o.image && (o.image.startsWith("assets/images/") || o.image.startsWith("https://"))){
+  var img=E("img","net-support-card-logo");
+  img.src=o.image.startsWith("assets/images/")?root+o.image:o.image;
+  img.alt="";img.loading="lazy";img.decoding="async";
+  img.onerror=function(){img.remove();};
+  heading.append(img);
+ }
+ heading.append(E("strong","",o.name));
+ a.append(heading,E("small","",o.city+" ("+o.province+") · "+o.category),E("span","","Scheda del sostenitore ↗"));
+ return a;
+}
 function showError(id,msg){var e=document.getElementById(id);if(e)e.append(E("p","net-map-fallback",msg));}
 function initDirectory(all){
  var leaders=all.filter(function(x){return x.type==="capofila"}),partners=all.filter(function(x){return x.type==="partner"}),supporters=all.filter(function(x){return x.type==="sostenitore"});
@@ -115,7 +127,7 @@ function setupProfile(all){
  var hero=E("header","net-profile-hero"),wrap=E("div","net-wrap"),grid=E("div","net-profile-hero-grid"),text=E("div");
  text.append(E("span","eyebrow",o.type==="capofila"?"Capofila":o.type==="partner"?"Partner di progetto":"Sostenitore della rete"),E("h1","",o.name),E("p","",o.description));
  var meta=E("div","net-profile-meta");meta.append(E("span","",o.city+" · "+o.province),E("span","",o.type==="sostenitore"?"Sostenitore":o.type==="capofila"?"Coordinamento regionale":"Partner territoriale"));text.append(meta);
- var logo=E("div","net-profile-symbol");logo.append(avatar(o,"profile"));
+ var logo=E("div","net-profile-symbol"+(o.type==="sostenitore"&&o.image?" net-profile-symbol--supporter-logo":""));logo.append(avatar(o,"profile"));
  grid.append(text,logo);wrap.append(crumbs,grid);hero.append(wrap);target.append(hero);
  var section=E("section","net-profile-body"),content=E("div","net-wrap net-profile-layout"),body=E("div","net-prose"),side=E("aside","net-factbox");
  var who=E("section");who.append(E("span","eyebrow","La realtà"),E("h2","","Chi è"),E("p","",o.description));body.append(who);
