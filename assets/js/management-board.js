@@ -4,7 +4,7 @@
 (function(){
  "use strict";
  const root=document.body.getAttribute("data-root")||"../";
- const placeholders=[...document.querySelectorAll(".mb-person[data-person-id]")];
+ const placeholders=[...document.querySelectorAll("[data-person-id]")];
  if(!placeholders.length)return;
  const allowedPhoto=/^assets\/images\/team\/[a-z0-9._-]+\.(?:webp|png|jpg|jpeg)$/i;
  const people=new Map(placeholders.map(x=>[x.getAttribute("data-person-id"),x]));
@@ -24,8 +24,8 @@
    image.alt="";
    image.loading="lazy";
    image.decoding="async";
-   image.addEventListener("error",function(){image.remove()},{once:true});
-   avatar.replaceChildren(image);
+   image.addEventListener("load",function(){avatar.replaceChildren(image)},{once:true});
+   image.addEventListener("error",function(){/* Use safe placeholder if not yet uploaded */},{once:true});
   }
  }
  fetch(root+"content/governance.json?v=20261103-v1",{cache:"no-store"})
