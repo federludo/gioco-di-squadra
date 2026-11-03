@@ -19,6 +19,9 @@
   if(typeof profile.photo==="string"&&allowedPhoto.test(profile.photo)){
    const avatar=el.querySelector(".mb-profile-photo, .mb-photo-placeholder, .mb-person-avatar");
    if(!avatar)return;
+   // Portraits already present in the HTML need no second download or replacement.
+   const existing=avatar.querySelector("img");
+   if(existing&&existing.getAttribute("src")===root+profile.photo)return;
    const image=document.createElement("img");
    image.alt="";
    image.loading="lazy";
