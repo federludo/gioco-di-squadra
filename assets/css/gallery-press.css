@@ -346,3 +346,20 @@
  .gp-page .gp-reveal,.gp-page .gp-reveal.gp-visible{opacity:1;transform:none;transition:none}
  .gp-page .gp-resource,.gp-page .gp-kpi,.gp-page .gp-btn,.gp-page .gp-photo-button,.gp-page .gp-event-cover{transition:none}
 }
+
+/* Specificity safeguards against generic gallery-link and badge styles. */
+.gp-page .gp-photo-button .gp-photo-retry{
+ inset:0;top:0;right:0;bottom:0;left:0;margin:0;padding:18px;
+ display:flex;align-items:center;justify-content:center;
+ background:#e1e8dfdc;color:#0e5240;border:0;border-radius:0;font-size:12px
+}
+.gp-page .gp-coverage-link > .gp-press-index{
+ margin-top:0;color:#b5823f;font-size:18px
+}
+.gp-page .gp-coverage-link > .gp-coverage-copy{
+ margin-top:0;color:inherit;font-size:inherit
+}
+.gp-page .gp-coverage-link > .gp-coverage-arrow{
+ margin-top:0;color:#39765e;font-size:20px
+}
+.gp-page .gp-progress-item:not([open]) > .gp-progress-details{display:none}
