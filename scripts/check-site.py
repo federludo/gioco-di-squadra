@@ -10,7 +10,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parent.parent
 HOST = "https://giocodisquadra.net/"
 # Draft pages are deliberately noindex until governance is formally confirmed.
-EXCLUDED = {Path("404.html"), Path("evento/index.html"), Path("partner/index.html"), Path("management-board/index.html")}
+EXCLUDED = {Path("404.html"), Path("evento/index.html"), Path("partner/index.html")}
 errors = []
 
 
