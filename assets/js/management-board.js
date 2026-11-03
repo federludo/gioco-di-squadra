@@ -20,12 +20,12 @@
    const avatar=el.querySelector(".mb-profile-photo, .mb-photo-placeholder, .mb-person-avatar");
    if(!avatar)return;
    const image=document.createElement("img");
-   image.src=root+profile.photo;
    image.alt="";
    image.loading="lazy";
    image.decoding="async";
    image.addEventListener("load",function(){avatar.replaceChildren(image)},{once:true});
-   image.addEventListener("error",function(){/* Use safe placeholder if not yet uploaded */},{once:true});
+   image.addEventListener("error",function(){/* Keep the placeholder if the image fails */},{once:true});
+   image.src=root+profile.photo;
   }
  }
  fetch(root+"content/governance.json?v=20261103-v1",{cache:"no-store"})
