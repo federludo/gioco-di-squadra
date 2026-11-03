@@ -89,3 +89,16 @@
 @media(max-width:950px){.gp-page .gp-resources{grid-template-columns:repeat(2,minmax(0,1fr))}.gp-page .gp-photo-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:700px){.gp-page .gp-hero{padding:75px 0}.gp-page .gp-stats-grid{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:26px}.gp-page .gp-stat:nth-child(2){border:0}.gp-page .gp-section{padding:65px 0}.gp-page .gp-section-head{display:block}.gp-page .gp-section-head p{margin-top:18px}.gp-page .gp-event-intro{grid-template-columns:1fr;gap:20px}.gp-page .gp-event-cover{max-height:260px}.gp-page .gp-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.gp-page .gp-resources,.gp-page .gp-media-archive,.gp-page .gp-kpis,.gp-page .gp-roles{grid-template-columns:1fr}.gp-page .gp-hero h1{font-size:clamp(62px,15vw,95px)}}
 @media(prefers-reduced-motion:reduce){.gp-page .gp-photo-button img{transition:none}.gp-page a{transition:none}}
+
+.gp-page .gp-evidence-wrap{margin-top:46px;border-top:1px solid #779a86;padding-top:34px}
+.gp-page .gp-evidence-wrap h3{font-size:clamp(29px,4.1vw,48px);font-weight:450;letter-spacing:-.05em;margin:0 0 10px}
+.gp-page .gp-evidence-wrap>p{font-size:13px;color:#cedfd3;line-height:1.6;margin:0 0 22px}
+.gp-page .gp-progress{display:grid;gap:8px}
+.gp-page .gp-progress-item{display:grid;grid-template-columns:minmax(245px,.85fr) minmax(0,1.7fr);gap:16px;border:1px solid #84a793;padding:17px 19px;background:#ffffff0b}
+.gp-page .gp-progress-head{display:flex;align-items:center;flex-wrap:wrap;gap:7px}
+.gp-page .gp-progress-head small{font-size:12px;color:#eab362;font-weight:750}
+.gp-page .gp-progress-head strong{font-size:14px;margin-right:auto}
+.gp-page .gp-progress-status{font-size:10px;color:#fae0bb;border:1px solid #b18d59;padding:4px 6px}
+.gp-page .gp-progress-details p{font-size:12px;line-height:1.6;margin:4px 0;color:#d5e6da}
+.gp-page .gp-progress-details b{color:#fff}
+@media(max-width:850px){.gp-page .gp-progress-item{grid-template-columns:1fr}}
