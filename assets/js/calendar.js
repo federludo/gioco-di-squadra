@@ -15,17 +15,17 @@ let activePartner=new URLSearchParams(location.search).get("partner")||"";
 let monthFilter="",organizationFilter="",territoryFilter="",categoryFilter="";
 let mapReady=false;
 const orgById=id=>organizations.find(o=>o.id===id);
-function mLabel(item){if(item.windows?.length>1)return item.periodLabel||"";const w=item.windows?.[0];return w?(w.start===w.end?longMonth(w.start):longMonth(w.start)+" – "+longMonth(w.end)):(item.periodLabel||"Programmazione in fase di aggiornamento")}
+function mLabel(item){if((item.date||item.proposedDate||!item.months?.length)&&item.periodLabel)return item.periodLabel;if(item.windows?.length>1)return item.periodLabel||"";const w=item.windows?.[0];return w?(w.start===w.end?longMonth(w.start):longMonth(w.start)+" – "+longMonth(w.end)):(item.periodLabel||"Programmazione in fase di aggiornamento")}
 function opt(select,values){[...new Set(values)].filter(Boolean).sort((a,b)=>a.localeCompare(b,"it")).forEach(s=>{const o=E("option","",s);o.value=s;select.append(o)})}
 const includeMonth=(x,m)=>!m||!!x.months?.includes(m);
-function filtered(){return events.filter(x=>includeMonth(x,monthFilter)&&(!territoryFilter||x.territory===territoryFilter)&&(!categoryFilter||x.category===categoryFilter)&&(!organizationFilter||x.partnerIds?.includes(organizationFilter))&&(!activePartner||x.partnerIds?.includes(activePartner))).sort((a,b)=>a.startMonth.localeCompare(b.startMonth)||a.name.localeCompare(b.name,"it"))}
+function filtered(){return events.filter(x=>includeMonth(x,monthFilter)&&(!territoryFilter||x.territory===territoryFilter)&&(!categoryFilter||x.category===categoryFilter)&&(!organizationFilter||x.partnerIds?.includes(organizationFilter))&&(!activePartner||x.partnerIds?.includes(activePartner))).sort((a,b)=>(a.startMonth||"9999-12").localeCompare(b.startMonth||"9999-12")||(a.date||"9999-12-31").localeCompare(b.date||"9999-12-31")||a.name.localeCompare(b.name,"it"))}
 function getMonths(x){return x.months?.length||0}
 function getSummary(){const list=filtered();$("calendar-count").textContent=list.length+" attività nel programma";return list}
-function makeEvent(x){const item=E("article","gcal-event");const period=E("div","gcal-event-period");const first=x.months?.[0]||"2026-10";period.append(E("strong","",shortMonth(first)));if(getMonths(x)>1)period.append(E("small","",getMonths(x)+" mesi nel programma"));else period.append(E("small","","Finestra mensile"));
+function makeEvent(x){const item=E("article","gcal-event");const period=E("div","gcal-event-period");const first=x.months?.[0]||null;period.append(E("strong","",first?shortMonth(first):"Da definire"));if(!first)period.append(E("small","","Periodo da stabilire"));else if(x.date)period.append(E("small","",new Date(x.date+"T12:00:00").toLocaleDateString("it-IT",{day:"numeric",month:"long"})));else if(getMonths(x)>1)period.append(E("small","",getMonths(x)+" mesi nel programma"));else period.append(E("small","","Finestra mensile"));
 const body=E("div");const title=E("h3");const ta=E("a","",x.name);ta.href=anchor(x.id);title.append(ta);body.append(title);
 const meta=E("div","gcal-meta");const org=orgById(x.organizerId);
 meta.append(E("span","","◷ "+mLabel(x)),E("span","","⌖ "+x.territory),E("span","","♟ "+(org?.name||x.organizerId)),E("span","","◇ "+x.category));
-body.append(meta,E("p","",x.description||""));
+body.append(meta,E("p","",x.description||""));if(x.scheduleStatus)body.append(E("p","gcal-event-status","Stato: "+x.scheduleStatus));
 const actions=E("div","gcal-event-actions");const ev=E("a","","Scheda attività ↗");ev.href=anchor(x.id);actions.append(ev);if(org){const p=E("a","","Organizzatore ↗");p.href=orgUrl(org.id);actions.append(p)}body.append(actions);item.append(period,body);return item}
 function renderList(list){const target=$("event-list");target.replaceChildren();if(!list.length){target.append(E("p","gcal-zero","Nessuna attività corrisponde ai filtri selezionati."));return;}list.forEach(e=>target.append(makeEvent(e)))}
 function selectMonth(k){if(!monthKeys.includes(k))return;selected=k;$("month-label").textContent=longMonth(k);$("month-prev").disabled=k===monthKeys[0];$("month-next").disabled=k===monthKeys.at(-1);const tabs=$("month-nav");tabs.replaceChildren();monthKeys.forEach(m=>{const b=E("button","",shortMonth(m));b.type="button";if(m===k)b.setAttribute("aria-current","date");const count=filtered().filter(x=>x.months.includes(m)).length;b.append(E("span","",count+" attività"));b.addEventListener("click",()=>selectMonth(m));tabs.append(b);});const entries=filtered().filter(x=>includeMonth(x,k)),container=$("month-grid");container.replaceChildren();if(!entries.length){container.append(E("p","gcal-zero","Non risultano attività programmate per questo mese e per i filtri selezionati."));return;}
@@ -54,7 +54,7 @@ function changeView(v){
  // Avoid leaving the reader far down a former long list after switching tabs.
  if(tabs){const rect=tabs.getBoundingClientRect();if(rect.top<0||rect.top>window.innerHeight*.7){tabs.scrollIntoView({block:"start",behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"instant":"smooth"});}}
 }
-async function start(){try{const [evRes,orgRes]=await Promise.all([fetch(root+"content/events.json?v=kickoff-20261026-v1"),fetch(root+"content/organizations.json?v=kickoff-20261026-v1")]);if(!evRes.ok||!orgRes.ok)throw Error("HTTP error");[events,organizations]=await Promise.all([evRes.json(),orgRes.json()]);if(!Array.isArray(events)||!Array.isArray(organizations))throw Error("Invalid data");
+async function start(){try{const [evRes,orgRes]=await Promise.all([fetch(root+"content/events.json?v=kraken-20261103-v1"),fetch(root+"content/organizations.json?v=kickoff-20261026-v1")]);if(!evRes.ok||!orgRes.ok)throw Error("HTTP error");[events,organizations]=await Promise.all([evRes.json(),orgRes.json()]);if(!Array.isArray(events)||!Array.isArray(organizations))throw Error("Invalid data");
 events=events.filter(e=>getMonths(e)>0);
 opt($("territory"),events.map(x=>x.territory));opt($("category"),events.map(x=>x.category));
 const requestedCategory=new URLSearchParams(location.search).get("categoria")||"";
