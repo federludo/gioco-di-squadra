@@ -579,7 +579,7 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "sito o riferimento pubblico da confermare",
-    "image": null
+    "image": "assets/images/supporters/ccibo-maremma.png"
   },
   {
     "id": "biodistretto-colline-pia",
@@ -598,17 +598,17 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "sito o riferimento pubblico da confermare",
-    "image": null
+    "image": "assets/images/supporters/biodistretto-colline-della-pia.png"
   },
   {
     "id": "parco-colline-metallifere",
-    "name": "Consorzio Parco Tecnologico e Archeologico delle Colline Metallifere",
+    "name": "Parco Nazionale delle Colline Metallifere Grossetane",
     "type": "sostenitore",
     "city": "Gavorrano",
     "province": "GR",
     "category": "Consorzio territoriale",
     "website": "https://parcocollinemetallifere.it/",
-    "description": "Consorzio Parco Tecnologico e Archeologico delle Colline Metallifere aderisce alla rete di sostegno di Gioco di Squadra. Spazi e raccordo con iniziative di sostenibilità e valorizzazione del territorio delle Colline Metallifere.",
+    "description": "Il Parco Nazionale delle Colline Metallifere Grossetane (Tuscan Mining UNESCO Global Geopark) aderisce alla rete di sostegno di Gioco di Squadra. Spazi e raccordo con iniziative di sostenibilità e valorizzazione del territorio delle Colline Metallifere.",
     "projectRole": "Spazi e raccordo con iniziative di sostenibilità e valorizzazione del territorio delle Colline Metallifere.",
     "actions": [],
     "coordinates": [
@@ -617,8 +617,10 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null,
-    "sourceUrl": "https://parcocollinemetallifere.it/"
+    "image": "assets/images/supporters/parco-nazionale-colline-metallifere-grossetane.jpg",
+    "sourceUrl": "https://parcocollinemetallifere.it/",
+    "legalName": "Consorzio Parco Tecnologico e Archeologico delle Colline Metallifere",
+    "alternateName": "Tuscan Mining UNESCO Global Geopark"
   },
   {
     "id": "iis-poliziano",
@@ -754,7 +756,7 @@
     ],
     "coordinatePrecision": "centro comunale indicativo",
     "siteStatus": "riferimento pubblico individuato",
-    "image": null,
+    "image": "assets/images/supporters/comune-massa-marittima.svg",
     "sourceUrl": "https://www.comune.massamarittima.gr.it/home"
   }
 ]
