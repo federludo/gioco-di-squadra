@@ -161,7 +161,7 @@ function setupProfile(all){
  if(o.email && /^[\w.+-]+@[\w.-]+\.[a-z]{2,}$/i.test(o.email)){dl.append(E("dt","","Email pubblica"));var dd=E("dd"),mail=E("a","",o.email);mail.href="mailto:"+o.email;dd.append(mail);dl.append(dd);}
  fact("Fonte consultabile",o.sourceUrl,true);
  if(o.type!=="sostenitore"){
-   fetch(root+"content/events.json").then(function(r){return r.ok?r.json():[]}).then(function(events){
+   fetch(root+"content/events.json?v=kraken-20261103-v1").then(function(r){return r.ok?r.json():[]}).then(function(events){
      var related=events.filter(function(e){return e.organizerId===o.id});
      if(!related.length)return;
      var sec=E("section","net-activities");
