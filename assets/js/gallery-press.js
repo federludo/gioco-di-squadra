@@ -125,6 +125,16 @@
    for(const target of step.targets||[])list.append(tag("li","",target));
    box.append(number,tag("h3","",step.title),tag("p","",step.objective),list);kpi.append(box);
   }
+  const progress=$("gp-progress");progress.replaceChildren();
+  for(const row of data.strategy?.progress||[]){
+   const card=tag("div","gp-progress-item");
+   const head=tag("div","gp-progress-head");
+   head.append(tag("small","",row.code),tag("strong","",row.activity),tag("span","gp-progress-status",row.status));
+   const details=tag("div","gp-progress-details");
+   const goal=tag("p");goal.append(tag("b","","Obiettivo: "),document.createTextNode(row.target));
+   const evidence=tag("p");evidence.append(tag("b","","Evidenze: "),document.createTextNode(row.evidence));
+   details.append(goal,evidence);card.append(head,details);progress.append(card);
+  }
   $("gp-kpi-note").textContent=(data.strategy?.source||"")+" "+(data.strategy?.reachEstimate||"")+" I valori indicati sono obiettivi progettuali, non risultati misurati.";
   const team=$("gp-roles");team.replaceChildren();
   for(const x of data.team||[]){
