@@ -122,8 +122,51 @@ for filename in ("organizations", "events", "news", "site"):
             elif "net-profile-static" not in p.read_text(encoding="utf-8"):
                 fail(f"profile lacks HTML fallback: {o['id']}")
             logo = o.get("image")
-            if logo and logo.startswith("assets/") and not (ROOT / logo).is_file():
-                fail(f"missing logo: {logo}")
+            if logo and logo.startswith("assets/"):
+                logo_path = urlsplit(logo).path
+                if not (ROOT / logo_path).is_file():
+                    fail(f"missing logo: {logo_path}")
+
+# Maintain the media archive as a single coherent collection: every referenced
+# photo, thumbnail, downloadable press release and press-kit file must exist.
+gallery_path = ROOT / "content" / "gallery-press.json"
+if gallery_path.is_file():
+    try:
+        gallery = json.loads(gallery_path.read_text(encoding="utf-8"))
+        seen_events = set()
+        referenced = set()
+
+        def check_media_file(url, context):
+            if not isinstance(url, str):
+                fail(f"{context}: missing or invalid media path")
+                return
+            parsed = urlsplit(url)
+            path_text = unquote(parsed.path)
+            if parsed.scheme or parsed.netloc or not path_text.startswith("assets/"):
+                fail(f"{context}: expected internal asset: {url}")
+                return
+            target = (ROOT / path_text).resolve()
+            if not target.is_relative_to(ROOT):
+                fail(f"{context}: media path escapes repository: {url}")
+            elif not target.is_file():
+                fail(f"{context}: missing asset: {path_text}")
+            referenced.add(path_text)
+
+        for event in gallery.get("events", []):
+            event_id = event.get("id")
+            if not event_id or event_id in seen_events:
+                fail(f"gallery-press: duplicate or empty event id: {event_id}")
+            seen_events.add(event_id)
+            check_media_file(event.get("cover"), f"gallery event {event_id} cover")
+            for index, image in enumerate(event.get("photos", []), start=1):
+                check_media_file(image.get("full"), f"{event_id} photo {index} full")
+                check_media_file(image.get("thumb"), f"{event_id} photo {index} thumbnail")
+            for release in event.get("pressReleases", []):
+                check_media_file(release.get("url"), f"{event_id} press release")
+        for item in gallery.get("pressKit", []):
+            check_media_file(item.get("url"), "gallery press kit")
+    except (ValueError, OSError, TypeError) as error:
+        fail(f"content/gallery-press.json: {error}")
 
 homepage = (ROOT / "index.html").read_text(encoding="utf-8")
 network = (ROOT / "partenariato/index.html").read_text(encoding="utf-8")
