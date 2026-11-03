@@ -84,3 +84,16 @@ body[data-standard-header="true"] main>.hero.hero-short{margin-top:0}
  .site-head .menu.open{display:flex}
  .site-head .menu a{display:block;font-size:14px}
 }
+
+/* Eight-link primary navigation: uniform understated style, with earlier mobile collapse. */
+@media(min-width:1221px){
+ .site-head .menu{gap:clamp(7px,.85vw,14px)}
+ .site-head .menu a{font-size:clamp(11px,.86vw,12.5px)}
+}
+@media(min-width:1051px) and (max-width:1220px){
+ .site-head .mobile-button{display:block}
+ .site-head .menu{display:none;position:absolute;top:100%;left:0;right:0;background:#063d37;color:#fff;z-index:45;flex-direction:column;align-items:stretch;padding:20px;gap:8px;box-shadow:0 15px 30px #002d2940}
+ .site-head.light .menu{background:var(--paper);color:var(--ink)}
+ .site-head .menu.open{display:flex}
+ .site-head .menu a{display:block;font-size:14px;padding:11px 0}
+}
