@@ -1,0 +1,630 @@
+{
+  "version": "2026-11-04",
+  "editorialNote": "Media archive organized by event; public facts sourced from supplied pictures, press releases, and contemporaneous coverage. Names of unidentified individuals and unverified publication dates are deliberately omitted.",
+  "lead": "Gioco di Squadra – Metodologie ludiche per il sociale è il progetto promosso da Federludo APS con dieci associazioni partner e sedici sostenitori territoriali, finanziato dalla Regione Toscana con 80.220 euro. Il programma, attivo fino al 31 dicembre 2027, porta giochi da tavolo, di ruolo e dal vivo nei luoghi di comunità della Toscana per favorire inclusione, socialità e partecipazione.",
+  "events": [
+    {
+      "id": "2026-10-31-kickoff",
+      "date": "2026-10-31",
+      "dateLabel": "31 ottobre 2026",
+      "location": "Pieve di Compito · Capannori (LU)",
+      "venue": "Agriturismo Alle Camelie",
+      "title": "Kick-off meeting della rete",
+      "subtitle": "L'incontro operativo del partenariato",
+      "description": "I rappresentanti delle associazioni partner si sono incontrati per avviare il lavoro congiunto, condividere organizzazione, ruoli, attività e modalità di coordinamento.",
+      "cover": "assets/images/gallery/2026-10-31-kickoff/full/foto-09.webp",
+      "photos": [
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-01.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-01.webp",
+          "alt": "Fotografia 1 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-02.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-02.webp",
+          "alt": "Fotografia 2 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-03.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-03.webp",
+          "alt": "Fotografia 3 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-04.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-04.webp",
+          "alt": "Fotografia 4 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-05.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-05.webp",
+          "alt": "Fotografia 5 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-06.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-06.webp",
+          "alt": "Fotografia 6 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-07.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-07.webp",
+          "alt": "Fotografia 7 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-08.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-08.webp",
+          "alt": "Fotografia 8 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-09.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-09.webp",
+          "alt": "Fotografia 9 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-10.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-10.webp",
+          "alt": "Fotografia 10 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-11.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-11.webp",
+          "alt": "Fotografia 11 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-12.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-12.webp",
+          "alt": "Fotografia 12 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-13.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-13.webp",
+          "alt": "Fotografia 13 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-14.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-14.webp",
+          "alt": "Fotografia 14 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-15.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-15.webp",
+          "alt": "Fotografia 15 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-16.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-16.webp",
+          "alt": "Fotografia 16 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-17.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-17.webp",
+          "alt": "Fotografia 17 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-18.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-18.webp",
+          "alt": "Fotografia 18 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-19.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-19.webp",
+          "alt": "Fotografia 19 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-20.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-20.webp",
+          "alt": "Fotografia 20 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-10-31-kickoff/full/foto-21.webp",
+          "thumb": "assets/images/gallery/2026-10-31-kickoff/thumb/foto-21.webp",
+          "alt": "Fotografia 21 – kick-off Gioco di Squadra del 31 ottobre 2026"
+        }
+      ],
+      "pressReleases": [],
+      "coverage": [],
+      "relatedUrl": "notizie/kick-off-31-ottobre-2026/",
+      "photoCredits": "Archivio di progetto · crediti individuali e liberatorie da verificare"
+    },
+    {
+      "id": "2026-11-01-presentazione-lucca",
+      "date": "2026-11-01",
+      "dateLabel": "1 novembre 2026",
+      "location": "Lucca (LU) · Lucca Comics & Games",
+      "venue": "Biblioteca della Scuola IMT Alti Studi Lucca",
+      "title": "Presentazione e conferenza stampa",
+      "subtitle": "Gioco di Squadra si presenta alla stampa",
+      "description": "La presentazione pubblica ha illustrato obiettivi, rete dei partner e sostenitori e finanziamento regionale del progetto. La rassegna stampa documenta le uscite segnalate nelle diverse aree della Toscana.",
+      "cover": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-19.webp",
+      "photos": [
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-01.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-01.webp",
+          "alt": "Fotografia 1 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-02.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-02.webp",
+          "alt": "Fotografia 2 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-03.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-03.webp",
+          "alt": "Fotografia 3 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-04.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-04.webp",
+          "alt": "Fotografia 4 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-05.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-05.webp",
+          "alt": "Fotografia 5 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-06.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-06.webp",
+          "alt": "Fotografia 6 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-07.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-07.webp",
+          "alt": "Fotografia 7 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-08.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-08.webp",
+          "alt": "Fotografia 8 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-09.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-09.webp",
+          "alt": "Fotografia 9 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-10.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-10.webp",
+          "alt": "Fotografia 10 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-11.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-11.webp",
+          "alt": "Fotografia 11 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-12.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-12.webp",
+          "alt": "Fotografia 12 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-13.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-13.webp",
+          "alt": "Fotografia 13 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-14.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-14.webp",
+          "alt": "Fotografia 14 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-15.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-15.webp",
+          "alt": "Fotografia 15 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-16.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-16.webp",
+          "alt": "Fotografia 16 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-17.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-17.webp",
+          "alt": "Fotografia 17 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-18.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-18.webp",
+          "alt": "Fotografia 18 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-19.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-19.webp",
+          "alt": "Fotografia 19 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-20.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-20.webp",
+          "alt": "Fotografia 20 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-21.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-21.webp",
+          "alt": "Fotografia 21 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-22.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-22.webp",
+          "alt": "Fotografia 22 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-23.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-23.webp",
+          "alt": "Fotografia 23 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-24.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-24.webp",
+          "alt": "Fotografia 24 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-25.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-25.webp",
+          "alt": "Fotografia 25 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-26.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-26.webp",
+          "alt": "Fotografia 26 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-27.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-27.webp",
+          "alt": "Fotografia 27 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-28.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-28.webp",
+          "alt": "Fotografia 28 – presentazione alla stampa del 1° novembre 2026"
+        },
+        {
+          "full": "assets/images/gallery/2026-11-01-presentazione-lucca/full/foto-29.webp",
+          "thumb": "assets/images/gallery/2026-11-01-presentazione-lucca/thumb/foto-29.webp",
+          "alt": "Fotografia 29 – presentazione alla stampa del 1° novembre 2026"
+        }
+      ],
+      "pressReleases": [
+        {
+          "title": "Comunicato generale",
+          "territory": "Toscana",
+          "format": "DOCX",
+          "url": "assets/documents/gallery-press/comunicati/comunicato-regionale-gioco-di-squadra-2026-11-01.docx"
+        },
+        {
+          "title": "Arezzo e Valdarno",
+          "territory": "Arezzo",
+          "format": "DOCX",
+          "url": "assets/documents/gallery-press/comunicati/comunicato-arezzo-2026-11-01.docx"
+        },
+        {
+          "title": "Firenze e area metropolitana",
+          "territory": "Firenze",
+          "format": "DOCX",
+          "url": "assets/documents/gallery-press/comunicati/comunicato-firenze-2026-11-01.docx"
+        },
+        {
+          "title": "Grosseto e Maremma",
+          "territory": "Grosseto",
+          "format": "DOCX",
+          "url": "assets/documents/gallery-press/comunicati/comunicato-grosseto-2026-11-01.docx"
+        },
+        {
+          "title": "Pisa, Valdera e Valdarno",
+          "territory": "Pisa",
+          "format": "DOCX",
+          "url": "assets/documents/gallery-press/comunicati/comunicato-pisa-2026-11-01.docx"
+        },
+        {
+          "title": "Siena e provincia",
+          "territory": "Siena",
+          "format": "DOCX",
+          "url": "assets/documents/gallery-press/comunicati/comunicato-siena-2026-11-01.docx"
+        }
+      ],
+      "coverage": [
+        {
+          "id": "rassegna-2026-01",
+          "outlet": "Arezzo24",
+          "territory": "Arezzo",
+          "title": "Gioco di Squadra: Arezzo, il Valdarno e Subbiano protagonisti dell’inclusione sociale",
+          "url": "https://www.arezzo24.net/notizie/attualita/gioco-di-squadra-arezzo-il-valdarno-e-subbiano-protagonisti-dellinclusione-sociale-con-il-sostegno-della-regione-toscana/",
+          "date": "2026-11-02",
+          "reported": "2026-11-03",
+          "verified": true
+        },
+        {
+          "id": "rassegna-2026-02",
+          "outlet": "Casentino24",
+          "territory": "Arezzo",
+          "title": "Anche Subbiano protagonista dell’inclusione sociale",
+          "url": "https://www.casentino24.net/notizie/attualita/gioco-di-squadra-anche-subbiano-protagonista-dellinclusione-sociale-con-il-sostegno-della-regione-toscana/",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-03",
+          "outlet": "La Nazione – Siena",
+          "territory": "Siena",
+          "title": "Gioco di Squadra a Torrita",
+          "url": "https://www.lanazione.it/siena/cronaca/gioco-di-squadra-a-torrita-2aeb1713",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-04",
+          "outlet": "La Nazione – Lucca",
+          "territory": "Lucca",
+          "title": "Il Gioco di Squadra che unisce",
+          "url": "https://www.lanazione.it/lucca/cronaca/il-gioco-di-squadra-che-7b721279",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-05",
+          "outlet": "QuiNews Cuoio",
+          "territory": "Pisa",
+          "title": "Giochi e socialità, un progetto nel territorio",
+          "url": "https://www.quinewscuoio.it/provincia-di-pisa-giochi-e-socialita-un-progetto-nel-territorio.htm",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-06",
+          "outlet": "Il Giunco",
+          "territory": "Grosseto",
+          "title": "Inclusione e cultura del gioco nei piccoli centri: oltre 80mila euro per la Maremma",
+          "url": "https://www.ilgiunco.net/2026/11/02/inclusione-e-cultura-del-gioco-nei-piccoli-centri-dalla-regione-oltre-80mila-euro-per-la-maremma/",
+          "date": "2026-11-02",
+          "reported": "2026-11-03",
+          "verified": true
+        },
+        {
+          "id": "rassegna-2026-07",
+          "outlet": "La Voce di Lucca",
+          "territory": "Lucca",
+          "title": "Gioco di Squadra – Metodologie ludiche per il sociale",
+          "url": "https://www.lavocedilucca.it/post/27670/--gioco-di-squadra-----metodologie-ludiche-per-il-sociale--.php",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-08",
+          "outlet": "PisaToday",
+          "territory": "Pisa",
+          "title": "Inclusione sociale: Regione Toscana e rete del progetto Gioco di Squadra",
+          "url": "https://www.pisatoday.it/cronaca/inclusione-sociale-finanziamento-regione-toscana-progetto-gioco-squadra-pisa-basso-valdarno-valdera.html",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-09",
+          "outlet": "Comune di Calcinaia",
+          "territory": "Pisa",
+          "title": "Gioco di Squadra: il gioco diventa strumento di inclusione sociale",
+          "url": "https://www.comune.calcinaia.pi.it/novita/gioco-di-squadra-il-gioco-diventa-strumento-di-inclusione-sociale",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-10",
+          "outlet": "Lucca in Diretta",
+          "territory": "Lucca",
+          "title": "Associazioni e realtà locali in rete per il gioco sociale",
+          "url": "https://www.luccaindiretta.it/cultura-e-spettacoli/2026/11/01/in-rete-associazioni-e-realta-locali-per-utilizzare-il-gioco-in-contesti-associativi-educativi-e-sociali/527315/",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-11",
+          "outlet": "GoNews",
+          "territory": "Pisa",
+          "title": "Pisa, Valdera e Valdarno insieme per un progetto di inclusione sociale",
+          "url": "https://www.gonews.it/2026/11/01/gioco-di-squadra-pisa-la-valdera-e-il-valdarno-insieme-per-un-progetto-di-inclusione-sociale/",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-12",
+          "outlet": "Vivere Lucca",
+          "territory": "Lucca",
+          "title": "Al via il progetto Gioco di Squadra di Federludo APS",
+          "url": "https://www.viverelucca.it/2026/11/01/gioco-di-squadra-metodologie-ludiche-per-il-sociale-al-via-il-progetto-di-federludo-aps-con-10-associazioni-e-16-realt-locali-da-firenze-alla-maremma-finanziato-dalla-regione-toscana/198794/",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-13",
+          "outlet": "Politicamente Corretto",
+          "territory": "Toscana",
+          "title": "Gioco di Squadra – Metodologie ludiche per il sociale",
+          "url": "https://www.politicamentecorretto.com/2026/11/01/gioco-di-squadra-metodologie-ludiche-per-il-sociale/",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-14",
+          "outlet": "L’Anfiteatro di Lucca",
+          "territory": "Lucca",
+          "title": "Al via il progetto di Federludo APS finanziato dalla Regione Toscana",
+          "url": "https://www.lanfiteatrodilucca.com/al-via-il-progetto-di-federludo-aps-finanziato-dalla-regione-toscana/",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-15",
+          "outlet": "Il Mio Giornale",
+          "territory": "Toscana",
+          "title": "Gioco di Squadra – progetto di Federludo APS e della rete toscana",
+          "url": "https://www.ilmiogiornale.org/gioco-di-squadra-metodologie-ludiche-per-il-sociale-l-via-il-progetto-di-federludo-aps-con-10-associazioni-e-16-realta-locali-da-firenze-alla-maremma-finanziato-dalla-regione-t/",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-16",
+          "outlet": "PisaNews",
+          "territory": "Pisa",
+          "title": "Pisa, Valdera e Valdarno pisano protagonisti dell’inclusione sociale",
+          "url": "https://pisanews.net/gioco-di-squadra-pisa-la-valdera-e-il-valdarno-pisano-protagonisti-dellinclusione-sociale-con-il-sostegno-della-regione-toscana/",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-17",
+          "outlet": "Eccoci Toscana",
+          "territory": "Toscana",
+          "title": "Gioco di Squadra: al via il progetto toscano di Federludo",
+          "url": "https://www.eccocitoscana.it/gioco-di-squadra-metodologie-ludiche-per-il-sociale-al-via-il-progetto-di-federludo-aps-con-10-associazioni-e-16-realta-locali-da-firenze-alla-maremma-finanziato-dalla-region/",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-18",
+          "outlet": "La Nazione – Pisa",
+          "territory": "Pisa",
+          "title": "Inclusione: la rete pisana del Terzo Settore protagonista",
+          "url": "https://www.lanazione.it/pisa/cronaca/inclusione-la-rete-pisana-del-terzo-settore-protagonista-di-gioco-di-squadra-d0c8dc78",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-19",
+          "outlet": "Gattaiola",
+          "territory": "Lucca",
+          "title": "Gioco di Squadra: al via il progetto Federludo finanziato dalla Regione Toscana",
+          "url": "https://gattaiola.it/2026/11/01/gioco-di-squadra-metodologie-ludiche-per-il-sociale-al-via-il-progetto-federludo-aps-finanziato-dalla-regione-toscana/",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-20",
+          "outlet": "LuccaLive",
+          "territory": "Lucca",
+          "title": "Gioco di Squadra: al via il progetto di Federludo APS",
+          "url": "https://www.luccalive.com/2026/11/02/gioco-di-squadra-metodologie-ludiche-per-il-sociale-al-via-il-progetto-di-federludo-aps/",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        },
+        {
+          "id": "rassegna-2026-21",
+          "outlet": "Easy News Web",
+          "territory": "Italia",
+          "title": "Presentato a Lucca il progetto Gioco di Squadra",
+          "url": "https://www.easynewsweb.com/gioco-di-squadra-metodologie-ludiche-per-il-sociale-presentato-a-lucca-il-progetto-di-federludo-aps-da-firenze-alla-maremma-finanziato-dalla-regione-toscana/",
+          "date": null,
+          "reported": "2026-11-03",
+          "verified": false
+        }
+      ],
+      "relatedUrl": "notizie/",
+      "photoCredits": "Archivio di progetto · crediti individuali e liberatorie da verificare"
+    }
+  ],
+  "pressKit": [
+    {
+      "title": "Logo ufficiale Gioco di Squadra",
+      "description": "Marchio del progetto in formato SVG, da utilizzare senza alterazioni.",
+      "format": "SVG",
+      "url": "assets/images/branding/logo-gds-federludo.svg"
+    },
+    {
+      "title": "Scheda sintetica per la stampa",
+      "description": "Testo breve con obiettivi, partenariato e dati essenziali del progetto.",
+      "format": "TXT",
+      "url": "assets/documents/gallery-press/scheda-sintetica-gioco-di-squadra.txt"
+    },
+    {
+      "title": "Presentazione della conferenza stampa",
+      "description": "Presentazione PDF del 1° novembre 2026.",
+      "format": "PDF",
+      "url": "assets/documents/gallery-press/presentazione-gioco-di-squadra-lucca-2026-11-01.pdf"
+    }
+  ],
+  "strategy": {
+    "source": "Modulo E – Allegato E, sezione 11 «Attività di comunicazione» (documento presentato il 17 marzo 2026). Indicatori originali, da monitorare e rileggere alla luce del periodo di attuazione effettivo.",
+    "reachEstimate": "Stima progettuale di diffusione complessiva superiore a 100.000 persone, non equivalente a una misurazione delle persone raggiunte.",
+    "actions": [
+      {
+        "code": "01",
+        "title": "Identità coordinata e brand kit",
+        "objective": "Immagine riconoscibile, uso comune di logo, modelli grafici e scheda di progetto.",
+        "targets": [
+          "Kit di comunicazione entro il primo mese dall’avvio",
+          "Almeno 8 template operativi",
+          "Aggiornamento della scheda sintetica a metà progetto e alla conclusione"
+        ]
+      },
+      {
+        "code": "02",
+        "title": "Sito, calendario e notizie",
+        "objective": "Punto informativo unico e documentazione aggiornata delle attività territoriali.",
+        "targets": [
+          "Pagina progetto entro il secondo mese",
+          "Calendario aggiornato almeno una volta al mese",
+          "Almeno 10 aggiornamenti o notizie nel periodo",
+          "Sintesi intermedia e relazione finale disponibili"
+        ]
+      },
+      {
+        "code": "03",
+        "title": "Newsletter e stakeholder",
+        "objective": "Costruire una community informata, collegando partecipanti, sostenitori e partner.",
+        "targets": [
+          "Almeno 5 newsletter",
+          "Mailing list di almeno 300 contatti",
+          "Tasso medio di apertura almeno del 30%",
+          "Invii dedicati alla relazione intermedia e finale"
+        ]
+      },
+      {
+        "code": "04",
+        "title": "Comunicati e rassegna stampa",
+        "objective": "Promuovere gli eventi chiave con comunicazione mirata e archiviazione delle uscite.",
+        "targets": [
+          "Almeno 3 campagne o comunicati in momenti rilevanti",
+          "Almeno 5 uscite su stampa e portali locali",
+          "Rassegna stampa organizzata e archiviata"
+        ]
+      },
+      {
+        "code": "05",
+        "title": "Social e promozione territoriale",
+        "objective": "Raccontare iniziative e risultati attraverso i canali di Federludo e della rete.",
+        "targets": [
+          "Almeno 1 contenuto al mese sui canali centrali",
+          "Rilanci dei partner per gli eventi territoriali",
+          "Almeno 6 contenuti dedicati ai risultati",
+          "Aumento dei follower dei canali centrali di almeno il 10%",
+          "Raccolta di evidenze digitali"
+        ]
+      }
+    ]
+  },
+  "team": [
+    {
+      "role": "Ufficio stampa di progetto",
+      "status": "Referente permanente da definire"
+    },
+    {
+      "role": "Social media manager",
+      "status": "Figura da individuare"
+    }
+  ],
+  "editorialPolicy": "Le uscite stampa elencate sono state segnalate dalla rete; per alcune la data e la disponibilità del collegamento devono ancora essere verificate. Le fotografie vengono pubblicate progressivamente previa verifica dei diritti e delle autorizzazioni."
+}
