@@ -17,7 +17,7 @@
    el.classList.add("mb-person-confirmed");
   }
   if(typeof profile.photo==="string"&&allowedPhoto.test(profile.photo)){
-   const avatar=el.querySelector(".mb-person-avatar");
+   const avatar=el.querySelector(".mb-profile-photo, .mb-photo-placeholder, .mb-person-avatar");
    if(!avatar)return;
    const image=document.createElement("img");
    image.src=root+profile.photo;
