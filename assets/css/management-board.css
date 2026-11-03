@@ -2,10 +2,7 @@
    Follows the green/ochre visual identity of Gioco di Squadra. */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap");
 .mb-layout{background:#fbf8f2}
-.mb-layout .site-head{position:relative;inset:auto;background:#063d37;color:#fff}
-.mb-layout .site-head .menu{gap:clamp(10px,1.4vw,21px)}
-.mb-layout .site-head .menu a{font-size:12px}
-.mb-layout .site-head .menu a.mb-nav-highlight{border:0;border-radius:7px;background:#c99230;color:#fff;padding:10px 13px;font-weight:700}
+/* Header, logo and navigation use the shared site.css styles, without page-specific overrides. */
 .mb-new{--mb-ink:#083d38;--mb-amber:#cf9134;color:var(--mb-ink);overflow:hidden}
 .mb-new .wrap{max-width:1400px}
 .mb-new h1,.mb-new h2,.mb-new h3{font-family:"Libre Baskerville",Georgia,serif;letter-spacing:-.042em;line-height:1.18}
