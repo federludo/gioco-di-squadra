@@ -92,3 +92,28 @@ const links=el('div','gcal-activity-links');if(organizer){const a=el('a','under'
    const a=document.createElement("a");a.href=root+"management-board/";a.textContent="Management Board";footer.append(a);
  }
 })();
+
+
+/* Global Gallery & Press navigation, including legacy nested partner/news pages. */
+(function(){
+ const root=document.body.dataset.root||"";
+ const page=location.pathname.replace(/\/+$/,"");
+ const current=page.endsWith("/gallery-press");
+ function hasGallery(el){return [...el.querySelectorAll("a")].some(a=>/\/gallery-press\/?$/.test(new URL(a.href,location.href).pathname));}
+ const nav=document.querySelector(".site-head #main-menu");
+ if(nav){
+  let link=[...nav.querySelectorAll("a")].find(a=>/\/gallery-press\/?$/.test(new URL(a.href,location.href).pathname));
+  if(!link){
+   link=document.createElement("a");link.href=root+"gallery-press/";link.textContent="Gallery & Press";
+   const contact=[...nav.querySelectorAll("a")].find(a=>/\/contatti\/?$/.test(new URL(a.href,location.href).pathname));
+   nav.insertBefore(link,contact||null);
+  }
+  if(current){link.classList.add("active");link.setAttribute("aria-current","page");}
+ }
+ const footer=document.querySelector("footer.footer nav");
+ if(footer&&!hasGallery(footer)){
+  const link=document.createElement("a");link.href=root+"gallery-press/";link.textContent="Gallery & Press";
+  const contact=[...footer.querySelectorAll("a")].find(a=>/\/contatti\/?$/.test(new URL(a.href,location.href).pathname));
+  footer.insertBefore(link,contact||null);
+ }
+})();
