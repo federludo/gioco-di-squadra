@@ -70,3 +70,25 @@ const links=el('div','gcal-activity-links');if(organizer){const a=el('a','under'
   // Failure of the counter never interferes with site navigation.
  });
 })();
+
+/* The governance section is part of the primary site navigation.
+   It is injected only where the current static header has not been updated yet. */
+(function(){
+ const nav=document.getElementById("main-menu");
+ if(nav&&!nav.querySelector('a[href$="management-board/"]')){
+  const link=document.createElement("a");
+  link.href=root+"management-board/";
+  link.textContent="Management Board";
+  link.className="gds-management-nav";
+  if(location.pathname.replace(/\/+$/,"")==="/management-board"){
+   link.classList.add("active");link.setAttribute("aria-current","page");
+   nav.querySelectorAll("a.active").forEach(a=>{if(a!==link)a.classList.remove("active");});
+  }
+  const news=[...nav.querySelectorAll("a")].find(a=>/\/notizie\/?$/.test(new URL(a.href,location.href).pathname));
+  if(news)nav.insertBefore(link,news);else nav.append(link);
+ }
+ const footer=document.querySelector(".footer nav");
+ if(footer&&![...footer.querySelectorAll("a")].some(a=>/\/management-board\/?$/.test(new URL(a.href,location.href).pathname))){
+   const a=document.createElement("a");a.href=root+"management-board/";a.textContent="Management Board";footer.append(a);
+ }
+})();
