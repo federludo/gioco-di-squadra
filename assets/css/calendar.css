@@ -89,3 +89,6 @@
 .gds-calendar [data-panel][hidden]{display:none!important}
 .gds-calendar .gcal-partner-filter[hidden]{display:none!important}
 .gds-calendar .gcal-tabs{scroll-margin-top:16px}
+
+/* Source-reported schedule uncertainty on dated and unscheduled partner events. */
+.gds-calendar .gcal-event p.gcal-event-status{margin:10px 0 0;padding:7px 11px;display:inline-block;background:#ede9df;border-left:2px solid #bf985b;color:#5c574c;font-size:12px;line-height:1.45;font-weight:600}
