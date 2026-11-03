@@ -632,6 +632,43 @@
           "Raccolta di evidenze digitali"
         ]
       }
+    ],
+    "progress": [
+      {
+        "code": "01",
+        "activity": "Identità e brand kit",
+        "target": "Kit condiviso e almeno 8 template.",
+        "evidence": "Logo ufficiale e scheda sintetica per la stampa disponibili nell'archivio. Numero di template da verificare.",
+        "status": "Parzialmente documentato"
+      },
+      {
+        "code": "02",
+        "activity": "Sito e aggiornamenti",
+        "target": "Portale, calendario mensile, almeno 10 notizie, sintesi intermedia e finale.",
+        "evidence": "Sito e calendario predisposti; conteggio notizie e aggiornamenti periodici da registrare.",
+        "status": "Monitoraggio da avviare"
+      },
+      {
+        "code": "03",
+        "activity": "Newsletter",
+        "target": "Almeno 5 invii, 300 contatti, tasso apertura medio ≥30%.",
+        "evidence": "Non sono ancora disponibili dati di invio o indicatori certificati.",
+        "status": "Dati non disponibili"
+      },
+      {
+        "code": "04",
+        "activity": "Comunicati e uscite",
+        "target": "Almeno 3 campagne/comunicati in momenti distinti e 5 uscite documentate.",
+        "evidence": "Una campagna di lancio documentata da 6 versioni del comunicato; 21 link di copertura segnalati, da verificare e archiviare.",
+        "status": "Prime evidenze raccolte"
+      },
+      {
+        "code": "05",
+        "activity": "Social media",
+        "target": "Almeno 1 contenuto al mese, 6 restituzioni, follower +10%.",
+        "evidence": "I risultati social richiedono un registro delle pubblicazioni e dati di analytics.",
+        "status": "Dati da raccogliere"
+      }
     ]
   },
   "team": [
