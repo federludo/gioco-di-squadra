@@ -145,30 +145,48 @@
   }
  }
  function renderCommunicationKpis(model){
-  // The communication snapshot is edited in content/gallery-press.json.
-  // Keep the first meaningful HTML snapshot visible if JSON is unavailable.
-  if(!model||!Array.isArray(model.items)||!model.items.length)return;
-  const host=$("gp-communication-kpis");if(!host)return;
-  host.replaceChildren();
+  // Source of truth: content/gallery-press.json → communicationKpis.
+  // A complete four-card snapshot also exists in HTML for non-JavaScript visitors.
+  if(!model||!Array.isArray(model.items)||model.items.length!==4)return;
+  const host=$("gp-communication-kpis");
+  if(!host)return;
+  const cards=document.createDocumentFragment();
   const heading=$("gp-kpi-asof");
-  if(heading&&typeof model.asOf==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(model.asOf)){
-   const formatted=new Date(model.asOf+"T12:00:00").toLocaleDateString("it-IT",{day:"numeric",month:"long",year:"numeric"});
-   heading.textContent="Dati al "+formatted+" · obiettivi minimi del progetto";
+  if(heading&&/^\d{4}-\d{2}-\d{2}$/.test(model.asOf||"")){
+   const niceDate=new Date(model.asOf+"T12:00:00").toLocaleDateString("it-IT",{day:"numeric",month:"long",year:"numeric"});
+   heading.textContent="Avanzamento al "+niceDate+" · Obiettivi minimi di progetto";
   }
-  for(const metric of model.items){
-   if(typeof metric.current!=="number"||!Number.isFinite(metric.current)||metric.current<0||
-      typeof metric.target!=="number"||!Number.isFinite(metric.target)||metric.target<=0)continue;
-   const article=tag("article","gp-stat gp-stat--kpi"+(metric.measurement==="reported"?" gp-stat--reported":""));
-   const ratio=tag("div","gp-stat-value");
-   ratio.append(tag("b","",metric.current.toLocaleString("it-IT")),
-                tag("span","gp-stat-separator","/"),
-                tag("span","gp-stat-target",(metric.minimumTarget?"≥":"")+metric.target.toLocaleString("it-IT")));
-   const label=tag("strong","gp-stat-label",metric.label);
-   const track=tag("div","gp-stat-track");track.setAttribute("aria-hidden","true");
-   const fill=tag("i");fill.style.width=Math.min(100,100*metric.current/metric.target).toFixed(2)+"%";track.append(fill);
-   const description=tag("p","gp-stat-detail",metric.detail||"");
-   article.append(ratio,label,track,description);host.append(article);
-  }
+  model.items.forEach((metric,i)=>{
+   const estimated=metric.measurement==="estimate";
+   const reported=metric.measurement==="reported";
+   const card=tag("article","gp-metric-card"+(estimated?" gp-metric-card--estimate":reported?" gp-metric-card--reported":""));
+   const top=tag("div","gp-metric-top");
+   top.append(tag("span","gp-metric-index","KPI "+String(i+1).padStart(2,"0")),
+              tag("span","gp-metric-status",estimated?"STIMA PROGETTUALE":reported?"SEGNALAZIONI":"AVANZAMENTO"));
+   card.append(top,tag("h3","gp-metric-label",metric.label||"Indicatore"));
+   const figures=tag("div","gp-metric-figures");
+   if(estimated){
+    if(typeof metric.estimate!=="number"||!Number.isFinite(metric.estimate)||metric.estimate<=0)return;
+    figures.append(tag("strong","gp-metric-main gp-metric-main--estimate",
+      (metric.bound==="more-than"?">":"")+metric.estimate.toLocaleString("it-IT")));
+    card.append(figures,tag("div","gp-metric-estimate-line"));
+    card.lastElementChild.setAttribute("aria-hidden","true");
+   }else{
+    if(typeof metric.current!=="number"||!Number.isFinite(metric.current)||metric.current<0||
+       typeof metric.target!=="number"||!Number.isFinite(metric.target)||metric.target<=0)return;
+    figures.append(tag("strong","gp-metric-main",metric.current.toLocaleString("it-IT")));
+    const goal=tag("span","gp-metric-goal");
+    goal.append(document.createTextNode(reported?"obiettivo ":"su almeno "),
+                tag("b","",(metric.minimumTarget&&reported?"≥":"")+metric.target.toLocaleString("it-IT")));
+    figures.append(goal);
+    const track=tag("div","gp-metric-progress");track.setAttribute("aria-hidden","true");
+    const fill=tag("i");fill.style.width=Math.min(100,metric.current/metric.target*100).toFixed(2)+"%";
+    track.append(fill);card.append(figures,track);
+   }
+   card.append(tag("p","gp-metric-note",metric.detail||""));
+   cards.append(card);
+  });
+  if(cards.childElementCount===4)host.replaceChildren(cards);
  }
  function render(data){
   const events=data.events||[],photoCount=events.reduce((n,x)=>n+(x.photos?.length||0),0),coverage=events.flatMap(x=>x.coverage||[]),releases=events.flatMap(x=>x.pressReleases||[]);
@@ -215,7 +233,7 @@
    el.classList.add("gp-reveal");observer.observe(el);
   });
  }
- fetch(asset("content/gallery-press.json?v=kpi-dashboard-20261104-v1"),{cache:"no-store"})
+ fetch(asset("content/gallery-press.json?v=kpi-fourcards-20261104-v1"),{cache:"no-store"})
   .then(r=>{if(!r.ok)throw Error("Impossibile caricare archivio media: HTTP "+r.status);return r.json()})
   .then(render)
   .catch(err=>{console.error(err);$("gp-events").textContent="Archivio temporaneamente non disponibile. Riprova più tardi.";});
