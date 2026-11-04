@@ -172,6 +172,12 @@
    for(const target of step.targets||[])list.append(tag("li","",target));
    box.append(number,tag("h3","",step.title),tag("p","",step.objective),list);kpi.append(box);
   }
+  const team=$("gp-roles");team.replaceChildren();
+  for(const x of data.team||[]){
+   const box=tag("div","gp-role");
+   box.append(tag("strong","",x.role),tag("p","",x.status));
+   team.append(box);
+  }
   revealWhenVisible();
  }
  function revealWhenVisible(){
