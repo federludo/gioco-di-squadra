@@ -25,7 +25,8 @@
     "image": "assets/images/news/kickoff-31-ottobre-cover.svg",
     "imageAlt": "Illustrazione Si comincia: pedine da gioco, 31 ottobre 2026 e il kick-off meeting",
     "url": "notizie/kick-off-31-ottobre-2026/",
-    "featured": false
+    "featured": false,
+    "homeVisible": false
   },
   {
     "id": "progetto-finanziato",
