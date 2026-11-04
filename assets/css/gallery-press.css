@@ -458,7 +458,7 @@
 }
 @media(max-width:630px){
   .gp-page .gp-metrics{margin-top:-16px;background:linear-gradient(to bottom,transparent 0 16px,#f9f8f1 16px)}
-  .gp-page .gp-metrics .gp-metrics-wrap{width:min(100% - 24px,590px);padding:22px 18px 20px}
+  .gp-page .gp-metrics .gp-metrics-wrap{width:calc(100% - 24px);max-width:590px;padding:22px 18px 20px}
   .gp-page .gp-metrics-heading{padding-bottom:16px;margin-bottom:15px}
   .gp-page .gp-metrics-heading h2{font-size:30px}
   .gp-page .gp-metrics-grid{grid-template-columns:1fr;gap:10px}
