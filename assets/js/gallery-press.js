@@ -233,7 +233,7 @@
    el.classList.add("gp-reveal");observer.observe(el);
   });
  }
- fetch(asset("content/gallery-press.json?v=kpi-fourcards-20261104-v1"),{cache:"no-store"})
+ fetch(asset("content/gallery-press.json?v=kpi-fourcards-20261104-v2"),{cache:"no-store"})
   .then(r=>{if(!r.ok)throw Error("Impossibile caricare archivio media: HTTP "+r.status);return r.json()})
   .then(render)
   .catch(err=>{console.error(err);$("gp-events").textContent="Archivio temporaneamente non disponibile. Riprova più tardi.";});
