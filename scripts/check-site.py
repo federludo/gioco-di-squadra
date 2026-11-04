@@ -90,7 +90,19 @@ if not sitemap.is_file():
 else:
     try:
         tree = ET.parse(sitemap).getroot()
-        urls = [item.text for item in tree.iter() if item.tag.endswith("}loc")]
+        page_loc_tag = "{http://www.sitemaps.org/schemas/sitemap/0.9}loc"
+        image_loc_tag = "{http://www.google.com/schemas/sitemap-image/1.1}loc"
+        urls = [item.text for item in tree.iter() if item.tag == page_loc_tag]
+        image_urls = [item.text for item in tree.iter() if item.tag == image_loc_tag]
+        if len(image_urls) != len(set(image_urls)):
+            fail("duplicate image URLs in sitemap")
+        for image_url in image_urls:
+            if not image_url or not image_url.startswith(HOST):
+                fail(f"invalid sitemap image URL: {image_url}")
+                continue
+            asset_path = unquote(urlsplit(image_url).path).lstrip("/")
+            if not (ROOT / asset_path).is_file():
+                fail(f"sitemap references missing image: {asset_path}")
         if len(urls) != len(set(urls)):
             fail("duplicate sitemap URLs")
         if set(urls) != set(public):
