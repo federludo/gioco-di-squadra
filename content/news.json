@@ -1,5 +1,19 @@
 [
   {
+    "id": "due-giorni-per-fare-squadra",
+    "slug": "due-giorni-per-fare-squadra",
+    "title": "Due giorni per fare squadra: da Capannori a Lucca, il progetto prende vita",
+    "category": "Il progetto",
+    "status": "published",
+    "label": "Il progetto · 4 novembre 2026",
+    "date": "2026-11-04",
+    "excerpt": "Il kick-off con tutti i partner, i sostenitori e il consigliere regionale Luca Rossi Romanelli. Poi la conferenza stampa a Lucca Comics & Games: due giorni che hanno dato forma al lavoro comune.",
+    "image": "assets/images/gallery/2026-10-31-kickoff/full/foto-10.webp",
+    "imageAlt": "Il gruppo di Gioco di Squadra al kick-off del 31 ottobre, accanto al televisore con il logo del progetto e alla presenza del consigliere regionale Luca Rossi Romanelli",
+    "url": "notizie/due-giorni-per-fare-squadra/",
+    "featured": true
+  },
+  {
     "id": "kick-off-31-ottobre-2026",
     "slug": "kick-off-31-ottobre-2026",
     "title": "Il 31 ottobre ci incontriamo: al via il kick-off meeting di Gioco di Squadra",
@@ -11,7 +25,7 @@
     "image": "assets/images/news/kickoff-31-ottobre-cover.svg",
     "imageAlt": "Illustrazione Si comincia: pedine da gioco, 31 ottobre 2026 e il kick-off meeting",
     "url": "notizie/kick-off-31-ottobre-2026/",
-    "featured": true
+    "featured": false
   },
   {
     "id": "progetto-finanziato",
