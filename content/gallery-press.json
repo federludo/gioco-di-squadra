@@ -539,6 +539,76 @@
           "date": null,
           "reported": "2026-11-04",
           "verified": false
+        },
+        {
+          "id": "rassegna-2026-23",
+          "outlet": "Lucca24",
+          "territory": "Lucca",
+          "title": "Il gioco come strumento sociale: a Lucca presentato il progetto Gioco di Squadra",
+          "url": "https://lucca24.net/cultura/il-gioco-come-strumento-sociale-a-lucca-presentato-il-progetto-gioco-di-squadra",
+          "date": "2026-11-01",
+          "reported": "2026-11-04",
+          "verified": true
+        },
+        {
+          "id": "rassegna-2026-24",
+          "outlet": "La Nazione – Arezzo",
+          "territory": "Arezzo",
+          "title": "Gioco di Squadra – Metodologie ludiche per il sociale, il progetto promosso da Federludo APS",
+          "url": "https://www.lanazione.it/arezzo/cronaca/gioco-di-squadra-metodologie-ludiche-per-il-sociale-il-progetto-promosso-da-federludo-aps-uglai05r",
+          "date": "2026-11-02",
+          "reported": "2026-11-04",
+          "verified": true
+        },
+        {
+          "id": "rassegna-2026-25",
+          "outlet": "QuiNews Pisa",
+          "territory": "Pisa",
+          "title": "Gioco di Squadra, Pisa al centro dell’inclusione",
+          "url": "https://www.quinewspisa.it/gioco-di-squadra-pisa-al-centro-dellinclusione.htm",
+          "date": "2026-11-02",
+          "reported": "2026-11-04",
+          "verified": true
+        },
+        {
+          "id": "rassegna-2026-26",
+          "outlet": "Cascina Notizie",
+          "territory": "Pisa",
+          "title": "Gioco di Squadra, dalla provincia di Pisa un progetto per contrastare l’isolamento attraverso il gioco",
+          "url": "https://www.cascinanotizie.it/gioco-di-squadra-dalla-provincia-di-pisa-un-progetto-contrastare-lisolamento-attraverso-il-gioco",
+          "date": "2026-11-02",
+          "reported": "2026-11-04",
+          "verified": true
+        },
+        {
+          "id": "rassegna-2026-27",
+          "outlet": "Pisa Netweek",
+          "territory": "Pisa",
+          "title": "A Pisa parte il progetto sociale basato sul gioco",
+          "url": "https://pisanetweek.it/pisa/a-pisa-parte-il-progetto-sociale-basato-sul-gioco/",
+          "date": "2026-11-03",
+          "reported": "2026-11-04",
+          "verified": true
+        },
+        {
+          "id": "rassegna-2026-28",
+          "outlet": "TG Toscana",
+          "territory": "Pisa",
+          "title": "Gioco di Squadra: Pisa, Valdera e Valdarno uniti per un progetto di inclusione sociale",
+          "url": "https://tgtoscana.it/toscana/gioco-di-squadra-pisa-valdera-e-valdarno-uniti-per-un-progetto-di-inclusione-sociale/",
+          "date": "2026-11-01",
+          "reported": "2026-11-04",
+          "verified": true
+        },
+        {
+          "id": "rassegna-2026-29",
+          "outlet": "Arezzo Informa",
+          "territory": "Arezzo",
+          "title": "La rete dell’Aretino e del Valdarno nel progetto Gioco di Squadra",
+          "url": "https://www.arezzoinforma.it/la-rete-dellaretino-e-del-valdarno-nel-progetto-gioco-di-squadra/",
+          "date": "2026-11-01",
+          "reported": "2026-11-04",
+          "verified": true
         }
       ],
       "relatedUrl": "notizie/due-giorni-per-fare-squadra/"
@@ -705,10 +775,10 @@
       {
         "id": "coverage",
         "label": "Uscite stampa segnalate",
-        "current": 22,
+        "current": 29,
         "target": 5,
         "unit": "uscite",
-        "detail": "22 collegamenti censiti nella rassegna stampa.",
+        "detail": "29 collegamenti censiti nella rassegna stampa.",
         "measurement": "reported",
         "minimumTarget": true
       },
