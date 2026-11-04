@@ -1,8 +1,9 @@
 name: Integrita del sito
+# I controlli si eseguono sulle proposte di modifica o su richiesta.
+# Nessun avvio a ogni commit su main: evita run sovrapposti e notifiche inutili.
 on:
-  push:
-    branches: [main]
   pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
