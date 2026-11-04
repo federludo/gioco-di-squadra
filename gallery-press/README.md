@@ -46,6 +46,7 @@ Altre tre immagini WebP sono dedicate al press kit.
 5. Per la rassegna, aggiungi elementi `{"id":"...","outlet":"...","territory":"...","title":"...","url":"https://...","date":null,"reported":"2027-03-20","verified":false}`. Una data sconosciuta resta `null`, non inventarla.
 6. Aggiorna il valore `version` del JSON e il token `?v=` nel caricamento dati in `assets/js/gallery-press.js` per forzare la cache.
 7. Verifica il contenuto pubblicato, le anteprime, i link e la corretta attribuzione fotografica.
+8. **Indicizzazione delle fotografie:** aggiungi le nuove immagini in versione `full` (non le miniature) all'elemento `<url>` della pagina `https://giocodisquadra.net/gallery-press/` dentro `sitemap.xml`, usando `<image:image><image:loc>https://giocodisquadra.net/.../foto.webp</image:loc></image:image>`. Aggiorna il suo `<lastmod>` solo quando la pagina cambia realmente. Il workflow di integrità viene eseguito su richiesta o durante le pull request, non a ogni commit, per evitare notifiche ripetute.
 
 ## Comunicazione e monitoraggio
 I 5 gruppi di KPI riprendono la sezione 11 del Modulo E depositato a marzo 2026. Questi valori sono **target dichiarati**, non risultati già conseguiti.
