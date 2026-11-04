@@ -1,0 +1,98 @@
+/* News: the first two days of Gioco di Squadra — photographic, editorial layout */
+.gds-stories .stories-two-days{padding:56px 0 102px;background:linear-gradient(180deg,#f8f6ef,#f6f8f1 48%,#fbfaf4)}
+.gds-stories .stories-two-days .stories-shell{max-width:1240px}
+.gds-stories .stories-two-days .two-days-head{max-width:1130px;margin-bottom:38px}
+.gds-stories .stories-two-days .stories-breadcrumb{margin-bottom:34px}
+.gds-stories .stories-two-days .stories-article-status{color:#9e691e;font-weight:800;letter-spacing:.14em}
+.gds-stories .stories-two-days h1{font-size:clamp(49px,6.15vw,92px);max-width:1080px;line-height:1.07;letter-spacing:-.058em;margin:20px 0 31px}
+.gds-stories .stories-two-days h1 em{font-style:normal;color:#1a7960}
+.gds-stories .stories-two-days .stories-article-lead{max-width:920px;color:#3c5c50;font-size:clamp(19px,2.2vw,27px);line-height:1.6;font-weight:420;margin-bottom:0}
+.gds-stories .stories-two-days .stories-article-lead strong{color:#124b3d;font-weight:700}
+.gds-stories .two-days-cover{width:min(1300px,94%);margin:0 auto;position:relative;aspect-ratio:16/10.8;border-radius:9px;overflow:hidden;box-shadow:0 28px 62px -32px #05372d8c;background:#dce4d7}
+.gds-stories .two-days-cover img{width:100%;height:100%;object-fit:cover;object-position:center 44%;display:block}
+.gds-stories .two-days-cover:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,#062e29bf);pointer-events:none}
+.gds-stories .two-days-cover figcaption{position:absolute;left:40px;right:35px;bottom:32px;z-index:1;max-width:670px;text-shadow:0 3px 18px #061d16a3}
+.gds-stories .two-days-cover figcaption span{display:block;text-transform:uppercase;letter-spacing:.17em;font-size:11px;color:#f1c581;font-weight:800;margin-bottom:12px}
+.gds-stories .two-days-cover figcaption strong{display:block;font-size:clamp(17px,2.2vw,25px);font-weight:550;line-height:1.35;color:#fff}
+.gds-stories .two-days-content{padding-top:62px;width:min(1060px,100%);margin-inline:auto}
+.gds-stories .two-days-content p{max-width:850px;font-size:18px;line-height:1.83;text-align:left;hyphens:none;color:#395c50;margin:0 0 24px}
+.gds-stories .two-days-content strong{color:#124c3e}
+.gds-stories .two-days-content h2{font-size:clamp(34px,4.6vw,58px);font-weight:480;letter-spacing:-.05em;line-height:1.1;color:#0c493e;max-width:820px;margin:16px 0 29px}
+.gds-stories .two-days-content h2 em{font-style:normal;color:#aa7134}
+.gds-stories .two-days-overview{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:55px}
+.gds-stories .two-days-overview>div{display:grid;grid-template-columns:68px 1fr;grid-template-rows:auto auto;align-items:center;gap:6px 17px;padding:20px 28px;background:#edf2e9;border:1px solid #d6e3d4;border-radius:7px}
+.gds-stories .two-days-overview>div:nth-child(2){background:#f0e9dc;border-color:#e4dac9}
+.gds-stories .two-days-index{grid-row:1/3;color:#ae8549;font-size:58px;font-weight:500;letter-spacing:-.075em}
+.gds-stories .two-days-overview strong{font-size:20px;color:#094c3e;font-weight:750}
+.gds-stories .two-days-overview small{font-size:12px;line-height:1.45;color:#5a7165}
+.gds-stories .two-days-content .two-days-introduction{font-size:clamp(20px,2.6vw,28px);font-weight:440;line-height:1.57;padding:10px 0 10px 27px;border-left:5px solid #d6a054;margin-bottom:67px;max-width:920px;color:#254e41}
+.gds-stories .two-days-chapter{margin:0 0 52px;scroll-margin-top:80px}
+.gds-stories .two-days-eyebrow{display:inline-flex;align-items:center;gap:11px;color:#a57630;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+.gds-stories .two-days-eyebrow:before{content:"";height:2px;width:28px;background:#dba158}
+.gds-stories .two-days-figure{margin:36px 0 44px;border-radius:6px;overflow:hidden;background:#e8e9df;box-shadow:0 24px 44px -32px #224b3d8c}
+.gds-stories .two-days-figure img{display:block;width:100%;height:auto;max-height:640px;object-fit:cover}
+.gds-stories .two-days-figure--press img{max-height:690px}
+.gds-stories .two-days-figure figcaption{padding:15px 20px 17px;font-size:12px;line-height:1.55;color:#517263;background:#f0f2e9}
+.gds-stories .two-days-councillor{display:grid;grid-template-columns:minmax(160px,.38fr) minmax(0,1fr);gap:34px;padding:52px;background:linear-gradient(115deg,#083f35,#0f5b49);color:white;margin:60px -26px 45px;border-radius:10px;box-shadow:0 25px 50px -35px #0a332f89}
+.gds-stories .two-days-councillor-number{font-size:clamp(35px,4.5vw,62px);line-height:.96;letter-spacing:-.075em;font-weight:600;color:#e6b565;align-self:start;margin-top:10px;opacity:.95}
+.gds-stories .two-days-councillor h2{color:#fff;font-size:clamp(33px,4vw,52px);max-width:740px;margin:15px 0 25px}
+.gds-stories .two-days-councillor h2 em{color:#e9ba7c}
+.gds-stories .two-days-councillor p{color:#eef4ed;max-width:760px;font-size:17px;line-height:1.75}
+.gds-stories .two-days-councillor strong{color:#fff}
+.gds-stories .two-days-councillor a{border-color:#dbb26c;text-decoration:none;color:#fff}
+.gds-stories .two-days-councillor a:hover{color:#ffddad}
+.gds-stories .two-days-councillor .two-days-eyebrow{color:#f4c489}
+.gds-stories .two-days-image-row{display:grid;grid-template-columns:1.05fr .95fr;gap:21px;margin:34px 0 46px}
+.gds-stories .two-days-image-row figure{margin:0;min-width:0;display:flex;flex-direction:column;background:#f0f3ea;border:1px solid #dae4d7;border-radius:5px;overflow:hidden}
+.gds-stories .two-days-image-row figure:nth-child(2){transform:translateY(20px)}
+.gds-stories .two-days-image-row img{display:block;width:100%;height:300px;object-fit:cover;object-position:center 45%}
+.gds-stories .two-days-image-row figcaption{padding:13px 16px;font-size:12px;line-height:1.5;color:#537165}
+.gds-stories .two-days-chapter--press{margin-top:85px;padding-top:57px;border-top:1px solid #c5d3c9}
+.gds-stories .two-days-image-row--press img{height:290px}
+.gds-stories .two-days-future{background:linear-gradient(140deg,#edece2,#e6efe4);border-left:5px solid #dda458;border-radius:0 7px 7px 0;padding:43px 43px 23px;margin:65px 0 60px}
+.gds-stories .two-days-future h2{margin:15px 0 22px}
+.gds-stories .two-days-next{background:#074137;color:#fff;border-radius:9px;padding:36px 40px;display:grid;grid-template-columns:.85fr 1.15fr;gap:30px}
+.gds-stories .two-days-next h3{font-size:clamp(27px,3.5vw,43px);font-weight:460;letter-spacing:-.045em;line-height:1.16;margin:18px 0 0;max-width:360px}
+.gds-stories .two-days-next .two-days-eyebrow{color:#e8b46a}
+.gds-stories .two-days-next-links{display:flex;flex-direction:column}
+.gds-stories .two-days-next-links a{display:flex;justify-content:space-between;gap:15px;border-bottom:1px solid #ffffff50;padding:13px 0;font-size:14px;font-weight:650;color:#f9fcf5;transition:padding .2s,color .2s}
+.gds-stories .two-days-next-links a:first-child{border-top:1px solid #ffffff50}
+.gds-stories .two-days-next-links a:hover{padding-left:8px;color:#ffc777}
+.gds-stories .two-days-next-links a span{font-size:17px;color:#e8b16a}
+.gds-stories .two-days-content .stories-article-more{margin-top:35px}
+@media(max-width:820px){
+ .gds-stories .two-days-councillor{grid-template-columns:1fr;margin:50px 0 40px;padding:36px;gap:10px}
+ .gds-stories .two-days-councillor-number{font-size:36px}
+ .gds-stories .two-days-next{grid-template-columns:1fr}
+ .gds-stories .two-days-cover{aspect-ratio:4/3}
+}
+@media(max-width:620px){
+ .gds-stories .stories-two-days{padding:40px 0 75px}
+ .gds-stories .stories-two-days h1{font-size:clamp(42px,9vw,57px)}
+ .gds-stories .stories-two-days .stories-article-lead{font-size:19px}
+ .gds-stories .two-days-cover{width:100%;border-radius:0;aspect-ratio:4/4.5}
+ .gds-stories .two-days-cover img{object-position:center 39%}
+ .gds-stories .two-days-cover figcaption{left:6%;right:6%;bottom:19px}
+ .gds-stories .two-days-cover figcaption strong{font-size:16px}
+ .gds-stories .two-days-cover figcaption span{font-size:10px}
+ .gds-stories .two-days-content{padding-top:39px}
+ .gds-stories .two-days-overview{gap:9px;margin-bottom:35px}
+ .gds-stories .two-days-overview>div{grid-template-columns:1fr;padding:16px;gap:5px}
+ .gds-stories .two-days-index{grid-row:auto;font-size:39px}
+ .gds-stories .two-days-overview strong{font-size:16px}
+ .gds-stories .two-days-overview small{font-size:11px}
+ .gds-stories .two-days-content p{font-size:16px;line-height:1.78}
+ .gds-stories .two-days-content .two-days-introduction{font-size:19px;margin-bottom:51px}
+ .gds-stories .two-days-content h2{font-size:clamp(31px,7.5vw,43px)}
+ .gds-stories .two-days-figure figcaption{font-size:11px}
+ .gds-stories .two-days-figure img{height:auto;max-height:none;aspect-ratio:4/3;object-fit:cover}
+ .gds-stories .two-days-councillor{padding:28px 23px}
+ .gds-stories .two-days-councillor p{font-size:16px}
+ .gds-stories .two-days-image-row{grid-template-columns:1fr;gap:13px;margin:26px 0 34px}
+ .gds-stories .two-days-image-row figure:nth-child(2){transform:none}
+ .gds-stories .two-days-image-row img{height:240px}
+ .gds-stories .two-days-chapter--press{margin-top:58px;padding-top:45px}
+ .gds-stories .two-days-future{padding:26px 23px 10px;margin:45px 0}
+ .gds-stories .two-days-next{padding:27px 23px;gap:16px}
+}
+@media(prefers-reduced-motion:reduce){.gds-stories .two-days-next-links a{transition:none}}
