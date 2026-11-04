@@ -144,12 +144,35 @@
    more.setAttribute("aria-expanded",String(coverageExpanded));
   }
  }
+ function renderCommunicationKpis(model){
+  // The communication snapshot is edited in content/gallery-press.json.
+  // Keep the first meaningful HTML snapshot visible if JSON is unavailable.
+  if(!model||!Array.isArray(model.items)||!model.items.length)return;
+  const host=$("gp-communication-kpis");if(!host)return;
+  host.replaceChildren();
+  const heading=$("gp-kpi-asof");
+  if(heading&&typeof model.asOf==="string"&&/^\\d{4}-\\d{2}-\\d{2}$/.test(model.asOf)){
+   const formatted=new Date(model.asOf+"T12:00:00").toLocaleDateString("it-IT",{day:"numeric",month:"long",year:"numeric"});
+   heading.textContent="Dati al "+formatted+" · obiettivi minimi del progetto";
+  }
+  for(const metric of model.items){
+   if(typeof metric.current!=="number"||!Number.isFinite(metric.current)||metric.current<0||
+      typeof metric.target!=="number"||!Number.isFinite(metric.target)||metric.target<=0)continue;
+   const article=tag("article","gp-stat gp-stat--kpi"+(metric.measurement==="reported"?" gp-stat--reported":""));
+   const ratio=tag("div","gp-stat-value");
+   ratio.append(tag("b","",metric.current.toLocaleString("it-IT")),
+                tag("span","gp-stat-separator","/"),
+                tag("span","gp-stat-target",(metric.minimumTarget?"≥":"")+metric.target.toLocaleString("it-IT")));
+   const label=tag("strong","gp-stat-label",metric.label);
+   const track=tag("div","gp-stat-track");track.setAttribute("aria-hidden","true");
+   const fill=tag("i");fill.style.width=Math.min(100,100*metric.current/metric.target).toFixed(2)+"%";track.append(fill);
+   const description=tag("p","gp-stat-detail",metric.detail||"");
+   article.append(ratio,label,track,description);host.append(article);
+  }
+ }
  function render(data){
   const events=data.events||[],photoCount=events.reduce((n,x)=>n+(x.photos?.length||0),0),coverage=events.flatMap(x=>x.coverage||[]),releases=events.flatMap(x=>x.pressReleases||[]);
-  $("gp-stat-events").textContent=events.length;
-  $("gp-stat-photos").textContent=photoCount;
-  $("gp-stat-releases").textContent=releases.length;
-  $("gp-stat-coverage").textContent=coverage.length;
+  renderCommunicationKpis(data.communicationKpis);
   const eventsHost=$("gp-events");eventsHost.replaceChildren();
   events.forEach(e=>eventsHost.append(eventCard(e)));
   const lead=$("gp-lead");lead.textContent=data.lead||"";
@@ -192,7 +215,7 @@
    el.classList.add("gp-reveal");observer.observe(el);
   });
  }
- fetch(asset("content/gallery-press.json?v=gallery-redesign-20261104-v2"),{cache:"no-store"})
+ fetch(asset("content/gallery-press.json?v=kpi-dashboard-20261104-v1"),{cache:"no-store"})
   .then(r=>{if(!r.ok)throw Error("Impossibile caricare archivio media: HTTP "+r.status);return r.json()})
   .then(render)
   .catch(err=>{console.error(err);$("gp-events").textContent="Archivio temporaneamente non disponibile. Riprova più tardi.";});
