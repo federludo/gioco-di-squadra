@@ -711,6 +711,15 @@
         "detail": "Articoli presenti nella sezione Storie e news.",
         "measurement": "published",
         "minimumTarget": true
+      },
+      {
+        "id": "reach-estimate",
+        "label": "Copertura potenziale",
+        "estimate": 100000,
+        "bound": "more-than",
+        "unit": "persone",
+        "detail": "Stima complessiva di pubblico raggiungibile prevista dal progetto.",
+        "measurement": "estimate"
       }
     ]
   }
