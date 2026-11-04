@@ -363,3 +363,66 @@
  margin-top:0;color:#39765e;font-size:20px
 }
 .gp-page .gp-progress-item:not([open]) > .gp-progress-details{display:none}
+
+/* COMMUNICATION KPI DASHBOARD — 2026-11-04.
+   Three clearly defined project metrics replace the photo and file counters. */
+.gp-page .gp-stats > .gp-wrap{
+  background:#fffef9;
+  border-top:4px solid #d9a04a;
+  border-radius:6px;
+  box-shadow:0 22px 56px -37px #002e2799;
+  padding:22px 0 0;
+}
+.gp-page .gp-stats-heading{
+  display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:9px 18px;
+  padding:0 34px 16px;border-bottom:1px solid #e8e9de;
+}
+.gp-page .gp-stats-heading h2{
+  color:#1b574a;font-size:12px;font-weight:850;letter-spacing:.13em;
+  text-transform:uppercase;margin:0;line-height:1.35;
+}
+.gp-page .gp-stats-heading p{
+  color:#6e8074;font-size:11px;margin:0;line-height:1.45;
+}
+.gp-page .gp-stats-grid.gp-stats-grid--kpis{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;
+  padding:21px 20px 28px;background:transparent;border:0;border-radius:0;box-shadow:none;
+}
+.gp-page .gp-stat.gp-stat--kpi{
+  min-width:0;padding:0 28px 0 24px;border-right:1px solid #d4dcd0;
+  display:flex;flex-direction:column;align-items:flex-start;
+}
+.gp-page .gp-stat.gp-stat--kpi:last-child{border-right:0}
+.gp-page .gp-stat-value{display:flex;align-items:baseline;gap:9px;margin:0 0 8px;white-space:nowrap}
+.gp-page .gp-stat-value b{font-size:clamp(38px,4vw,58px);font-weight:500;line-height:1;letter-spacing:-.07em;color:#08463d;font-variant-numeric:tabular-nums}
+.gp-page .gp-stat-value .gp-stat-separator{font-size:26px;font-weight:300;color:#b3bba9;line-height:1}
+.gp-page .gp-stat-value .gp-stat-target{font-size:clamp(20px,2.5vw,30px);font-weight:520;color:#768e80;line-height:1.1;letter-spacing:-.045em;font-variant-numeric:tabular-nums}
+.gp-page .gp-stat .gp-stat-label{font-size:15px;line-height:1.32;font-weight:750;color:#254d41}
+.gp-page .gp-stat .gp-stat-track{
+  background:#e7ebe1;height:5px;width:100%;max-width:240px;border-radius:9px;overflow:hidden;margin:17px 0 11px;
+}
+.gp-page .gp-stat-track i{display:block;height:100%;background:linear-gradient(90deg,#287766,#d4a04c);border-radius:inherit;transition:width .45s ease}
+.gp-page .gp-stat--reported .gp-stat-track i{background:repeating-linear-gradient(115deg,#b88335 0px,#b88335 9px,#e0c187 9px,#e0c187 16px)}
+.gp-page .gp-stat .gp-stat-detail{margin:0;color:#657a6d;font-size:11px;line-height:1.55;max-width:27ch}
+@media(max-width:900px){
+ .gp-page .gp-stats-grid.gp-stats-grid--kpis{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:28px}
+ .gp-page .gp-stat.gp-stat--kpi:nth-child(2){border-right:0}
+ .gp-page .gp-stat.gp-stat--kpi:last-child{grid-column:span 2;padding-top:20px;border-top:1px solid #e0e7db}
+ .gp-page .gp-stat .gp-stat-detail{max-width:none}
+}
+@media(max-width:580px){
+ .gp-page .gp-stats-heading{padding:0 22px 13px}
+ .gp-page .gp-stats-grid.gp-stats-grid--kpis{grid-template-columns:1fr;padding:9px 23px 20px;row-gap:0}
+ .gp-page .gp-stat.gp-stat--kpi,
+ .gp-page .gp-stat.gp-stat--kpi:nth-child(2),
+ .gp-page .gp-stat.gp-stat--kpi:last-child{
+   grid-column:auto;border-right:0;border-top:0;border-bottom:1px solid #e0e7db;
+   padding:22px 0 21px;
+ }
+ .gp-page .gp-stat.gp-stat--kpi:last-child{border-bottom:0}
+ .gp-page .gp-stat-value b{font-size:49px}
+ .gp-page .gp-stat-value .gp-stat-target{font-size:28px}
+ .gp-page .gp-stat .gp-stat-track{max-width:100%;margin:13px 0 9px}
+ .gp-page .gp-stat .gp-stat-detail{font-size:12px}
+}
+@media(prefers-reduced-motion:reduce){.gp-page .gp-stat-track i{transition:none}}
