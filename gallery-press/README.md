@@ -48,6 +48,41 @@ Altre tre immagini WebP sono dedicate al press kit.
 7. Verifica il contenuto pubblicato, le anteprime, i link e la corretta attribuzione fotografica.
 8. **Indicizzazione delle fotografie:** aggiungi le nuove immagini in versione `full` (non le miniature) all'elemento `<url>` della pagina `https://giocodisquadra.net/gallery-press/` dentro `sitemap.xml`, usando `<image:image><image:loc>https://giocodisquadra.net/.../foto.webp</image:loc></image:image>`. Aggiorna il suo `<lastmod>` solo quando la pagina cambia realmente. Il workflow di integrità viene eseguito su richiesta o durante le pull request, non a ogni commit, per evitare notifiche ripetute.
 
+## Contatori KPI pubblici
+
+La fascia sotto la testata di `gallery-press/index.html` mostra **tre KPI di comunicazione**,
+invece dei conteggi di fotografie e file. Sono gestiti esclusivamente in
+`content/gallery-press.json`, proprietà `communicationKpis`:
+
+- `asOf`: data del rilevamento, formato `AAAA-MM-GG`.
+- `items[].current`: quantità documentata o censita al momento dell'aggiornamento.
+- `items[].target`: soglia minima prevista dal piano progettuale.
+- `items[].label`: titolo pubblico dell'indicatore.
+- `items[].detail`: nota breve che chiarisce esattamente cosa viene contato.
+- `items[].measurement`: `documented` / `reported` / `published`;
+  `reported` mostra una barra tratteggiata, così le segnalazioni non appaiono come uscite certificate.
+- `items[].minimumTarget`: `true` mostra il prefisso ≥ accanto all'obiettivo.
+
+**Fotografia al 4 novembre 2026:**
+1. Campagne stampa: 1/≥3. I sei comunicati del lancio (generale e territoriali)
+   sono **una sola campagna**, non sei.
+2. Uscite stampa segnalate: 21/≥5. Si contano i collegamenti raccolti nella
+   rassegna, non un numero verificato di uscite distinte.
+3. Notizie pubblicate: 3/≥10. La quantità corrisponde alle voci presenti in
+   `content/news.json`.
+
+Quando si aggiunge una nuova campagna o notizia, aggiornare il rispettivo `current`,
+la nota `detail` e la data `asOf`; non modificare il markup HTML né il CSS.
+Per i collegamenti della rassegna aggiornare sia `events[].coverage` che
+il conteggio `coverage.current`, evitando doppioni. Dopo variazioni importanti,
+aggiornare il parametro di versione nel riferimento JSON in `assets/js/gallery-press.js`
+per prevenire la cache vecchia e, se si modifica lo script, anche il parametro
+di versione del relativo tag in `gallery-press/index.html`.
+
+Gli altri indicatori di progetto (newsletter, social, template, mailing list) sono
+conservati in `strategy` e non vengono esposti come valori di avanzamento finché
+non esistono dati di consuntivo affidabili.
+
 ## Comunicazione e monitoraggio
 I 5 gruppi di KPI riprendono la sezione 11 del Modulo E depositato a marzo 2026. Questi valori sono **target dichiarati**, non risultati già conseguiti.
 La proposta originaria parlava di 18 mesi; il calendario effettivo di progetto è ottobre 2026 – dicembre 2027 (15 mesi). Eventuali rimodulazioni vanno esplicitate.
