@@ -678,5 +678,40 @@
       "role": "Social media manager",
       "status": "Figura da individuare"
     }
-  ]
+  ],
+  "communicationKpis": {
+    "asOf": "2026-11-04",
+    "items": [
+      {
+        "id": "campaigns",
+        "label": "Campagne stampa",
+        "current": 1,
+        "target": 3,
+        "unit": "campagne",
+        "detail": "Una campagna di lancio, con 6 comunicati generale e territoriali.",
+        "measurement": "documented",
+        "minimumTarget": true
+      },
+      {
+        "id": "coverage",
+        "label": "Uscite sulla stampa",
+        "current": 21,
+        "target": 5,
+        "unit": "uscite",
+        "detail": "21 collegamenti raccolti nella rassegna stampa.",
+        "measurement": "reported",
+        "minimumTarget": true
+      },
+      {
+        "id": "news",
+        "label": "Notizie pubblicate",
+        "current": 3,
+        "target": 10,
+        "unit": "notizie",
+        "detail": "Articoli presenti nella sezione Storie e news.",
+        "measurement": "published",
+        "minimumTarget": true
+      }
+    ]
+  }
 }
