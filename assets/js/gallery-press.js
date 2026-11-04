@@ -191,7 +191,6 @@
    box.append(tag("strong","",x.role),tag("p","",x.status));
    team.append(box);
   }
-  $("gp-policy").textContent=data.editorialPolicy||"";
   revealWhenVisible();
  }
  function revealWhenVisible(){
