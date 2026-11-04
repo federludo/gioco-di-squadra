@@ -97,3 +97,6 @@ body[data-standard-header="true"] main>.hero.hero-short{margin-top:0}
  .site-head .menu.open{display:flex}
  .site-head .menu a{display:block;font-size:14px;padding:11px 0}
 }
+
+/* Official attribution text required by Regione Toscana (DDR 22267/26). */
+.gds-funding__text .gds-funding__statement{font-size:13px;line-height:1.6;font-weight:650;color:#163d34;margin:0 0 7px}
