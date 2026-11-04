@@ -151,7 +151,7 @@
   const host=$("gp-communication-kpis");if(!host)return;
   host.replaceChildren();
   const heading=$("gp-kpi-asof");
-  if(heading&&typeof model.asOf==="string"&&/^\\d{4}-\\d{2}-\\d{2}$/.test(model.asOf)){
+  if(heading&&typeof model.asOf==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(model.asOf)){
    const formatted=new Date(model.asOf+"T12:00:00").toLocaleDateString("it-IT",{day:"numeric",month:"long",year:"numeric"});
    heading.textContent="Dati al "+formatted+" · obiettivi minimi del progetto";
   }
