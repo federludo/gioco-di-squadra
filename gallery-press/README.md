@@ -50,7 +50,7 @@ Altre tre immagini WebP sono dedicate al press kit.
 
 ## Contatori KPI pubblici
 
-La fascia sotto la testata di `gallery-press/index.html` mostra **tre KPI di comunicazione**,
+La fascia sotto la testata di `gallery-press/index.html` mostra **quattro KPI di comunicazione**,
 invece dei conteggi di fotografie e file. Sono gestiti esclusivamente in
 `content/gallery-press.json`, proprietà `communicationKpis`:
 
@@ -60,7 +60,7 @@ invece dei conteggi di fotografie e file. Sono gestiti esclusivamente in
 - `items[].label`: titolo pubblico dell'indicatore.
 - `items[].detail`: nota breve che chiarisce esattamente cosa viene contato.
 - `items[].measurement`: `documented` / `reported` / `published`;
-  `reported` mostra una barra tratteggiata, così le segnalazioni non appaiono come uscite certificate.
+  `reported` mostra una barra tratteggiata, così le segnalazioni non appaiono come uscite certificate; `estimate` distingue la stima di copertura da un risultato consuntivo.
 - `items[].minimumTarget`: `true` mostra il prefisso ≥ accanto all'obiettivo.
 
 **Fotografia al 4 novembre 2026:**
@@ -70,6 +70,7 @@ invece dei conteggi di fotografie e file. Sono gestiti esclusivamente in
    rassegna, non un numero verificato di uscite distinte.
 3. Notizie pubblicate: 3/≥10. La quantità corrisponde alle voci presenti in
    `content/news.json`.
+4. Copertura potenziale: **oltre 100.000 persone**; è la stima progettuale della platea raggiungibile, **non** una misurazione di persone effettivamente raggiunte. La voce ha `measurement: "estimate"`, `estimate: 100000` e `bound: "more-than"`; non mostra una barra di avanzamento perché manca un consuntivo.
 
 Quando si aggiunge una nuova campagna o notizia, aggiornare il rispettivo `current`,
 la nota `detail` e la data `asOf`; non modificare il markup HTML né il CSS.
