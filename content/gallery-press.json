@@ -688,17 +688,17 @@
         "current": 1,
         "target": 3,
         "unit": "campagne",
-        "detail": "Una campagna di lancio, con 6 comunicati generale e territoriali.",
+        "detail": "Una campagna di lancio, articolata in 6 versioni del comunicato.",
         "measurement": "documented",
         "minimumTarget": true
       },
       {
         "id": "coverage",
-        "label": "Uscite sulla stampa",
+        "label": "Uscite stampa segnalate",
         "current": 21,
         "target": 5,
         "unit": "uscite",
-        "detail": "21 collegamenti raccolti nella rassegna stampa.",
+        "detail": "21 collegamenti censiti nella rassegna stampa.",
         "measurement": "reported",
         "minimumTarget": true
       },
