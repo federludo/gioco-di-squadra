@@ -96,3 +96,45 @@
  .gds-stories .two-days-next{padding:27px 23px;gap:16px}
 }
 @media(prefers-reduced-motion:reduce){.gds-stories .two-days-next-links a{transition:none}}
+
+/* Article editorial column alignment — 2026-11-04 */
+/* The former 850px paragraph cap stopped short of the 1060px image column.
+   Keep paragraphs, photos and editorial panels on a shared readable measure. */
+.gds-stories .stories-two-days .two-days-content{
+ width:min(1000px,100%);
+}
+.gds-stories .stories-two-days .two-days-content > p,
+.gds-stories .stories-two-days .two-days-chapter > p,
+.gds-stories .stories-two-days .two-days-councillor p,
+.gds-stories .stories-two-days .two-days-future > p{
+ width:100%;
+ max-width:none;
+ box-sizing:border-box;
+ text-align:justify;
+ text-justify:inter-word;
+ hyphens:auto;
+ -webkit-hyphens:auto;
+ overflow-wrap:break-word;
+}
+.gds-stories .stories-two-days .two-days-content .two-days-introduction{
+ width:100%;
+ max-width:none;
+ box-sizing:border-box;
+}
+.gds-stories .stories-two-days .two-days-figure,
+.gds-stories .stories-two-days .two-days-image-row{
+ width:100%;
+ max-width:none;
+ box-sizing:border-box;
+}
+/* Avoid large interword gaps on narrow viewports; preserve the full column. */
+@media(max-width:760px){
+ .gds-stories .stories-two-days .two-days-content > p,
+ .gds-stories .stories-two-days .two-days-chapter > p,
+ .gds-stories .stories-two-days .two-days-councillor p,
+ .gds-stories .stories-two-days .two-days-future > p{
+  text-align:left;
+  hyphens:none;
+  -webkit-hyphens:none;
+ }
+}
