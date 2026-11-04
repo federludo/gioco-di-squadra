@@ -529,6 +529,16 @@
           "date": null,
           "reported": "2026-11-03",
           "verified": false
+        },
+        {
+          "id": "rassegna-2026-22",
+          "outlet": "Gazzetta di Siena",
+          "territory": "Siena",
+          "title": "Siena, Torrita di Siena e la Valdichiana al centro dell’inclusione sociale",
+          "url": "https://www.gazzettadisiena.it/siena-torrita-di-siena-e-la-valdichiana-al-centro-dellinclusione-sociale/amp/",
+          "date": null,
+          "reported": "2026-11-04",
+          "verified": false
         }
       ],
       "relatedUrl": "notizie/due-giorni-per-fare-squadra/"
@@ -695,10 +705,10 @@
       {
         "id": "coverage",
         "label": "Uscite stampa segnalate",
-        "current": 21,
+        "current": 22,
         "target": 5,
         "unit": "uscite",
-        "detail": "21 collegamenti censiti nella rassegna stampa.",
+        "detail": "22 collegamenti censiti nella rassegna stampa.",
         "measurement": "reported",
         "minimumTarget": true
       },
